@@ -2,6 +2,7 @@
 import React from 'react';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
+import Service from '../Components/Service';
 
 export default function MainLayout({ children }) {
   return (
