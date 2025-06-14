@@ -13,7 +13,7 @@ body {
 
 .service {
   width: 100vw;
-  overflow-x: hidden;
+  overflow-y: hidden;
   height: 
 82vh;
 position: relative;  
