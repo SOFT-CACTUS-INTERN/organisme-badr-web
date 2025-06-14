@@ -4,6 +4,8 @@ import MainLayout from './Layouts/MainLayout';
 import Service from './Components/Service';
 import './assets/styles/header.css';
 import'./assets/styles/service.css';
+import './App.css'
+
 
 function App() {
   return (
