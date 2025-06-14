@@ -2,7 +2,43 @@ import React from 'react'
 
 function Footer() {
   return (
-      <div className="text-center ">
+
+
+
+    <footer className="relative w-full  ">
+      {/* Première div avec photo3 et photo2 */}
+      <div className="relative -mb-180">
+
+        <div className="relative w-full">
+          <img
+            src="../../public/images/photo3.png"
+            className="w-full h-auto "
+            alt="Background Footer"
+          />
+          <img
+            src="../../public/images/photo2.png"
+            className="absolute top-0 left-0 w-[70%] h-auto "
+            alt="Overlay Footer"
+          />
+        </div>
+
+        {/* Deuxième div avec photo1 et photo2 superposée */}
+        <div className="absolute top-0 left-0 w-full mt-16">
+          <img
+            src="../../public/images/photo1.png"
+            className="w-full h-auto"
+            alt="Secondary Background"
+          />
+          <img
+            src="../../public/images/photo2.png"
+            className="absolute top-0 left-0 w-[70%] h-auto -mt-16"
+            alt="Secondary Overlay"
+          />
+        </div>
+      </div>
+
+      {/* Texte du footer par-dessus les images */}
+    
 
       {/* les icons a droite  */}
       <div className='flex flex-col'>
@@ -102,53 +138,53 @@ function Footer() {
 
           <div className='absolute z-10 gap-12'>
 
-          <div className='absolute z-0   mt-40 -ml-44 '>
+            <div className='absolute z-0   mt-40 -ml-44 '>
 
-            <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
-              <defs>
-                <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="white" />
-                  <stop offset="0.58555" stop-color="white" stop-opacity="0.598321" />
-                  <stop offset="1" stop-color="white" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <span className="absolute  inset-0 flex items-center ml-12 text-black font-semibold text-2xl">
-              الحي الاداري ص ب 116 بركان
-            </span>
-          </div>
-          <div className='absolute z-0 w-1/4  h-[50.04px] mt-20 -ml-44'>
-            <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
-              <defs>
-                <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="white" />
-                  <stop offset="0.58555" stop-color="white" stop-opacity="0.598321" />
-                  <stop offset="1" stop-color="white" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <span className="absolute  inset-0 flex items-center ml-7 text-black font-semibold text-2xl">
-              contact@organismebadr.ma
-            </span>
-          </div>
-          <div className='absolute z-0   h-[50.04px] -mt-1 -ml-44 '>
-            <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
-              <defs>
-                <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="white" />
-                  <stop offset="0.58555" stop-color="white" stop-opacity="0.598321" />
-                  <stop offset="1" stop-color="white" stop-opacity="0" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <span className="absolute  inset-0 flex items-center justify-end mr-6 text-black font-semibold text-2xl">
-              05 366 - 122 51
-            </span>
+              <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
+                <defs>
+                  <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="0.58555" stop-color="white" stop-opacity="0.598321" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <span className="absolute  inset-0 flex items-center ml-12 text-black font-semibold text-2xl">
+                الحي الاداري ص ب 116 بركان
+              </span>
+            </div>
+            <div className='absolute z-0 w-1/4  h-[50.04px] mt-20 -ml-44'>
+              <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
+                <defs>
+                  <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="0.58555" stop-color="white" stop-opacity="0.598321" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <span className="absolute  inset-0 flex items-center ml-7 text-black font-semibold text-2xl">
+                contact@organismebadr.ma
+              </span>
+            </div>
+            <div className='absolute z-0   h-[50.04px] -mt-1 -ml-44 '>
+              <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
+                <defs>
+                  <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="white" />
+                    <stop offset="0.58555" stop-color="white" stop-opacity="0.598321" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <span className="absolute  inset-0 flex items-center justify-end mr-6 text-black font-semibold text-2xl">
+                05 366 - 122 51
+              </span>
 
-          </div>
+            </div>
           </div>
           <div className='flex flex-col gap-4 ml-48 -my-1'>
 
@@ -177,28 +213,14 @@ function Footer() {
         </div>
 
       </div>
-
-      {/* la phrase a la fin de page  */}
-
-      <div className="absolute bottom-12 w-full text-center text-xl z-10 p-2">
-        <p>"© SOFTCACTUS، جميع الحقوق محفوظة، 2025"</p>
+  <div className="absolute top-140 left-0 right-0 text-center py-4 z-10">
+        <p className="text-xl text-black  bg-opacity-50 px-4 inline-block rounded">
+          "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
+        </p>
       </div>
 
-      {/* les images  */}
 
-      <div className="relative inline-block mt-10 ">
-        <img src="../images/photo3.png" className="logo  " />
-        <img src="../images/photo2.png" className="absolute top-0 left-0 logo1 w-[70%] " alt="Vite logo" />
-      </div>
-
-      <div className="relative  inline-block -mt-[600px] ">
-
-        <img src="../images/photo1.png" className="logo " alt="Vite logo" />
-        <img src="../images/photo2.png" className="absolute -top-16 left-0 logo1 w-[70%]" alt="Vite logo" />
-
-      </div>
-
-    </div>
+    </footer>
 
   )
 }

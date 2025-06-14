@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,13 +9,15 @@ body {
     margin: 0;
     overflow-x: hidden;
     
-}
+} */
 
 .service {
+  position :relative;
   width: 100vw;
-  overflow-x: hidden;
+  overflow-y: hidden;
   height: 
 82vh;
+margin-top: 500px;
 position: relative;  
  background: linear-gradient(-74.24deg, #FFC909 -0.01%, #FFFFFF 108.29%);
 
@@ -207,13 +209,12 @@ margin-left: 30%;
 
    
 }
-
 .click{
-   
+
   width: 60px;
   height: 60px;
   border: 2px solid white; 
-  border-radius: 50%;         
+  border-radius: 50%;
   background-color: transparent; 
   top:48%;
   left:42%;
@@ -233,9 +234,3 @@ justify-content: center;
 align-items: center;
 
 }
-
-
-
-
-
-
