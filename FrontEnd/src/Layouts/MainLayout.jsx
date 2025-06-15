@@ -3,13 +3,14 @@ import React from 'react';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import Service from '../Components/Service';
+import Donate from '../Components/Donate';
 
 export default function MainLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen gap-80">
-      <Header />
+      {/* <Header /> */}
       <main className="flex-grow p-4">{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

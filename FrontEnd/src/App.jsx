@@ -2,10 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Service';
+import Donate from './Components/Donate';
 
 import './assets/styles/header.css';
 import'./assets/styles/service.css';
-import './App.css'
+import './App.css';
+
 
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Service />
+              <Donate />
             </MainLayout>
           }
         />
