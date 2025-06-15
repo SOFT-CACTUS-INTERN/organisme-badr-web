@@ -37,10 +37,8 @@ function Footer() {
         </div>
       </div>
 
-      {/* Texte du footer par-dessus les images */}
     
 
-      {/* les icons a droite  */}
       <div className='flex flex-col'>
         <div className="absolute z-10 flex justify-end w-full right-0 mr-64 my-54">
           <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +89,6 @@ function Footer() {
 
       </div>
 
-      {/* formullaire */}
 
       <div className=' '>
 
@@ -126,7 +123,6 @@ function Footer() {
       </div>
 
 
-      {/* div a gauche  */}
 
       <div className="absolute z-10 flex flex-col items-center justify-center ml-96 mt-44  gap-4">
 
