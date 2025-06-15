@@ -2,9 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Service';
-import './assets/styles/header.css';
-import'./assets/styles/service.css';
+// import './assets/styles/header.css';
+// import'./assets/styles/service.css';
 import './App.css'
+import Our from './Components/Our';
+import Activites from './Components/Activites';
+import './assets/styles/our.css';
 
 
 function App() {
@@ -15,7 +18,7 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Service />
+              <Donate />
             </MainLayout>
           }
         />
@@ -25,6 +28,18 @@ function App() {
             <MainLayout>
               <Service />
             </MainLayout>
+          }
+        />
+         <Route
+          path="/Our"
+          element={
+              <Our />
+          }
+        />
+         <Route
+          path="/Activites"
+          element={
+              <Activites />
           }
         />
       </Routes>

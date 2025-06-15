@@ -1,0 +1,231 @@
+*, *::before, *::after { box-sizing: border-box; }
+body, h3, p { margin: 0; }
+
+.donate-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  background: #f4f4f4;
+  width:100vw;
+}
+
+.donate-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 42px;
+overflow: visible;
+
+  background: linear-gradient(-90deg, #007200 0%, #00D800 100%);
+  padding: 0.1rem 1.5rem;
+}
+
+.graphic-box {
+  position: relative;
+  flex: 0 1 45%;
+  max-width: 400px;
+ 
+}
+
+.graphic-box img {
+  width: 100%;
+
+ margin-left: -300px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -45px;
+ 
+ 
+  
+}
+
+.graphic-box .blob {
+  position: relative;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  flex: 1;
+  color: #fff;
+  text-align: right;
+  direction: rtl;
+}
+
+.title-line {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  flex-direction: row-reverse;
+  height: 50%;
+}
+
+.title-line h3 {
+  font-size: clamp(1.1rem, 1.8vw, 1.8rem);
+  font-weight: 500;
+  display:flex;
+  flex-direction: row;
+
+}
+
+.title-line svg {
+  width: 3rem;
+  height: auto;
+}
+
+.content-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 32rem;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: .9rem 1.4rem;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  white-space: nowrap;
+  transition: filter .25s;
+}
+
+.btn-solid {
+  background: #FFAA00;
+  color: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.65px solid #FFFFFF;
+}
+
+.btn-outline {
+  background-color: #FFFFFF;
+  color: #FFAA00;
+  border: 2px solid #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 748px) and (min-width:500px ){
+  .donate-card {
+    flex-direction: column;
+   
+    text-align: center;
+    justify-content: center;
+    width:80%;
+    gap:0.2px;
+    padding: 2rem;
+    height: 10%;
+  }
+
+  .content-box { 
+    text-align: center;
+    direction: rtl;
+  }
+
+  .graphic-box { 
+    flex-basis: auto;
+    max-width: 80%;
+  }
+
+  .btn-group { 
+    justify-content: center;
+  }
+}
+.title-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+
+
+}
+@media(max-width:500px) and (min-width:440px){
+
+   .donate-card {
+    flex-direction: column;
+   
+    text-align: center;
+    justify-content: center;
+    width:80%;
+    gap:0.2px;
+    padding: 1.5rem;
+    height: 50%;
+   
+  }
+  .btn-group{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:10px;
+  }
+  .content-box{
+    gap:0.5px;
+
+  }
+
+}
+@media( max-width:440px){
+
+  .donate-card {
+    flex-direction: column;
+   
+    text-align: center;
+    justify-content: center;
+    width:80%;
+    gap:0.2px;
+    padding: 1.5rem;
+    height: 50%;
+
+  }
+  .btn-group{
+     display: flex;
+     flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  gap:5px;
+  }
+  .content-box{
+    gap:0.5px;
+
+  }
+  .graphic-box img{
+    margin-left: -250px;
+
+  }
+
+  .title-line{
+    display:flex;
+    flex-direction: row-reverse;
+   
+  }
+
+}
+
+
+
+
