@@ -3,6 +3,7 @@ import React from 'react'
 function Activites() {
     return (
 
+
         <section className=" w-screen h-screen">
             <div className="relative w-1/2 h-[800px] -ml-44 ">
                 <div className="-ml-44 -mt-44 relative  ">
@@ -101,12 +102,6 @@ function Activites() {
                     <img src="public/images/photo7.png" className="h-94" alt="صورة نشاط" />
                 </div>
             </div>
-
-
-        </section>
-
-
-
     )
 }
 

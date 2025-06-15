@@ -18,7 +18,7 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Service />
+              <Donate />
             </MainLayout>
           }
         />
