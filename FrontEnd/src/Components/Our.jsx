@@ -3,6 +3,8 @@ import React from 'react'
 function Our() {
     return (
         <section>
+            <div className='our top-24'>
+
             <div className='relative sm:-mt-24 sm:ml-160 '>
                 <svg width="1000" height="1000" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_2110_729)">
@@ -92,6 +94,7 @@ function Our() {
                 </div>
 
             </div>
+            </div>
             <div className="flex flex-col absolute w-full lg:flex-row gap-3 ml-40  -mt-160">
                 <div className="relative w-[374px] h-[383px] rounded-[18.1606px] ">
                     {/* image de background */}
@@ -107,9 +110,11 @@ function Our() {
 
                     {/* texte */}
                     <div className="relative z-10 flex items-start mt-6 mr-4 justify-end h-full text-white text-xl">
-                        <h2 className="text-5xl font-bold text-right">ذوي الإعاقة</h2>
+                        <h2 className="text-5xl font-bold text-right ">ذوي الإعاقة</h2>
                         <hr className="border-t-2 border-white w-1/2 absolute mt-20" />
-                        <p className="  w-full absolute mt-24 text-right">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.</p>
+                        <p className="paragraphe w-full absolute mt-24 text-right"
+                        >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.
+                        </p>
                         <button className="absolute p-3 px-6 bg-white !rounded-none text-black mt-64 ">
                             لمعرفة المزيد
                         </button>
@@ -134,7 +139,7 @@ function Our() {
                     <div className="relative z-10 flex items-start mt-6 mr-4 justify-end h-full text-white text-xl">
                         <h2 className="text-5xl font-bold text-right">الطفل</h2>
                         <hr className="border-t-2 border-white w-1/2 absolute mt-20" />
-                        <p className="  w-full absolute mt-24 text-right">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.</p>
+                        <p className="paragraphe  w-full absolute mt-24 text-right">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.</p>
                         <button className="absolute p-3 px-6 bg-white !rounded-none text-black mt-64 ">
                             لمعرفة المزيد
                         </button>
@@ -156,7 +161,7 @@ function Our() {
                     <div className="relative z-10 flex items-start mt-6 mr-4 justify-end h-full text-white text-xl">
                         <h2 className="text-5xl font-bold text-right">المرأة</h2>
                         <hr className="border-t-2 border-white w-1/2 absolute mt-20" />
-                        <p className="  w-full absolute mt-24 text-right">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.</p>
+                        <p className="paragraphe  w-full absolute mt-24 text-right">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.</p>
                         <button className="absolute p-3 px-6 bg-white !rounded-none text-black mt-64 ">
                             لمعرفة المزيد
                         </button>
