@@ -13,5 +13,7 @@
 .paragraphe{
     margin-top: 100px;
 }
-
+body {
+  overflow-x: hidden;
+}
   

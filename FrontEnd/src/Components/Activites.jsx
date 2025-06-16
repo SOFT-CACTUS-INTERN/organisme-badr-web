@@ -3,8 +3,8 @@ import React from 'react'
 function Activites() {
     return (
 
-        <section className=" w-screen h-screen">
-            <div className="relative w-1/2 h-[800px] -ml-44 ">
+        <section className=" w-screen h-screen sm:mb-0 mb-96 ">
+            <div className="relative sm:w-1/2 w-full h-[800px] -ml-44 sm:left-0 left-130">
                 <div className="-ml-44 -mt-44 relative  ">
                     <svg width="1300" height="800" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_f_2110_729)">
@@ -22,7 +22,7 @@ function Activites() {
 
 
             </div>
-            <div className="absolute w-full sm:-mt-170 sm:ml-[64%] ml-[50%] -mt-150">
+            <div className="absolute w-full  sm:-mt-170 sm:ml-[64%] ml-[100%] -mt-150">
                 <div className="flex gap-4 sm:gap-2 font-bold text-center sm:text-right">
                     <h1 className="text-[#38B000]"> البدر</h1>
                     <h1 className="text-[#38B000]">منظمة </h1>
@@ -75,7 +75,7 @@ function Activites() {
                 </svg>
             </div>
 
-            <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl w-11/12 md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[35%] -mt-[90%] sm:left-1/2 left-[100%] transform -translate-x-1/2 p-6 space-y-6 md:space-y-0 ">
+            <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl sm:w-11/12 w-full   md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[35%] -mt-[90%] sm:left-1/2 left-160 transform -translate-x-1/2 p-6 space-y-6 md:space-y-0 ">
                 {/* Texte */}
                 <div className="w-full md:w-1/2 text-right text-black space-y-4">
                     <h2 className="text-lg md:text-xl leading-relaxed font-bold">
