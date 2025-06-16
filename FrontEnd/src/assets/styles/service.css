@@ -7,14 +7,14 @@
 body {
    
     margin: 0;
-    overflow-x: hidden;
+ 
     
 } */
 
 .service {
   position :relative;
   width: 100vw;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 
 82vh;
 margin-top: 500px;
@@ -29,6 +29,7 @@ position: relative;
  padding-left: 8px;
  padding-right: 8px;
 padding-bottom: 16px;
+margin-bottom: 100px;
 }
 
 .heart {
