@@ -22,7 +22,7 @@ function Activites() {
 
 
             </div>
-            <div className="absolute w-full  sm:-mt-170 sm:ml-[64%] ml-[100%] -mt-150">
+            <div className="absolute w-full  sm:-mt-170 sm:ml-[60%] ml-[100%] -mt-150">
                 <div className="flex gap-4 sm:gap-2 font-bold text-center sm:text-right">
                     <h1 className="text-[#38B000]"> البدر</h1>
                     <h1 className="text-[#38B000]">منظمة </h1>
@@ -45,10 +45,10 @@ function Activites() {
                     </svg>
 
                 </div>
-                <div className='text-right sm:w-1/2 sm:-ml-68 sm:mt-12 mt-10 -ml-4'>
+                <div className='text-right sm:w-1/2 sm:-ml-68 sm:mt-12 mt-10 -ml-4 '>
                     <p className=''>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
                 </div>
-                <div className='flex  sm:-mt-24 -mt-24 w-[100%] ml-10'>
+                <div className='flex  sm:-mt-24 -mt-24 w-[100%] ml-10 sm:ml-2'>
                     <svg width="420" height="16" viewBox="0 0 252 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M249.572 0.444348C250.887 0.444348 251.953 1.51038 251.953 2.8254C251.953 4.14042 250.887 5.20645 249.572 5.20645L2.38101 5.20643C1.06599 5.20643 -3.06791e-05 4.14039 -3.06217e-05 2.82538C-3.05642e-05 1.51036 1.06599 0.444325 2.38101 0.444325L249.572 0.444348Z" fill="url(#paint0_linear_195_572)" />
                         <defs>
