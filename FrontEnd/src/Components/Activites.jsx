@@ -3,8 +3,8 @@ import React from 'react'
 function Activites() {
     return (
 
-        <section className=" activities w-full  h-screen sm:mb-0 mb-96 sm:mt-24  ">
-            <div className="relative sm:w-1/2 w-full h-[800px] -ml-44 sm:left-0 left-130">
+        <section className=" activities relative  w-full  h-screen sm:mb-0 mb-96 sm:mt-24  ">
+            <div className="relative sm:w-1/2  w-full h-[800px]  sm:left-0 top-80 -left-90">
                 <div className="-ml-44 -mt-44 relative  ">
                     <svg width="1300" height="800" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_f_2110_729)">
@@ -22,13 +22,13 @@ function Activites() {
 
 
             </div>
-            <div className="absolute w-full  sm:-mt-250 sm:ml-[54%] ml-[100%] -mt-150">
+            <div className="absolute w-full  sm:-mt-250  sm:ml-[54%] ml-[62%] -mt-80">
                 <div className="flex gap-4 sm:gap-2 font-bold text-center sm:text-right">
                     <h1 className="text-[#38B000]"> البدر</h1>
                     <h1 className="text-[#38B000]">منظمة </h1>
                     <h1 className="text-[#FFD000]">فعاليات</h1>
                 </div>
-                <div className='sm:ml-110 sm:-mt-12 ml-110 -mt-12 '>
+                <div className='sm:ml-110 sm:-mt-12  ml-110 -mt-12 '>
                     <svg width="57" height="52" viewBox="0 0 57 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.66682 33.0837C-0.263947 29.1529 -0.263944 22.7799 3.66683 18.8491L19.0987 3.41722C25.4395 -2.92361 36.2814 1.56723 36.2814 10.5345L36.2814 41.3983C36.2814 50.3656 25.4395 54.8564 19.0987 48.5156L3.66682 33.0837Z" fill="url(#paint0_linear_206_983)" />
                         <path d="M42.1 31.785C38.8864 28.5715 38.8864 23.3613 42.1 20.1478C47.2838 14.964 56.1473 18.6354 56.1473 25.9664C56.1473 33.2974 47.2838 36.9688 42.1 31.785Z" fill="url(#paint1_linear_206_983)" />
@@ -45,10 +45,10 @@ function Activites() {
                     </svg>
 
                 </div>
-                <div className='text-right sm:w-1/2  sm:-ml-68 sm:mt-12 mt-10 -ml-4'>
+                <div className='text-right sm:w-full  sm:-ml-230 sm:mt-12 mt-6 mr-280'>
                     <p className=''>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
                 </div>
-                <div className='flex  sm:-mt-24 -mt-24 w-[100%] ml-0'>
+                <div className='flex  sm:-mt-18 -mt-24 w-[100%] ml-0'>
                     <svg width="420" height="16" viewBox="0 0 252 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M249.572 0.444348C250.887 0.444348 251.953 1.51038 251.953 2.8254C251.953 4.14042 250.887 5.20645 249.572 5.20645L2.38101 5.20643C1.06599 5.20643 -3.06791e-05 4.14039 -3.06217e-05 2.82538C-3.05642e-05 1.51036 1.06599 0.444325 2.38101 0.444325L249.572 0.444348Z" fill="url(#paint0_linear_195_572)" />
                         <defs>
@@ -75,7 +75,7 @@ function Activites() {
                 </svg>
             </div>
 
-            <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl sm:w-11/12 w-full   md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[55%] -mt-[90%] sm:left-1/2 left-160 transform -translate-x-1/2 p-6 space-y-6 md:space-y-0 ">
+            <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl sm:w-11/12 w-[70%]   md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[55%] -mt-[8%] sm:left-1/2 left-160 sm:transform sm:-translate-x-1/2 p-6 space-y-6 md:space-y-0 -translate-x-[40%] ">
                 {/* Texte */}
                 <div className="w-full md:w-1/2 text-right text-black space-y-4">
                     <h2 className="text-lg md:text-xl leading-relaxed font-bold">
@@ -86,7 +86,7 @@ function Activites() {
                     </p>
 
                     {/* Boutons */}
-                    <div className="flex  sm:flex-row gap-4 mt-4 sm:ml-48 ">
+                    <div className="flex sm:flex-row gap-4 mt-12 ml-90  sm:ml-48 ">
                         <button className="button3 bg-[#38B000] text-white font-bold rounded-full px-6 py-2">
                             للتعرف على المزيد
                         </button>
