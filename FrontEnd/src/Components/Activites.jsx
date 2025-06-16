@@ -3,7 +3,7 @@ import React from 'react'
 function Activites() {
     return (
 
-        <section className=" w-screen h-screen sm:mb-0 mb-96 ">
+        <section className=" w-screen h-screen sm:mb-0 mb-96 sm:mt-24 ">
             <div className="relative sm:w-1/2 w-full h-[800px] -ml-44 sm:left-0 left-130">
                 <div className="-ml-44 -mt-44 relative  ">
                     <svg width="1300" height="800" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@ function Activites() {
 
 
             </div>
-            <div className="absolute w-full  sm:-mt-170 sm:ml-[60%] ml-[100%] -mt-150">
+            <div className="absolute w-full  sm:-mt-250 sm:ml-[54%] ml-[100%] -mt-150">
                 <div className="flex gap-4 sm:gap-2 font-bold text-center sm:text-right">
                     <h1 className="text-[#38B000]"> البدر</h1>
                     <h1 className="text-[#38B000]">منظمة </h1>
@@ -45,10 +45,10 @@ function Activites() {
                     </svg>
 
                 </div>
-                <div className='text-right sm:w-1/2 sm:-ml-68 sm:mt-12 mt-10 -ml-4 '>
+                <div className='text-right sm:w-1/2  sm:-ml-68 sm:mt-12 mt-10 -ml-4'>
                     <p className=''>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
                 </div>
-                <div className='flex  sm:-mt-24 -mt-24 w-[100%] ml-10 sm:ml-2'>
+                <div className='flex  sm:-mt-24 -mt-24 w-[100%] ml-0'>
                     <svg width="420" height="16" viewBox="0 0 252 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M249.572 0.444348C250.887 0.444348 251.953 1.51038 251.953 2.8254C251.953 4.14042 250.887 5.20645 249.572 5.20645L2.38101 5.20643C1.06599 5.20643 -3.06791e-05 4.14039 -3.06217e-05 2.82538C-3.05642e-05 1.51036 1.06599 0.444325 2.38101 0.444325L249.572 0.444348Z" fill="url(#paint0_linear_195_572)" />
                         <defs>
@@ -63,7 +63,7 @@ function Activites() {
                 </div>
             </div>
 
-            <div className='sm:ml-20 absolute sm:-mt-78 '>
+            <div className='sm:ml-20 absolute sm:-mt-138 '>
 
                 <svg width="1222" height="53" viewBox="0 0 1222 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.69">
@@ -75,7 +75,7 @@ function Activites() {
                 </svg>
             </div>
 
-            <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl sm:w-11/12 w-full   md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[35%] -mt-[90%] sm:left-1/2 left-160 transform -translate-x-1/2 p-6 space-y-6 md:space-y-0 ">
+            <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl sm:w-11/12 w-full   md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[55%] -mt-[90%] sm:left-1/2 left-160 transform -translate-x-1/2 p-6 space-y-6 md:space-y-0 ">
                 {/* Texte */}
                 <div className="w-full md:w-1/2 text-right text-black space-y-4">
                     <h2 className="text-lg md:text-xl leading-relaxed font-bold">
