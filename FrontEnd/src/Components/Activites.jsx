@@ -4,7 +4,7 @@ function Activites() {
     return (
 
         <section className=" activities relative  w-full  h-screen sm:mb-0 mb-96 sm:mt-24  ">
-            <div className="relative sm:w-1/2  w-full h-[800px]  sm:left-0 top-80 -left-90">
+            <div className="relative sm:w-1/2  w-full h-[800px] sm:-top-28 sm:left-0 top-80 -left-90">
                 <div className="-ml-44 -mt-44 relative  ">
                     <svg width="1300" height="800" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_f_2110_729)">

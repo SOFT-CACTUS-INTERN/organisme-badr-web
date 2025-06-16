@@ -242,3 +242,14 @@ align-items: center;
 .button1{
   background-color: #38B000 ;
 }
+
+
+@media ( max-width:412px){
+
+   .service{
+   position: relative;
+   width: 100%;   
+
+  } 
+  
+}

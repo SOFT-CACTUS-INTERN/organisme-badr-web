@@ -6,7 +6,9 @@ body, h3, p { margin: 0; }
   justify-content: center;
   align-items: center;
   padding: 4rem 1rem;
-  width:100vw;
+  width:100%;
+  margin-top: 100px;
+  position: relative;
 }
 
 .donate-card {
@@ -199,9 +201,9 @@ button {
     gap:0.2px;
     padding: 1.5rem;
     height: 50%;
-    margin-top: 200px;
-
+margin-top: 200px;
   }
+  
   .btn-group{
      display: flex;
      flex-direction: column;
@@ -227,7 +229,9 @@ button {
 
    .graphic-box img{
     margin-left: 06px;
-    margin-top: -300px;
+  
+    top: 150px;
+
    
 
   } 
@@ -236,9 +240,15 @@ button {
 
    .graphic-box img{
     margin-left: 06px;
-    margin-top: -300px;
+    margin-top: -200px;
    
 
   } 
-  
+  .btn-group{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:10px;
+
+  }
 }
