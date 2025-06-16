@@ -2,7 +2,8 @@ import React from 'react'
 
 function Our() {
     return (
-        <section>
+            <>
+                <section>
             <div className='relative sm:-mt-24 sm:ml-160 '>
                 <svg width="1000" height="1000" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_2110_729)">
@@ -167,6 +168,8 @@ function Our() {
 
             </div>
         </section>
+</>
+
 
     )
 }

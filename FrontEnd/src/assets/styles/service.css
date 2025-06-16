@@ -1,243 +1,255 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-   
-    margin: 0;
-    overflow-x: hidden;
-    
-} */
+
+
+ *, *::before, *::after { box-sizing: border-box; }
+body, h3, p { margin: 0; }
+body{
+
+ 
+
+  
+  background-color: #38B000;
+  
+}
 
 .service {
-  position :relative;
-  width: 100vw;
-  overflow-y: hidden;
-  height: 
-82vh;
-margin-top: 500px;
-position: relative;  
+  display: flex;
+  justify-content: space-evenly;
+ 
+  flex-wrap: nowrap;
+  gap:20px;
+  height: auto;
+
+
+
+
+  width:100%;
+ 
+
  background: linear-gradient(-74.24deg, #FFC909 -0.01%, #FFFFFF 108.29%);
 
- display:flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
- padding-top: 16px;
- padding-left: 8px;
- padding-right: 8px;
-padding-bottom: 16px;
+
+
+
+
+
+
 }
 
-.heart {
-  position: absolute;
-  left: -380px;                  
-  top: 50%;                     
-  transform: translateY(-50%)   
-             rotate(-5deg);    
-  width: 200vh;                
-  height: 75vh;               
-  pointer-events: none;  
-  color: #FFFFFF61;
-       
+
+.heart
+ {
+  position: absolute; 
+ 
+   margin-top:-10px;
+   margin-left: -10%;
+  
+
 }
 .cercle{
-    position:absolute;
-   width: 75px;
-height: 79px;
-top:80%;
-left: 5%;
-
- 
-}
-
-
-
-
-.text-ligne {
   position: absolute;
-  top: 15%;
-  left: 12%;
+  
+margin-top: 380px;
+
+margin-left:-50px;
+}
+.title-services{
+ 
   display: flex;
   flex-direction: column;
-  gap:15px;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+ 
+  position:relative;
+  
+  padding:1.8rem;
+  gap:10px;
+ 
+  margin-left: 20px;
+  
 }
-
-.text-ligne h2 {
-  font-weight: 500;
-  font-size: 38px;
-  line-height: 131%;
-  text-align: right;
-  color: black;
-}
-
-.text-ligne hr {
+.services{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
+  gap:10px;
+  margin-top: 10%;
+  margin-left: 5%;
+  height: 100%;
 
  
-  width: 100%;
- 
-
-
-border-width: 1px;
-border: 1px solid #000000;
-
-
-
-
 }
 
-
- .services{
-    position:absolute;
-    
-    width: 450px;
-height: 442px;
- 
-margin-top: 15%;
-margin-right:48%;
-border-radius:15px;
-display:flex;
-flex-direction: column;
-
-justify-content: space-evenly;
-align-items: center;
-
- }
-
- .serv{
-width: 100%;
-height: 90px;
-
-border-radius: 15px;
-background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
-
- display:flex;
- flex-direction: row-reverse;
+.icon-content{
+  display:flex;
+  flex-direction: row-reverse;
  justify-content: center;
  align-items: center;
- gap:10px;
- padding:2%;
 
- }
- .icon-serv{
-  width: 45px;
-height: 42px;
+ padding-right:1rem;
+  gap:10px;
+ 
 
 
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+
+width: 70%;
 
 
-border-radius: 6px;
-background: linear-gradient(0deg, #007200 0%, #38B000 100%);
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-
- }
- .icon-serv svg{
-    width: 35px;
-height: 30px;
+border-radius: 15px;
+height: 10%;
 
 
- }
- .title-serv{
-   text-align: right;
-   color: #000000;
-  
+
+}
+.content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  gap: 0.5rem; 
+  padding: 1rem;
+  width: 100%; 
+  line-height: normal; 
+}
+
+.content h4, 
+.content p {
+  text-align: right;
+  margin: 0;
+  line-height: 1.4; 
+}
+
+.content h4 {
+  font-size: 1.5rem;
+  color: #000000;
+
 font-weight: 500;
-font-size: 24.19px;
+
 line-height: 100%;
 letter-spacing: 0px;
-
-
-
-
-   
-
- }
- .explain{
-    text-align: right;
-  
- 
-font-weight: 400px;
-font-size: 16px;
-line-height: 131%;
-letter-spacing: 0%;
 text-align: right;
 
+ 
+}
 
+.content p {
+  font-size: 1rem;
+  
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: right;
 color: #525560;
 
-
-
- }
- .serv-name{
-    display:flex;
-    flex-direction: column;
-    gap:5px;
- }
-
- .pectures{
-   
-    background: linear-gradient(-155.24deg, #FFFFFF 12.31%, #FFCB15 102.84%);
-
-
-width: 55.56vh;
-height: 60vh;
-
-border-radius: 21px;
-
-margin-left: 30%;
-
-
-
-  }.pect-int {
-  position: absolute;
-  width: 60vh;
-  height: 70vh;
-  border-radius: 22.92px;
-  left: 47%;
-  top: 19%;
-
- 
-  background-image: url('/flags/unsplash_SBIak0pKUIE.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-   
 }
-.click{
-
-  width: 60px;
-  height: 60px;
-  border: 2px solid white; 
-  border-radius: 50%;
-  background-color: transparent; 
-  top:48%;
-  left:42%;
-  display: flex;
-  justify-content: center;
-  align-items:  center;
-}
-.botton{
-    background: #FFFFFF;
-width: 50px;
-height: 50px;
 
 
-border-radius: 50%;
+.icon{
+  background: linear-gradient(0deg, #007200 0%, #38B000 100%);
+  width: 46.594093322753906px;
+height: 46.594093322753906px;
+
+border-radius: 6.66px;
 display:flex;
 justify-content: center;
 align-items: center;
 
-}
-.button2{
-  background-color: #FFD000 ;
 
 }
-.button1{
-  background-color: #38B000 ;
+hr{
+  border: 1px solid #000000;
+  width: 350px;
+
+border-width: 1px;
+
+
 }
+h3{
+  
+font-weight: 500;
+
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
+  font-weight: 500;
+  display:flex;
+  flex-direction: row;
+
+line-height: 131%;
+letter-spacing: 0%;
+text-align: center;
+display:flex;
+justify-content: right;
+
+}
+p{
+   font-size: 1rem;
+  line-height: 1.6;
+  max-width: 32rem;
+}
+.heading-hr{
+  
+  width:100%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  justify-content:center;
+  gap:10px;
+ 
+}
+.cadre{
+  background: linear-gradient(-155.24deg, #FFFFFF 12.31%, #FFCB15 102.84%);
+  width: 25%;
+
+border-radius: 21px;
+height: 60vh;
+position:relative;
+display:flex;
+
+
+
+
+
+
+}
+.ved-cadre{
+
+  background:pink;
+  width:100%;
+  height: 100%;
+  position:absolute;
+  margin-top: 12%;
+  margin-left: -12%;
+
+border-radius: 22.92px;
+
+}
+.content{
+  display:flex;
+  align-items: right;
+  justify-content: right;
+  gap:10px;
+  flex-direction: column;
+ 
+}
+
+
+
+.service {
+  width: 100vw;
+  padding: 1rem; 
+  height: auto; 
+  min-height: 80vh;
+  overflow-x: hidden; 
+}
+
+.icon-content {
+  width: 100%;
+  max-width: 500px;
+}
+
+
+
+
+

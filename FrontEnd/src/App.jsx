@@ -3,11 +3,13 @@ import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Service';
 // import './assets/styles/header.css';
-// import'./assets/styles/service.css';
-import './App.css'
+import'./assets/styles/service.css';
+// import './App.css'
 import Our from './Components/Our';
 import Activites from './Components/Activites';
-import './assets/styles/our.css';
+// import './assets/styles/our.css';
+import Donate from './Components/Donate';
+// import './assets/styles/donate.css';
 
 
 function App() {
