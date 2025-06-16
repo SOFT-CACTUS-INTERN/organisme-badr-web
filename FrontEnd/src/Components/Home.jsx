@@ -21,8 +21,11 @@ const Home = () => {
       </div>
        <Services/>
      <Our />
+     <div className=''>
+
      <Activites/>
      <Donate />
+     </div>
 
     </>
   );
