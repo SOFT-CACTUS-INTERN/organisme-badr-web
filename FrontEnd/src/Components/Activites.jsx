@@ -3,7 +3,7 @@ import React from 'react'
 function Activites() {
     return (
 
-        <section className=" w-screen h-screen sm:mb-0 mb-96 sm:mt-24 ">
+        <section className=" activities w-full  h-screen sm:mb-0 mb-96 sm:mt-24  ">
             <div className="relative sm:w-1/2 w-full h-[800px] -ml-44 sm:left-0 left-130">
                 <div className="-ml-44 -mt-44 relative  ">
                     <svg width="1300" height="800" viewBox="0 0 1228 1201" fill="none" xmlns="http://www.w3.org/2000/svg">
