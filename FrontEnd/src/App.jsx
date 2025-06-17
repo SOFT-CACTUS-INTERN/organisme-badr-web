@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from "react-router-dom"; // ← TU AVAIS COMMENTÉ ÇA
+
 import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Home';
@@ -20,7 +22,7 @@ import Who from './Components/Who';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -75,7 +77,7 @@ function App() {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

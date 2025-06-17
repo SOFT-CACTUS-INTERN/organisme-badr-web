@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react';
-
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+
 export default defineConfig({
+  base: '/organisme-badr-web/',  // <-- ajoute cette ligne
   plugins: [
     react(),
     tailwindcss(),
