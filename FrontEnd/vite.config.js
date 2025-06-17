@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/organisme-badr-web/',  // <-- ajoute cette ligne
+  base: '/organisme-badr-web/', 
   plugins: [
     react(),
     tailwindcss(),

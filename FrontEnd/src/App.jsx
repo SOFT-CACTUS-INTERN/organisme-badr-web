@@ -16,6 +16,7 @@ import Donate from './Components/Donate';
 import Organisme from './Components/Organisme';
 import Home from './Components/Home';
 import Who from './Components/Who';
+import Presedent from "./Components/Presedent";
 
 
 
@@ -74,6 +75,12 @@ function App() {
           path="/who"
           element={
             <Who />
+          }
+        />
+         <Route
+          path="/organisme-badr-web/Presedent"
+          element={
+            <Presedent />
           }
         />
       </Routes>

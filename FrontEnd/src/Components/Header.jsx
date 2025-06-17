@@ -5,7 +5,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [selectedLang, setSelectedLang] = useState({
     name: "العربية",
-    flag: "/flags/Morocco.png",
+    flag: "/organisme-badr-web/flags/Morocco.png",
   })
 
   const languages = [
@@ -173,7 +173,7 @@ const Header = () => {
               <a href="/f" className="nav-link">
                 الرئيسية
               </a>
-              <a href="/e" className="nav-link">
+              <a href="/organisme-badr-web/Presedent" className="nav-link">
                 المنضمة
               </a>
               <a href="/z" className="nav-link">
