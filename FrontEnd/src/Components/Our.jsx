@@ -96,7 +96,7 @@ function Our() {
 
             </div>
             </div>
-            <div className="flex flex-col absolute  w-full lg:flex-row gap-3 sm:ml-[4%]  sm:-mt-[55%] -mt-[40%] ml-[30%]">
+            <div className="flex flex-col absolute  w-full lg:flex-row gap-3 sm:ml-[4%]  sm:-mt-[50%] -mt-[40%] ml-[30%]">
                 <div className="relative w-[80%] -ml-80 h-[383px] rounded-[18.1606px] sm:ml-0 sm:w-[28%]  ">
                     {/* image de background */}
                     <div
@@ -159,7 +159,7 @@ function Our() {
                     <div className="absolute inset-0 bg-black opacity-70 rounded-[18.1606px] "></div>
 
                     {/* texte */}
-                    <div className="relative z-10 flex items-start mt-6 mr-4 justify-end h-full text-white text-xl">
+                    <div className="relative z-10 flex items-start mt-6  mr-4 justify-end h-full text-white text-xl">
                         <h2 className="text-5xl font-bold text-right">المرأة</h2>
                         <hr className="border-t-2 border-white w-1/2 absolute mt-20" />
                         <p className="paragraphe  w-full absolute mt-24 text-right">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.</p>
