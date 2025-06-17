@@ -3,10 +3,12 @@ import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Home';
 import './assets/styles/header.css';
-import './assets/styles/service.css';
+
 import './assets/styles/donate.css';
 import './assets/styles/our.css';
+
 import './App.css'
+import './assets/styles/service.css';
 import Our from './Components/Our';
 import Activites from './Components/Activites';
 import './assets/styles/our.css';
@@ -14,6 +16,7 @@ import Donate from './Components/Donate';
 import Organisme from './Components/Organisme';
 import Home from './Components/Home';
 import Who from './Components/Who';
+import Services from './Components/Services';
 
 
 
@@ -26,7 +29,7 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Donate />
+              <Home />
             </MainLayout>
           }
         />
@@ -34,7 +37,7 @@ function App() {
           path="/service"
           element={
             <MainLayout>
-              <Service />
+              <Services />
             </MainLayout>
           }
         />
