@@ -98,7 +98,7 @@ function Activites() {
 
                 {/* Image */}
                 <div className="flex-shrink-0">
-                    <img src="./organisme-badr-web/images/photo7.png" className="h-94" alt="صورة نشاط" />
+                    {/* <img src="./organisme-badr-web/images/photo7.png" className="h-94" alt="صورة نشاط" /> */}
                 </div>
             </div>
 
