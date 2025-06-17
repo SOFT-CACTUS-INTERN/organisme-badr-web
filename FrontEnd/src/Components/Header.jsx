@@ -9,9 +9,9 @@ const Header = () => {
   })
 
   const languages = [
-    { name: "العربية", flag: "/flags/Morocco.png" },
-    { name: "English", flag: "/flags/English.png" },
-    { name: "Français", flag: "/flags/france.png" },
+    { name: "العربية", flag: "./organisme-badr-web/flags/Morocco.png" },
+    { name: "English", flag: "./organisme-badr-web/flags/English.png" },
+    { name: "Français", flag: "./organisme-badr-web/flags/france.png" },
   ]
 
   const toggleLangList = () => {
@@ -182,7 +182,7 @@ const Header = () => {
 
             {/* Logo */}
             <div className="logo">
-              <img src="/flags/logo1.png" alt="Logo" />
+              <img src="./organisme-badr-web/flags/logo1.png" alt="Logo" />
             </div>
 
             {/* Navigation Links - Right */}

@@ -10,7 +10,7 @@ const Donate = () => {
               fillOpacity="0.38"
             />
           </svg>
-          <img src="/flags/boy.png" alt="طفل يرفع يده الملوّنة" />
+          <img src="./organisme-badr-web/flags/boy.png" alt="طفل يرفع يده الملوّنة" />
         </div>
 
         <div className="content-box">
