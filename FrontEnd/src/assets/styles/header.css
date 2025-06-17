@@ -261,8 +261,12 @@ body, h3, p { margin: 0; }
   color: #004b23;
   font-weight: 500;
   font-size: 1.2rem;
-  color: #004B23;
+  color: #004B23;}
 
+.lang-name {
+  color: #004b23;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .lang-options {
