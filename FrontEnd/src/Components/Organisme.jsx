@@ -36,7 +36,7 @@ function Organisme() {
 
                     <div className="relative w-1/2 ">
                         <div className=" bg-[#FFB700] rounded-t-full flex h-50 -mb-4 mt-30 ml-1 w-[95%]" ></div>
-                        <img src="./organisme-badr-web/images/photo4.png" alt="Vite logo" className="absolute   w-full -mt-104 sm:-mt-89" />
+                        <img src="/organisme-badr-web/images/photo4.png" alt="Vite logo" className="absolute   w-full -mt-104 sm:-mt-89" />
                     </div>
 
                     <div className="flex flex-col w-1/2">
