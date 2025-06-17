@@ -148,7 +148,7 @@ const Header = () => {
                 </svg>
               </span>
               <span className="lang-name">{selectedLang.name}</span>
-              {/* <img src={selectedLang.flag || "/placeholder.svg"} alt="Flag" /> */}
+              <img src={selectedLang.flag || "/placeholder.svg"} alt="Flag" />
 
               {isLangOpen && (
                 <ul className="lang-options">
@@ -161,7 +161,7 @@ const Header = () => {
                       }}
                     >
                       {lang.name} 
-                      {/* <img src={lang.flag || "/placeholder.svg"} alt="Flag" /> */}
+                      <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
                     </li>
                   ))}
                 </ul>
@@ -183,7 +183,7 @@ const Header = () => {
 
             {/* Logo */}
             <div className="logo">
-              {/* <img src="./organisme-badr-web/flags/logo1.png" alt="Logo" /> */}
+              <img src="./organisme-badr-web/flags/logo1.png" alt="Logo" />
             </div>
 
             {/* Navigation Links - Right */}

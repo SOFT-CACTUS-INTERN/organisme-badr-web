@@ -10,21 +10,21 @@ function Footer() {
       <div className="relative -mb-180">
 
         <div className="relative w-full">
-          {/* <img
+          <img
             src="./organisme-badr-web/images/photo3.png"
             className="w-full h-auto "
             alt="Background Footer"
-          /> */}
-          {/* <img
+          />
+          <img
             src="./organisme-badr-web/images/photo2.png"
             className="absolute top-0 left-0 w-[70%] h-auto "
             alt="Overlay Footer"
-          /> */}
+          />
         </div>
 
         {/* Deuxième div avec photo1 et photo2 superposée */}
         <div className="absolute top-0 left-0 w-full mt-16">
-          {/* <img
+          <img
             src="./organisme-badr-web/images/photo1.png"
             className="w-full h-auto"
             alt="Secondary Background"
@@ -33,7 +33,7 @@ function Footer() {
             src="./organisme-badr-web/images/photo2.png"
             className="absolute top-0 left-0 w-[70%] h-auto -mt-16"
             alt="Secondary Overlay"
-          /> */}
+          />
         </div>
       </div>
 
