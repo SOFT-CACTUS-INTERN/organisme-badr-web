@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from "react-router-dom"; // ← TU AVAIS COMMENTÉ ÇA
+
 import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Home';
@@ -14,13 +16,14 @@ import Donate from './Components/Donate';
 import Organisme from './Components/Organisme';
 import Home from './Components/Home';
 import Who from './Components/Who';
+import Presedent from "./Components/Presedent";
 
 
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -74,8 +77,14 @@ function App() {
             <Who />
           }
         />
+         <Route
+          path="/organisme-badr-web/Presedent"
+          element={
+            <Presedent />
+          }
+        />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

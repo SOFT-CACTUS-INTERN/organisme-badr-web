@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* .head {
 
 
@@ -10,6 +11,18 @@
     margin-bottom: -200px;
     gap: 20px;
     
+=======
+*, *::before, *::after { box-sizing: border-box; }
+body, h3, p { margin: 0; }
+body{
+
+ 
+
+  
+ 
+  
+}
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
 
 
 .header {
@@ -20,6 +33,7 @@
   z-index: 1000;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
 
   gap:20px;
   position:relative;
@@ -31,7 +45,19 @@
   padding: 0 1rem;
  
 }
+=======
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
 
+  gap:20px;
+  position:relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+ 
+}
 
 .info-bar {
   padding: 1rem 0;
@@ -50,7 +76,27 @@
   
 }
 
+.info-bar {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   background: linear-gradient(90deg, #007200 0%, #38b000 100%);
+ 
+  
+}
 
+.info-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row-reverse;
+  
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
 .organization {
   display: flex;
   flex-direction: column;
@@ -409,6 +455,7 @@ body, h3, p { margin: 0; }
     justify-content: center;
     gap: 1rem;
   }
+<<<<<<< HEAD
 
   .contact-info {
     gap: 1rem;
@@ -505,6 +552,104 @@ body, h3, p { margin: 0; }
     font-size: 0.8rem;
   }
 
+=======
+
+  .contact-info {
+    gap: 1rem;
+  }
+
+  .nav-left,
+  .nav-right {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-bar {
+    padding: 0.5rem 0;
+  }
+
+  .info-content {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .organization {
+    order: 1;
+  }
+
+  .contact-info {
+    order: 2;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-icons {
+    order: 3;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .nav-content {
+    justify-content: space-between;
+  }
+
+  .language-selector {
+    min-width: 120px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .donate-btn {
+    padding: 0.5rem 1rem;
+  }
+
+  .donate-btn span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+    .header{
+        width: 100%;
+    }
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  .contact-text {
+    font-size: 0.8rem;
+  }
+  .nav-content{
+   
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .org-text {
+    font-size: 0.8rem;
+  }
+
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
   .social-icon {
     width: 30px;
     height: 30px;
@@ -532,6 +677,7 @@ body, h3, p { margin: 0; }
     font-size: 0.9rem;
   }
 }
+<<<<<<< HEAD
 
 .local,
 .phone {
@@ -1422,3 +1568,5 @@ height: 23px;
   }
 }
 
+=======
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a

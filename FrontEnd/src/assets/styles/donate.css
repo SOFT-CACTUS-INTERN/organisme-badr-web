@@ -6,8 +6,14 @@ body, h3, p { margin: 0; }
   justify-content: center;
   align-items: center;
   padding: 4rem 1rem;
+<<<<<<< HEAD
   background: #f4f4f4;
   width:100vw;
+=======
+  width:100%;
+  margin-top: 100px;
+  position: relative;
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
 }
 
 .donate-card {
@@ -36,7 +42,12 @@ overflow: visible;
  margin-left: -300px;
   position: absolute;
   z-index: 1;
+<<<<<<< HEAD
   margin-top: -45px;
+=======
+  margin-top: -372px;
+  margin-left: 10px;
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
  
  
   
@@ -214,10 +225,14 @@ margin-top: 200px;
     gap:0.5px;
 
   }
+<<<<<<< HEAD
   .graphic-box img{
     margin-left: -250px;
 
   }
+=======
+  
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
 
   .title-line{
     display:flex;
@@ -226,11 +241,33 @@ margin-top: 200px;
   }
 
 }
+<<<<<<< HEAD
 
 
 
 
   
+=======
+@media ( max-width:412px){
+
+   .graphic-box img{
+    margin-left: 06px;
+  
+    top: 150px;
+
+   
+
+  } 
+}
+@media ( max-width:412px){
+
+   .graphic-box img{
+    margin-left: 06px;
+    margin-top: -200px;
+   
+
+  } 
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
   .btn-group{
     display:flex;
     flex-wrap: wrap;
@@ -238,3 +275,7 @@ margin-top: 200px;
     gap:10px;
 
   }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> bbede7515f320906b2e7d1842f28a0d06ceb2d0a
