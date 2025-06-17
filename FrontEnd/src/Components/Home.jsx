@@ -19,13 +19,13 @@ const Home = () => {
        <Organisme/>
        <Who/>
       </div>
-      
-     {/* <Our /> */}
-    
+       <Services/>
+     <Our />
+     <div className=''>
+
      <Activites/>
      <Donate />
-       <Services/>
-      
+     </div>
 
     </>
   );

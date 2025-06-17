@@ -2,7 +2,7 @@ import React from 'react'
 
 function Organisme() {
     return (
-        <div className=''>
+        <div className='-mt-64'>
             <div className="ml-130 mb-8 ">
                 <svg width="65" height="74" viewBox="0 0 65 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.1257 10.4068C15.2581 10.5755 13.054 14.3427 11.0539 18.8737C7.96566 25.9297 7.75067 27.246 9.02804 28.2581C12.1686 30.9442 13.6665 29.6001 16.9697 21.2278C20.4156 12.0936 20.2913 9.38879 16.1257 10.4068Z" fill="#FFD000" />
@@ -36,7 +36,7 @@ function Organisme() {
 
                     <div className="relative w-1/2 ">
                         <div className=" bg-[#FFB700] rounded-t-full flex h-50 -mb-4 mt-30 ml-1 w-[95%]" ></div>
-                        <img src="../images/photo4.png" alt="Vite logo" className="absolute   w-full -my-100" />
+                        <img src="../images/photo4.png" alt="Vite logo" className="absolute   w-full -mt-104 sm:-mt-89" />
                     </div>
 
                     <div className="flex flex-col w-1/2">
