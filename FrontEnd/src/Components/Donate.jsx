@@ -1,7 +1,6 @@
-
 const Donate = () => {
   return (
-    <section className="donate-wrapper">
+    <section className="donate-wrapper ">
       <div className="donate-card">
         <div className="graphic-box">
           <svg viewBox="0 0 739 703" className="blob" aria-hidden>

@@ -7,14 +7,14 @@
 body {
    
     margin: 0;
-    overflow-x: hidden;
+ 
     
 } */
 
 .service {
   position :relative;
   width: 100vw;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 
 82vh;
 margin-top: 500px;
@@ -25,10 +25,12 @@ position: relative;
  flex-direction: row;
  justify-content: center;
  align-items: center;
- padding-top: 16px;
+ padding-top: 20;
  padding-left: 8px;
  padding-right: 8px;
-padding-bottom: 16px;
+padding-bottom: 20px;
+margin-bottom: 100px;
+
 }
 
 .heart {
@@ -216,8 +218,9 @@ margin-left: 30%;
   border: 2px solid white; 
   border-radius: 50%;
   background-color: transparent; 
-  top:48%;
-  left:42%;
+  
+  margin-top: 250px;
+  margin-left: 180px;
   display: flex;
   justify-content: center;
   align-items:  center;
@@ -240,4 +243,15 @@ align-items: center;
 }
 .button1{
   background-color: #38B000 ;
+}
+
+
+@media ( max-width:412px){
+
+   .service{
+   position: relative;
+   width: 100%;   
+
+  } 
+  
 }

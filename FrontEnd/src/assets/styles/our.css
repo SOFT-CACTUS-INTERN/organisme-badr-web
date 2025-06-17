@@ -3,5 +3,31 @@
     
 } */
 
+.button4{
+  background-color: #FFD000 ;
+
+}
+.button3{
+  background-color: #38B000 ;
+}
+.paragraphe{
+    margin-top: 100px;
+}
+body {
+  overflow-x: hidden;
+}
+@media (min-width: 769px) {
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+.activities{
+  /* width: 100%; */
+}
+
+
 
   
