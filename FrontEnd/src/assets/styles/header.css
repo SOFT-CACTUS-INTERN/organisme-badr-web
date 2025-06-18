@@ -1,13 +1,6 @@
 *, *::before, *::after { box-sizing: border-box; }
 body, h3, p { margin: 0; }
-body{
 
- 
-
-  
- 
-  
-}
 
 
 .header {
@@ -27,6 +20,7 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  
  
 }
 
@@ -35,8 +29,7 @@ body{
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
    background: linear-gradient(90deg, #007200 0%, #38b000 100%);
- 
-  
+
 }
 
 .info-content {
@@ -118,7 +111,7 @@ body{
 
 .org-text {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   white-space: nowrap;
 }
@@ -229,7 +222,9 @@ body{
   position: relative;
   background: #ededed;
   border-radius: 125px;
-  padding: 1.0rem 2rem;
+  padding: 0.7rem 3rem;
+  display:flex;
+  justify-content: space-between;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -242,8 +237,8 @@ body{
 }
 
 .language-selector img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid #ffffff;
   object-fit: cover;
@@ -287,8 +282,8 @@ body{
 }
 
 .lang-options img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 
@@ -344,7 +339,7 @@ body, h3, p { margin: 0; }
 .donate-btn {
   background: #ffaa00;
   border-radius: 125px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -482,10 +477,14 @@ body, h3, p { margin: 0; }
 
 @media (max-width: 480px) {
     .header{
-        width: 100%;
+       position: relative;
+   width: 100%;  
+ 
+       
     }
   .container {
     padding: 0 0.5rem;
+   
   }
 
   .contact-text {
@@ -497,6 +496,9 @@ body, h3, p { margin: 0; }
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    background-color: pink;
+     height: 20vh;
+     
   }
   
   .org-text {
@@ -504,29 +506,84 @@ body, h3, p { margin: 0; }
   }
 
   .social-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  .social-icons{
+    gap:40px;
   }
 
   .language-selector {
-    min-width: 100px;
- padding: 0.6rem 0.8rem;
+    min-width: 120px;
+ padding: 1rem 1rem;
+ display:flex;
+ flex-direction: row;
+ gap:20px;
+ height: 60%;
+ 
   }
 
+
   .lang-name {
-    font-size: 0.8rem;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
   .logo {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
 
   .donate-btn {
-    padding: 0.6rem 0.8rem;
+    padding: 1.2rem 1.5rem;
+    height: 60%;
+    display:flex;
+    flex-direction: row-reverse;
+    
+  
+    
+    
   }
 
   .donate-btn span {
-    font-size: 0.9rem;
+    font-size: 2rem;
+   
   }
+.org-text{
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.vector-line{
+    height: 3px;
+}
+.ellipse{
+   width: 25px;
+  height: 25px;
+}
+.contact-info{
+gap:20px
+}
+.info-content{
+  gap:40px
+}
+.contact-item{
+  gap:20px
+}
+.contact-icon{
+  
+}
+.contact-text{
+  font-size:2rem;
+  font-weight: 500;
+}
+.social-icon{
+   width: 50px;
+  height: 50px;
+ 
+}.social-icon svg{
+  width:100%
+}
+
+
 }
