@@ -113,7 +113,7 @@ function Footer() {
           <textarea placeholder="رسالتك" className="w-full mr-16 text-right p-2 mb-1   border-none outline-none focus:border-none focus:outline-none"></textarea>
           <hr className="w-3/4 border-t-2 border-[#ADADAD] h-[1.04px] mt-2 mb-4 " />
 
-          <button type="submit" className="w-3/4  !bg-[#38B000] text-white rounded-[13.74px] mb-4">
+          <button type="submit" className="w-3/4  !bg-[#38B000] text-white rounded-[13.74px] mb-4 flex justify-center">
             إرسال
           </button>
 
