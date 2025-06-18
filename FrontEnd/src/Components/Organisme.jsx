@@ -2,7 +2,7 @@ import React from 'react'
 // k
 function Organisme() {
     return (
-        <div className='-mt-64  '>
+        <div className='organisme -mt-64  '>
             <div className="ml-[38%] mb-16 sm:ml-[35%] sm:mb-10 ">
                 <svg width="65" height="74" viewBox="0 0 65 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.1257 10.4068C15.2581 10.5755 13.054 14.3427 11.0539 18.8737C7.96566 25.9297 7.75067 27.246 9.02804 28.2581C12.1686 30.9442 13.6665 29.6001 16.9697 21.2278C20.4156 12.0936 20.2913 9.38879 16.1257 10.4068Z" fill="#FFD000" />
