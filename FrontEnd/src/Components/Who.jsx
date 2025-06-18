@@ -71,7 +71,7 @@ function Who() {
                     </div>
 
                     <div className="absolute top-1/2 left-[95%] transform -translate-x-1/2 -translate-y-1/2 -mt-32 z-10 w-[80%]">
-                        <img src="../images/photo6.png" alt="Superposition" className="w-[330px]" />
+                        <img src="/organisme-badr-web/images/photo6.png" alt="Superposition" className="w-[330px]" />
                     </div>
                 </div>
 

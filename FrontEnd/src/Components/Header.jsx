@@ -5,13 +5,13 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [selectedLang, setSelectedLang] = useState({
     name: "العربية",
-    flag: "/flags/Morocco.png",
+    flag: "/organisme-badr-web/flags/Morocco.png",
   })
 
   const languages = [
-    { name: "العربية", flag: "/flags/Morocco.png" },
-    { name: "English", flag: "/flags/English.png" },
-    { name: "Français", flag: "/flags/france.png" },
+    { name: "العربية", flag: "/organisme-badr-web/flags/Morocco.png" },
+    { name: "English", flag: "/organisme-badr-web/flags/English.png" },
+    { name: "Français", flag: "/organisme-badr-web/flags/france.png" },
   ]
 
   const toggleLangList = () => {
@@ -160,7 +160,8 @@ const Header = () => {
                         selectLang(lang)
                       }}
                     >
-                      {lang.name} <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
+                      {lang.name} 
+                      <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
                     </li>
                   ))}
                 </ul>
@@ -172,7 +173,7 @@ const Header = () => {
               <a href="/f" className="nav-link">
                 الرئيسية
               </a>
-              <a href="/e" className="nav-link">
+              <a href="/organisme-badr-web/Presedent" className="nav-link">
                 المنضمة
               </a>
               <a href="/z" className="nav-link">
@@ -182,7 +183,7 @@ const Header = () => {
 
             {/* Logo */}
             <div className="logo">
-              <img src="/flags/logo1.png" alt="Logo" />
+              <img src="/organisme-badr-web/flags/logo1.png" alt="Logo" />
             </div>
 
             {/* Navigation Links - Right */}
