@@ -45,7 +45,7 @@ function Activites() {
                     </svg>
 
                 </div>
-                <div className='text-right sm:w-full  sm:-ml-230 sm:mt-12 mt-6 mr-280'>
+                <div className='text-right sm:w-full  sm:-ml-[69%] sm:mt-12 mt-6 mr-280'>
                     <p className=''>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
                 </div>
                 <div className='flex  sm:-mt-18 -mt-24 w-[100%] ml-0'>

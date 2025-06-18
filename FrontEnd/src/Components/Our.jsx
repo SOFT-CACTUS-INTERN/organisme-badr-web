@@ -96,12 +96,12 @@ function Our() {
 
             </div>
             </div>
-            <div className="flex flex-col absolute  w-full lg:flex-row gap-3 sm:ml-[4%]  sm:-mt-[55%] -mt-[40%] ml-[30%]">
+            <div className="flex flex-col absolute  w-full lg:flex-row gap-3 sm:ml-[4%]  sm:-mt-[50%] -mt-[40%] ml-[30%]">
                 <div className="relative w-[80%] -ml-80 h-[383px] rounded-[18.1606px] sm:ml-0 sm:w-[28%]  ">
                     {/* image de background */}
                     <div
                         className="absolute inset-0 bg-cover bg-center rounded-[18.1606px] "
-                        style={{ backgroundImage: "url('/public/images/photo7.png')" }}
+                        style={{ backgroundImage: "url('/organisme-badr-web/images/photo7.png')" }}
                     >
 
                     </div>
@@ -130,7 +130,7 @@ function Our() {
                     {/* image de background */}
                     <div
                         className="absolute inset-0 bg-cover bg-center rounded-[18.1606px] "
-                        style={{ backgroundImage: "url('/public/images/photo7.png')" }}
+                        style={{ backgroundImage: "url('/organisme-badr-web/images/photo7.png')" }}
                     ></div>
 
                     {/*  opacité */}
@@ -152,7 +152,7 @@ function Our() {
                     {/* image de background */}
                     <div
                         className="absolute inset-0 bg-cover bg-center rounded-[18.1606px] "
-                        style={{ backgroundImage: "url('/public/images/photo7.png')" }}
+                        style={{ backgroundImage: "url('/organisme-badr-web/images/photo7.png')" }}
                     ></div>
 
                     {/*  opacité */}

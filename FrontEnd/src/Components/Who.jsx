@@ -77,34 +77,34 @@ function Who() {
 
                 <div className="w-1/2 ">
 
-                    <div className=" flex justify-end">
+                        <div className=" flex justify-end">
 
 
-                        <div className='flex gap-2 justify-end'>
-                            <h1 className='text-[#38B000]'>نحن </h1>
-                            <h1 className='text-[#FFD000]'>من </h1>
+                            <div className='flex gap-2 justify-end'>
+                                <h1 className='text-[#38B000]'>نحن </h1>
+                                <h1 className='text-[#FFD000]'>من </h1>
+
+                            </div>
+
+                            <div className='flex justify-end mt-4'>
+                                <svg width="57" height="52" viewBox="0 0 57 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.66682 33.0837C-0.263947 29.1529 -0.263944 22.7799 3.66683 18.8491L19.0987 3.41722C25.4395 -2.92361 36.2814 1.56723 36.2814 10.5345L36.2814 41.3983C36.2814 50.3656 25.4395 54.8564 19.0987 48.5156L3.66682 33.0837Z" fill="url(#paint0_linear_206_983)" />
+                                    <path d="M42.1 31.785C38.8864 28.5715 38.8864 23.3613 42.1 20.1478C47.2838 14.964 56.1473 18.6354 56.1473 25.9664C56.1473 33.2974 47.2838 36.9688 42.1 31.785Z" fill="url(#paint1_linear_206_983)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_206_983" x1="16.4155" y1="6.10049" x2="56.1473" y2="45.8323" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#38B000" />
+                                            <stop offset="1" stop-color="#184A00" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_206_983" x1="16.4155" y1="6.10049" x2="56.1473" y2="45.8323" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#38B000" />
+                                            <stop offset="1" stop-color="#184A00" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+
+                            </div>
 
                         </div>
-
-                        <div className='flex justify-end mt-4'>
-                            <svg width="57" height="52" viewBox="0 0 57 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.66682 33.0837C-0.263947 29.1529 -0.263944 22.7799 3.66683 18.8491L19.0987 3.41722C25.4395 -2.92361 36.2814 1.56723 36.2814 10.5345L36.2814 41.3983C36.2814 50.3656 25.4395 54.8564 19.0987 48.5156L3.66682 33.0837Z" fill="url(#paint0_linear_206_983)" />
-                                <path d="M42.1 31.785C38.8864 28.5715 38.8864 23.3613 42.1 20.1478C47.2838 14.964 56.1473 18.6354 56.1473 25.9664C56.1473 33.2974 47.2838 36.9688 42.1 31.785Z" fill="url(#paint1_linear_206_983)" />
-                                <defs>
-                                    <linearGradient id="paint0_linear_206_983" x1="16.4155" y1="6.10049" x2="56.1473" y2="45.8323" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#38B000" />
-                                        <stop offset="1" stop-color="#184A00" />
-                                    </linearGradient>
-                                    <linearGradient id="paint1_linear_206_983" x1="16.4155" y1="6.10049" x2="56.1473" y2="45.8323" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#38B000" />
-                                        <stop offset="1" stop-color="#184A00" />
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-
-                        </div>
-
-                    </div>
                     <div className='flex justify-end mt-2 mr-13 '>
                         <svg width="252" height="6" viewBox="0 0 252 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M249.572 0.444348C250.887 0.444348 251.953 1.51038 251.953 2.8254C251.953 4.14042 250.887 5.20645 249.572 5.20645L2.38101 5.20643C1.06599 5.20643 -3.06791e-05 4.14039 -3.06217e-05 2.82538C-3.05642e-05 1.51036 1.06599 0.444325 2.38101 0.444325L249.572 0.444348Z" fill="url(#paint0_linear_195_572)" />
