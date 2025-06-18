@@ -137,7 +137,7 @@ const Header = () => {
            
             <div className="language-selector" onClick={toggleLangList}>
               <span className="arrow">
-                <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="15" height="11" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M1.66602 1.71074L5.60518 5.6499L9.54434 1.71074"
                     stroke="#004B23"
@@ -148,7 +148,7 @@ const Header = () => {
                 </svg>
               </span>
               <span className="lang-name">{selectedLang.name}</span>
-              <img src={selectedLang.flag || "/placeholder.svg"} alt="Flag" />
+              <img className="img-flag" src={selectedLang.flag || "/placeholder.svg"} alt="Flag" />
 
               {isLangOpen && (
                 <ul className="lang-options">
@@ -211,7 +211,7 @@ const Header = () => {
             {/* Donate Button */}
             <div className="donate-btn">
               
-              <span>تبرع الآن</span><svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <span>تبرع الآن</span><svg width="22" height="20" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.2297 17.6435C10.9206 17.7526 10.4115 17.7526 10.1025 17.6435C7.46625 16.7435 1.57568 12.9892 1.57568 6.62595C1.57568 3.81703 3.83919 1.54443 6.62993 1.54443C8.28438 1.54443 9.74793 2.34439 10.6661 3.58068C11.5842 2.34439 13.0568 1.54443 14.7022 1.54443C17.4929 1.54443 19.7564 3.81703 19.7564 6.62595C19.7564 12.9892 13.8659 16.7435 11.2297 17.6435Z"
                   stroke="white"
