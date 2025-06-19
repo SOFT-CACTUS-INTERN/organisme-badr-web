@@ -1,5 +1,5 @@
 *, *::before, *::after { box-sizing: border-box; }
-body, h3, p { margin: 0; }
+body, h3, p { margin: 0;  }
 
 
 
@@ -203,6 +203,7 @@ body, h3, p { margin: 0; }
   height: 3px;
   background: #ffffff;
   background:black;
+  background-color: pink;
   transition: all 0.3s ease;
 }
 
@@ -397,6 +398,13 @@ body, h3, p { margin: 0; }
 }
 
 @media (max-width: 1024px) {
+  .header{
+    width:100vw;
+    position:relative;
+    
+  }
+
+
   .info-content {
     flex-wrap: wrap;
     justify-content: center;
@@ -420,6 +428,15 @@ body, h3, p { margin: 0; }
 }
 
 @media (max-width: 768px) {
+  .header{
+
+
+
+
+
+    position:relative;
+    width:100%;
+  }
   .info-bar {
     padding: 0.5rem 0;
   }
@@ -478,7 +495,8 @@ body, h3, p { margin: 0; }
 @media (max-width: 480px) {
     .header{
        position: relative;
-   width: 100%;  
+   width: 100%; 
+   overflow:hidden ;
  
        
     }
