@@ -39,7 +39,7 @@ function Footer() {
 
     
 
-      <div className='flex flex-col'>
+      <div className='flex flex-col 2xl:-mt-[40%]'>
         <div className="absolute z-10 flex justify-end w-full right-0 mr-64 my-54">
           <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="55.0037" height="55.0037" rx="9.2964" fill="white" />
@@ -90,7 +90,7 @@ function Footer() {
       </div>
 
 
-      <div className=' '>
+      <div className=' 2xl:flex 2xl:justify-center   2xl:h-[500px]'>
 
         <form className="absolute z-10 flex flex-col w-1/4 h-[500px] ml-[700px]  items-center justify-center  bg-white rounded-lg shadow-lg ">
           <div className="flex items-center justify-center w-full px-4">
@@ -124,7 +124,7 @@ function Footer() {
 
 
 
-      <div className="absolute z-10 flex flex-col items-center justify-center ml-96 mt-44  gap-4">
+      <div className="absolute z-10 flex flex-col items-center justify-center ml-96 mt-44  gap-4  2xl:-mt-64 2xl:ml-[30%]">
 
         <div className="text-left  ">
           <h2 className='font-bold text-3xl mb-2 ml-0'>للتواصل مع منظمتنا</h2>
@@ -209,7 +209,7 @@ function Footer() {
         </div>
 
       </div>
-  <div className="absolute top-140 left-0 right-0 text-center py-4 z-10">
+  <div className="absolute top-140 left-0 right-0 text-center py-4 z-10 2xl:mt-64">
         <p className="text-xl text-black  bg-opacity-50 px-4 inline-block rounded">
           "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
         </p>
