@@ -33,7 +33,7 @@ function App() {
             </MainLayout>
           }
         />
-        <Route
+        {/* <Route
           path="/service"
           element={
             <MainLayout>
@@ -82,7 +82,7 @@ function App() {
           element={
             <Presedent />
           }
-        />
+        /> */}
       </Routes>
     </HashRouter>
   );

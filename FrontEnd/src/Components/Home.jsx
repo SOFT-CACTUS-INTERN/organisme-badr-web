@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import Organisme from './Organisme';
-import Who from './Who';
-import Services from './Services';
-import Our from './Our';
-import Activites from './Activites';
-import Donate from './Donate';
+// import Organisme from './Organisme';
+// import Who from './Who';
+// import Services from './Services';
+// import Our from './Our';
+// import Activites from './Activites';
+// import Donate from './Donate';
 
 
 
@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <div className=" w-full h-screen bg-white  ">
-       <Organisme/>
+       {/* <Organisme/>
        <Who/>
       </div>
        <Services/>
@@ -24,7 +24,7 @@ const Home = () => {
      <div className=''>
 
      <Activites/>
-     <Donate />
+     <Donate /> */}
      </div>
 
     </>
