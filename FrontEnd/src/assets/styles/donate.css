@@ -1,14 +1,23 @@
-*, *::before, *::after { box-sizing: border-box; }
-body, h3, p { margin: 0; }
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
+body, h3, p { 
+  margin: 0; 
+}
 
 .donate-wrapper {
+ 
+
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4rem 1rem;
-  width:100%;
-  margin-top: 100px;
+  width:100vw;
+  left:0;
+ margin-top: 10%;
   position: relative;
+ 
+  height: 35vw;
 }
 
 .donate-card {
@@ -16,12 +25,15 @@ body, h3, p { margin: 0; }
   align-items: center;
   gap: 2rem;
   width: 100%;
-  max-width: 800px;
+  max-width: 65vw;
   border-radius: 42px;
 overflow: visible;
+position:relative;
+
 
   background: linear-gradient(-90deg, #007200 0%, #00D800 100%);
-  padding: 0.1rem 1.5rem;
+  padding:0rem 1.5rem;
+  background-color: #FFAA00;
 }
 
 .graphic-box {
@@ -33,12 +45,14 @@ overflow: visible;
 
 .graphic-box img {
   width: 100%;
+ 
 
- margin-left: -300px;
+transform: translateY(-12.5%);
   position: absolute;
   z-index: 1;
-  margin-top: -372px;
-  margin-left: 10px;
+  margin-left: -100%;
+  /* margin-top: -372px;
+  margin-left: 10px; */
  
  
   
@@ -55,7 +69,7 @@ overflow: visible;
 .content-box {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 2rem;
   flex: 1;
   color: #fff;
   text-align: right;
@@ -64,18 +78,24 @@ overflow: visible;
 
 .title-line {
   display: flex;
+ 
+  gap:2em;
+  justify-content: center;
   align-items: center;
-  gap: .5rem;
 
   flex-direction: row-reverse;
+ 
   height: 50%;
+  
+  
 }
 
 .title-line h3 {
-  font-size: clamp(1.1rem, 1.8vw, 1.8rem);
+  font-size: clamp(1.1rem, 1.8vw, 2rem);
   font-weight: 500;
   display:flex;
   flex-direction: row;
+
 
 }
 
@@ -93,7 +113,7 @@ overflow: visible;
 .btn-group {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
 }
 
@@ -129,17 +149,88 @@ button {
   align-items: center;
   flex-direction: row-reverse;
 }
+.title-line h3 {
+  font-size: clamp(1.4rem, 2vw, 2.2rem);
+}
 
-@media (max-width: 748px) and (min-width:500px ){
+.content-box p {
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+}
+/* @media (min-width: 1440px) {
+  .title-line h3 {
+    font-size: 2.2rem;
+  }
+
+  .content-box p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+
+  .btn-group button {
+    font-size: 1.1rem;
+    padding: 1rem 1.8rem;
+  }
+
+  .donate-wrapper {
+    padding: 6rem 2rem;
+    height: 30vw;
+  }
+
   .donate-card {
-    flex-direction: column;
+    max-width: 60vw;
+    padding: 2rem 3rem;
+  }
+}
+@media (min-width: 1025px) {
+  .donate-card{
+    padding:1rem 2rem;
+    max-width: 100vh;
+    width:100%
+  }
+  .title-line h3 {
+    font-size: 2rem;
+  }
+
+  .content-box p {
+    font-size: 1.5rem;
+  }
+
+  .btn-group {
+    gap: 2rem;
+  }
+} */
+
+@media(max-width:1025px){
+
+ .donate-wrapper{
+  
+  height: 100%;
+ }
+ .donate-card{
+  height: 100%;
+  background-color: #FFAA00;
+  padding:2rem 2rem;
+    max-width: 100vh;
+ }
+  .btn-group{
+     display: flex;
+  gap: 1rem;
+  flex-wrap:nowrap;
+  justify-content: flex-start;
+  }
+ 
+
+}
+@media (max-width: 768px) and (min-width:500px ){
+  .donate-card {
+    flex-direction: row;
    
     text-align: center;
     justify-content: center;
-    width:80%;
+    width:100%;
     gap:0.2px;
     padding: 2rem;
-    height: 10%;
+   max-width: 80vh;
   }
 
   .content-box { 
@@ -149,9 +240,10 @@ button {
 
   .graphic-box { 
     flex-basis: auto;
-    max-width: 80%;
+    max-width: 100%;
+   
   }
-
+  
   .btn-group { 
     justify-content: center;
   }
@@ -164,17 +256,17 @@ button {
 
 
 }
-@media(max-width:500px) and (min-width:440px){
+@media(max-width:500px) {
 
    .donate-card {
     flex-direction: column;
    
     text-align: center;
     justify-content: center;
-    width:80%;
-    gap:0.2px;
-    padding: 1.5rem;
-    height: 50%;
+    width:100%;
+    gap:2rem;
+    padding: 2rem;
+    max-width: 60vh;
    
   }
   .btn-group{
@@ -184,13 +276,10 @@ button {
   flex-wrap: wrap;
   gap:10px;
   }
-  .content-box{
-    gap:0.5px;
-
-  }
+ 
 
 }
-@media( max-width:440px){
+/* @media( max-width:440px){
 
   .donate-card {
     flex-direction: column;
@@ -225,17 +314,7 @@ margin-top: 200px;
   }
 
 }
-@media ( max-width:412px){
 
-   .graphic-box img{
-    margin-left: 06px;
-  
-    top: 150px;
-
-   
-
-  } 
-}
 @media ( max-width:412px){
 
    .graphic-box img{
@@ -251,4 +330,4 @@ margin-top: 200px;
     gap:10px;
 
   }
-}
+} */

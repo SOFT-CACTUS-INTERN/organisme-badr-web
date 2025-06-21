@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 // import Our from './Our';
 import Header from './Header';
 // import Activites from './Activites';
-// import Donate from './Donate';
+import Donate from './Donate';
 
 
 
@@ -26,6 +26,7 @@ const Home = () => {
 
      <Activites/>
      <Donate /> */}
+     <Donate/>
      </div>
 
     </>
