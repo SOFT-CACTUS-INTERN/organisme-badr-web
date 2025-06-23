@@ -1,3 +1,4 @@
+
 *, *::before, *::after { 
   box-sizing: border-box; 
 }
@@ -179,7 +180,9 @@ body, h3, p {
 .hamburger span {
   width: 25px;
   height: 3px;
+
   background: #000000;
+
   transition: all 0.3s ease;
 }
 
@@ -382,6 +385,7 @@ body, h3, p {
   justify-content: center;
 }
 
+
 .nav-link{
   font-size: 1.6rem;
   font-weight: 500;
@@ -409,6 +413,9 @@ body, h3, p {
 
 /* Adaptations pour 1024px à 1440px */
 @media (max-width: 1440px) {
+
+
+
   .info-content {
     gap: 1.5rem;
   }
@@ -479,6 +486,7 @@ body, h3, p {
     order: 1;
   }
 
+
   .logo {
     width: 12%;
     height: 12%;
@@ -517,6 +525,7 @@ body, h3, p {
   .org-text,
   .contact-text {
     font-size: 1.2rem;
+
   }
 
   .donate-btn span {
@@ -604,6 +613,16 @@ body, h3, p {
 }
 
 @media (max-width: 480px) {
+
+
+    .header{
+       position: relative;
+   width: 100%; 
+   overflow:hidden ;
+ 
+       
+    }
+
   .container {
     padding: 0 0.5rem;
   }
