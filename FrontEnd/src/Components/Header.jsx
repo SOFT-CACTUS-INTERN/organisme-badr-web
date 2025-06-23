@@ -1,5 +1,11 @@
+
+
+import { useState } from "react"
+import '../assets/styles/header.css'
+
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   const [isLangOpen, setIsLangOpen] = useState(false);

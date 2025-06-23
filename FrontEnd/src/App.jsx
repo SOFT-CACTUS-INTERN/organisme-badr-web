@@ -4,19 +4,8 @@ import { HashRouter, Routes, Route } from "react-router-dom"; // ← TU AVAIS CO
 import MainLayout from './Layouts/MainLayout';
 
 import Service from './Components/Home';
-import './assets/styles/header.css';
-import './assets/styles/service.css';
-import './assets/styles/donate.css';
-import './assets/styles/our.css';
-import './App.css'
-import Our from './Components/Our';
-import Activites from './Components/Activites';
-import './assets/styles/our.css';
-import Donate from './Components/Donate';
-import Organisme from './Components/Organisme';
-import Home from './Components/Home';
-import Who from './Components/Who';
-import Presedent from "./Components/Presedent";
+
+
 
 
 
@@ -33,7 +22,7 @@ function App() {
             </MainLayout>
           }
         />
-        <Route
+        {/* <Route
           path="/service"
           element={
             <MainLayout>
@@ -82,7 +71,7 @@ function App() {
           element={
             <Presedent />
           }
-        />
+        /> */}
       </Routes>
     </HashRouter>
   );
