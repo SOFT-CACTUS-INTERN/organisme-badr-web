@@ -22,7 +22,7 @@ function Activites() {
 
 
             </div> 
-            <div className="absolute w-full  sm:-mt-250  sm:ml-[54%] ml-[62%] -mt-80">
+            <div className="absolute w-full  sm:-mt-250  sm:ml-[50%] ml-[62%] -mt-80">
                 <div className="flex gap-4 sm:gap-2 font-bold text-center sm:text-right 2xl:ml-[22%]">
                     <h1 className="text-[#38B000]"> البدر</h1>
                     <h1 className="text-[#38B000]">منظمة </h1>
@@ -63,17 +63,7 @@ function Activites() {
                 </div>
             </div>
 
-            <div className='sm:ml-20 absolute sm:-mt-138 '>
-
-                <svg width="1222" height="53" viewBox="0 0 1222 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.69">
-                        <circle cx="1195.5" cy="26.5" r="26.2268" fill="white" stroke="black" stroke-width="0.546392" />
-                        <path d="M1192 17L1201 26L1192 35" stroke="black" stroke-width="3.0133" stroke-linecap="round" />
-                        <circle cx="26.5" cy="26.5" r="26.2268" transform="rotate(-180 26.5 26.5)" fill="white" stroke="black" stroke-width="0.546392" />
-                        <path d="M30 36L21 27L30 18" stroke="black" stroke-width="3.0133" stroke-linecap="round" />
-                    </g>
-                </svg>
-            </div>
+           
 
             <div className="absolute flex flex-col md:flex-row items-center justify-between bg-white shadow-2xl sm:w-11/12 w-[70%]   md:w-3/4 rounded-xl h-auto md:h-[60%] sm:-mt-[55%] -mt-[8%] sm:left-1/2 left-160 sm:transform sm:-translate-x-1/2 p-6 space-y-6 md:space-y-0 -translate-x-[40%] 2xl:-mt-[30%]">
                 {/* Texte */}
@@ -97,7 +87,7 @@ function Activites() {
                 </div>
 
                 {/* Image */}
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 2xl:w-1/3 2xl:h-3/4">
                     <img src="/organisme-badr-web/images/photo7.png" className="h-94" alt="صورة نشاط" />
                 </div>
             </div>

@@ -95,7 +95,7 @@ function Our() {
 
             </div>
             </div>
-            <div className="flex flex-col absolute  w-full lg:flex-row gap-3 sm:ml-[4%]  sm:-mt-[50%] -mt-[40%] ml-[30%] 2xl:-mt-[30%]">
+            <div className="flex flex-col absolute  w-full lg:flex-row gap-3 sm:ml-[4%]  sm:-mt-[50%] -mt-[40%] ml-[30%] 2xl:-mt-[25%]">
                 <div className="relative w-[80%] -ml-80 h-[383px] rounded-[18.1606px] sm:ml-0 sm:w-[28%]  ">
                     {/* image de background */}
                     <div

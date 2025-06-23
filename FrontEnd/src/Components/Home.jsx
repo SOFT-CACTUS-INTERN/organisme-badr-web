@@ -15,6 +15,8 @@ const Home = () => {
 
   return (
     <>
+    <div className='flex flex-col gap-44'>
+
       <div className=" w-full h-screen bg-white  ">
        <Organisme/>
        <Who/>
@@ -26,6 +28,7 @@ const Home = () => {
      <Activites/>
      <Donate />
      </div>
+    </div>
 
     </>
   );
