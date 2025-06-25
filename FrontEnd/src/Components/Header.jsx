@@ -1,4 +1,6 @@
 import { useState } from "react"
+import '../assets/styles/header.css';
+
 
 const Header = () => {
   const [isLangOpen, setIsLangOpen] = useState(false)

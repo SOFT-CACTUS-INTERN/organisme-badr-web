@@ -1,3 +1,4 @@
+import '../assets/styles/donate.css';
 const Donate = () => {
   return (
     <section className="donate-wrapper">

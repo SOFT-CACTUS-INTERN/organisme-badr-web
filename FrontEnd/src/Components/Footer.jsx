@@ -37,7 +37,11 @@ function Footer() {
         </div>
       </div>
 
-    
+<div className="absolute  left-0 right-0 -top-[70%] text-center py-4 z-10 2xl:mt-64  h-screen flex items-end justify-center ">
+        <p className="text-xl text-black  bg-opacity-50 px-4 inline-block rounded">
+          "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
+        </p>
+      </div>
 
       <div className='flex flex-col 2xl:-mt-[40%]'>
         <div className="absolute z-10 flex justify-end w-full right-0 mr-64 my-54">
@@ -209,12 +213,8 @@ function Footer() {
         </div>
 
       </div>
-  <div className="absolute top-140 left-0 right-0 text-center py-4 z-10 2xl:mt-64">
-        <p className="text-xl text-black  bg-opacity-50 px-4 inline-block rounded">
-          "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
-        </p>
-      </div>
 
+      
 
     </footer>
 
