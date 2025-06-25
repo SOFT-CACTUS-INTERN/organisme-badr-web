@@ -31,8 +31,27 @@ body {
   width: 100%;
   }
 } */
+ /* * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} */
 
+ @media (max-width: 768px) {
+                .flex {
+                    flex-direction: column;
+                }
 
+                .gap-5 {
+                    gap: 1rem;
+                }
 
+                .text-4xl {
+                    font-size: 2rem;
+                }
+
+                .absolute {
+                    display: none;
+                }
+            }
 
   

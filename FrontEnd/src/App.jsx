@@ -3,11 +3,19 @@ import { HashRouter, Routes, Route } from "react-router-dom"; // ← TU AVAIS CO
 
 import MainLayout from './Layouts/MainLayout';
 
-import Service from './Components/Home';
-
-
-
+import Home from './Components/Home';
 import './App.css'
+import Our from './Components/Our';
+import Activites from './Components/Activites';
+import Donate from './Components/Donate';
+import Organisme from './Components/Organisme';
+// import Home from './Components/Home';
+import Who from './Components/Who';
+import Presedent from "./Components/Presedent";
+import Services from "./Components/Services";
+import About from "./Components/About";
+
+
 
 
 function App() {
@@ -18,15 +26,15 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Service />
+              <About />
             </MainLayout>
           }
         />
-        {/* <Route
-          path="/service"
+        <Route
+          path="/services"
           element={
             <MainLayout>
-              <Service />
+              <Services />
             </MainLayout>
           }
         />
@@ -71,7 +79,7 @@ function App() {
           element={
             <Presedent />
           }
-        /> */}
+        /> 
       </Routes>
     </HashRouter>
   );

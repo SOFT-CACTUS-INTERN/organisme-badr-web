@@ -734,3 +734,33 @@ body, h3, p {
     height: 35px;
   }
 }
+@media (max-width: 319px) {
+  .container {
+    padding: 0 0.25rem;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
+  }
+
+  .org-text,
+  .lang-name,
+  .donate-btn span {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+  }
+}

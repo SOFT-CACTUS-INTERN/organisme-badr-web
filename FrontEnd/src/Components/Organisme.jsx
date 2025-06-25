@@ -1,10 +1,9 @@
 import React from 'react'
 
-
 function Organisme() {
     return (
-        <div className='organisme -mt-64  2xl:-mt-64 2xl:mb-44  '>
-            <div className="ml-[38%] mb-16 sm:ml-[35%] sm:mb-10 2xl:ml-[38%] 2xl:mb-32">
+        <div className="organisme pt-10 sm:-mt-24 pb-10 px-2 sm:px-4 md:px-8 2xl:pt-32 2xl:pb-44">
+            <div className="flex justify-center mb-8 sm:mb-10 2xl:mb-8 sm:-ml-96">
                 <svg width="65" height="74" viewBox="0 0 65 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16.1257 10.4068C15.2581 10.5755 13.054 14.3427 11.0539 18.8737C7.96566 25.9297 7.75067 27.246 9.02804 28.2581C12.1686 30.9442 13.6665 29.6001 16.9697 21.2278C20.4156 12.0936 20.2913 9.38879 16.1257 10.4068Z" fill="#FFD000" />
                     <path d="M32.6002 32.6284C23.2403 39.0618 21.2864 41.4089 24.6086 42.5359C25.9583 42.9937 29.7475 41.0377 36.0801 36.703C41.3691 33.0562 45.72 29.7857 45.8961 29.2666C46.0369 28.8514 45.0358 28.0487 43.6862 27.5909C41.8174 26.9569 39.0719 28.2251 32.6002 32.6284Z" fill="#FFD000" />
@@ -12,10 +11,11 @@ function Organisme() {
                 </svg>
             </div>
 
-            <div className="w-full h-[70%] flex justify-center items-center  ">
-                <div className="border-2 border-[#E3DBD8] rounded-[10px] shadow-lg w-[75%] flex p-4 relative bg-white 2xl:w-[65%] 2xl:p-8">
-                    <div className='absolute'>
+            <div className="w-full flex justify-center items-center">
+                <div className="border-2 border-[#E3DBD8] rounded-[10px] shadow-lg bg-white w-full max-w-6xl flex flex-col md:flex-row p-2 sm:p-4 md:p-6 2xl:p-8 relative">
+                    {/* Decorative SVGs */}
 
+                    <div className="absolute left-2 top-2 z-0 hidden md:block">
                         <svg width="97" height="88" viewBox="0 0 97 88" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M53.7233 7.88976C65.7617 9.15444 76.2517 14.9866 81.7643 23.3397C84.452 27.3974 84.9863 29.1485 87.6575 42.2443C90.0337 53.8944 91.0173 57.4139 92.8843 60.4875C94.1857 62.5251 95.473 65.3626 95.7506 66.7232C96.2015 68.9342 96.0158 69.3264 93.8048 69.7773C92.4442 70.0548 88.8363 70.1707 85.7039 70.0125C80.4265 69.7603 79.6612 69.9164 71.5043 73.3516C59.3194 78.3171 52.2804 80.2843 43.8236 80.9464C26.8077 82.2027 15.3616 75.5913 9.43323 60.8569C2.81782 44.4912 11.7905 22.9088 29.5727 12.8158C35.4318 9.4063 46.7418 7.0994 53.7233 7.88976ZM29.6534 20.5939C20.1998 27.6595 15.4474 35.6263 14.4484 45.9277C13.7605 52.9769 14.1958 55.5453 17.4195 61.7967C20.5409 67.9803 27.8968 73.2116 34.8279 74.1894C42.3213 75.3182 55.5368 72.7998 67.6037 68.1241C76.2204 64.7722 78.4817 64.1338 82.5495 64.1013C85.2221 64.1762 87.5701 63.963 87.7732 63.6559C87.8912 63.3661 87.2909 62.1599 86.2307 60.8704C84.0929 58.2063 83.125 54.3292 81.3579 41.7577C80.2187 33.1325 79.7711 31.8066 77.1511 27.6465C67.7501 12.8233 44.5549 9.40554 29.6534 20.5939Z" fill="#FFD000" />
                             <path d="M41.2676 30.8451C42.3088 31.6071 44.2244 34.0507 45.4928 36.3607C47.1203 39.1289 48.2655 40.4011 48.9788 39.9899C49.6245 39.681 52.5314 38.7338 55.558 37.9393C62.4444 36.0918 65.4257 36.8123 66.5291 40.4846C68.3732 46.4859 60.7435 54.2424 49.1851 58.3714C41.077 61.1767 39.4075 60.8086 35.3698 55.3434C28.3372 45.6174 29.0155 31.5727 36.6689 30.0116C38.2846 29.6821 40.1241 30.0155 41.2676 30.8451ZM35.9115 36.7207C34.3736 39.603 35.5548 45.8281 38.8949 51.3471L41.9955 56.5606L45.463 55.3219C51.0044 53.3944 57.4381 48.8935 59.7396 45.4125L61.8207 42.1536L58.5373 42.5576C56.7168 42.7517 53.1642 44.0078 50.5315 45.4306C46.1493 47.8302 45.8091 47.8996 44.5112 46.7471C43.7424 46.0181 42.5418 43.6058 41.7333 41.3792C40.9075 39.0675 39.9793 36.6881 39.5854 36.0599C38.5756 34.5829 36.8748 34.9298 35.9115 36.7207Z" fill="#38B000" />
@@ -32,21 +32,25 @@ function Organisme() {
                             </svg>
 
                         </div>
+                    </div>
+                    {/* End Decorative SVGs */}
 
+                    {/* Image Section */}
+                    <div className="relative w-full md:w-1/2 flex items-end justify-center mb-6 md:mb-0 z-10">
+                        <div className="bg-[#FFB700] rounded-t-full flex h-40 sm:h-48 md:h-56 w-11/12 mx-auto"></div>
+                        <img src="/organisme-badr-web/images/photo4.png" alt="Vite logo"
+                            className="absolute w-10/12 sm:w-9/12 md:w-full max-w-xs md:max-w-none left-1/2 -translate-x-1/2 bottom-0"
+                        />
                     </div>
 
-                    <div className="relative w-1/2 flex items-end ">
-                        <div className=" bg-[#FFB700] rounded-t-full flex h-50   ml-1 w-[95%] " ></div>
-                        <img src="/organisme-badr-web/images/photo4.png" alt="Vite logo" className="absolute    w-full  2xl:w-[110%]" />
-                    </div>
-
-                    <div className="flex flex-col w-1/2 2xl:gap-6">
-                        <div className="flex justify-end gap-4 p-4 w-full rounded-md">
-                            <div className="flex gap-3 text-md font-bold">
+                    {/* Content Section */}
+                    <div className="flex flex-col w-full md:w-1/2 gap-4 2xl:gap-6 z-10">
+                        <div className="flex flex-col sm:flex-row justify-end gap-2 sm:gap-4 p-2 sm:p-4 w-full rounded-md">
+                            <div className="flex gap-2 sm:gap-3 text-base sm:text-md font-bold justify-end">
                                 <h1 className="text-[#FFB700]">البدر</h1>
                                 <h1 className="text-[#38B000]">منظمة</h1>
                             </div>
-                            <div className="p-2 mt-3">
+                            <div className="p-1 sm:p-2 mt-2 sm:mt-3 flex justify-end">
                                 <svg width="74" height="34" viewBox="0 0 74 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M32.0836 32.6795C33.274 31.7265 33.2586 30.8114 32.0501 29.7909C31.5154 29.3108 26.2912 26.9258 20.451 24.4383C14.5672 21.8989 9.34304 19.5139 8.76057 19.0296C7.67843 18.2126 7.68264 18.1649 8.65541 16.9522C9.20005 16.2308 12.8061 13.5192 16.6942 10.8807C20.8897 8.02874 23.8375 5.69189 24.0873 5.04062C24.7935 3.0349 24.3879 2.18148 22.6348 1.88242C21.2592 1.66479 20.0718 2.0409 16.4461 3.88505C10.4512 6.96285 5.32919 10.5025 3.23207 13.0106C1.77924 14.758 1.47321 15.5005 1.27097 17.7912C1.05609 20.2251 1.16134 20.6672 2.50591 22.3249C4.71645 25.0691 6.93129 26.1304 17.5059 29.4687C30.047 33.4135 30.9888 33.641 32.0836 32.6795Z" fill="#FFB700" />
                                     <path d="M23.6123 20.7741C32.6178 21.1845 43.1491 21.2005 49.5412 20.7067C67.4513 19.4023 72.0342 18.7008 73.1754 17.2144C73.5558 16.7189 73.793 16.2109 73.6583 16.1028C73.2667 15.6353 68.879 14.6708 67.2438 14.6707C66.2768 14.7296 57.1771 14.8401 46.9673 14.9967C25.3418 15.3479 22.2974 15.5119 19.754 16.5378C18.311 17.0838 17.8871 17.5273 17.9152 18.2993C17.9839 19.7001 20.0682 20.6055 23.6123 20.7741Z" fill="#FFB700" />
@@ -55,16 +59,16 @@ function Organisme() {
                         </div>
 
                         <div>
-                            <h2 className="font-medium text-xl text-[#004B23]" dir="rtl">
+                            <h2 className="font-medium text-lg sm:text-xl text-[#004B23]" dir="rtl">
                                 منظمة البدر للأشخاص ذوي الإعاقة و المرأة و الطفل
                             </h2>
                         </div>
 
-                        <div className="flex mt-2">
-                            <p dir="rtl" className="p-2 text-sm leading-relaxed">
+                        <div className="flex flex-col sm:flex-row mt-2">
+                            <p dir="rtl" className="p-2 text-sm sm:text-base leading-relaxed">
                                 منظمة البدر للأشخاص ذوي الإعاقة والمرأة والطفل هي منظمة تهدف إلى تقديم الدعم والرعاية للأفراد الذين يعانون من الإعاقة، بالإضافة إلى الاهتمام بقضايا المرأة والطفل
                             </p>
-                            <div className="my-2">
+                            <div className="my-2 flex justify-end">
                                 <svg width="6" height="72" viewBox="0 0 6 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.511963" y="0.20166" width="4.54519" height="70.9049" rx="2.27259" fill="url(#paint0_linear_195_571)" />
                                     <defs>
@@ -76,14 +80,15 @@ function Organisme() {
                                 </svg>
                             </div>
                         </div>
-                        <div className="flex gap-2 justify-end">
-                            <button className="button2 bg-[#38B000]  text-white font-bold  rounded-full w-1/4  2xl:w-1/5">تواصل معنا</button>
-                            <button className="button1 bg-[#FFD000] text-white font-bold  rounded-full w-1/3  2xl:w-1/4"> منظمة غير حكومية</button>
-
+                        <div className="flex flex-col sm:flex-row gap-2 justify-end mt-4">
+                            <button className="button2 bg-[#38B000] text-white font-bold rounded-full w-full sm:w-1/2 md:w-1/4 2xl:w-1/5 py-3 px-6 sm:py-4 sm:px-8 text-base sm:text-lg transition-all duration-200">
+                                تواصل معنا
+                            </button>
+                            <button className="button1 bg-[#FFD000] text-white font-bold rounded-full w-full sm:w-1/2 md:w-1/3 2xl:w-1/4 py-3 px-6 sm:py-4 sm:px-8 text-base sm:text-lg transition-all duration-200">
+                                منظمة غير حكومية
+                            </button>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
