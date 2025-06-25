@@ -13,7 +13,8 @@ import Organisme from './Components/Organisme';
 import Who from './Components/Who';
 import Presedent from "./Components/Presedent";
 import Services from "./Components/Services";
-import About from "./Components/About";
+import About
+ from "./Components/About";
 
 
 

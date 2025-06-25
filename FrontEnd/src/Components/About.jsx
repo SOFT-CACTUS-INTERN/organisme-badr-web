@@ -8,7 +8,7 @@ function About() {
         <>
 
             <Presedent />
-            <We />
+            {/* <We /> */}
         </>
 
     )

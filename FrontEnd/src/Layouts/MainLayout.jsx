@@ -9,7 +9,7 @@ export default function MainLayout({ children }) {
     <div className="flex flex-col min-h-screen gap-24">
       <Header />
       <main className="flex-grow p-4">{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
