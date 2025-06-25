@@ -8,6 +8,7 @@ body {
    
     margin: 0;
  
+    width:vw;
     
 }
 
@@ -15,6 +16,7 @@ body {
   position :relative;
   
   width: 100vw;
+  max-width: 100vw;
   overflow: hidden;
   height: 
 102vh;
@@ -217,6 +219,13 @@ margin-left: 30%;
 
    
 }
+.text-ligne h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 131%;
+  text-align: right;
+  color: black;
+}
 .click{
 position:absolute;
   width: 60px;
@@ -251,241 +260,561 @@ align-items: center;
 }
 
 
- 
-@media ( max-width:480px){
 
-   .service{
-   position: relative;
-   width: 100%;  
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+ 
+
+
+
    
-   
- 
-
-  } 
- .text-ligne{
- 
-  margin-top: 2rem;
-  margin-left: 8rem;
-  
- }
- .heart{
-
- left:2rem;
- width:50%
-
- }
- 
- .pectures{
-
-width:30%;
-height: 55%;
-margin-left: 60rem;
+/* .text-ligne  h2{
+  font-size: clamp(1rem,  2rem,3rem);
+} */
 
 
-  
- }
- .pect-int{
-  width:30%;
-  height: 55%;
-  margin-top: 4rem;
-  margin-left: 12rem;
- }
+@media( min-width:2559px) {
  .services{
- 
-  width:36%;
-  margin-left: 12rem;
- }
-
- 
- 
-  
-}
-
-@media(max-width:1024px) and (min-width:768px){
- .service{
-  width:100%;
-  
-  position:relative;
-  padding: 1rem 2rem;
-  height: 90vw;
   display:flex;
- 
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 80%;
+  margin-left: 15%;
 
- 
   
  }
- .services{
+ 
 
-  width:50%;
-  margin-left:5%;
-  margin-top: 30%;
- }
+ .text-ligne{
 
- .pectures{
-  width:55%;
-  height: 60%;
-  margin-left: 65%;
+ 
  }
  .heart{
-  width:80%;
-  height: 60%;
-  margin-left: 26%;
+  width: 100%;
+  height: 100%;
+  left: -20%;
+  top: 50%;
+  background-color: none;
  }
- .pect-int{
-  width:35%;
-  height: 60%;
-  margin-left:12%
+ .serv{
+
+  width: 85%;
+  height:15%;
+  gap:18px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFD000;
+
+ 
+ 
+
  }
  .text-ligne{
- 
-  margin-top: 10%;
-  margin-left: 0.1%;
+  margin-left: 11%;
  }
+ .text-ligne h2 {
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 131%;
+  text-align: right;
+  color: black;}
+ .icon-serv{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .icon-serv svg {
+  width: 70px;
+  height: 70px;
+ }
+ .serv-name h4 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #000000;
  
 
 
-   
 
 }
- /* @media (max-width: 2560px) and (min-width:1445px) {
+
+
+.serv-name p {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #525560;
+}
+
+.pectures{
+  width: 60vh;
+  height: 70vh;
+  margin-left: 60%;
+  position: relative;
+  z-index: 1;
+}
+.pect-int {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  margin-left: -30px;
+  margin-top: -20%;
+  z-index: 1;
+}}
+@media(min-width:1025px)  and (max-width: 2559px) {
+  .service {
+
+   position:relative;
+   width:100%;display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap:10px;
+    width: 100vw;
+  max-width: 100vw;
+  
+    height: 100vh;
+  
+  }
+  .services{
+  
+    width: 55%;
+    height: 80%;
+    padding:2rem;
+    
+   
+  
+ 
+  
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+    left:05%;
+   
+  }
+  .heart {
+    width: 100%;
+    height: 100%;
+    left: -20%; top: 50%;
+
+    background-color: none;
+  }
+  .cercle{
+
+   
+    top:85%;
+    left: 2%;
+
+  }
+  .serv{
+    width: 80%;
+    height: 60px;
+    
+    
+   
+  }
+  .pectures {
+    width: 60vh;
+    height: 70vh;
+    margin-left: 60%;
+   
+    position: relative;
+    z-index: 1;
+  }
+  .pect-int{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    margin-left: -30px;
+    margin-top: -20%;
+    z-index: 1;
+  }
+  .text-ligne {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    width:500px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+   
+  }
+  .text-ligne h2 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 131%;
+    text-align: right;
+    
+  }
+  .text-ligne hr {
+    width: 100%;
+    border-width: 1px;
+    border: 1px solid #000000;
+    
+  }
+  .serv{
+    display: flex;
+    flex-direction: row-reverse;
+width:100%;
+ display:flex;
+height: 20%;
+
+ justify-content: center; 
+ 
+    
+  }
+  .icon-serv{
+    width: 50px;
+    height:50px;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-serv svg {
+    width: 40px;
+    height: 40px;
+  }
+  .serv-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+  .serv-name h4 {
+    text-align: right;
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 100%;
+    letter-spacing: 0px;
+  }
+  .serv-name p {
+    text-align: right;
+    font-weight: 400;
+    font-size: 1.2rem;
+ 
+    letter-spacing: 0%;
+    color: #525560;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 1024px)   {
   .service {
     position: relative;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 30px;
+    margin-top: 0;
+    height: auto;
   }
 
   .heart {
+    width: 90%;
+    height: 90%;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 10%;
+   background-color: none;
+
+   
+   
+  }
+  .text-ligne h2 {
+    font-size: 2rem;
+    text-align: center;
+    display:flex;
+    flex-direction: row;justify-content: center ;
+    align-items: center;
+    margin: 0 auto;
+  
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .text-ligne hr {
     width: 60%;
-    height: 80%;
-    margin-left: 10%;
+    margin: 0 auto;
+  }
+ 
+  /* .heart {
+    display: none;
+  }
+   */
+  .cercle {
+    display: none;
   }
 
-  .cercle {
-    width: 10%;
-    height: 15%;
+ 
+  .text-ligne {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
+  
 
   .services {
-   
-    width: 40%;
-    height: 50%;
+    
+    margin: 0 auto;
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    gap: 30px;
+    
+   
+
   }
 
   .serv {
     width: 100%;
-    height: 20%;
-    border-radius: 15px;
-    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 60px;
+    height: auto;
+    min-height: 90px;
+  
+    
   }
+  .serv p{
 
-  .title-serv {
-    font-size: 2.5rem;
-    font-weight: 600;
+    margin: 0;
+    font-size: 1.5rem;
   }
-
-  .explain {
+  .serv h4{
+   
     font-size: 2rem;
-    font-weight: 500; 
+  }
+  
+  .pectures {
+    width: 80%;
+    height: 50vh;
+  
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
   }
 
-  .icon-serv {
-    width: 10%;
-    height: 70%;
-    display: flex;
+.pect-int {
+  width: 100%;
+  height: 100%;
+  object-fit: auto;
+  position: absolute;
+  left: 0;
+  margin-left: -30px;
+ margin-top: -10%;
+ z-index: 1;
+ 
+ 
+
+}
+
+
+  .click {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+   .services {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    display:flex;
     justify-content: center;
     align-items: center;
-  }
+  
+    display:flex;
+  
+  
+   
+  gap:10px;
 
-  .icon-serv svg {
-    width: 80%;
-    height: 80%;
-  }
+}
 
-  .pectures {
-    margin-left: 50%;
-    height: 70%;
-  }
 
-  .pect-int {
-    margin-left: 5%;
-  }
-  .text-ligne{
-    
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 1%;
-  }
-  .text-ligne  h2{
-    font-size: 4rem;
+}
+@media(max-width: 1024px) and (min-width: 769px) {
+  .text-ligne h2 {
+    font-size: 2.5rem;
     font-weight: 500;
+  }
+  .service{
+    display:flex;
+    flex-direction: column;
+  }
+  .pectures {
+   width:60vh;
+   height: 60vh;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+   margin-left: 50px;
+  }
+  .service {
+   
+   background-color: aqua;
+  }
+  .text-ligne hr {
+    width: 40%;
+  }
+  
+  .text-ligne h2{
+    
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .services {
+    width: 65%;
+   height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .serv-name h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .serv-name p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .serv {
+    width: 100%;
+    height: 5vh;
+    min-height: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3%;
    
   }
-}  */
+  .heart{
 
-
-@media (max-width: 768px) and (min-width:480px)  {
-
-.service{
-  position:relative;
-  width:100%;
-  display:flex;
-  justify-content:space-evenly;
-  gap:50px;
+    width: 70%;
+    height: 70%;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 10%;
+    background-color: none;
+  }
+  .icon-serv{
+    width:60px;
+    height: 60px;
+  }
   
+  
+}
+@media(max-width: 768px) and(min-width: 481px) {
+  /* .text-ligne h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+  }
+  .text-ligne hr {
+    width: 60%;
+  }
+  .services {
+    width: 100%;
+    padding: 10px;
+   
+  }
+  .serv h4 {
+    font-size: 1.8rem;
+  }
+  .serv p {
+    font-size: 1.2rem;
+  }
+   .services{
+   width:100%;
+    height: auto;
+    background:black;
+
+    
+    
+  } 
+   .serv{
+    width: 90vh;
+    height: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2%;
+   
+  }
+  .pecutres{
+    width:50vh;
+    height: 50vh;
+  }  */
+   .services{
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+  } 
  
 }
-
-
-.heart{
-  margin-left:20%;
-  width:48%;
-  margin-top: 5%;
-
-}
-.text-ligne{
-
-  margin-top: 15%;
-  margin-left: 2%;
-}
-.services{
-  margin-top: 20%;
-  
-  display:flex;
- width:30%;
-  flex-direction: column;
-  gap:10px;
-}
-.pectures{
+@media(max-width: 480px) {
  
-  z-index: 9;
-  width:40%;
-  margin-left:50%;
-  height: 60%;
-  
-
+  .text-ligne h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .text-ligne hr {
+    width: 80%;
+  }
+  .pectures {
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+    background-color: pink;
+  }
+  .services {
+    width: 100%;
+    padding: 10px;
+  }
+  .text-ligne {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+  }
+  .serv h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .serv p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
-.pect-int{
-  width:40%;
-  height: 60%;
-  margin-left: 5%;
-}
 
-  
-
-}
-
+ 

@@ -1,5 +1,6 @@
 import React from 'react'
-// k
+
+
 function Organisme() {
     return (
         <div className='organisme -mt-64  2xl:-mt-64 2xl:mb-44  '>

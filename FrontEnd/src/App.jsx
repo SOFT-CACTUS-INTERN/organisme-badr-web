@@ -7,7 +7,7 @@ import Service from './Components/Home';
 
 
 
-
+import './App.css'
 
 
 function App() {
