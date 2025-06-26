@@ -8,7 +8,7 @@ import col from '../assets/svg/col.svg';
 
 function Presedent() {
   return (
-    <section className='w-full min-h-screen 2xl:h-screen'>
+    <section className='w-full min-h-screen 2xl:h-screen mb-12'>
       <div className="flex items-center justify-between w-full px-4 mt-8">
         {/* Ligne à gauche */}
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />

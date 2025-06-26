@@ -8,10 +8,10 @@ function About() {
     return (
         <>
 <div className="">
-
-            {/* <Presedent /> */}
+{/* 2xl:-space-y-[25%] */}
+            <Presedent />
+            <We />
             <Nous    />
-            {/* <We /> */}
 </div>
         </>
 
