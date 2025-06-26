@@ -9,8 +9,9 @@ function About() {
         <>
 
             {/* <Presedent /> */}
-            {/* <We /> */}
+            
             <Story/>
+            <We/>
         </>
 
     )
