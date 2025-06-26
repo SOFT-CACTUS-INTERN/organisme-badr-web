@@ -1,0 +1,434 @@
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
+body, h3, p { 
+  margin: 0; 
+
+ 
+}
+.story-section{
+
+   padding-top: 6rem; 
+  position:relative;
+
+    width:100%;
+
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding:2rem;
+   gap:4rem;
+    /* background-color: #FFC400; */
+}
+
+.title-sv{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap:1rem;
+    /* background-color:  #FCFAF8; */
+    background-color: red;
+
+    padding-right: 2.5rem;
+}
+.story-title{
+    display:flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+    height: auto;
+}
+.story-title h1 {
+  display:flex;
+  flex-direction: row-reverse;
+  gap:1rem;
+  color:#FFC300;
+  font-weight: 500;
+font-size: clamp(1.5rem, 3vw, 3.5rem);
+
+
+    
+}
+.story-title h1 span {
+ color: #38B000;
+
+}   
+.story-title hr{
+    background: linear-gradient(180deg, #38B000 0%, #FFC400 107.1%);
+width:100%;
+height: 5px;
+border: none;
+border-radius: 158.74px;
+
+
+}
+
+
+
+
+
+.content{
+
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    background-color: #38B000;
+
+}
+
+    
+ .story-content {
+    position:relative;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    width:100%;
+    height: auto;
+    gap:4rem;
+    background-color: darkcyan;
+}
+.story-image {
+    position: relative;
+    width: 40%; 
+min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    
+}.graph8{
+    max-width:70%;
+   position:relative;
+    transform: rotate(5deg);
+
+    
+}
+.boys{
+    position:absolute;
+    max-width:70%;
+    top:8%;
+    right:14%;
+    transform: rotate(5deg);
+
+
+}
+.graph11{
+    max-width:25%;
+ 
+ top:0%;
+ right:25%;
+  position:absolute;
+ 
+ 
+  
+}
+.graph10{
+    position:absolute;
+    max-width:18%;
+    left:10%;
+  
+    bottom:10%;
+}
+.graph9{
+    position:absolute;
+    max-width: 18%;
+    right:5%;
+    bottom:0;
+}
+.content{
+    gap:1rem;
+   background-color: pink;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   padding:2rem;
+
+   
+}
+.content h2 {
+    /* background-color: pink; */
+    font-weight: 700;
+    font-size: clamp(1.5rem, 5vw, 2.15rem);
+    text-align: right;
+}
+.content p{
+
+    color: #4A4A4A;
+    
+font-weight: 400;
+font-size: clamp(1rem, 2vw, 1.4rem);
+  line-height: 1.6
+  ;
+  text-align:right;
+
+
+}
+.stats-button{
+    background: linear-gradient(90deg, #007200 0%, #38B000 100%);
+width: 100%;
+height: auto;
+
+border-radius: 10px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.number {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+  color:white;
+}
+
+.label {
+ font-size: clamp(0.875rem, 2vw, 1.2rem);
+  font-weight: 700;
+  color:white;
+}
+
+.divider {
+  width: 0.1rem;
+  height: 2rem;
+ 
+ border: 1.2px solid #FFFFFF
+}
+
+.graph12 {
+  position: absolute;
+  top: 6%;
+  right:40%;
+  z-index: 10;
+  width: 15%; /* ou auto selon le besoin */
+  height: auto;
+  /* transform:rotate(144deg) */
+
+}
+.believe{
+    display:flex;
+    flex-direction: column;
+    /* background-color: black; */
+   width:100%;
+  gap:1rem;
+    
+}
+.icon-text{
+    display:flex;
+    flex-direction: row-reverse;
+    gap:1rem;
+    justify-content: end;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFB7004D;
+      border-radius: 50%; width: 25px;
+  height: 25px;
+  
+
+}
+.text{
+  font-size: clamp(0.8rem, 2vw, 1.4rem); 
+   font-weight: bold;
+  color: #000000;
+
+}
+@media (max-width: 1024px) and (min-height: 800px) and (orientation: portrait){
+
+    .story-section{
+        background-color: rgb(215, 255, 192);
+        
+    }
+    .story-content{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .content{
+  background:pink;
+  display:flex;
+  align-items: center;
+width:50%;
+padding:1rem;
+    }
+    .story-image{
+        width:40%;
+        background-color: black;
+    }
+    .boys{
+        top:30%;
+        max-width: 80%;
+        /* display:none; */
+        right:10%;
+    }
+    .graph8{
+        max-width: 80%;
+    }
+    .graph10{
+        max-width: 40%;
+        left:10%;
+        bottom:10%;
+    }
+    .graph11{
+        max-width:40%;
+        top:20%;
+       
+    }
+    .graph9{
+        max-width: 40%;
+        right:0;
+        bottom:10%;
+        
+    }
+    .title-sv img{
+       
+        max-width: 10%;
+    }
+}
+@media (max-width: 1024px) and (max-height: 700px) and (orientation: landscape)  {
+  
+
+
+    .story-section{
+        background:purple
+    }
+    .story-content{
+        display:flex;
+        justify-content: space-around;
+    }
+    .content{
+        width:50%;
+        padding:1rem;
+    }
+}
+@media (max-width: 768px) {
+  .graph9{
+   /* display:none; */
+   max-width:30%;
+  }
+  .graph10{
+    /* display:none; */
+    max-width:30%;
+  }
+.graph8{
+    /* display:none; */
+    max-width:90%;
+}
+@media(max-height:700px){
+.boys{
+    /* display:none; */
+    max-width:90%;
+    top:20%;
+    right:5%;
+}
+}
+@media( min-height:1024px){
+   .boys{
+    /* display:none; */
+    max-width:90%;
+    top:30%;
+    right:5%;
+} 
+}
+
+.graph11{
+    /* display:none; */
+    max-width:40%;
+    right:20%;
+    top:6%
+}
+.story-image{
+    width:40%;
+}
+.story-content{
+    justify-content: space-around;
+}
+
+}
+/*  */
+@media( max-width:480px){
+    .story-section{
+        gap:2.5rem;
+    }
+    .story-content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+    }
+    .content{
+        width:100%;
+        height:auto;
+       
+
+    }
+   @media( min-height:800px){
+   .boys{
+    /* display:none; */
+    max-width:90%;
+    margin-top:11%;
+    right:5%;
+   
+} 
+.graph8{
+
+}
+}
+    .story-image{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .graph8{
+        max-width: 70%;
+        
+        
+    }
+   
+    .boys{
+        max-width: 70%;
+        top:18%;
+        left:15%;
+    }
+    .graph9{
+        /* display:none; */
+        max-width:25%;
+    }
+    .graph11{
+        /* display:none; */
+        max-width:30%;
+    }
+    .graph10{
+       max-width:20%;
+    }
+   .title-sv img{max-width:10%;
+   }
+   .graph12{
+width:25%;
+/* background-color: pink; */
+left:10%;
+
+   }
+}
+
