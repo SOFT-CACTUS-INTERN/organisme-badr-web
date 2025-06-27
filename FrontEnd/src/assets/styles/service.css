@@ -32,7 +32,7 @@ height: auto;
   display:flex;
   justify-content: center;
   align-items: center;
-  background:pink;
+  /* background:pink; */
   width:20%;
   height:30vh;
 }
@@ -149,7 +149,7 @@ border-width: 1px;
   position:relative;
   width:30%;
   display:flex;
-  background-color: #007200;
+  /* background-color: #007200; */
   /* display:flex; */
   /* justify-content: right;
   align-items: start; */
@@ -199,6 +199,130 @@ border-radius: 21px;
   /* background-color:black; */
   width:4%
 }
+
+@media(max-width:768px) and (min-width:481px) {
+ .service-section{
+  width:100%;
+  display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:1.5rem;
+
+ }
+ .images{
+  width:100%;
+  /* background:black; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:2rem;
+ } 
+ 
+ .service{
+  /* background:palevioletred; */
+  width:100%;
+  padding:0.5rem;
+ }
+ .unspalsh{
+  /* display:none; */
+  width:50%;
+  top:12%;
+  left:19%;
+ }
+ .back{
+    width:50%;
+    height:60vh
+ }
+ .graph19{
+  /* display:none */
+  width:10%;
+  left:40%;
+  top:50%;
+ }
+ .graph20{
+  /* display:none; */
+  /* background-color: black; */
+
+ /* left:50%; */
+ margin-top: 95%;
+ width:80%;
+ height: 70%;
+ left:-10%;
+ }
+ .graph21{
+  /* background-color: darkolivegreen; */
+margin-bottom: -36rem;
+ width:5%;
+ left:0;
+ }
+ .services{
+  display:flex;
+  
+ }
+ .serv{
+  padding: 1rem;
+  width:100%;
+ }
+ .icon-serv{
+  width:3rem;
+  height: 3rem;
+ }
+ .title{
+  display:flex;
+  justify-content: end;
+  align-items: end;
+  gap:1rem;
+  width:100%;
+  padding:1rem;
+ 
+ }
+ .title hr{
+  width:50%;
+ }
+ .title h1{
+ font-size: 2rem;
+ }
+ @media(min-height:1024px){
+
+  
+  .back{
+    height:35vh
+  }
+  .graph21{
+    display:none;
+  }
+  .graph20{
+    /* background-color: #38B000; */
+    top:15%;
+    width:60%;
+
+  }
+ }
+
+ 
+
+}
+ @media (max-width: 540px) and (min-width: 481px) {
+  .back{
+    height:40vh;
+    width:55%;
+  }
+  .unspalsh{
+    top:14%;
+  }
+  .graph20{
+   margin-top: 40rem;
+   width:100%;
+  }
+  .graph21{
+    display:none;
+  }
+  .title hr{
+    width:70%;
+  }
+}
+
 
 @media( max-width:480px){
 
@@ -273,7 +397,6 @@ border-radius: 21px;
 
 
 }
-@media(max-width:768px){
-  
-}
+
+
 
