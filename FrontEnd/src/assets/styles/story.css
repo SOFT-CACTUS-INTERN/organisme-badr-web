@@ -3,6 +3,7 @@
 }
 body, h3, p { 
   margin: 0; 
+   
 
  
 }
@@ -365,7 +366,7 @@ padding:1rem;
 
 }
 /*  */
-@media( max-width:480px){
+@media( max-width:540px){
     .story-section{
         gap:2.5rem;
     }

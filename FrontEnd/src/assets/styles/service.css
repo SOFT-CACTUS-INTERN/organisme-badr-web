@@ -1,822 +1,279 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Pour un comportement CSS plus prévisible */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-   
-    margin: 0;
- 
-    width:vw;
-    
+html, body {
+  min-height: 100vw;
+  margin: 0;
+  /* padding: 0;
+  background-color: #FFB700; */
 }
 
-.service {
-  position :relative;
-  
-  width: 100vw;
-  max-width: 100vw;
-  overflow: hidden;
-  height: 
-102vh;
-margin-top: 500px;
-position: relative;  
+.service-section{
+
+  width:100%;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: start;
  background: linear-gradient(-74.24deg, #FFC909 -0.01%, #FFFFFF 108.29%);
-   
-
- display:flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
- padding-top: 30px;
- padding-left: 8px;
- padding-right: 8px;
-padding-bottom: 30px;
-margin-bottom: 100px;
-
+/* height: auto; */
+/* padding:3rem; */
+/* gap:2rem; */
+padding:2.3rem;
+min-height: 80vh;
+height: auto;
 
 }
-
-.heart {
-  position: absolute;
-  left: -380px;                  
-  top: 50%;                     
-  transform: translateY(-50%)   
-             rotate(-5deg);    
-  width: 200vh;                
-  height: 75vh;               
-  pointer-events: none;  
-  color: #FFFFFF61;
-       
-}
-.cercle{
-    position:absolute;
-   width: 75px;
-height: 79px;
-top:80%;
-left: 5%;
-
- 
-}
-
-
-
-
-.text-ligne {
-  position: absolute;
-  top:22%;
-
-  left: 12%;
-  display: flex;
-  flex-direction: column;
-  gap:0.6rem
-}
-
-.text-ligne h2 {
-  font-weight: 500;
-  font-size: 38px;
-  line-height: 131%;
-  text-align: right;
-  color: black;
-}
-
-.text-ligne hr {
-
- 
-  width: 100%;
- 
-
-
-border-width: 1px;
-border: 1px solid #000000;
-
-
-
-
-}
-
-
- .services{
-    position:absolute;
-    
-    width: 450px;
-height: 442px;
- 
-margin-top: 15%;
-margin-right:48%;
-border-radius:15px;
-display:flex;
-flex-direction: column;
-
-justify-content: center;
-align-items: center;
-gap:20px
-
-
- }
-
- .serv{
-width: 100%;
-height: 90px;
-
-border-radius: 15px;
-background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
-
- display:flex;
- flex-direction: row-reverse;
- justify-content: center;
- align-items: center;
- gap:10px;
- padding:2%;
-
- }
- .icon-serv{
-  width: 45px;
-height: 42px;
-
-
-
-
-border-radius: 6px;
-background: linear-gradient(0deg, #007200 0%, #38B000 100%);
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-
- }
- .icon-serv svg{
-    width: 35px;
-height: 30px;
-
-
- }
- .title-serv{
-   text-align: right;
-   color: #000000;
-  
-font-weight: 500;
-font-size: 24.19px;
-line-height: 100%;
-letter-spacing: 0px;
-
-
-
-
-   
-
- }
- .explain{
-    text-align: right;
-  
- 
-font-weight: 400px;
-font-size: 16px;
-line-height: 131%;
-letter-spacing: 0%;
-text-align: right;
-
-
-color: #525560;
-
-
-
- }
- .serv-name{
-    display:flex;
-    flex-direction: column;
-    gap:5px;
- }
-
- .pectures{
-   
-    background: linear-gradient(-155.24deg, #FFFFFF 12.31%, #FFCB15 102.84%);
-
-
-width: 55.56vh;
-height: 60vh;
-
-border-radius: 21px;
-
-margin-left: 30%;
-
-
-
-  }.pect-int {
-  position: absolute;
-  width: 60vh;
-  height: 70vh;
-  border-radius: 22.92px;
-  left: 47%;
-  top: 25%;
-
- 
-  background-image: url('/flags/unsplash_SBIak0pKUIE.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-   
-}
-.text-ligne h2 {
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 131%;
-  text-align: right;
-  color: black;
-}
-.click{
-position:absolute;
-  width: 60px;
-  height: 60px;
-  border: 2px solid white; 
-  border-radius: 50%;
-  background-color: transparent; 
-  top:48%;
-  left:42%;
-  display: flex;
-  justify-content: center;
-  align-items:  center;
-}
-.botton{
-    background: #FFFFFF;
-width: 50px;
-height: 50px;
-
-
-border-radius: 50%;
-display:flex;
-justify-content: center;
-align-items: center;
-
-}
-.button2{
-  background-color: #FFD000 ;
-
-}
-.button1{
-  background-color: #38B000 ;
-}
-
-
-
- 
-
-
-
-   
-/* .text-ligne  h2{
-  font-size: clamp(1rem,  2rem,3rem);
-} */
-
-
-@media( min-width:2559px) {
- .services{
+.images{
   display:flex;
   justify-content: center;
   align-items: center;
-  width: 55%;
+  background:pink;
+  width:20%;
+  height:30vh;
+}
+.service{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* background:pink; */
+  width:40%;
   height: 80%;
-  margin-left: 15%;
+ top:10%;
+ gap: 1rem;
+ margin-top:1rem;
 
-  
- }
- 
+ position:relative
+}
+.services{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: bisque; */
+ gap:0.5rem; 
 
- .text-ligne{
-
- 
- }
- .heart{
-  width: 100%;
-  height: 100%;
-  left: -20%;
-  top: 50%;
-  background-color: none;
- }
- .serv{
-
-  width: 85%;
-  height:15%;
-  gap:18px;
-  border-radius: 15px;
-  display: flex;
+}
+.serv{
+  display:flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background-color: #FFD000;
+background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
 
- 
- 
-
- }
- .text-ligne{
-  margin-left: 11%;
- }
- .text-ligne h2 {
-  font-size: 6rem;
-  font-weight: 500;
-  line-height: 131%;
-  text-align: right;
-  color: black;}
- .icon-serv{
-  width: 90px;
-  height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
- .icon-serv svg {
-  width: 70px;
-  height: 70px;
- }
- .serv-name h4 {
-  font-size: 4rem;
-  font-weight: 500;
-  color: #000000;
- 
-
-
-
-}
-
-
-.serv-name p {
-  font-size: 2.5rem;
-  font-weight: 400;
-  color: #525560;
-}
-
-.pectures{
-  width: 60vh;
-  height: 70vh;
-  margin-left: 60%;
-  position: relative;
-  z-index: 1;
-}
-.pect-int {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  left: 0;
-  margin-left: -30px;
-  margin-top: -20%;
-  z-index: 1;
-}}
-@media(min-width:1025px)  and (max-width: 2559px) {
-  .service {
-
-   position:relative;
-   width:100%;display:flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: row;
-   gap:10px;
-    width: 100vw;
-  max-width: 100vw;
-  
-    height: 100vh;
-  
-  }
-  .services{
-  
-    width: 55%;
-    height: 80%;
-    padding:2rem;
-    
-   
-  
- 
-  
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-    
-    left:05%;
-   
-  }
-  .heart {
-    width: 100%;
-    height: 100%;
-    left: -20%; top: 50%;
-
-    background-color: none;
-  }
-  .cercle{
-
-   
-    top:85%;
-    left: 2%;
-
-  }
-  .serv{
-    width: 80%;
-    height: 60px;
-    
-    
-   
-  }
-  .pectures {
-    width: 60vh;
-    height: 70vh;
-    margin-left: 60%;
-   
-    position: relative;
-    z-index: 1;
-  }
-  .pect-int{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    margin-left: -30px;
-    margin-top: -20%;
-    z-index: 1;
-  }
-  .text-ligne {
-    position: absolute;
-    top: 20%;
-    left: 17%;
-    width:500px;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-   
-  }
-  .text-ligne h2 {
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 131%;
-    text-align: right;
-    
-  }
-  .text-ligne hr {
-    width: 100%;
-    border-width: 1px;
-    border: 1px solid #000000;
-    
-  }
-  .serv{
-    display: flex;
-    flex-direction: row-reverse;
+/* padding-left:0.5rem;
+padding-right:0.5rem; */
+padding: 0.5rem;
+gap:1rem;
 width:100%;
- display:flex;
-height: 20%;
-
- justify-content: center; 
- 
-    
-  }
-  .icon-serv{
-    width: 50px;
-    height:50px;
-    border-radius: 6px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .icon-serv svg {
-    width: 40px;
-    height: 40px;
-  }
-  .serv-name {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-   
-  }
-  .serv-name h4 {
-    text-align: right;
-    color: #000000;
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 100%;
-    letter-spacing: 0px;
-  }
-  .serv-name p {
-    text-align: right;
-    font-weight: 400;
-    font-size: 1.2rem;
- 
-    letter-spacing: 0%;
-    color: #525560;
-  }
+border-radius:15px;
+z-index: 62;
+position:relative;
 
 }
+.content-serv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon-serv{
+  width:50px;
+  height: 50px;
+  /* background:#525560; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+padding:0.5rem;
+border-radius: 6.66px;
+background: linear-gradient(0deg, #007200 0%, #38B000 100%);
 
 
 
-
-
-@media (max-width: 1024px)   {
-  .service {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 30px;
-    margin-top: 0;
-    height: auto;
-  }
-
-  .heart {
-    width: 90%;
-    height: 90%;
-    margin-left: 50%;
-    position: absolute;
-    margin-top: 10%;
-   background-color: none;
-
-   
-   
-  }
-  .text-ligne h2 {
-    font-size: 2rem;
-    text-align: center;
-    display:flex;
-    flex-direction: row;justify-content: center ;
-    align-items: center;
-    margin: 0 auto;
+}
+.icon-serv img{
+ /* background: black; */
+ 
+}
+.title{
+  /* background-color: green; */
+  width:100%;display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
-    height: auto;
+}
+.title  h1{
+
+
+ font-weight: 500;
+font-size: clamp(1.5rem, 3vw, 3.5rem);
+z-index: 62;
+position:relative;
+
+}
+.content-serv h2{
+  
+  font-weight: 600;
+ width: 100%;
+font-size: clamp(1rem, 2vw, 1.4rem);
+  line-height: 1.5;
+  text-align: right;
+ 
+}
+.content-serv p{
+
+
+  color: #525560;
+  font-weight: 400;
+font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.5;
+  text-align: right;
+
+}
+hr{
+ width: 60%;
+height:0px;
+
+border-width: 1px;
+
+}
+.images{
+  position:relative;
+  width:30%;
+  display:flex;
+  background-color: #007200;
+  /* display:flex; */
+  /* justify-content: right;
+  align-items: start; */
+  height: auto;
+  
+
+
+}
+.back{
+  position:relative;
+  /* background:black; */
+  width:70%;
+ height: 50vh;
+
+  background: linear-gradient(155.24deg, #FFFFFF 12.31%, #FFCB15 102.84%);
+/* width: 470; */
+
+border-radius: 21px;
+/* background:pink */
+
+}
+.unspalsh{
+  position:absolute;
+  width:70%;
+  left:5%;
+  border-radius: 22.92px;
+  top:10%;
+}
+.graph19{
+  position:absolute;
+  top:55%;left:30%;
+  width:15%;
+}
+.graph20{
+  position:absolute;
+  left:-20%;
+  top:50%;
+  width:90%;
+  height: 90%;
+  z-index:1;
+  transform: rotate(-8.5deg);
+}
+.graph21{
+  position:absolute;
+  bottom: -13rem;
+  left:5%;
+  /* background-color:black; */
+  width:4%
+}
+
+@media( max-width:480px){
+
+.service-section{
+  display:flex;
+  position:relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+}
+ .images {
     width: 100%;
-    padding: 10px;
+  
+    position: relative;
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
   }
-  .text-ligne hr {
+
+  .back {
+    margin:1rem;
     width: 60%;
-    margin: 0 auto;
-  }
- 
-  /* .heart {
-    display: none;
-  }
-   */
-  .cercle {
-    display: none;
-  }
-
- 
-  .text-ligne {
-    position: relative;
-    margin-top: 30px;
-    margin-left: 0;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  
-
-  .services {
-    
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    
-   
-
-  }
-
-  .serv {
-    width: 100%;
-    height: auto;
-    min-height: 90px;
-  
+    height: 32vh;
     
   }
-  .serv p{
-
-    margin: 0;
-    font-size: 1.5rem;
+  .images .unspalsh{
+    /* display:none; */
+    width:60%;
+    left:15%;
+    top:12%;
   }
-  .serv h4{
-   
-    font-size: 2rem;
+  .images .graph19{
+    left:35%;
+    /* background-color: pink; */
   }
   
-  .pectures {
-    width: 80%;
-    height: 50vh;
-  
-    margin: 0 auto 30px;
-    position: relative;
-    z-index: 1;
-  }
-
-.pect-int {
-  width: 100%;
-  height: 100%;
-  object-fit: auto;
-  position: absolute;
-  left: 0;
-  margin-left: -30px;
- margin-top: -10%;
- z-index: 1;
- 
- 
-
+.service{
+  width:100%;
+  padding:0.5rem;
 }
 
+.serv{
+  width:100%;
 
-  .click {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+.icon-serv{
+  width:10vh;
+  height:6vh;
+}
+.icon-serv img{
+  width:100%;
+}
+
+.graph20{
+  top:30%;
+  left:0;
+}
+.graph21{
+ top:90%;
+ width:10%;
+}
+.title hr{
+  width:80%;
+}
+@media( min-height:702px){
+  .back{
+    height:26vh
   }
-   .services {
-    width: 50%;
-    height: auto;
-    padding: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  
-    display:flex;
-  
-  
-   
-  gap:10px;
-
 }
 
 
 }
-@media(max-width: 1024px) and (min-width: 769px) {
-  .text-ligne h2 {
-    font-size: 2.5rem;
-    font-weight: 500;
-  }
-  .service{
-    display:flex;
-    flex-direction: column;
-  }
-  .pectures {
-   width:60vh;
-   height: 60vh;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-   margin-left: 50px;
-  }
-  .service {
-   
-   background-color: aqua;
-  }
-  .text-ligne hr {
-    width: 40%;
-  }
+@media(max-width:768px){
   
-  .text-ligne h2{
-    
-    font-size: 2.5rem;
-    font-weight: 500;
-    text-align: center;
-    margin: 0 auto;
-    height: auto;
-    width: 100%;
-    padding: 10px;
-  }
-  
-  .services {
-    width: 65%;
-   height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  .serv-name h4 {
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-  .serv-name p {
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-  .serv {
-    width: 100%;
-    height: 5vh;
-    min-height: 90px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 3%;
-   
-  }
-  .heart{
+}
 
-    width: 70%;
-    height: 70%;
-    margin-left: 50%;
-    position: absolute;
-    margin-top: 10%;
-    background-color: none;
-  }
-  .icon-serv{
-    width:60px;
-    height: 60px;
-  }
-  
-  
-}
-@media(max-width: 768px) and(min-width: 481px) {
-  /* .text-ligne h2 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    
-  }
-  .text-ligne hr {
-    width: 60%;
-  }
-  .services {
-    width: 100%;
-    padding: 10px;
-   
-  }
-  .serv h4 {
-    font-size: 1.8rem;
-  }
-  .serv p {
-    font-size: 1.2rem;
-  }
-   .services{
-   width:100%;
-    height: auto;
-    background:black;
-
-    
-    
-  } 
-   .serv{
-    width: 90vh;
-    height: 90px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 2%;
-   
-  }
-  .pecutres{
-    width:50vh;
-    height: 50vh;
-  }  */
-   .services{
-    background-color: aqua;
-    display:flex;
-    flex-direction: row;
-  } 
- 
-}
-@media(max-width: 480px) {
- 
-  .text-ligne h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-  .text-ligne hr {
-    width: 80%;
-  }
-  .pectures {
-    width: 80%;
-    height: 40vh;
-    margin: 0 auto;
-    background-color: pink;
-  }
-  .services {
-    width: 100%;
-    padding: 10px;
-  }
-  .text-ligne {
-    width: 100%;
-    text-align: center;
-    margin-top: 20%;
-  }
-  .serv h4 {
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-  .serv p {
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-}
-.graph8{
-  right:0;
-}
- 
