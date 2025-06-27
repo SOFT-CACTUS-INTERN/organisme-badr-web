@@ -199,6 +199,104 @@ border-radius: 21px;
   /* background-color:black; */
   width:4%
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  .service-section{
+    justify-content: space-around;
+  }
+  .graph20{
+    /* display:none; */
+    top:auto;
+  }
+  .graph21{
+    /* display:none; */
+ 
+    /* background:#007200; */
+    z-index: 62;
+    left:0%;
+    bottom: -80%;
+  }
+  .service{
+    width:60%;
+    /* background-color: #525560; */
+    padding: 1rem;
+  }
+  .images{
+    /* background-color: red; */
+    width:40%;
+  }
+  .back{
+    width:70%;
+    height: 53vh;
+  }
+  .unspalsh{
+    width:70%;
+    height:53vh;
+    left:8%;
+     top:8%;
+  }
+  .title{
+    /* background-color: firebrick; */
+    
+    gap:1rem;
+    /* width:80%; */
+    z-index: 82;
+    
+  }
+ 
+  
+}
+@media (max-width: 1024px) and (min-width: 769px) and (min-height: 1024px) {
+  body {
+    background-color: blueviolet;
+  }
+
+  .service-section {
+    display: flex; /* s'assurer que le flex s'applique bien */
+    flex-direction: column;
+    align-items: center; /* centrer horizontalement */
+    gap: 2rem;
+    width: 100%; /* s’assurer que ça occupe toute la largeur */
+    padding: 1rem;
+  }
+
+  .graph20,
+  .graph21 {
+    display: none;
+  }
+
+  .images {
+    width: 100%;
+    max-width: 100%;
+    background-color: fuchsia;
+    padding: 1rem;
+  }
+
+  .service {
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem;
+    background-color: bisque;
+  }
+
+  .services {
+    width: 100%;
+    max-width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap; /* si plusieurs blocs */
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .serv {
+    width: 100%;
+    background-color: pink;
+    height: 10vh;
+    
+  }
+}
+
+
 
 @media(max-width:768px) and (min-width:481px) {
  .service-section{
