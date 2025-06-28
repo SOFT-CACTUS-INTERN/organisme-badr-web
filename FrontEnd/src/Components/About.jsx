@@ -3,17 +3,19 @@ import Presedent from './Presedent'
 import We from './We'
 import Story from './Story'
 import Services from './Services'
+import Donate from './Donate';
 
 
 function About() {
     return (
         <>
 
-            {/* <Presedent />
+            <Presedent />
             
             <Story/>
-            <We/> */}
+            <We/>
             <Services/>
+            <Donate/>
         </>
 
     )

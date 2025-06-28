@@ -14,19 +14,20 @@ import Who from './Components/Who';
 import Presedent from "./Components/Presedent";
 import Services from "./Components/Services";
 import About from "./Components/About";
+import Care from './Components/Care'
 
 
 
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter  >
       <Routes>
         <Route
           path="/"
           element={
             <MainLayout>
-              <About />
+              <Care />
             </MainLayout>
           }
         />
@@ -75,7 +76,7 @@ function App() {
           }
         />
          <Route
-          path="/organisme-badr-web/Presedent"
+          path="/Presedent"
           element={
             <Presedent />
           }

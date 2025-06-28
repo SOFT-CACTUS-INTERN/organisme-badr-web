@@ -301,6 +301,14 @@ button {
 }
 @media(max-width:500px) {
 
+  .donate-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width:100%;
+  }
+  
    .donate-card {
     flex-direction: column;
    
@@ -322,55 +330,3 @@ button {
  
 
 }
-/* @media( max-width:440px){
-
-  .donate-card {
-    flex-direction: column;
-   
-    text-align: center;
-    justify-content: center;
-    width:80%;
-    gap:0.2px;
-    padding: 1.5rem;
-    height: 50%;
-margin-top: 200px;
-  }
-  
-  .btn-group{
-     display: flex;
-     flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
-  gap:5px;
-  }
-  .content-box{
-    gap:0.5px;
-
-  }
-  
-
-  .title-line{
-    display:flex;
-    flex-direction: row-reverse;
-   
-  }
-
-}
-
-@media ( max-width:412px){
-
-   .graphic-box img{
-    margin-left: 06px;
-    margin-top: -200px;
-   
-
-  } 
-  .btn-group{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:10px;
-
-  }
-} */
