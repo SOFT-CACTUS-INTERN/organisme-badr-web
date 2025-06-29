@@ -2,19 +2,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+
 }
 
 html, body {
  
   margin: 0;
+ 
   
+  /* background-color: red; */
   
   
 }
 
 body {
 
-    background-color: pink;
+   
 }
 .care-section{
    
@@ -23,6 +27,7 @@ width: 100%;
     height: auto;
     position:relative;
     overflow: hidden;
+   
   
     /* background-color:pink ; */
     display:flex;
@@ -31,7 +36,7 @@ width: 100%;
     flex-direction: column;
     gap:2rem;
     padding:1rem;
-    position:relative
+    position:relative;
    
    
 }.care-title{
@@ -114,6 +119,9 @@ gap:1.5rem;
 height:auto;
 flex-direction: row-reverse;
  overflow: hidden;
+   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+ 
+
  
 }
 
@@ -223,15 +231,105 @@ flex-direction: row-reverse;
   direction: rtl;
   color: #2E302F;
 }
+@media(max-width:1024px){
+
+  .care-section{
+    background-color: blueviolet;
+  }
+  .cares{
+    width:80%;
+  }
+  .image{
+    height:auto
+  }
+  .image img{
+    height:100%;
+  }
+}
+@media(max-width:768px) and (min-width:701px){
+  .care-section{
+    /* background-color: black; */
+   
+     background-color: pink;
+     padding:1rem;
+    
+  }.cares{
+    width:100%;
+    background-color: #38B000;
+    padding:3rem;
+    
+  
+  }
+  .image {
+  
+    height: auto;
+    background-color: aqua;
+  }
+
+  .image img{
+    height:100%;
+  }
+}
+@media (max-width: 700px) and (min-width: 481px) {
+  .care-section {
+    background-color: blue;
+  }
+  .cares {
+    width: 80%;
+  }
+  .care {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+  }
+  .image{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+   
+  }
+  .image img{
+    width:100%;
+    height:40%;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+  }
+  .care-content{
+    width:100%;
+  }
+  .care-content p{
+    font-size: 1.3rem;
+  }
+}
+
 @media (max-width: 480px) {
     .cares{
         width:100%;
+         max-width: 100vw;
+         padding:2rem;
         
     }
     .care-section{
         gap:0.8rem;
-        padding:2rem;
+        /* padding:2rem; */
+         width:100%;
+        
+         
+         background-color: #FFB700;
+         position:relative;
+       
+
+    width:100%;
+
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
+     
     .care-title{
         gap:0.5rem;
     }

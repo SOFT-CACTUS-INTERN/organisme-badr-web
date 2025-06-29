@@ -6,11 +6,15 @@
 import groupe from '/organisme-badr-web/flags/groupe.png'
 
 
+
+
 const Care = () => {
     return ( 
         <>
-
+ 
+            
 <section className='care-section'>
+    
 
  <div className='care-title'>
  <div className='ligne-quote'>
@@ -104,7 +108,7 @@ const Care = () => {
 
        
         
-        
+       
         
         
         </>

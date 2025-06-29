@@ -14,7 +14,7 @@ import Who from './Components/Who';
 import Presedent from "./Components/Presedent";
 import Services from "./Components/Services";
 import About from "./Components/About";
-import Care from './Components/Care'
+import Support from './Components/Support'
 
 
 
@@ -27,7 +27,7 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Care />
+              <Support />
             </MainLayout>
           }
         />
