@@ -1,5 +1,8 @@
+import '../assets/styles/our.css'
 import React from 'react'
 import '../assets/styles/our.css';
+
+
 
 function Our() {
     return (

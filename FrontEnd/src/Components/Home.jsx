@@ -2,11 +2,12 @@
 import React, { useState } from 'react';
 // import Organisme from './Organisme';
 // import Who from './Who';
-// import Services from './Services';
+
+import Services from './Services';
 // import Our from './Our';
-import Header from './Header';
-// import Activites from './Activites';
-import Donate from './Donate';
+// import Header from './Header'
+
+
 
 
 
@@ -19,16 +20,18 @@ const Home = () => {
     <div className='flex flex-col gap-44'>
 
       <div className=" w-full h-screen bg-white  ">
-       <Organisme/>
-       <Who/>
+        {/* <Organisme/>
+       <Who/> */}
       </div>
        <Services/>
-      <Our />
-     <div className=''>
 
-     <Activites/>
-     <Donate /> 
-     <Donate/>
+     <Our />
+     <div className='  '>
+
+     {/* <Activites/> */}
+    
+   <Donate/>
+
      </div>
     </div>
 

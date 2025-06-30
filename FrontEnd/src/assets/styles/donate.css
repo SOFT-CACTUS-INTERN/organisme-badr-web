@@ -25,10 +25,11 @@ body, h3, p {
   align-items: center;
   gap: 2rem;
   width: 100%;
-  max-width: 65vw;
+  max-width: 70vw;
   border-radius: 42px;
 overflow: visible;
 position:relative;
+height: 60vh;
 
 
   background: linear-gradient(-90deg, #007200 0%, #00D800 100%);
@@ -39,18 +40,19 @@ position:relative;
 .graphic-box {
   position: relative;
   flex: 0 1 45%;
-  max-width: 400px;
+  max-width: 70vh;
  
 }
 
 .graphic-box img {
   width: 100%;
+  
  
 
-transform: translateY(-12.5%);
+transform: translateY(-100.5%);
   position: absolute;
   z-index: 1;
-  margin-left: -100%;
+  margin-left: 10%;
   /* margin-top: -372px;
   margin-left: 10px; */
  
@@ -79,8 +81,8 @@ transform: translateY(-12.5%);
 .title-line {
   display: flex;
  
-  gap:2em;
-  justify-content: center;
+  
+  justify-content: space-between;
   align-items: center;
 
   flex-direction: row-reverse;
@@ -88,10 +90,11 @@ transform: translateY(-12.5%);
   height: 50%;
   
   
+  
 }
 
 .title-line h3 {
-  font-size: clamp(1.1rem, 1.8vw, 2rem);
+  font-size: clamp(1.1rem, 2vw, 3rem);
   font-weight: 500;
   display:flex;
   flex-direction: row;
@@ -129,6 +132,8 @@ button {
   gap: .6rem;
   white-space: nowrap;
   transition: filter .25s;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .btn-solid {
@@ -137,6 +142,7 @@ button {
   display:flex;
   justify-content: center;
   align-items: center;
+  
   border: 2.65px solid #FFFFFF;
 }
 
@@ -150,13 +156,15 @@ button {
   flex-direction: row-reverse;
 }
 .title-line h3 {
-  font-size: clamp(1.4rem, 2vw, 2.2rem);
+  font-size: clamp(1.4rem, 2vw, 3rem);
+  font-weight: 500;
 }
 
 .content-box p {
-  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-weight:500;
 }
-/* @media (min-width: 1440px) {
+ /* @media (min-width: 1440px) {
   .title-line h3 {
     font-size: 2.2rem;
   }
@@ -180,27 +188,47 @@ button {
     max-width: 60vw;
     padding: 2rem 3rem;
   }
-}
-@media (min-width: 1025px) {
-  .donate-card{
-    padding:1rem 2rem;
-    max-width: 100vh;
-    width:100%
-  }
-  .title-line h3 {
-    font-size: 2rem;
-  }
-
-  .content-box p {
-    font-size: 1.5rem;
-  }
-
-  .btn-group {
-    gap: 2rem;
-  }
 } */
 
-@media(max-width:1025px){
+ 
+/* @media(min-width: 1200px)  {
+  .donate-wrapper{
+    
+   height: 100%;
+   
+  }
+  .donate-card {
+    height: 100%;
+    background-color: #FFAA00;
+    
+    width: 100%;
+    max-width: 70vw;
+   
+  }
+  .graphic-box {
+    flex: 0 1 40%;
+    max-width: 40vw;
+    position: relative;
+    margin-left: 10%;
+  }
+  .graphic-box .blob {
+
+  width:56vh;
+  height: 55vh;
+  
+  }
+  .title-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    background-color: aqua;
+  }
+ 
+} */
+
+@media(max-width:1024px){
 
  .donate-wrapper{
   
@@ -210,13 +238,27 @@ button {
   height: 100%;
   background-color: #FFAA00;
   padding:2rem 2rem;
-    max-width: 100vh;
+   width: 100%;
+  max-width: 75vw;
  }
   .btn-group{
      display: flex;
   gap: 1rem;
   flex-wrap:nowrap;
   justify-content: flex-start;
+  }
+  .title-line h3 {
+    font-size: 1.8rem;
+  
+    font-weight: 500;
+  }
+  button{
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .content-box p {
+    font-size: 1.4rem;
+    line-height: 1.6;
   }
  
 
@@ -230,7 +272,8 @@ button {
     width:100%;
     gap:0.2px;
     padding: 2rem;
-   max-width: 80vh;
+   max-width: 100vh;
+   height: 100%;
   }
 
   .content-box { 
@@ -258,6 +301,14 @@ button {
 }
 @media(max-width:500px) {
 
+  .donate-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width:100%;
+  }
+  
    .donate-card {
     flex-direction: column;
    
@@ -279,55 +330,3 @@ button {
  
 
 }
-/* @media( max-width:440px){
-
-  .donate-card {
-    flex-direction: column;
-   
-    text-align: center;
-    justify-content: center;
-    width:80%;
-    gap:0.2px;
-    padding: 1.5rem;
-    height: 50%;
-margin-top: 200px;
-  }
-  
-  .btn-group{
-     display: flex;
-     flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
-  gap:5px;
-  }
-  .content-box{
-    gap:0.5px;
-
-  }
-  
-
-  .title-line{
-    display:flex;
-    flex-direction: row-reverse;
-   
-  }
-
-}
-
-@media ( max-width:412px){
-
-   .graphic-box img{
-    margin-left: 06px;
-    margin-top: -200px;
-   
-
-  } 
-  .btn-group{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:10px;
-
-  }
-} */
