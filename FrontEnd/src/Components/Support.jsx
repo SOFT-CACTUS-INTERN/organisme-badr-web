@@ -5,7 +5,7 @@ const Support = () => {
     return ( 
         <>
             <Care/>
-            {/* <Donate/> */}
+            <Donate/>
         </>
     );
 }

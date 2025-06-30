@@ -9,6 +9,7 @@
 html, body {
  
   margin: 0;
+  position:relative
  
   
   /* background-color: red; */
@@ -28,6 +29,7 @@ width: 100%;
     position:relative;
     overflow: hidden;
    
+   
   
     /* background-color:pink ; */
     display:flex;
@@ -37,6 +39,8 @@ width: 100%;
     gap:2rem;
     padding:1rem;
     position:relative;
+    background-color: #38B000;
+    padding-bottom: 10rem;
    
    
 }.care-title{
@@ -108,7 +112,7 @@ width:60%;
 /* background-color: aquamarine; */
 flex-direction: column;
 height: auto;
-gap:1.5rem;
+gap:2rem;
 
 
 
@@ -120,6 +124,8 @@ height:auto;
 flex-direction: row-reverse;
  overflow: hidden;
    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   position:relative;
+   z-index: 10;
  
 
  
@@ -152,6 +158,8 @@ flex-direction: row-reverse;
 }
  .second{
     flex-direction: row;
+    position:relative;
+    z-index:10 ;
 }
 .second .image img{
     border-radius: 0 0 0 0; 
@@ -231,6 +239,93 @@ flex-direction: row-reverse;
   direction: rtl;
   color: #2E302F;
 }
+
+.graph22-top{position:absolute;
+top:0%;
+right:12%;
+width:29%
+}
+.graph23-top{
+  position:absolute;
+  top:-5%;
+
+  right:38%;
+/* transform: rotate(1.5deg); */
+z-index: 100;
+
+/* background-color:aqua */
+}
+.graph24-top{
+  position:absolute;
+  right:8%;
+  top:18%;
+  
+  width:12%
+}
+.graph25-top{
+  position:absolute;
+  right:0.1%;
+  /* background-color: pink; */
+  top:10%;
+  width:2%;
+
+}
+.graph22-half{
+  position:absolute;
+ 
+  left:4%;
+ width:35.5%;
+ top:25%;
+  transform:  rotate(-25deg ); 
+ 
+
+}
+.graph24-half{
+  position:absolute;
+  left:0;
+  top:auto;
+   transform:rotate(60deg);
+}
+.graph23-half{
+  position:absolute;
+  left:35%;
+  /* background-color: pink; */
+  /* z-index: 80; */
+  transform: rotate(160deg);
+  top:30%;
+  /* background-color: darkmagenta; */
+
+
+}
+.graph22-bottom{
+  position:absolute;
+  right:5%;
+  bottom: -1%;
+  width:29%;
+  transform:rotate(-45.36deg)
+}
+.graph26-bottom{
+  position:absolute;
+  right:2%;
+  bottom:14%;
+}
+.graph24-bottom{
+  position:absolute;
+  right:2%;
+  bottom:6%;
+  transform: rotate(-32.36deg);
+}
+.graph27-bottom{
+  position:absolute;
+  bottom: 1%;
+  right: 30%;
+}
+.graph-b{
+  position:absolute;
+  bottom: 3%;
+ right:35%;
+  transform: rotate(-40.36deg);
+}
 @media(max-width:1024px){
 
   .care-section{
@@ -245,6 +340,25 @@ flex-direction: row-reverse;
   .image img{
     height:100%;
   }
+
+.graph22-top{
+  /* display:none; */
+  right:0;
+}
+.graph23-top{
+  display:none;
+}
+.graph24-top{
+  display:none;
+}
+.graph25-top{
+  display:none;
+}
+
+
+
+
+
 }
 @media(max-width:768px) and (min-width:701px){
   .care-section{

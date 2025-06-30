@@ -4,6 +4,7 @@ import We from './We'
 import Story from './Story'
 import Services from './Services'
 import Donate from './Donate';
+import Nous from './Nous';
 
 
 function About() {
@@ -12,9 +13,9 @@ function About() {
             {/* 2xl:-space-y-[25%] */}
             <Presedent />
             <Story/>
+<Nous/>
             <We/>
-            <Services/>
-            <Donate/>
+           
         </div>
     )
 }
