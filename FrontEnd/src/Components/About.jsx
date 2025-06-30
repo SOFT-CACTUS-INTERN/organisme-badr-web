@@ -1,21 +1,23 @@
 import React from 'react'
 import Presedent from './Presedent'
 import We from './We'
-import Nous from './Nous'
+import Story from './Story'
+import Services from './Services'
+import Donate from './Donate';
 
 
 function About() {
     return (
-        <>
-<div className="">
-{/* 2xl:-space-y-[25%] */}
+        <div className="">
+            {/* 2xl:-space-y-[25%] */}
             <Presedent />
-            {/* <We /> */}
-            <Nous    />
-</div>
-        </>
-
+            <Story/>
+            <We/>
+            <Services/>
+            <Donate/>
+        </div>
     )
 }
+
 
 export default About
