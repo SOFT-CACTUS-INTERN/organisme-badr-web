@@ -1,9 +1,9 @@
 
  import '../assets/styles/care.css'
  import graph from '../assets/svgs/graph5.svg'
- import girls from '/organisme-badr-web/flags/girls.png'
- import child from '/organisme-badr-web/flags/child.png'
-import groupe from '/organisme-badr-web/flags/groupe.png'
+//  import girls from '/organisme-badr-web/flags/girls.png'
+//  import child from '/organisme-badr-web/flags/child.png'
+// import groupe from '/organisme-badr-web/flags/groupe.png'
 
 
 
@@ -32,7 +32,7 @@ const Care = () => {
  <div className='care'>
 
      <div className='image'>
-        <img className='' src={girls} alt="" />
+        <img className='' src="/organisme-badr-web/flags/girls.png" alt="" />
      </div>
      <div  className='care-content'>
  <div className='care-name'>
@@ -55,7 +55,7 @@ const Care = () => {
  <div className='care second'>
 
      <div className='image'>
-        <img className='' src={child} alt="" />
+        <img className='' src="/organisme-badr-web/flags/child.png" alt="" />
      </div>
      <div  className='care-content'>
  <div className='care-name'>
@@ -76,7 +76,7 @@ const Care = () => {
  <div className='care'>
 
      <div className='image'>
-        <img className='' src={groupe} alt="" />
+        <img className='' src="/organisme-badr-web/flags/groupe.png" alt="" />
      </div>
      <div  className='care-content'>
  <div className='care-name'>

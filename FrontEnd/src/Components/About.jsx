@@ -8,17 +8,16 @@ import Donate from './Donate';
 
 function About() {
     return (
-        <>
-
+        <div className="">
+            {/* 2xl:-space-y-[25%] */}
             <Presedent />
-            
             <Story/>
             <We/>
             <Services/>
             <Donate/>
-        </>
-
+        </div>
     )
 }
+
 
 export default About
