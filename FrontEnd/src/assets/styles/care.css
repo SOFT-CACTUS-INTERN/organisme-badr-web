@@ -343,18 +343,71 @@ z-index: 100;
 
 .graph22-top{
   /* display:none; */
-  right:0;
+  right:3%;
+  top:2%;
 }
 .graph23-top{
-  display:none;
+  /* display:none; */
+  right:35%;
 }
 .graph24-top{
-  display:none;
+  /* display:none; */
+  right:2%;
+  top:16%;
+  
 }
 .graph25-top{
-  display:none;
+  /* display:none; */
+  top:12%;
+  /* background-color: firebrick; */
 }
+.graph22-half{
+  /* display:none; */
+  top:26%;
+  width:40%;
+  transform: rotate(-35.67deg);
+}
+.graph23-half{
+  /* display:none; */
+}
+.graph24-half{
+  /* display:none; */
+  left:-5%;
+  width:15%;
+}
+.graph22-bottom{
+  /* display:none; */
+  width:35%;
+  bottom: 3%;
+  /* z-index: 100; */
+  right:0%;
+ 
+}
+.graph24-bottom{
+  /* display:none */
+  right:0%;
+width:10%;
+bottom: 10%;
 
+}
+.graph26-bottom{
+  /* display:none */
+  right:0;
+  bottom:16%;
+  width:4%;
+}
+.graph27-bottom{
+  /* display:none */
+
+bottom: 2%;
+right:29%;
+}
+.graph-b{
+  /* display:none */
+   transform:rotate(-40deg);
+   bottom: 5%;
+   
+}
 
 
 
@@ -364,14 +417,16 @@ z-index: 100;
   .care-section{
     /* background-color: black; */
    
-     background-color: pink;
+    background-color: #38B000;
      padding:1rem;
+     gap:0rem;
+     
     
   }.cares{
     width:100%;
-    background-color: #38B000;
+   
     padding:3rem;
-    
+   margin-bottom: 3rem; 
   
   }
   .image {
@@ -383,18 +438,87 @@ z-index: 100;
   .image img{
     height:100%;
   }
+  .graph22-top{
+    /* display:none */
+    width:40%;
+    right:0;
+  }
+  .graph23-top{
+    /* display:none */
+    width:9%;
+    top:0.5%;
+    right: 36%;
+    transform: rotate(5deg);
+    z-index: 0;
+  }
+  .graph24-top{
+    /* display: none; */
+    top:17%;
+    transform:rotate(0.5deg)
+  }
+  .graph25-top{
+    /* display:none */
+    right:0;
+  }
+  .graph22-half{
+/* display:none; */
+top:32%
+  }
+  .graph23-half{
+    /* display:none */
+  }
+  .graph24-half{
+    /* display:none */
+    transform: rotate(80deg);
+    top:45%;
+ 
+  }
+  .graph22-bottom{
+    /* display:none */
+    bottom: 0%;
+    right:-1%;
+  }
+  .graph24-bottom{
+    
+    /* display:none; */
+    right:-2%;
+    bottom:4%;
+  width:12%;
+  transform:rotate(-40deg)
+  }
+  .graph26-bottom{
+    /* display:none; */
+    bottom:10%;
+    right:0;
+  }
+  .graph27-bottom{
+    /* display:none; */
+    /* z-index: 600; */
+    width:5%;
+    bottom:1%;
+  }
+  .graph-b{
+    /* display:none */
+    bottom: 2.5%;
+  }
+  
+
+  
 }
 @media (max-width: 700px) and (min-width: 481px) {
   .care-section {
-    background-color: blue;
+    /* background-color: blue; */
+    background-color:green;
+    gap:0
   }
   .cares {
     width: 80%;
   }
+ 
   .care {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+   
   }
   .image{
     width:100%;
@@ -416,6 +540,73 @@ z-index: 100;
   .care-content p{
     font-size: 1.3rem;
   }
+  .graph22-top{
+    /* display:none */
+    width:45%;
+    top:1%;
+    right:0%
+  }
+  .graph23-top{
+    display:none
+  }
+  .graph24-top{
+    /* display:none */
+    z-index: 900;
+    top:8%;
+    width:15%;
+    transform: rotate(1deg);
+  }
+  .graph25-top{
+    /* display:none */
+    top:6.5%;
+  }
+  .graph22-half{
+    /* display:none */
+    width:50%;
+    top:30%;
+  }
+  .graph23-half{
+    /* display: none; */
+    left:auto;
+  }
+  .graph24-half{
+    /* display:none */
+    top:38%;
+    width:20%
+  }
+  .graph22-bottom{
+    /* display:none */
+    width:50%;
+    bottom:2%;
+    right:-1%;
+  }
+  .graph24-bottom{
+   
+    width:20%;
+    right:-4%;
+    bottom: 4.5%;
+    transform: rotate(-40deg);
+   
+  }
+  .graph26-bottom{
+    /* display:none */
+    width:7%;
+    bottom: 8%;
+    right:-1%;
+  }
+  .graph27-bottom{
+    /* display:none */
+    right:40%;
+    
+  }
+  .graph-b{
+    /* display:none */
+ 
+    right:50%;
+    bottom: 3.5%;
+  
+  }
+  
 }
 
 @media (max-width: 480px) {
@@ -475,4 +666,83 @@ z-index: 100;
          width: 100%; 
           border-radius: 0; 
     }
+    .graph22-top{
+      /* display:none */
+      width:45%;
+      right: -3%;
+      top:2%;
+    }
+    .graph23-top{
+      /* display:none */
+      top:0%;
+     width:13%;
+     right:32%;
+     transform: rotate(8deg);
+    }
+    .graph24-top{
+      /* display:none; */
+      top:10%;
+      /* z-index: 130; */
+      width:20%;
+      right:1%;
+      transform: rotate(-10deg);
+    }
+    .graph25-top{
+      /* display:none; */
+      top:8%;
+      width:3%;
+    }
+    .graph22-half{
+      /* display:none; */
+      /* z-index: 800; */
+      width:50%;
+      top:31%;
+    }
+    .graph23-half{
+      /* display:none */
+    }
+    .graph24-half{
+      /* display:none */
+      /* z-index: 900; */
+      width:25%;
+      top:38%;
+    }
+    .graph22-bottom{
+      /* display:none */
+      /* top:60%; */
+      z-index: 900;
+      width:50%;
+      bottom:5.1%;
+      right:0%;
+      /* background-color: darkblue; */
+      /* background-color: darkcyan; */
+    }
+    .graph24-bottom{
+      /* display:none; */
+      /* background-color: blueviolet; */
+      bottom:7%;
+      width:18%;
+      right:-3.5%;
+      
+    }
+    .graph26-bottom{
+      /* display:none; */
+      /* background-color: aqua; */
+      width:6%;
+      bottom: 10%;
+      right:-1%;
+    }
+    .graph27-bottom{
+      /* display:none */
+      width:7%;
+      bottom: 4%;
+      right:32%;
+    }
+    .graph-b{
+      /* display:none; */
+      right:42%;
+      width:15%;
+      
+    }
+    
 }
