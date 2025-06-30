@@ -10,7 +10,7 @@ function About() {
 <div className="">
 {/* 2xl:-space-y-[25%] */}
             <Presedent />
-            <We />
+            {/* <We /> */}
             <Nous    />
 </div>
         </>
