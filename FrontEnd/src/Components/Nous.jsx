@@ -23,7 +23,7 @@ function Nous() {
                         className="relative w-2/3 sm:w-2/3 rounded-lg"
                         alt="Photo 9"
                     />
-                    <img src={coeur2} alt="" className='absolute mt-[18%] 2xl:hidden' />
+                    <img src={coeur2} alt="" className='absolute mt-[25%] 2xl:hidden' />
 
                 </div>
 
