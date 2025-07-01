@@ -1,11 +1,13 @@
 
 import React, { useState } from 'react';
-// import Organisme from './Organisme';
-// import Who from './Who';
+import Organisme from './Organisme';
+import Activites from './Activites';
+import Who from './Who';
+import Donate from './Donate';
+
 
 import Services from './Services';
-// import Our from './Our';
-// import Header from './Header'
+import Our from './Our';
 
 
 
@@ -17,23 +19,23 @@ const Home = () => {
 
   return (
     <>
-    <div className='flex flex-col gap-44'>
+      <div className='bg-red-100 flex flex-col gap-44'>
 
-      <div className=" w-full h-screen bg-white  ">
-        {/* <Organisme/>
-       <Who/> */}
+        <div className=" w-full h-screen bg-white  ">
+          <Organisme />
+          <Who />
+        </div>
+        <Services />
+
+        <Our />
+        <div className='  '>
+
+          <Activites />
+
+          <Donate />
+
+        </div>
       </div>
-       <Services/>
-
-     <Our />
-     <div className='  '>
-
-     {/* <Activites/> */}
-    
-   <Donate/>
-
-     </div>
-    </div>
 
     </>
   );

@@ -9,7 +9,7 @@ import col from '../assets/svg/col.svg';
 
 function Presedent() {
   return (
-    <section className='w-full min-h-screen 2xl:h-screen mb-12'>
+    <section className='w-full min-h-screen 2xl:h-screen mb-12 '>
       <div className="flex items-center justify-between w-full px-4 mt-8">
         {/* Ligne à gauche */}
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />
@@ -36,14 +36,14 @@ function Presedent() {
           <img
             src={fleche1}
             alt="fleche1"
-            className="hidden sm:block absolute top-4 left-1/2 transform -translate-x-1/2 w-20 sm:w-24 md:w-32 lg:top-12 lg:left-[30%] lg:transform-none lg:ml-[55%] lg:mt-24 lg:w-1/3 2xl:ml-[55%] 2xl:w-1/3"
+            className="hidden sm:block absolute top-4 left-1/2 transform -translate-x-1/2 w-20 sm:w-24 md:w-32 lg:top-12 lg:left-[70%] lg:transform-none lg:ml-[55%] lg:mt-24 lg:w-1/3 2xl:ml-[55%] 2xl:w-1/3"
           />
 
           {/* Green decoration */}
           <img
             src={green}
             alt="green"
-            className="absolute top-2 left-2 w-12 sm:top-16 sm:left-4 sm:w-20 md:w-24 md:left-8 lg:static lg:ml-24 lg:-mb-6 lg:w-auto xl:ml-52 2xl:ml-64"
+            className="absolute top-2  w-12 sm:-top-12 sm:left-32   sm:w-20 md:w-24  lg:-mb-6 lg:w-auto"
           />
 
           {/* Main photo */}
@@ -58,36 +58,39 @@ function Presedent() {
         <div className='w-full min-h-[50vh] lg:min-h-screen lg:w-full px-4 lg:px-0'>
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
-            
-            <div className=' flex justify-center ml-[30%] sm:justify-end gap-3 sm:gap-4 pt-4 sm:pt-8 lg:pt-12 xl:pt-16'>
-              {/* Title text */}
-              <div className='lg:flex flex-row-reverse flex gap-2 sm:gap-4 -mt-1 sm:-mt-3'>
-                <h1 className='text-[#FFD000] text-lg sm:text-xl md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl ml-3'>
-                  رئيسة
+
+            <div className=' flex items-center justify-center sm:justify-end pt-4 sm:pt-8 lg:pt-12 xl:pt-16 sm:gap-2'>
+              {/* Bloc Titre + ligne */}
+              <div className='flex flex-col items-end space-y-2 '>
+                <h1 className='text-[#FFD000] text-xl sm:text-2xl lg:text-3xl'>
+                  رئيسة <span className='text-[#38B000]'>المنظمة</span>
                 </h1>
-                <h1 className='text-[#38B000]  text-lg sm:text-xl md:text-xl lg:text-lg xl:text-xl 2xl:text-2xl -ml-3'>
-                  المنظمة
-                </h1>
+
+                {/* Ligne */}
+                <div className='sm:block hidden'>
+                  <img
+                    src={ligne}
+                    alt='ligne'
+                    className='w-40 sm:w-48 md:w-56 lg:w-64 xl:w-72'
+                  />
+                </div>
               </div>
+
+              {/* Flèche */}
               <img
                 src={fleche2}
-                alt="fleche2"
-                className="md:hidden hidden sm:block  lg:block w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 xl:w-12 xl:h-12"
+                alt='fleche2'
+                className='ml-4 sm:ml-6 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12'
               />
             </div>
-            
-            <div className='md:hidden hidden sm:block  lg:block flex justify-center sm:justify-end'>
-              <img 
-                src={ligne} 
-                alt='ligne' 
-                className='w-32 sm:w-40 md:w-48 lg:w-1/2 lg:ml-[43%] 2xl:w-1/4 2xl:ml-[70%]' 
-              />
-            </div>
-            
+
+
+
+
             <h1 className='text-center sm:text-right font-bold text-base sm:text-lg mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
               رؤية إنسانية تقود المسيرة
             </h1>
-            
+
             <div className='text-sm sm:text-base lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 space-y-2 sm:space-y-3'>
               <p className='leading-relaxed sm:leading-loose'>
                 نادية عطية هي قائدة منظمة البدر وواحدة من الأصوات الفاعلة في الدفاع عن حقوق الأشخاص ذوي الإعاقة، والنساء، والأطفال
@@ -96,11 +99,11 @@ function Presedent() {
                 بخبرتها في العمل الإنساني وشغفها بالتغيير، تقود المنظمة برؤية واضحة وإصرار على تحقيق الأثر. بفضل التزامها، أصبحت منظمة البدر رمزًا للأمل والعمل الحقيقي
               </p>
             </div>
-            
+
             <h2 className='font-bold text-base sm:text-lg lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 mt-4 sm:mt-6'>
               كلمة من نادية عطية
             </h2>
-            
+
             <div className="flex justify-center px-2 sm:px-4 lg:px-0">
               <div className='bg-[#F5F5F5CC] w-full sm:w-5/6 lg:w-3/4 rounded-lg'>
                 <div className='flex justify-end'>
