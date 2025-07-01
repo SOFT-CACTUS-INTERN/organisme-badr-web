@@ -1,5 +1,7 @@
 
 import { useState } from "react"
+import { NavLink } from "react-router-dom";
+
 import '../assets/styles/header.css'
 
 const Header = () => {
@@ -172,15 +174,15 @@ const Header = () => {
 
             {/* Navigation Links - Left */}
             <nav className="nav-left">
-              <a href="/f" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 الرئيسية
-              </a>
-              <a href="/organisme-badr-web/Presedent" className="nav-link">
+              </NavLink>
+              <NavLink to="/About" className="nav-link">
                 المنضمة
-              </a>
-              <a href="/z" className="nav-link">
+              </NavLink>
+              <NavLink to="/Achevement" className="nav-link">
                 إنجازاتنا
-              </a>
+              </NavLink>
             </nav>
 
             {/* Logo */}
@@ -190,10 +192,10 @@ const Header = () => {
 
             {/* Navigation Links - Right */}
             <nav className="nav-right">
-              <a href="/very" className="nav-link">
+              <NavLink to="/Partners" className="nav-link">
                 الشركاء
-              </a>
-              <a href="/home" className="nav-link">
+              </NavLink>
+              <NavLink to="/Support" className="nav-link">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M7.98755 9.93926L11.9267 13.8784L15.8659 9.93926"
@@ -204,10 +206,10 @@ const Header = () => {
                   />
                 </svg>
                 رعايتنا تضم
-              </a>
-              <a href="/about" className="nav-link">
+              </NavLink>
+              <NavLink to="/Contact" className="nav-link">
                 تواصل معنا
-              </a>
+              </NavLink>
             </nav>
 
             {/* Donate Button */}
@@ -228,25 +230,26 @@ const Header = () => {
          
           <div className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
             <div className="mobile-nav-links">
-              <a href="/f" className="mobile-nav-link">
-                الرئيسية
-              </a>
-              <a href="/e" className="mobile-nav-link">
-                المنضمة
-              </a>
-              <a href="/z" className="mobile-nav-link">
-                إنجازاتنا
-              </a>
-              <a href="/very" className="mobile-nav-link">
-                الشركاء
-              </a>
-              <a href="/home" className="mobile-nav-link">
-                رعايتنا تضم
-              </a>
-              <a href="/about" className="mobile-nav-link">
-                تواصل معنا
-              </a>
-            </div>
+  <NavLink to="/" className="mobile-nav-link">
+    الرئيسية
+  </NavLink>
+  <NavLink to="/About" className="mobile-nav-link">
+    المنضمة
+  </NavLink>
+  <NavLink to="/Achevement" className="mobile-nav-link">
+    إنجازاتنا
+  </NavLink>
+  <NavLink to="/" className="mobile-nav-link">
+    الشركاء
+  </NavLink>
+  <NavLink to="/Support" className="mobile-nav-link">
+    رعايتنا تضم
+  </NavLink>
+  <NavLink to="/Contact" className="mobile-nav-link">
+    تواصل معنا
+  </NavLink>
+</div>
+
             <div className="mobile-donate">
               <div className="donate-btn">
                 <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">

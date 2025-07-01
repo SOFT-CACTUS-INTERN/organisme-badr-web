@@ -27,6 +27,7 @@ padding:2.3rem;
 min-height: 80vh;
 height: auto;
 
+
 }
 .images{
   display:flex;
@@ -144,6 +145,7 @@ height:0px;
 
 border-width: 1px;
 
+
 }
 .images{
   position:relative;
@@ -191,13 +193,16 @@ border-radius: 21px;
   height: 90%;
   z-index:1;
   transform: rotate(-8.5deg);
+  display:none
+  
 }
 .graph21{
   position:absolute;
   bottom: -13rem;
   left:5%;
   /* background-color:black; */
-  width:4%
+  width:4%;
+  display: none;
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .service-section{

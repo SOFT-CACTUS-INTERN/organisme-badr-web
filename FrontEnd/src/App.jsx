@@ -9,7 +9,7 @@ import Our from './Components/Our';
 import Activites from './Components/Activites';
 import Donate from './Components/Donate';
 import Organisme from './Components/Organisme';
-// import Home from './Components/Home';
+
 import Who from './Components/Who';
 import Presedent from "./Components/Presedent";
 import Services from "./Components/Services";
@@ -27,22 +27,24 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <Support />
+              <Home />
             </MainLayout>
           }
         />
         <Route
-          path="/services"
+          path="/About"
           element={
             <MainLayout>
-              <Services />
+              <About />
             </MainLayout>
           }
         />
         <Route
-          path="/Our"
+          path="/Support"
           element={
-            <Our />
+             <MainLayout>
+              <Support />
+            </MainLayout>
           }
         />
         <Route
