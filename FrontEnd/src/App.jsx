@@ -6,7 +6,7 @@ import MainLayout from './Layouts/MainLayout';
 import Home from './Components/Home';
 import './App.css'
 import Our from './Components/Our';
-import Activites from './Components/Activites';
+// import Activites from './Components/Activities';
 import Donate from './Components/Donate';
 import Organisme from './Components/Organisme';
 
@@ -47,12 +47,12 @@ function App() {
             </MainLayout>
           }
         />
-        <Route
+        {/* <Route
           path="/Activites"
           element={
-            <Activites />
+            <Activities />
           }
-        />
+        /> */}
         <Route
           path="/donate"
           element={

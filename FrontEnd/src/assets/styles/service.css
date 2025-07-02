@@ -1,16 +1,5 @@
 /* Pour un comportement CSS plus prévisible */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-html, body {
-  min-height: 100vw;
-  margin: 0;
-  /* padding: 0;
-  background-color: #FFB700; */
-}
 
 .service-section{
 

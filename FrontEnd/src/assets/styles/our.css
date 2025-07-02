@@ -1,16 +1,4 @@
-/* Pour un comportement CSS plus prévisible */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-html, body {
-  min-height: 100vw;
-  margin: 0;
-  /* padding: 0;
-  background-color: #FFB700; */
-}
 .our-section{
   background-color: pink;
   width:100%;
@@ -94,7 +82,7 @@ font-weight: 400;
 
 letter-spacing: 0%;
 text-align: right;
-font-size: clamp(1rem, 3vw, 1.6rem);
+font-size: clamp(1rem, 3vw, 1.5rem);
   line-height: 1.6;
   /* background-color: pink; */
 /* display:flex;
@@ -245,6 +233,7 @@ font-weight: 500;
 }
 
 
+
 @media (max-width: 1024px) and (min-width: 769px) {
   .care-section{
  
@@ -253,6 +242,7 @@ font-weight: 500;
     /* background-color: darkcyan; */
     padding:1.6rem;
     width:100%;
+     /* flex-wrap: wrap; */
   }
   .our-section{
 
@@ -264,6 +254,7 @@ font-weight: 500;
      padding-top: 2rem; */
      justify-content: center;
      align-items: center;
+     padding:1rem;
   }
   .our-p{
     /* background-color: aqua; */
@@ -278,7 +269,32 @@ font-weight: 500;
   }
   .btn-care{
     padding:1.5rem;
+   
+    
   }
+  @media(max-width:981px){
+
+    .groupes{
+      flex-wrap: wrap;
+    }
+.our-care{
+  padding:2;
+  height: 50vh;
+}
+    .btt-div{
+
+      
+      width:80%;
+      padding:1rem;
+
+    }
+    .btn-care{
+
+width:40%;
+
+    }
+  }
+  
   @media(min-height:1024px){
     .our-section{
       flex-wrap: wrap;

@@ -7,6 +7,7 @@ import Our from './Our';
 
 // import Activites from './Activites';
 // import Donate from './Donate';
+import Activities from './Activities'
 
 
 
@@ -23,7 +24,7 @@ const Home = () => {
      <Our />
      <div className='  '>
 
-     {/* <Activites/> */}
+     <Activities/>
      
     
    {/* <Donate/> */}
