@@ -373,7 +373,7 @@ body {
 
 }
 
-@media (max-width: 1024px) and (min-width: 481px) {
+@media (max-width: 1024px) and (min-width: 769px) {
 
   /* tes styles */
   .activite {
@@ -411,6 +411,77 @@ body {
 
 
 
+@media(max-width:768px) and (min-width:481px){
+
+.activite-groupe{
+background-color:antiquewhite;
+width:100%;
+padding: 0;
+padding-top: 2rem;
+padding-bottom: 2rem;
+height:auto;
+
+}
+.image-div{
+  width:100%;
+  min-height:50vh;
+  border-bottom-right-radius: 0;
+  border-top-right-radius:0 ;
+}
+.activite-pecture{
+
+
+  height:60vh;
+}
+.activite{
+  background-color: #38B000;
+  width:100%;
+  height:auto;
+  flex-direction: column;
+}
+.activite-content{
+ background: #FFC400;
+ 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding:3rem
+}
+.btn-groupe{
+  width:100%;
+  background-color: aquamarine;
+}
+
+/* .btn-groupe
+
+{
+  display:flex;
+  flex-direction: column;
+  gap:0;
+
+} */
+ @media(min-height:1024px){
+
+
+  .image-div{
+min-height:30vh
+
+
+  }
+  .activite-pecture{
+    height:50vh
+  }
+  .activite-content{
+
+    /* padding-bottom: 7rem; */
+    gap:2rem;
+    padding-bottom: 4rem;
+  }
+ }
+
+
+}
 @media(max-width:480px) {
 
   .activite-section {
@@ -430,7 +501,9 @@ body {
     flex-direction: column;
     background-color: aquamarine;
     height: auto;
-    border-radius: 0;
+    border-radius: 
+25.2px;
+
   }
 
   .activite--groupe {
@@ -455,12 +528,17 @@ body {
 
   .image-div {
     width: 100%;
-    border-radius: 0;
+    
     min-height:40vh;
     display:flex;
     justify-content: center;
     align-items: center;
     padding:1rem;
+   border-top-left-radius: 25.2px;
+border-top-right-radius: 25.2px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+
   }
 
   .activite-pecture {
@@ -473,10 +551,7 @@ body {
     
   }
 
-  .next,
-  .prev {
-    /* display:none */
-  }
+ 
 
   .btn-groupe {
     width: 100%;
@@ -524,6 +599,63 @@ body {
 
 .out{
 
-  width:20px;
+   /* Hauteur égale pour avoir un cercle */
+  /* Couleur du cercle */
+  border-radius: 50%;
  
-}}
+}
+.next,.prev{
+   border: 0.55px solid #000000;
+  background: #FFFFFF;
+
+
+
+  /* border-width: 0.55px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width:10px;
+  height:5px
+}
+@media(min-height:700px){
+  .activite-groupe{
+    background-color:red;
+    padding:0;
+  }
+  .image-div{
+    background-color: fuchsia;
+    min-height:50vh
+   
+  }
+  .activite-pecture{
+
+    height:50vh;
+    background-color: darkblue;
+  }
+  .activite-content{
+
+  
+  }
+  /* .btn-groupe{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0rem;
+
+
+  } */
+}
+.btn-groupe{
+
+  /* display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+
+}
