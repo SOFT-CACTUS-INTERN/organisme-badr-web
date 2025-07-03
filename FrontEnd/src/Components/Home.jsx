@@ -25,16 +25,16 @@ const Home = () => {
           <Organisme />
           <Who />
         </div>
-        <Services />
+        {/* <Services />
 
-        <Our />
-        <div className='  '>
+        <Our /> */}
+        {/* <div className='  '>
 
           <Activites />
 
           <Donate />
 
-        </div>
+        </div> */}
       </div>
 
     </>

@@ -11,11 +11,11 @@ function About() {
     return (
         <div className="flex flex-col ">
             {/* 2xl:-space-y-[25%] */}
-            {/* <Presedent />
+            <Presedent />
             <Story/>
             <Nous/> 
             <We/>
-            <Donate/> */}
+            <Donate/>
         </div>
     )
 }
