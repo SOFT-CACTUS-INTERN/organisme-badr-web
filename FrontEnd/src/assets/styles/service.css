@@ -13,6 +13,7 @@
 /* padding:3rem; */
 /* gap:2rem; */
 padding:2.3rem;
+/* padding-top:5rem; */
 min-height: 80vh;
 height: auto;
 
@@ -24,7 +25,8 @@ height: auto;
   align-items: center;
   /* background:pink; */
   width:20%;
-  height:30vh;
+  min-height:50vh;
+  /* background-color: darkblue; */
 }
 .service{
   display:flex;
@@ -152,8 +154,8 @@ border-width: 1px;
 .back{
   position:relative;
   /* background:black; */
-  width:70%;
- height: 50vh;
+  width:80%;
+ height: 60vh;
 
   background: linear-gradient(155.24deg, #FFFFFF 12.31%, #FFCB15 102.84%);
 /* width: 470; */
@@ -164,10 +166,14 @@ border-radius: 21px;
 }
 .unspalsh{
   position:absolute;
-  width:70%;
-  left:5%;
+  width:80%;
+  left:0%;
+  top:0;
+  height:auto;
+  
   border-radius: 22.92px;
   top:10%;
+  
 }
 .graph19{
   position:absolute;
@@ -176,38 +182,50 @@ border-radius: 21px;
 }
 .graph20{
   position:absolute;
-  left:-20%;
-  top:50%;
-  width:90%;
-  height: 90%;
+
+  width:80%;
+  height: 80%;
   z-index:1;
   transform: rotate(-8.5deg);
-  display:none
+  /* display:none */
+  z-index: 30000;
+  /* background-color: #525560; */
+
+  width:42%;
+  top:5%;
+  height: 42%;
+  left:2%;
+ 
+ 
   
 }
 .graph21{
   position:absolute;
-  bottom: -13rem;
-  left:5%;
+ top:32%;
+ left:3%;
   /* background-color:black; */
   width:4%;
-  display: none;
+  /* display: none; */
+  /* background-color: #525560; */
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .service-section{
     justify-content: space-around;
   }
+  
   .graph20{
     /* display:none; */
-    top:auto;
+    width:50%;
+    top:12%
+
   }
   .graph21{
-    /* display:none; */
- 
-    /* background:#007200; */
+   width:8%;
     z-index: 62;
-    left:0%;
-    bottom: -80%;
+    
+    /* display:none; */
+    /* background-color: aquamarine; */
+    top:39%;
   }
   .service{
     width:60%;
@@ -217,14 +235,16 @@ border-radius: 21px;
   .images{
     /* background-color: red; */
     width:40%;
+    /* background-color: antiquewhite; */
   }
   .back{
-    width:70%;
-    height: 53vh;
+    width:75%;
+    height: 56vh;
   }
   .unspalsh{
-    width:70%;
-    height:53vh;
+    width:75%;
+    height:auto;
+  
     left:8%;
      top:8%;
   }
@@ -234,10 +254,46 @@ border-radius: 21px;
     gap:1rem;
     /* width:80%; */
     z-index: 82;
+    /* background-color: bisque; */
     
+  }
+  .title hr{
+    width:80%
   }
  
   
+}
+@media (max-width: 980px) and (min-width: 935px) {
+ .graph20{
+  top:8%;
+  /* background-color: pink; */
+ }
+ .graph21{
+  /* background-color: darkblue; */
+  top:32%;
+  width:5%;
+  left:0;
+ }
+  
+
+}
+@media(max-width:934px){
+
+.graph20{
+  top:8%;
+  /* background-color: pink; */
+ }
+ .graph21{
+  /* background-color: darkblue; */
+  top:32%;
+  width:5%;
+  left:0;
+ }
+
+
+
+
+
 }
 @media (max-width: 1024px) and (min-width: 769px) and (min-height: 1024px) {
   body {
@@ -254,25 +310,31 @@ border-radius: 21px;
   }
 
  .graph20{
-  top:100%;
-  left:0;
+
+  z-index: 100;
+  width:88%;
+  top:14%;
+
  }
  .graph21{
   width:10%;
+  left:0;
  }
 
   .images {
     width: 90%;
     max-width: 100%;
-    /* background-color: fuchsia; */
+    
     padding: 1rem;
+   
   }
+  
 
   .service {
     width: 100%;
     max-width: 100%;
     padding: 2rem;
-    /* background-color: bisque; */
+   
   }
 
   .services {
@@ -364,20 +426,16 @@ gap:1.5rem;
   top:50%;
  }
  .graph20{
-  /* display:none; */
-  /* background-color: black; */
-
- /* left:50%; */
- margin-top: 95%;
- width:80%;
- height: 70%;
- left:-10%;
+ width:69%;
+ top:11%;
+ left:0;
+ z-index:300 ;
  }
  .graph21{
-  /* background-color: darkolivegreen; */
-margin-bottom: -36rem;
- width:5%;
- left:0;
+left:0;
+ width:8%;
+ top:36%;
+ z-index: 10;
  }
  .services{
   display:flex;
@@ -398,10 +456,11 @@ margin-bottom: -36rem;
   gap:1rem;
   width:100%;
   padding:1rem;
+  /* background-color: darkgoldenrod; */
  
  }
  .title hr{
-  width:50%;
+  width:70%;
  }
  .title h1{
  font-size: 2rem;
@@ -410,22 +469,30 @@ margin-bottom: -36rem;
 
   
   .back{
-    height:35vh
+    height:40vh;
+    width:60%;
+  }
+  .images .unspalsh{
+    top:5rem;
+    width:55%;
+    height:auto
   }
   .graph21{
-    display:none;
+    /* display:none; */
   }
   .graph20{
-    /* background-color: #38B000; */
-    top:15%;
-    width:60%;
-
-  }
+  
+ }
+ .title{
+  /* background-color: #007200; */
+ }
+ .title hr{
+  width:80%;
  }
 
  
 
-}
+}}
  @media (max-width: 540px) and (min-width: 481px) {
   .back{
     height:40vh;
@@ -435,14 +502,22 @@ margin-bottom: -36rem;
     top:14%;
   }
   .graph20{
-   margin-top: 40rem;
-   width:100%;
+  top:8%;
+   width:90%;
+   
+  }
+  .back{
+    height:42vh
   }
   .graph21{
-    display:none;
+ 
+     /* background-color: #525560; */
+     top:33%;
+     width:12%;
+     left:1%;
   }
   .title hr{
-    width:70%;
+    width:80%;
   }
 }
 
@@ -455,7 +530,7 @@ margin-bottom: -36rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:2rem;
+  gap:1rem;
 }
  .images {
     width: 100%;
@@ -465,28 +540,33 @@ margin-bottom: -36rem;
   justify-content: center;
   align-items: center;
   height: auto;
+  /* background-color: darkblue; */
   }
 
   .back {
     margin:1rem;
     width: 60%;
-    height: 32vh;
+    height:42vh
     
   }
   .images .unspalsh{
     /* display:none; */
     width:60%;
     left:15%;
-    top:12%;
+    top:16%;
+    height:auto
+    /* display: none; */
   }
   .images .graph19{
     left:35%;
     /* background-color: pink; */
+    /* display:none */
   }
   
 .service{
   width:100%;
   padding:0.5rem;
+  gap:1.5rem;
 }
 
 .serv{
@@ -502,19 +582,44 @@ margin-bottom: -36rem;
 }
 
 .graph20{
-  top:30%;
-  left:0;
+  
+  /* background-color: #525560; */
+  top:41%;
+  width:70%;
+  /* height:60%; */
 }
 .graph21{
- top:90%;
- width:10%;
+ top:80%;
+ /* background-color: #38B000; */
+ z-index: 200;
+ width:13%
 }
 .title hr{
   width:80%;
 }
 @media( min-height:702px){
   .back{
-    height:26vh
+    height:32vh;
+    width:70%;
+  }
+  .images .unspalsh{
+    /* display:none; */
+    width:70%;
+    left:8%;
+    top:26%;
+   
+  }
+
+  .service{
+    
+    top:-5%;
+  }
+
+  .service-section{
+  
+  }
+  .graph20{
+    top:42%;
   }
 }
 

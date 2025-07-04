@@ -2,7 +2,7 @@ import React, { useState } from 'react'; // ← N’oublie pas d’importer useS
 import '../assets/styles/activite.css';
 import activiteGraph7 from '../assets/svgs/graph7.svg';
 import activiteGraph14 from '../assets/svgs/graph14.svg';
-
+import activiteGraph30 from '../assets/svgs/graph30.svg';
 const ActiviteCard = ({ imageSrc, title, location, description, categorie }) => {
   return (
     <div className="activite">
@@ -88,6 +88,8 @@ const Activities = () => {
 
   return (
     <section className="activities-section">
+
+      <img  className='activite-graph30'src={activiteGraph30 }t="" />
       <div className="activite-title">
         <img className="activite-graph7" src={activiteGraph7} alt="Decoration" />
         <div className="activite-name">

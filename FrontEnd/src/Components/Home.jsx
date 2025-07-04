@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <>
-    <div className='flex flex-col gap-44'>
+   <div className="flex flex-col gap-0">
 
       
        <Services/>

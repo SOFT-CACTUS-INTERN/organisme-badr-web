@@ -14,7 +14,7 @@
    overflow: hidden;
    padding-top:2rem;
  
-   /* z-index: 100; */
+   /* z-index: 1000; */
 }
 
 .graph29{
@@ -113,7 +113,8 @@ width:60%;
   gap:1.5rem;
   height:auto;
   width:100%;
-  padding:3rem
+  padding:3rem;
+  z-index: 1200;
 }
 .our-care {
   position: relative;
@@ -129,7 +130,7 @@ width:60%;
   justify-content: center;
   align-items: center;
   color:white;
-  z-index: 200;
+  z-index: 1500;
   gap:0.8rem
  
 }
@@ -394,7 +395,7 @@ right:-6rem;
   }
   @media(min-height:1024px){
     .groupes{
-      background-color: aqua;
+      /* background-color: aqua; */
       width:100%;
       flex-direction: column;
       gap:3rem;
