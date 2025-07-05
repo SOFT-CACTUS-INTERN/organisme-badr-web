@@ -14,23 +14,23 @@ function Organisme() {
             <img
                 src={chms}
                 alt="chms"
-                className="  absolute top-86 right-[58%]"
+                className="  absolute top-[9%] lg:top-86 md:top-[10%] md:right-[62%]  right-32 lg:right-[58%]"
             />
-            <div className="bg-white rounded-2xl shadow-2xl w-3/4 h-screen sm:w-3/4 w-full sm:h-80 flex flex-col md:flex-row justify-center">
+            <div className="bg-white rounded-2xl shadow-2xl lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-80 flex flex-col md:flex-row justify-center md">
                 <img
                     src={or}
                     alt="or"
-                    className="absolute right-[75%]"
+                    className="absolute lg:right-[75%] md:right-[80%] right-[65%] top-[8%] lg:top-[10%] md:top-[10%]"
                 />
                 <img
                     src={focht}
                     alt="focht"
-                    className=" absolute right-[52%] top-[82%] "
+                    className=" absolute  "
                 />
                 <img
                     src={focht2}
                     alt="focht2"
-                    className=" absolute right-[50%] top-[80%] "
+                    className=" absolute right-[45%] top-[10%] "
                 />
                 <div className="container relative w-full md:w-1/2 flex items-end justify-center mb-6 md:mb-0 z-10 min-h-[250px] sm:min-h-0">
                     <div className="relative bg-[#FFB700] rounded-t-full flex h-40 sm:h-48 md:h-56 w-11/12 mx-auto "></div>
