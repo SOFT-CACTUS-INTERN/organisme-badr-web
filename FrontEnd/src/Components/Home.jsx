@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import Organisme from './Organisme';
 import Activites from './Activites';
 import Who from './Who';
-import Donate from './Donate';
+// import Donate from './Donate';
 
 
 import Services from './Services';
-import Our from './Our';
+// import Our from './Our';
 
 
 
