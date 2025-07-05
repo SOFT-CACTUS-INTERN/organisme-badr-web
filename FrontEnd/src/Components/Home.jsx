@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import Organisme from './Organisme';
-import Activites from './Activites';
+// import Activites from './Activites';
 import Who from './Who';
-import Donate from './Donate';
+// import Donate from './Donate';
 
 
 import Services from './Services';
@@ -25,6 +25,7 @@ const Home = () => {
    <div className="flex flex-col gap-0">
 
        <Organisme/>
+       <Who/>
        <Services/>
      <Our />
      <div className='  '>

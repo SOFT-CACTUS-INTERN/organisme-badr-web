@@ -3,7 +3,7 @@ import { useState } from "react"
 import { NavLink } from "react-router-dom";
 
 import '../assets/styles/header.css'
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 const Header = () => {
   const [isLangOpen, setIsLangOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)

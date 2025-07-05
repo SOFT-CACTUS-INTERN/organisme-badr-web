@@ -5,7 +5,7 @@ import Story from './Story'
 // import Services from './Services'
 import Nous from './Nous'
 import Donate from './Donate';
-import Nous from './Nous';
+// import Nous from './Nous';
 
 
 function About() {

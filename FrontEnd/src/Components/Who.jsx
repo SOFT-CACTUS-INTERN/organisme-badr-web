@@ -8,8 +8,8 @@ import dal from '../assets/svg/dal.svg';
 
 function Who() {
     return (
-        <section className='relative  w-full min-h-screen' >
-            {/* <img src={background} alt="" className=' absolute inset-0 object-cover w-full h-full' /> */}
+        <section className='relative  w-full min-h-screen z-20' >
+            <img src={background} alt="" className=' absolute -left-[20%] ' />
             <div className='z-10'>
 
                 <div className=' '>
@@ -23,9 +23,9 @@ function Who() {
                     </div> */}
                     <div className='flex '>
 
-                    <div className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '70%' }} ></div>
-                    <h1 className='w-1/4 lg:flex text-[#38B000] justify-center hidden sm:block md:hidden lg:block 2xl:block' >شركائنا</h1>
-                    <div className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '20%' }} ></div>
+                        <div className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '70%' }} ></div>
+                        <h1 className='w-1/4 lg:flex text-[#38B000] justify-center hidden sm:block md:hidden lg:block 2xl:block' >شركائنا</h1>
+                        <div className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '20%' }} ></div>
                     </div>
                     <div className=' '>
                         <img src={social} alt="" style={{ width: '100%', height: 'auto' }} />
@@ -35,8 +35,8 @@ function Who() {
 
                 </div>
 
-                <div className='flex '>
-                    <div className='lg:w-1/2 sm:w-1/2 2xl:w-1/2 w-full '>
+                <div className='flex lg:flex-row sm:flex-row 2xl:flex-row flex-col z-10'>
+                    <div className='lg:w-1/2 sm:w-1/2 2xl:w-1/2 w-full z-10'>
                         <div className=" " >
                             <img src="/organisme-badr-web/images/photo6.png" alt="Superposition" className="" style={{ padding: '0.5rem' }} />
                         </div>
@@ -62,12 +62,14 @@ function Who() {
                                 />
                             </div>
                         </div>
-                        <div className='flex flex-col w-full  '>
+                        <div className='flex flex-col w-full z-10 '>
                             <div className='flex lg:justify-end sm:justify-end justify-center md:justify-center w-full'>
                                 <h1 className='text-black font-bold text-2xl text-center ' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h1>
                             </div>
+<div className=''>
 
                             <img src={dal} alt="" className='absolute top-[30%]  left-[10%]' />
+</div>
                             <div className='text-right  top-[60%] z-10' style={{ padding: '0% 20%' }}>
 
                                 <p >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
