@@ -12,6 +12,9 @@
       import heart from '../assets/svgs/heartwe.svg'
       import ligne from '../assets/svgs/graph6.svg'
       import graph14 from '../assets/svgs/graph14.svg'
+      import we_graph23 from '../assets/svgs/graph23.svg'
+      import we_graph21 from '../assets/svgs/cerclegraph.svg'
+      import we_graph24 from '../assets/svgs/graph24.svg'
   
 
 const We = () => {
@@ -53,8 +56,10 @@ const We = () => {
  </div>
  <img className='heart' src={heart} alt="" />
 
-
-  
+<img className='we-graph23' src={we_graph23} alt="" />
+<img    className="we-graph21"src={we_graph21}alt="" />
+<img className='w-grf21' src={we_graph21} alt="" />
+ <img  className="we-graph24"src={we_graph24} alt="" /> 
 
 
   </div>
