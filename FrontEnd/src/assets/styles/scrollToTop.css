@@ -1,0 +1,33 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+  width: 82px;
+  height: 82px;
+
+  background: linear-gradient(180deg, #38B000 0%, #007200 100%);
+  border: none;
+  outline: none;
+  border-radius: 26px;
+  cursor: pointer;
+
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 8952;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  box-shadow: 0 0 15px rgba(0, 114, 0, 0.5);
+}
+
+.scroll-to-top img.arrow {
+  width: 100%;
+  height: auto;
+  transform: rotate(-45deg);
+}
+

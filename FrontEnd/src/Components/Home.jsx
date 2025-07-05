@@ -10,6 +10,9 @@ import Services from './Services';
 import Our from './Our';
 
 
+// import Activites from './Activites';
+import Donate from './Donate';
+import Activities from './Activities'
 
 
 
@@ -19,23 +22,19 @@ const Home = () => {
 
   return (
     <>
-      <div className=' flex flex-col gap-44'>
+   <div className="flex flex-col gap-0">
 
-        <div className=" w-full h-screen bg-white  ">
-          <Organisme />
-          <Who />
-        </div>
-        {/* <Services /> */}
+       <Organisme/>
+       <Services/>
+     <Our />
+     <div className='  '>
 
-        {/* <Our /> */}
-        <div className='  '>
-
-          {/* <Activites /> */}
-
-          {/* <Donate /> */}
-
-        </div>
-      </div>
+     <Activities/>
+     
+    
+   <Donate/>
+     </div>
+    </div>
 
     </>
   );

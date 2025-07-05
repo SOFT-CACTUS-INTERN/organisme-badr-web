@@ -4,13 +4,20 @@ import graph from '../assets/svgs/graph5.svg'
 //  import girls from '/organisme-badr-web/flags/girls.png'
 //  import child from '/organisme-badr-web/flags/child.png'
 // import groupe from '/organisme-badr-web/flags/groupe.png'
+import graph22 from '../assets/svgs/graph22.svg'
+import graph23 from '../assets/svgs/graph23.svg'
+import graph24 from '../assets/svgs/graph24.svg'
+import graph25 from '../assets/svgs/graph25.svg'
+import graph26 from '../assets/svgs/graph26.svg'
+import graph27 from '../assets/svgs/graph27.svg'
+import graphb from '../assets/svgs/graph24.svg'
+
 
 
 
 
 const Care = () => {
     return (
-        <>
 
 
             <section className='care-section'>
@@ -27,7 +34,10 @@ const Care = () => {
                     <h1>تمكين، رعاية، أمل، حياة</h1>
 
                 </div>
-
+                <img className='graph23-top ' src={graph23} alt="" />
+                <img className="graph22-top " src={graph22} alt="" />
+                <img className='  graph24-top ' src={graph24} alt="" />
+                <img className=' graph25-top ' src={graph25} alt="" />
                 <div className='cares'>
                     <div className='care'>
 
@@ -52,6 +62,8 @@ const Care = () => {
 
                         </div>
                     </div>
+
+
                     <div className='care second'>
 
                         <div className='image'>
@@ -99,20 +111,20 @@ const Care = () => {
 
 
                 </div>
+                <img className="graph22-half" src={graph22} alt="" />
+                <img className="graph24-half" src={graph24} alt="" />
+                <img className="graph23-half" src={graph23} alt="" />
 
 
-
+                <img className="graph22-bottom" src={graph22} alt="" />
+                <img className="graph26-bottom" src={graph26} alt="" />
+                <img className="graph24-bottom" src={graph24} alt="" />
+                <img className="graph27-bottom" src={graph27} alt="" />
+                <img className="graph-b" src={graph23} alt="" />
 
 
             </section>
-
-
-
-
-
-
-        </>
-    );
+            );
 }
 
-export default Care;
+            export default Care;

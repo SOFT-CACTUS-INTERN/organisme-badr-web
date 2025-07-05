@@ -1,48 +1,39 @@
 
-
-
-
-
 import { useState } from "react"
+import { NavLink } from "react-router-dom";
+
 import '../assets/styles/header.css'
 import { NavLink } from "react-router-dom";
 const Header = () => {
-  const [isLangOpen, setIsLangOpen] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isLangOpen, setIsLangOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [selectedLang, setSelectedLang] = useState({
     name: "العربية",
     flag: "/organisme-badr-web/flags/Morocco.png",
-  });
+  })
 
   const languages = [
     { name: "العربية", flag: "/organisme-badr-web/flags/Morocco.png" },
     { name: "English", flag: "/organisme-badr-web/flags/English.png" },
     { name: "Français", flag: "/organisme-badr-web/flags/france.png" },
-  ];
+  ]
 
   const toggleLangList = () => {
-    setIsLangOpen(!isLangOpen);
-  };
+    setIsLangOpen(!isLangOpen)
+  }
 
   const selectLang = (lang) => {
-    setSelectedLang(lang);
-    setIsLangOpen(false);
-  };
+    setSelectedLang(lang)
+    setIsLangOpen(false)
+  }
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  // Active link style function
-  const activeLinkStyle = ({ isActive }) => ({
-  fontWeight: isActive ? "bold" : "normal",
-  color: isActive ? "white" : "inherit",
-  backgroundColor: isActive ? "" : "transparent", 
-});
-
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
 
   return (
     <header className="header">
+    
       <div className="info-bar">
         <div className="container">
           <div className="info-content">
@@ -59,6 +50,8 @@ const Header = () => {
 
             {/* Contact Info */}
             <div className="contact-info">
+             
+
               <div className="contact-item">
                 <div className="contact-icon">
                   <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +71,7 @@ const Header = () => {
                 </div>
                 <div className="contact-text">05 366 - 122 51</div>
               </div>
-              <div className="contact-item">
+               <div className="contact-item">
                 <div className="contact-icon">
                   <svg width="18" height="27" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -132,17 +125,20 @@ const Header = () => {
         </div>
       </div>
 
+    
       <div className="main-nav">
         <div className="container">
           <div className="nav-content">
+           
             <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
               <div className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}>
-                <span> </span>
+                <span></span>
                 <span></span>
                 <span></span>
               </div>
             </button>
 
+           
             <div className="language-selector" onClick={toggleLangList}>
               <span className="arrow">
                 <svg width="15" height="11" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,11 +160,11 @@ const Header = () => {
                     <li
                       key={index}
                       onClick={(e) => {
-                        e.stopPropagation();
-                        selectLang(lang);
+                        e.stopPropagation()
+                        selectLang(lang)
                       }}
                     >
-                      {lang.name}
+                      {lang.name} 
                       <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
                     </li>
                   ))}
@@ -176,15 +172,15 @@ const Header = () => {
               )}
             </div>
 
-            {/* Navigation Links - Left - Using NavLink */}
+            {/* Navigation Links - Left */}
             <nav className="nav-left">
-              <NavLink to="/" className="nav-link" style={activeLinkStyle}>
+              <NavLink to="/" className="nav-link">
                 الرئيسية
               </NavLink>
-              <NavLink to="/organisme-badr-web/Presedent" className="nav-link" style={activeLinkStyle}>
+              <NavLink to="/About" className="nav-link">
                 المنضمة
               </NavLink>
-              <NavLink to="/achievements" className="nav-link" style={activeLinkStyle}>
+              <NavLink to="/Achevement" className="nav-link">
                 إنجازاتنا
               </NavLink>
             </nav>
@@ -194,12 +190,12 @@ const Header = () => {
               <img src="/organisme-badr-web/flags/logo1.png" alt="Logo" />
             </div>
 
-            {/* Navigation Links - Right - Using NavLink */}
+            {/* Navigation Links - Right */}
             <nav className="nav-right">
-              <NavLink to="/partners" className="nav-link" style={activeLinkStyle}>
+              <NavLink to="/Partners" className="nav-link">
                 الشركاء
               </NavLink>
-              <NavLink to="/sponsorships" className="nav-link" style={activeLinkStyle}>
+              <NavLink to="/Support" className="nav-link">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M7.98755 9.93926L11.9267 13.8784L15.8659 9.93926"
@@ -211,15 +207,15 @@ const Header = () => {
                 </svg>
                 رعايتنا تضم
               </NavLink>
-              <NavLink to="/contact" className="nav-link" style={activeLinkStyle}>
+              <NavLink to="/Contact" className="nav-link">
                 تواصل معنا
               </NavLink>
             </nav>
 
             {/* Donate Button */}
             <div className="donate-btn">
-              <span>تبرع الآن</span>
-              <svg width="22" height="20" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              
+              <span>تبرع الآن</span><svg width="22" height="20" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.2297 17.6435C10.9206 17.7526 10.4115 17.7526 10.1025 17.6435C7.46625 16.7435 1.57568 12.9892 1.57568 6.62595C1.57568 3.81703 3.83919 1.54443 6.62993 1.54443C8.28438 1.54443 9.74793 2.34439 10.6661 3.58068C11.5842 2.34439 13.0568 1.54443 14.7022 1.54443C17.4929 1.54443 19.7564 3.81703 19.7564 6.62595C19.7564 12.9892 13.8659 16.7435 11.2297 17.6435Z"
                   stroke="white"
@@ -231,28 +227,29 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Mobile Menu - Using NavLink */}
+         
           <div className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
             <div className="mobile-nav-links">
-              <NavLink to="/" className="mobile-nav-link" style={activeLinkStyle} onClick={toggleMobileMenu}>
-                الرئيسية
-              </NavLink>
-              <NavLink to="/organisme-badr-web/Presedent" className="mobile-nav-link" style={activeLinkStyle} onClick={toggleMobileMenu}>
-                المنضمة
-              </NavLink>
-              <NavLink to="/achievements" className="mobile-nav-link" style={activeLinkStyle} onClick={toggleMobileMenu}>
-                إنجازاتنا
-              </NavLink>
-              <NavLink to="/partners" className="mobile-nav-link" style={activeLinkStyle} onClick={toggleMobileMenu}>
-                الشركاء
-              </NavLink>
-              <NavLink to="/sponsorships" className="mobile-nav-link" style={activeLinkStyle} onClick={toggleMobileMenu}>
-                رعايتنا تضم
-              </NavLink>
-              <NavLink to="/contact" className="mobile-nav-link" style={activeLinkStyle} onClick={toggleMobileMenu}>
-                تواصل معنا
-              </NavLink>
-            </div>
+  <NavLink to="/" className="mobile-nav-link">
+    الرئيسية
+  </NavLink>
+  <NavLink to="/About" className="mobile-nav-link">
+    المنضمة
+  </NavLink>
+  <NavLink to="/Achevement" className="mobile-nav-link">
+    إنجازاتنا
+  </NavLink>
+  <NavLink to="/" className="mobile-nav-link">
+    الشركاء
+  </NavLink>
+  <NavLink to="/Support" className="mobile-nav-link">
+    رعايتنا تضم
+  </NavLink>
+  <NavLink to="/Contact" className="mobile-nav-link">
+    تواصل معنا
+  </NavLink>
+</div>
+
             <div className="mobile-donate">
               <div className="donate-btn">
                 <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -271,7 +268,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

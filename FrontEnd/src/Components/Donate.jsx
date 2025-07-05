@@ -1,4 +1,5 @@
 import '../assets/styles/donate.css'
+// import ScrollToTopButton from './ScrollToTopButton';
 
 
 const Donate = () => {
@@ -67,6 +68,7 @@ const Donate = () => {
           </div>
         </div>
       </div>
+      {/* <ScrollToTopButton/> */}
     </section>
   );
 };

@@ -7,6 +7,7 @@
  import graph11 from '../assets/svgs/graph11.svg'
  import graph12 from '../assets/svgs/graph12.svg'
  import graph13 from '../assets/svgs/graph13.svg'
+//  import graph23 from '/../assets/svgs/graph23.svg'
 
 
 
