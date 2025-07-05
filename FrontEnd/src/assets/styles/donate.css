@@ -16,6 +16,7 @@ body, h3, p {
   left:0;
  margin-top: 10%;
   position: relative;
+  flex-direction: column;
  
   height: 35vw;
 }
@@ -164,6 +165,8 @@ button {
   font-size: clamp(1rem, 1.5vw, 1.5rem);
   font-weight:500;
 }
+
+
  /* @media (min-width: 1440px) {
   .title-line h3 {
     font-size: 2.2rem;
@@ -300,6 +303,9 @@ button {
 
 
 }
+
+
+
 @media(max-width:540px) {
 
   .donate-wrapper{

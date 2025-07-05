@@ -15,6 +15,7 @@ import Presedent from "./Components/Presedent";
 import Services from "./Components/Services";
 import About from "./Components/About";
 import Support from './Components/Support'
+import Contact from './Components/Contact'
 
 
 
@@ -47,42 +48,17 @@ function App() {
             </MainLayout>
           }
         />
-        {/* <Route
-          path="/Activites"
-          element={
-            <Activities />
-          }
-        /> */}
-        <Route
-          path="/donate"
-          element={
-            <Donate />
-          }
-        />
-        <Route
-          path="/organisme"
-          element={
-            <Organisme />
-          }
-        />
-        <Route
-          path="/home"
-          element={
-            <Home />
-          }
-        />
-        <Route
-          path="/who"
-          element={
-            <Who />
-          }
-        />
-         <Route
-          path="/Presedent"
-          element={
-            <Presedent />
-          }
-        /> 
+       
+       <Route
+  path="/Contact"
+  element={
+    <MainLayout>
+      <Contact />
+    </MainLayout>
+  }
+/>
+
+      
       </Routes>
     </HashRouter>
   );
