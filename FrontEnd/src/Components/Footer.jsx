@@ -9,7 +9,7 @@ import icon7 from '../assets/svg/icon7.svg';
 
 function Footer() {
   return (
-    <footer className="relative w-full overflow-visible">
+    <footer className="relative w-full overflow-visible top-160">
       <div className='relative  min-h-screen'>
         {/* Background Images */}
         <div className="relative w-full pt-2 sm:pt-4 md:pt-6 lg:pt-8 xl:pt-12">
