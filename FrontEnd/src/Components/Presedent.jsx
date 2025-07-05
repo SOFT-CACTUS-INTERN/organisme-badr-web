@@ -6,6 +6,7 @@ import fleche2 from '../assets/svg/fleche2.svg';
 import ligne from '../assets/svg/ligne.svg';
 import col from '../assets/svg/col.svg';
 
+
 function Presedent() {
   return (
     <section className='w-full min-h-screen 2xl:h-screen mb-12'>
