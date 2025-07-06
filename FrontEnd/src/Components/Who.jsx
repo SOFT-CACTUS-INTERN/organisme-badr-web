@@ -66,10 +66,10 @@ function Who() {
                             <div className='flex lg:justify-end sm:justify-end justify-center md:justify-center w-full'>
                                 <h1 className='text-black font-bold text-2xl text-center ' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h1>
                             </div>
-<div className=''>
+                            <div className='' >
 
-                            <img src={dal} alt="" className='absolute top-[30%]  left-[10%]' />
-</div>
+                                <img src={dal} alt="" className='absolute lg:top-[30%]  lg:left-[10%]'  />
+                            </div>
                             <div className='text-right  top-[60%] z-10' style={{ padding: '0% 20%' }}>
 
                                 <p >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
@@ -78,7 +78,7 @@ function Who() {
 
                                 <p > إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات </p>
                             </div>
-                            <div className="z-10 w-full flex flex-col items-center " >
+                            <div className="z-10 w-full flex flex-col items-center " style={{ padding: '2rem', '@media': { 'screen and (max-width: 640px)': { padding: '1rem' } } }}>
                                 <button className="!bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">
                                     تواصل معنا
                                 </button>

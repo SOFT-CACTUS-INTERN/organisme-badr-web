@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <>
-   <div className="flex flex-col gap-0">
+   <div className="flex flex-col gap-0 overflow-x-hidden">
 
        <Organisme/>
        <Who/>

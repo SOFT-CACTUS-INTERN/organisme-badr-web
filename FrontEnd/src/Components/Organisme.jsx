@@ -9,14 +9,14 @@ import '../assets/styles/organisme.css';
 
 function Organisme() {
     return (
-        <section className=" w-full  min-h-screen flex justify-center items-center" style={{ padding: '2rem ' }}>
+        <section className=" w-full  min-h-screen flex justify-center items-center " style={{ padding: '2rem ' }}>
 
             <img
                 src={chms}
                 alt="chms"
-                className="  absolute top-[9%] lg:top-86 md:top-[10%] md:right-[62%]  right-32 lg:right-[58%]"
+                className="  absolute top-[9%] lg:top-86 2xl:top-[8%] md:top-[10%] md:right-[62%]  right-32 lg:right-[58%]"
             />
-            <div className="bg-white rounded-2xl shadow-2xl lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-80 flex flex-col md:flex-row justify-center md">
+            <div className="bg-white rounded-2xl 2xl:w-3/4 2xl:h-[20vh] shadow-2xl lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-80 flex flex-col md:flex-row justify-center md">
                 <img
                     src={or}
                     alt="or"
@@ -33,9 +33,9 @@ function Organisme() {
                     className=" absolute right-[45%] top-[10%] "
                 />
                 <div className="container relative w-full md:w-1/2 flex items-end justify-center mb-6 md:mb-0 z-10 min-h-[250px] sm:min-h-0">
-                    <div className="relative bg-[#FFB700] rounded-t-full flex h-40 sm:h-48 md:h-56 w-11/12 mx-auto "></div>
+                    <div className="relative bg-[#FFB700] rounded-t-full flex h-40 sm:h-48 md:h-56 w-11/12 mx-auto 2xl:w-1/2"></div>
                     <img src="/organisme-badr-web/images/photo4.png" alt="Vite logo"
-                        className="image1 absolute w-10/12 sm:w-9/12 md:w-full max-w-xs md:max-w-none  -translate-x-[2%] bottom-0"
+                        className="image1 2xl:w-1/2 absolute w-10/12 sm:w-9/12 md:w-full max-w-xs md:max-w-none  -translate-x-[2%] bottom-0"
                     />
 
                 </div>
