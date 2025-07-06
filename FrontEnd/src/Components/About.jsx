@@ -11,9 +11,9 @@ function About() {
     return (
         <div className="">
             {/* 2xl:-space-y-[25%] */}
-            {/* <Presedent /> */}
+            <Presedent />
            <We/>
-{/* <Nous/> */}
+<Nous/>
             <Story/>
            
         </div>
