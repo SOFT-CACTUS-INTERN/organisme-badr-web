@@ -246,7 +246,7 @@ function Footer() {
         </div>
 </div>  
         {/* Copyright */}
-        <div className='relative w-full mt-8 lg:absolute lg:mt-0' style={{ marginTop: '-6rem', padding: '2rem' }}>
+        <div className='relative w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' style={{   }}>
           <h2 className='text-sm sm:text-xl flex justify-center text-black lg:text-black'>
             "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
           </h2>
