@@ -12,11 +12,10 @@ function About() {
     return (
         <div className="flex flex-col ">
             {/* 2xl:-space-y-[25%] */}
-            {/* <Presedent /> */}
+            <Presedent />
            <We/>
-{/* <Nous/> */}
+<Nous/>
             <Story/>
-            <Nous/> 
             <We/>
             <Donate/>
         </div>
