@@ -183,6 +183,7 @@ border-radius: 21px;
 .graph20{
   position:absolute;
 
+
   width:80%;
   height: 80%;
   z-index:1;
@@ -192,7 +193,7 @@ border-radius: 21px;
   /* background-color: #525560; */
 
   width:42%;
-  top:5%;
+  top:17%;
   height: 42%;
   left:2%;
  
@@ -201,10 +202,11 @@ border-radius: 21px;
 }
 .graph21{
   position:absolute;
- top:32%;
- left:3%;
+ top:41%;
+ left:4%;
   /* background-color:black; */
   width:4%;
+  /* background-color: salmon; */
   /* display: none; */
   /* background-color: #525560; */
 }
@@ -216,16 +218,18 @@ border-radius: 21px;
   .graph20{
     /* display:none; */
     width:50%;
-    top:12%
+    top:20%;
+   
 
   }
   .graph21{
-   width:8%;
+   width:6%;
     z-index: 62;
+    /* background-color: salmon; */
     
     /* display:none; */
     /* background-color: aquamarine; */
-    top:39%;
+    top:44%;
   }
   .service{
     width:60%;
@@ -313,12 +317,15 @@ border-radius: 21px;
 
   z-index: 100;
   width:88%;
-  top:14%;
+  top:24%;
+  /* background-color: sandybrown; */
 
  }
  .graph21{
   width:10%;
   left:0;
+  top:48%;
+ 
  }
 
   .images {
@@ -426,15 +433,17 @@ gap:1.5rem;
   top:50%;
  }
  .graph20{
- width:69%;
- top:11%;
+ width:65%;
+ top:18%;
  left:0;
  z-index:300 ;
+ left:5%;
+
  }
  .graph21{
 left:0;
- width:8%;
- top:36%;
+ width:6%;
+ top:41%;
  z-index: 10;
  }
  .services{
@@ -479,8 +488,12 @@ left:0;
   }
   .graph21{
     /* display:none; */
+    top:44%;
+    /* background-color: salmon; */
   }
   .graph20{
+    top:21.5%;
+   
   
  }
  .title{
@@ -625,6 +638,3 @@ left:0;
 
 
 }
-
-
-
