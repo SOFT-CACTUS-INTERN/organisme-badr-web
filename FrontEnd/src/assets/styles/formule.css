@@ -53,7 +53,7 @@
     justify-content: center;
     align-items: center;
  padding:2rem;
-    background-color: #007200;
+    /* background-color: #007200; */
     width:50%;
 }
 
@@ -259,7 +259,7 @@ border-radius:118.77px;
   .formule h2 {
     font-size: clamp(1.5rem, 3vw, 2rem);
     text-align: right;
-    background-color: firebrick;
+    /* background-color: firebrick; */
     width:100%;
   }
 

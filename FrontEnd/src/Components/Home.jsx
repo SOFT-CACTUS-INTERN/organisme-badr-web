@@ -1,9 +1,14 @@
 
 import React, { useState } from 'react';
 import Organisme from './Organisme';
-// import Who from './Who';
+// import Activites from './Activites';
+import Who from './Who';
+// import Donate from './Donate';
+
+
 import Services from './Services';
 import Our from './Our';
+
 
 // import Activites from './Activites';
 import Donate from './Donate';
@@ -17,9 +22,10 @@ const Home = () => {
 
   return (
     <>
-   <div className="flex flex-col gap-0">
+   <div className="flex flex-col gap-0 overflow-x-hidden">
 
        <Organisme/>
+       <Who/>
        <Services/>
      <Our />
      <div className='  '>

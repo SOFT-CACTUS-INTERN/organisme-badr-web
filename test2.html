@@ -1,0 +1,36 @@
+import React from 'react'
+import '../assets/styles/footer.css'
+import icon1 from '../assets/svg/icon1.svg';
+import icon2 from '../assets/svg/icon2.svg';
+import icon3 from '../assets/svg/icon3.svg';
+import icon5 from '../assets/svg/icon5.svg';
+import icon6 from '../assets/svg/icon6.svg';
+import icon7 from '../assets/svg/icon7.svg';
+
+function Footer() {
+  return (
+    <footer className="relative w-full overflow-hidden">
+      <div className="relative">
+        {/* Premier conteneur */}
+        <div className="relative bg-[url('/organisme-badr-web/images/photo3.png')] bg-cover bg-center h-screen">
+          <img
+            src="/organisme-badr-web/images/photo2.png"
+            className="absolute top-4 sm:top-8 left-0 w-full sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%] h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[60vh] lg:max-h-none block"
+            alt="Overlay Footer"
+          />
+        </div>
+
+        {/* Deuxième conteneur - collé au premier */}
+        <div className="relative bg-[url('/organisme-badr-web/images/photo1.png')] bg-cover bg-center h-screen" style={{ transform: 'translateY(-600px)' }}>
+          <img
+            src="/organisme-badr-web/images/photo2.png"
+            className="absolute top-4 sm:-top-8 left-0 w-full sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%] h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[60vh] lg:max-h-none block"
+            alt="Overlay Footer"
+          />
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer 
