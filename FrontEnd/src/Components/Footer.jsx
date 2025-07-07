@@ -116,7 +116,7 @@ function Footer() {
             </div>
 
             {/* Contact Form */}
-<form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10">
+            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10">
               <div className="flex items-center justify-center w-full" style={{ padding: '1rem' }}>
                 <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                 <h2 className="font-bold text-2xl text-[#38B000] whitespace-nowrap">تواصل معنا</h2>
@@ -145,108 +145,116 @@ function Footer() {
             </form>
 
             {/* Right Icons */}
-            <div className='w-[20%] ' style={{ marginTop: '4rem'}}>
-              <img src={icon1} alt="icon1" className="" style={{ marginTop: '80px', padding: '1rem'}} />
-              <img src={icon2} alt="icon2" className="" style={{ marginTop: '6px', padding: '1rem' }} />
-              <img src={icon3} alt="icon3" className="" style={{ marginTop: '6px', padding: '1rem' }} />
+            <div className='w-[20%] ' style={{ marginTop: '4rem' }}>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="">
+
+                <img src={icon1} alt="icon1" className="" style={{ marginTop: '80px', padding: '1rem' }} />
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="">
+
+                <img src={icon2} alt="icon2" className="" style={{ marginTop: '6px', padding: '1rem' }} />
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="">
+                <img src={icon3} alt="icon3" className="" style={{ marginTop: '6px', padding: '1rem' }} />
+              </a>
             </div>
           </div>
 
           {/* Mobile and Tablet Layout */}
-<div className='lg:hidden flex items-center justify-center min-h-screen px-4'>
-  <div className='flex flex-col space-y-8 w-full'>            {/* Mobile Contact Header */}
-            <div className="text-center px-4">
-              <h2 className='font-bold text-2xl sm:text-3xl mb-2 text-white'>للتواصل مع منظمتنا</h2>
-              <p className='text-base sm:text-lg text-white'>هذا النص هو مثال لنص يمكن أن يستبدل</p>
-            </div>
-
-            {/* Mobile Contact Information */}
-            <div className='flex flex-col space-y-4 px-4' style={{ padding: '1rem', marginTop: '1rem' , display: 'flex', flexDirection: 'column',gap: '1rem' }}>
-              <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
-                <img src={icon5} alt="phone" className="w-8 h-8 ml-4" />
-                <span className="text-black font-semibold text-lg sm:text-xl">05 366 - 122 51</span>
+          <div className='lg:hidden flex items-center justify-center min-h-screen px-4'>
+            <div className='flex flex-col space-y-8 w-full'>            {/* Mobile Contact Header */}
+              <div className="text-center px-4">
+                <h2 className='font-bold text-2xl sm:text-3xl mb-2 text-white'>للتواصل مع منظمتنا</h2>
+                <p className='text-base sm:text-lg text-white'>هذا النص هو مثال لنص يمكن أن يستبدل</p>
               </div>
 
-              <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
-                <img src={icon6} alt="email" className="w-8 h-8 ml-4" />
-                <span className="text-black font-semibold text-lg sm:text-xl">contact@organismebadr.ma</span>
+              {/* Mobile Contact Information */}
+              <div className='flex flex-col space-y-4 px-4' style={{ padding: '1rem', marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
+                  <img src={icon5} alt="phone" className="w-8 h-8 ml-4" />
+                  <span className="text-black font-semibold text-lg sm:text-xl">05 366 - 122 51</span>
+                </div>
+
+                <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
+                  <img src={icon6} alt="email" className="w-8 h-8 ml-4" />
+                  <span className="text-black font-semibold text-lg sm:text-xl">contact@organismebadr.ma</span>
+                </div>
+
+                <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
+                  <img src={icon7} alt="address" className="w-8 h-8 ml-4" />
+                  <span className="text-black font-semibold text-lg sm:text-xl">الحي الاداري ص ب 116 بركان</span>
+                </div>
               </div>
 
-              <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
-                <img src={icon7} alt="address" className="w-8 h-8 ml-4" />
-                <span className="text-black font-semibold text-lg sm:text-xl">الحي الاداري ص ب 116 بركان</span>
+              {/* Mobile Contact Form */}
+              <div className='mx-4' style={{ padding: '1rem' }}>
+                <form className='bg-white rounded-2xl p-6 sm:p-8'>
+                  <div className="flex items-center justify-center w-full mb-6">
+                    <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
+                    <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap">تواصل معنا</h2>
+                    <div className="flex-1 h-1 bg-gradient-to-r from-[#FFD000] to-white mx-4"></div>
+                  </div>
+
+                  <div className='space-y-4' style={{ padding: '1rem' }}>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="الاسم الأول و الأخير"
+                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
+                      />
+                      <div className='w-full h-px bg-[#ADADAD]'></div>
+                    </div>
+
+                    <div>
+                      <input
+                        type="email"
+                        placeholder="البريد الإلكتروني"
+                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
+                      />
+                      <div className='w-full h-px bg-[#ADADAD]'></div>
+                    </div>
+
+                    <div>
+                      <input
+                        type="tel"
+                        placeholder="رقم الهاتف"
+                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
+                      />
+                      <div className='w-full h-px bg-[#ADADAD]'></div>
+                    </div>
+
+                    <div>
+                      <textarea
+                        placeholder="رسالتك"
+                        rows="4"
+                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none resize-none text-base sm:text-lg"
+                      ></textarea>
+                      <div className='w-full h-px bg-[#ADADAD]'></div>
+                    </div>
+                  </div>
+
+                  <div className='flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
+                    <button
+                      type="submit"
+                      className="w-3/4 !bg-[#38B000] text-white rounded-lg py-3 px-6 font-semibold text-lg  flex justify-center " style={{ padding: '0.25rem' }}
+                    >
+                      إرسال
+                    </button>
+                  </div>
+                </form>
               </div>
-            </div>
 
-            {/* Mobile Contact Form */}
-            <div className='mx-4' style={{ padding: '1rem' }}>
-              <form className='bg-white rounded-2xl p-6 sm:p-8'>
-                <div className="flex items-center justify-center w-full mb-6">
-                  <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
-                  <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap">تواصل معنا</h2>
-                  <div className="flex-1 h-1 bg-gradient-to-r from-[#FFD000] to-white mx-4"></div>
-                </div>
-
-                <div className='space-y-4' style={{ padding: '1rem' }}>
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="الاسم الأول و الأخير"
-                      className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
-                    />
-                    <div className='w-full h-px bg-[#ADADAD]'></div>
-                  </div>
-
-                  <div>
-                    <input
-                      type="email"
-                      placeholder="البريد الإلكتروني"
-                      className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
-                    />
-                    <div className='w-full h-px bg-[#ADADAD]'></div>
-                  </div>
-
-                  <div>
-                    <input
-                      type="tel"
-                      placeholder="رقم الهاتف"
-                      className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
-                    />
-                    <div className='w-full h-px bg-[#ADADAD]'></div>
-                  </div>
-
-                  <div>
-                    <textarea
-                      placeholder="رسالتك"
-                      rows="4"
-                      className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none resize-none text-base sm:text-lg"
-                    ></textarea>
-                    <div className='w-full h-px bg-[#ADADAD]'></div>
-                  </div>
-                </div>
-
-                <div className='flex justify-center items-center mt-6' style={{padding:'1rem'}}>
-                  <button
-                    type="submit"
-                    className="w-3/4 !bg-[#38B000] text-white rounded-lg py-3 px-6 font-semibold text-lg  flex justify-center " style={{ padding: '0.25rem' }}
-                  >
-                    إرسال
-                  </button>
-                </div>
-              </form>
-            </div>
-
-            {/* Mobile Social Icons */}
-            <div className='flex justify-center space-x-6 px-4' style={{ padding: '1rem' }}>
-              <img src={icon1} alt="social1" className="w-12 h-12 sm:w-16 sm:h-16" />
-              <img src={icon2} alt="social2" className="w-12 h-12 sm:w-16 sm:h-16" />
-              <img src={icon3} alt="social3" className="w-12 h-12 sm:w-16 sm:h-16" />
+              {/* Mobile Social Icons */}
+              <div className='flex justify-center space-x-6 px-4' style={{ padding: '1rem' }}>
+                <img src={icon1} alt="social1" className="w-12 h-12 sm:w-16 sm:h-16" />
+                <img src={icon2} alt="social2" className="w-12 h-12 sm:w-16 sm:h-16" />
+                <img src={icon3} alt="social3" className="w-12 h-12 sm:w-16 sm:h-16" />
+              </div>
             </div>
           </div>
         </div>
-</div>  
         {/* Copyright */}
-        <div className='relative w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' style={{   }}>
+        <div className='relative w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' style={{}}>
           <h2 className='text-sm sm:text-xl flex justify-center text-black lg:text-black'>
             "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
           </h2>

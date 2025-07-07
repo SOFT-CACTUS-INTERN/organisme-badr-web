@@ -46,30 +46,40 @@ const Local = () => {
                             <img src={icon9} alt="" />
                         </div>
                         <div className='flex'>
+                            
                             <img src={icon10} alt="" />
                         </div>
                     </div>
 
-                    <div className='flex gap-4 absolute top-[80%]  lg:left-[65%] left-[40%] '>
+                    <div className='flex gap-4 absolute top-[80%]  lg:left-[65%] left-[40%]  '>
+                                      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+
                         <img src={icon11} alt="" />
+                        </a>
+                                      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+
                         <img src={icon12} alt="" />
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-icon">
+
                         <img src={icon13} alt="" />
-                    </div>
-                </div>
-                <div className="w-1/2 h-[500px] flex justify-end" style={{ padding: '  1rem' }}>
-                    <iframe
-                        title="Localisation de l'organisme"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.027211276988!2d-2.3226653172190956!3d34.930854502805346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd782531eac8cd55%3A0xab84ac8d6896fbba!2z2KzZhdi52YrYqSDYp9mE2KjYr9ixINmE2YTYo9i02K7Yp9i1INiw2YjZiiDYp9mE2KXYudin2YLYqQ!5e0!3m2!1sfr!2sma!4v1751803297795!5m2!1sfr!2sma"
-                        width="600"
-                        height="450"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                    </a>
                 </div>
             </div>
-        </section>
+            <div className="w-1/2 h-[500px] flex justify-end" style={{ padding: '  1rem' }}>
+                <iframe
+                    title="Localisation de l'organisme"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.027211276988!2d-2.3226653172190956!3d34.930854502805346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd782531eac8cd55%3A0xab84ac8d6896fbba!2z2KzZhdi52YrYqSDYp9mE2KjYr9ixINmE2YTYo9i02K7Yp9i1INiw2YjZiiDYp9mE2KXYudin2YLYqQ!5e0!3m2!1sfr!2sma!4v1751803297795!5m2!1sfr!2sma"
+                    width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+        </section >
     );
 };
 
