@@ -951,19 +951,19 @@ padding-bottom:1rem;
 
   @media(min-height:700px) {
     .activite-groupe {
-      background-color: red;
+      /* background-color: red; */
       padding: 0;
     }
 
     .image-div {
-      background-color: fuchsia;
+      /* background-color: fuchsia; */
       min-height: 35vh
     }
 
     .activite-pecture {
 
       height: 35vh;
-      background-color: darkblue;
+      /* background-color: darkblue; */
     }
 
     .activite-content {}

@@ -22,6 +22,7 @@ function Organisme() {
                     alt="or"
                     className="absolute lg:right-[75%] md:right-[80%] right-[65%] top-[8%] lg:top-[10%] md:top-[10%]"
                 />
+
                 <img
                     src={focht}
                     alt="focht"
@@ -30,7 +31,7 @@ function Organisme() {
                 <img
                     src={focht2}
                     alt="focht2"
-                    className=" absolute right-[45%] top-[10%] "
+                    className=" absolute right-[45%]  "
                 />
                 <div className="container relative w-full md:w-1/2 flex items-end justify-center mb-6 md:mb-0 z-10 min-h-[250px] sm:min-h-0">
                     <div className="relative bg-[#FFB700] rounded-t-full flex h-40 sm:h-48 md:h-56 w-11/12 mx-auto "></div>

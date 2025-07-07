@@ -15,13 +15,13 @@ function Nous() {
                         className="relative w-2/3 sm:w-1/2 rounded-lg"
                         alt="Photo 10"
                     />
-                    <img src={coeur} alt="" className='absolute mr-8 2xl:hidden' />
+                    {/* <img src={coeur} alt="" className='absolute mr-8 2xl:hidden' /> */}
                     <img
                         src="/organisme-badr-web/images/photo9.png"
                         className="relative w-2/3 sm:w-2/3 rounded-lg"
                         alt="Photo 9"
                     />
-                    <img src={coeur2} alt="" className='absolute mt-[18%] 2xl:hidden' />
+                    {/* <img src={coeur2} alt="" className='absolute mt-[18%] 2xl:hidden' /> */}
                 </div>
 
                 {/* Section du contenu */}
