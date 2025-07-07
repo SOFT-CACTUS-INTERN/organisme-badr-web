@@ -4,9 +4,13 @@ import social from '../assets/svg/social.svg';
 import fleche2 from '../assets/svg/fleche2.svg';
 import ligne from '../assets/svg/ligne.svg';
 import dal from '../assets/svg/dal.svg';
+import { useNavigate } from 'react-router-dom';
+
 
 
 function Who() {
+          const navigate = useNavigate();
+    
     return (
         <section className='relative  w-full min-h-screen z-20' >
             <img src={background} alt="" className=' absolute -left-[20%] ' />
@@ -79,7 +83,7 @@ function Who() {
                                 <p > إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات </p>
                             </div>
                             <div className="z-10 w-full flex flex-col items-center " style={{ padding: '2rem', '@media': { 'screen and (max-width: 640px)': { padding: '1rem' } } }}>
-                                <button className="!bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">
+                                <button  onClick={() => navigate('/Contact')} className="!bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">
                                     تواصل معنا
                                 </button>
                             </div>

@@ -6,8 +6,12 @@ import or from '../assets/svg/or.svg';
 import focht from '../assets/svg/focht.svg';
 import focht2 from '../assets/svg/focht2.svg';
 import '../assets/styles/organisme.css';
+import { useNavigate } from 'react-router-dom';
+
 
 function Organisme() {
+    const navigate = useNavigate();
+
     return (
         <section className=" w-full  min-h-screen flex justify-center items-center " style={{ padding: '2rem ' }}>
 
@@ -70,7 +74,11 @@ function Organisme() {
 
                     </div>
                     <div className="flex flex-col sm:flex-row justify-end gap-2" style={{ padding: '1.5rem' }}>
-                        <button className="button2 !bg-[#38B000] text-white font-bold text-sm md:text-base px-3 py-2 md:px-4 md:py-2 flex justify-center" style={{ padding: '0 1rem' }}>
+                        <button
+                            onClick={() => navigate('/Contact')}
+                            className="button2 !bg-[#38B000] text-white font-bold text-sm md:text-base px-3 py-2 md:px-4 md:py-2 flex justify-center"
+                            style={{ padding: '0 1rem' }}
+                        >
                             تواصل معنا
                         </button>
                         <button className="button1 !bg-[#FFD000] text-white font-bold text-sm md:text-base px-3 py-2 md:px-4 md:py-2 flex justify-center" style={{ padding: '0 1rem' }}>
