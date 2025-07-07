@@ -9,7 +9,9 @@
 html, body {
  
   margin: 0;
-  position:relative
+  position:relative;
+  background: #FCFAF8;
+
  
   
   /* background-color: red; */
@@ -38,8 +40,8 @@ width: 100%;
     flex-direction: column;
     gap:2rem;
     padding:1rem;
-    position:relative;
-    background-color: #38B000;
+    position:relative; background: #FCFAF8;
+
     padding-bottom: 10rem;
    
    
@@ -329,7 +331,7 @@ z-index: 100;
 @media(max-width:1024px){
 
   .care-section{
-    background-color: blueviolet;
+ 
   }
   .cares{
     width:80%;
@@ -417,7 +419,6 @@ right:29%;
   .care-section{
     /* background-color: black; */
    
-    background-color: #38B000;
      padding:1rem;
      gap:0rem;
      
@@ -432,7 +433,7 @@ right:29%;
   .image {
   
     height: auto;
-    background-color: aqua;
+  
   }
 
   .image img{
@@ -508,7 +509,7 @@ top:32%
 @media (max-width: 700px) and (min-width: 481px) {
   .care-section {
     /* background-color: blue; */
-    background-color:green;
+   
     gap:0
   }
   .cares {
@@ -622,7 +623,7 @@ top:32%
          width:100%;
         
          
-         background-color: #FFB700;
+      
          position:relative;
        
 

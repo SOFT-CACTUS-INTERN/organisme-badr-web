@@ -10,7 +10,7 @@ import Donate from './Donate';
 
 function About() {
     return (
-        <div className="flex flex-col ">
+        <div className="flex flex-col gap-0 overflow-x-hidden ">
             {/* 2xl:-space-y-[25%] */}
             <Presedent />
            <We/>

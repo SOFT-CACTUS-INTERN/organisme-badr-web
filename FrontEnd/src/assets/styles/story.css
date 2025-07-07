@@ -25,8 +25,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    gap: 4rem;
+   padding:2rem;
+   gap:4rem;
+   background: #FCFAF8;
+
     /* background-color: #FFC400; */
 }
 
@@ -88,8 +90,8 @@ p {
 
     display: flex;
     flex-direction: column;
-    width: 40%;
-    background-color: #38B000;
+    width:40%;
+    /* background-color: #38B000; */
 
 }
 
@@ -104,8 +106,8 @@ p {
 
     width: 100%;
     height: auto;
-    gap: 4rem;
-    background-color: darkcyan;
+    gap:4rem;
+    /* background-color: darkcyan; */
 }
 
 .story-image {
@@ -115,16 +117,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-
-}
-
-.graph8 {
-    max-width: 70%;
-    position: relative;
+    /* background-color: white;  */
+    
+}.graph8{
+    max-width:70%;
+   position:relative;
     transform: rotate(5deg);
 
-
+    
 }
 
 .boys {
@@ -136,43 +136,39 @@ p {
 
 
 }
-
-.graph11 {
-    max-width: 25%;
-
-    top: 0%;
-    right: 25%;
-    position: absolute;
-
-
-
+.graph11{
+    max-width:25%;
+ 
+ top:0%;
+ right:25%;
+  position:absolute;
+ 
+ 
+  
 }
-
-.graph10 {
-    position: absolute;
+.graph10{
+    position:absolute;
+    max-width:18%;
+    left:10%;
+  
+    bottom:10%;
+}
+.graph9{
+    position:absolute;
     max-width: 18%;
-    left: 10%;
-
-    bottom: 10%;
+    right:5%;
+    bottom:0;
 }
+.content{
+    gap:1rem;
+   /* background-color: pink; */
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   padding:2rem;
 
-.graph9 {
-    position: absolute;
-    max-width: 18%;
-    right: 5%;
-    bottom: 0;
-}
-
-.content {
-    gap: 1rem;
-    background-color: pink;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-
-
+   
 }
 
 .content h2 {
@@ -280,12 +276,11 @@ p {
     color: #000000;
 
 }
+@media (max-width: 1024px) and (min-height: 800px) and (orientation: portrait){
 
-@media (max-width: 1024px) and (min-height: 800px) and (orientation: portrait) {
-
-    .story-section {
-        background-color: rgb(215, 255, 192);
-
+    .story-section{
+        /* background-color: rgb(215, 255, 192); */
+        
     }
 
     .story-content {
@@ -293,18 +288,16 @@ p {
         flex-direction: row-reverse;
         justify-content: space-around;
     }
-
-    .content {
-        background: pink;
-        display: flex;
-        align-items: center;
-        width: 50%;
-        padding: 1rem;
+    .content{
+  /* background:pink; */
+  display:flex;
+  align-items: center;
+width:50%;
+padding:1rem;
     }
-
-    .story-image {
-        width: 40%;
-        background-color: black;
+    .story-image{
+        width:40%;
+        /* background-color: black; */
     }
 
     .boys {
@@ -343,88 +336,95 @@ p {
     }
 }
 
+  
+
 @media (max-width: 1024px) and (max-height: 700px) and (orientation: landscape) {
 
 
-
-    .story-section {
-        background: purple
+    .story-section{
+        /* background:purple */
     }
 
     .story-content {
         display: flex;
         justify-content: space-around;
     }
-
-    .content {
-        width: 50%;
-        padding: 1rem;
+    .content{
+        width:50%;
+      
     }
 }
 
 @media (max-width: 768px) {
-    .graph9 {
-        /* display:none; */
-        max-width: 30%;
+    .stats-button{
+       
+  width:100%;
+  gap:0.5rem
+  ;
+ 
     }
-
-    .graph10 {
-        /* display:none; */
-        max-width: 30%;
-    }
-
-    .graph8 {
-        /* display:none; */
-        max-width: 90%;
-    }
-
-    @media(max-height:700px) {
-        .boys {
-            /* display:none; */
-            max-width: 90%;
-            top: 20%;
-            right: 5%;
-        }
-    }
-
-    @media(min-height:1024px) {
-        .boys {
-            /* display:none; */
-            max-width: 90%;
-            top: 30%;
-            right: 5%;
-        }
-    }
-
-    .graph11 {
-        /* display:none; */
-        max-width: 40%;
-        right: 20%;
-        top: 6%
-    }
-
-    .story-image {
-        width: 40%;
-    }
-
-    .story-content {
-        justify-content: space-around;
-    }
-
+  .graph9{
+   /* display:none; */
+   max-width:30%;
+  }
+  .graph10{
+    /* display:none; */
+    max-width:30%;
+  }
+.graph8{
+    /* display:none; */
+    max-width:90%;
 }
 
-/*  */
-@media(max-width:540px) {
-    .story-section {
-        gap: 2.5rem;
-    }
+@media(max-height:700px){
+.boys{
+    /* display:none; */
+    max-width:90%;
+    top:20%;
+    right:5%;
+}
+}
+@media( min-height:1024px){
+   .boys{
+    /* display:none; */
+    max-width:90%;
+    top:30%;
+    right:5%;
+} 
+}
 
-    .story-content {
-        display: flex;
+.graph11{
+    /* display:none; */
+    max-width:40%;
+    right:20%;
+    top:6%
+}
+.story-image{
+    width:40%;
+}
+.story-content{
+    justify-content: space-around;
+}
+
+.stats-button{
+    padding-right:22rem;
+   
+}
+}
+/*  */
+@media( max-width:540px){
+    .story-section{
+        gap:2.5rem;
+    }
+    .story-content{
+        display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1rem;
+    }
+    .stats-button{
+        padding:1rem;
     }
 
     .content {
