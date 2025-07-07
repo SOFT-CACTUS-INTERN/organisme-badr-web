@@ -347,13 +347,13 @@ transform:rotate(-40deg)
   left:39%;
 }
 .we-description{
-  background-color: blue;
+  /* background-color: blue; */
 }
 .description{
   width:90%;
 }
 .we-image{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .butt{
   /* background-color: blueviolet; */
@@ -485,6 +485,9 @@ transform:rotate(-40deg)
   .description{
     width:100%;
     margin:0;
+  padding:3rem;
+  padding-bottom: 4rem;
+    /* background-color: saddlebrown; */
   }
  .title-svg img{
   /* background-color:red; */
@@ -505,13 +508,14 @@ width:40%;
   top:auto;left:auto;
  } */
   .we_graph21{
-    background-color: #FFB700;
+    /* background-color: #FFB700; */
     /* wi
     width:100%; */
   }
   .heart{
- width:40%;
+ width:35%;
  top:65%;
+
   }
 
 
@@ -520,14 +524,15 @@ width:40%;
     /* display:none; */
     width:5%;
     top:92%;
-    left:30%;
+    left:20%;
   }
   .we-graph24{
     /* background-color:red;
     display:none */
     width:13%;
-    left:50%;
+    left:40%;
     top:80%;
+    /* background-color: darkblue; */
   }
 
   .w-grf21{
@@ -535,16 +540,17 @@ width:40%;
     /* background-color: yellow; */
     /* display:none */
     width:5%;
-    top:70%;
-    left:58%;
+    top:72%;
+    left:48%;
   }
   .we-graph23{
 
     /* background-color: blueviolet; */
     /* display:none */
-    width:10%;
+    width:8%;
     top:78%;
-    left:10%;
+    left:8%;
+    /* background-color: #FFB700; */
     transform: rotate(-60deg);
   }
 }

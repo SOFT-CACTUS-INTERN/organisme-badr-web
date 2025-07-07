@@ -1,3 +1,6 @@
+
+
+
 /* Style général */
 .formule-section {
   display: flex;
@@ -227,31 +230,43 @@ border-radius:118.77px;
   
   }
 
-
-/* @media(max-width:1024px){
+ 
+@media (max-width: 1024px) {
     .formule-section{
-        width:100%;
+        padding:2rem;
     }
-} */
-/* 🌐 Version TABLETTE (jusqu'à 992px) */
-/* @media (max-width: 992px) {
   .form-pect {
-    flex-direction: column;
+    /* ON GARDE flex-direction: row */
     width: 100%;
     padding: 1rem;
+    justify-content: space-between; /* Pour bien espacer */
+    gap: 1rem; /* Si besoin */
   }
 
   .pecture {
-    width: 100%;
+    width: 45%;
     padding: 1rem;
   }
 
-  .formule {
+  .pecture img {
     width: 100%;
   }
 
+  .formule {
+    width: 50%;
+  }
+
+  .formule h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    text-align: right;
+    background-color: firebrick;
+    width:100%;
+  }
+
   .formule form {
-    width: 90%;
+    width: 100%;
+    padding: 1rem;
+    margin-top:0%;
   }
 
   .care-title h1 {
@@ -262,17 +277,44 @@ border-radius:118.77px;
     font-size: 1rem;
   }
 
-  .send {
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
-  }
-
   .btn-form {
-    flex-direction: column;
+    flex-direction: row; /* On garde row */
+    gap: 1rem;
+    width: 100%;
+    padding: 0;
   }
-} */
 
-/* 📱 Version MOBILE (jusqu'à 768px) */
-/* @media (max-width: 768px) {
+  .btn-form button {
+    width: auto;
+    flex: 1; /* Pour répartir */
+  }
+
+  .send {
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  }
+
+  .graph33 {
+    margin-right: 20%;
+    margin-top: -8%;
+  }
+  .graph33{
+
+
+    margin-right: 50%;
+    margin-top: -12%;
+  }
+  @media(min-height:1024px){
+
+    .form-pect{
+      
+        
+        width:90%;
+    }
+   
+  }
+}
+
+@media (max-width: 768px) {
   .form-pect {
     flex-direction: column;
     width: 100%;
@@ -288,11 +330,14 @@ border-radius:118.77px;
     width: 100%;
   }
 
+
   .formule {
     width: 100%;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
-
+.formule h2{
+    text-align: right;
+}
   .formule form {
     width: 100%;
     padding: 1rem;
@@ -309,12 +354,17 @@ border-radius:118.77px;
   .btn-form {
     flex-direction: column;
     gap: 0.5rem;
+    width:100%;
+    padding:0rem;
+  }
+  .btn-form button{
+    width:100%;
   }
 
   .send {
     font-size: clamp(0.8rem, 3vw, 1.1rem);
   }
-} */
+}
 
 @media (max-width: 480px) {
     .form-pect{
@@ -350,6 +400,7 @@ border-radius:118.77px;
   }
   .formule{
     width:100%;
+    padding:2rem;
    
    
 
@@ -357,6 +408,7 @@ border-radius:118.77px;
   
   .pecture{
     width:100%;
+    padding:2rem
   }
   input{
     width:100%;
