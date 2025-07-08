@@ -3,17 +3,94 @@
        background-color: blueviolet;
     }
 } */
-/* @media (max-width: 480px) {
-    .image1 {
+@media (max-width: 480px) {
+    .organisme-container {
+        margin: 2rem;
+        border: #E3DBD8 1px solid;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 70vh;
+        
+    }
+
+    .container {
+        /* background-color: tomato; */
+        height: 80%;
+        display: flex;
+        align-items: end;
+      
+    }
+
+    /* .icon1 {
+        top: 13%;
+        right: 28%;
+    }
+
+    .coeur1 {
+        top: 9%;
         width: 10%;
         height: 10%;
-        top: auto;
-        left: 2%;
-        position: relative;
+    }
+
+    .icon2 {
+        top: 14%;
+        right: 16%;
+    }
+      .icon3 {
+        top: 14%;
+        right: 8%;
+    } */
+    .button1{
+        border-radius: 0.3rem;
+    }
+     .button2{
+        border-radius: 0.3rem;
     }
 }
-@media (max-width: 480px) {
-   .container{
-    background-color: aqua;
-   }
-} */
+
+@media (min-width: 320px) and (max-width: 390px) {
+    .organisme-container {
+        margin: 2rem;
+        padding: 2rem;
+        border: #E3DBD8 1px solid;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+
+    .container {
+        /* background-color: tomato; */
+        /* height: 90%; */
+        display: flex;
+        /* top: -9vh; */
+        align-items: end;
+    }
+
+    /* .icon1 {
+        top: 9%;
+        right: 20%;
+        width: 10%;
+        height: 10%;
+    }
+
+    .coeur1 {
+        top: 9%;
+        right: 50%;
+        width: 10%;
+        height: 10%;
+    }
+     .icon2 {
+        top: 14%;
+        left:95%;
+    }
+      .icon3 {
+        top: 14%;
+        left:110%;
+    } */
+    .button1{
+        border-radius: 0.3rem;
+    }
+     .button2{
+        border-radius: 0.3rem;
+    }
+}

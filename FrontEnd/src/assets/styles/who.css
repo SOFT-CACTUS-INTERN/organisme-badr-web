@@ -1,0 +1,13 @@
+.who-section{
+    padding: 6rem;
+}
+@media (max-width:480px){
+    .who-section{
+        padding: 0.5rem;
+
+    }
+    .who-prDiv{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
