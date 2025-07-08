@@ -20,7 +20,7 @@ function Organisme() {
                 alt="chms"
                 className="  absolute top-[9%] lg:top-86 md:top-[10%] md:right-[62%]  right-32 lg:right-[58%]"
             />
-            <div className="bg-white rounded-2xl   shadow-2xl lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-80 flex flex-col md:flex-row justify-center md">
+            <div className="bg-white rounded-2xl   shadow-md lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-80 flex flex-col md:flex-row justify-center md">
                 <img
                     src={or}
                     alt="or"
@@ -35,7 +35,7 @@ function Organisme() {
                 <img
                     src={focht2}
                     alt="focht2"
-                    className=" absolute right-[45%]  "
+                    className=" absolute right-[45%] sm:block lg:block md:hidden hidden 2xl:block  "
                 />
                 <div className="container relative w-full md:w-1/2 flex items-end justify-center mb-6 md:mb-0 z-10 min-h-[250px] sm:min-h-0">
                     <div className="relative bg-[#FFB700] rounded-t-full flex h-40 sm:h-48 md:h-56 w-11/12 mx-auto "></div>

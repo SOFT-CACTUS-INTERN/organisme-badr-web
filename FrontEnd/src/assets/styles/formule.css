@@ -1,6 +1,3 @@
-
-
-
 /* Style général */
 .formule-section {
   display: flex;
@@ -10,6 +7,7 @@
 
   background: #fff;
   /* background-color: red; */
+  z-index: 12;
 }
 
 .care-title {
@@ -62,6 +60,7 @@
   width: 90%;
   border-radius: 8px;
   object-fit: cover;
+  z-index: 12;
 }
 
 .formule {
@@ -106,6 +105,7 @@
   gap: 1rem;
   background-color: white;
   width:80%;
+  z-index: 12;
 
  
   background: #FFFFFF;
@@ -229,7 +229,12 @@ border-radius:118.77px;
   margin-top: -12%;
   
   }
-
+ .graph34{
+    position:absolute;
+    top:30%;
+    left:0;
+    /* background-color: #2e8a00; */
+  }
  
 @media (max-width: 1024px) {
     .formule-section{
@@ -303,6 +308,7 @@ border-radius:118.77px;
     margin-right: 50%;
     margin-top: -12%;
   }
+ 
   @media(min-height:1024px){
 
     .form-pect{
@@ -318,29 +324,34 @@ border-radius:118.77px;
   .form-pect {
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .pecture {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .pecture img {
     width: 100%;
+    
   }
 
 
   .formule {
     width: 100%;
-    /* padding: 0 1rem; */
+    padding: 0 1rem;
   }
 .formule h2{
     text-align: right;
 }
   .formule form {
     width: 100%;
-    padding: 1rem;
+    
+    /* padding-bottom: 4rem; */
+    padding:3rem;
+    padding-bottom: 5rem;
+    /* background-color: darkblue; */
   }
 
   .care-title h1 {
@@ -364,6 +375,12 @@ border-radius:118.77px;
   .send {
     font-size: clamp(0.8rem, 3vw, 1.1rem);
   }
+  .graph34{
+    /* background-color: red; */
+    left:-5rem;
+    width:100%;
+    height:80vh
+  }
 }
 
 @media (max-width: 480px) {
@@ -373,6 +390,7 @@ border-radius:118.77px;
         align-items: center;
         flex-direction: column;
         width:100%;
+        gap:0rem;
     }
   .care-title h1 {
     font-size: 1rem;
@@ -401,6 +419,7 @@ border-radius:118.77px;
   .formule{
     width:100%;
     padding:2rem;
+ 
    
    
 
@@ -408,7 +427,15 @@ border-radius:118.77px;
   
   .pecture{
     width:100%;
-    padding:2rem
+    padding:3rem;
+height:auto;
+
+    /* background-color: saddlebrown; */
+  }
+  .pecture img{
+    height:auto;
+
+    
   }
   input{
     width:100%;
@@ -420,5 +447,12 @@ border-radius:118.77px;
 
     margin-right: 5%;
   }
-}
+  .graph34{
+    /* background-color: salmon; */
+    top:40%;
+width:100%;
+height:50vh;
+top:38%
 
+  }
+}

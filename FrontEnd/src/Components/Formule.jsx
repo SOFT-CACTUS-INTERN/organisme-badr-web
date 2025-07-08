@@ -2,12 +2,15 @@ import '../assets/styles/formule.css'
 import graph32 from'../assets/svgs/graph32.svg'
 import form_graph28 from '../assets/svgs/graph28.svg'
 import graph33 from '../assets/svgs/graph33.svg'
+import  graph34 from '../assets/svgs/graph34.svg'
 
 const Formule = () => {
     return ( 
         <>
         
      <section className="formule-section">
+        <img  className="graph34"src={graph34} alt="" />
+
 
 
  <div className='care-title'>
