@@ -1,0 +1,39 @@
+/* html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+ .localSection{
+    width: 80%;
+   display: flex;
+   justify-content: center;
+   left: 10%;
+ }
+
+
+@media (max-width:468px){
+   .information {
+      width: 100%;
+    }
+    .map {
+      width: 100%;
+    }
+    .local{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon8{
+        margin-right: 8px;
+    }
+    .icons{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        /* background-color: red; */
+        margin-left: 20%;
+    }
+    .titre{
+        display: flex;
+        justify-content: end;
+        margin-left: 50px;
+    }
+}
