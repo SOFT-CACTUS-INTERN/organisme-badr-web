@@ -24,7 +24,7 @@ function Presedent() {
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" />
       </div>
 
-      <div className='flex justify-center mt-4 sm:mt-6 px-4'>
+      <div className='phrase0 flex justify-center mt-4 sm:mt-6 px-4'>
         <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center'>
           وراء كل إنجاز... فريق يحمل رسالة
         </h2>
