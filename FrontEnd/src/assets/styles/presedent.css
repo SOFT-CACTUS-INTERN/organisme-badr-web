@@ -3,3 +3,52 @@
   border-image-source: linear-gradient(180deg, rgba(255, 183, 0, 0) 26.92%, #FFB700 100%);
   border-image-slice: 1;
 }
+@media (max-width:468px){
+  .presedant{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10vh ;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+  }
+  .presedantTitle{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap:12px;
+
+  }
+  .titre{
+    width:90%;
+    display: flex;
+    text-align: end;
+    font-size: small;
+    justify-content: end;
+      flex-direction: row;
+
+  }
+  .secondTitre{
+    font-size: large;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .paragraphe1{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+  }
+   .paragraphe2{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+  }
+  .titre3{
+    display: flex;
+    justify-content: end;
+  }
+}
