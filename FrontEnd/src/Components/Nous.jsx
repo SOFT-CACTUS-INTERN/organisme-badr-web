@@ -3,13 +3,14 @@ import fleche3 from '../assets/svg/fleche3.svg';
 import coeur from '../assets/svg/coeur.svg';
 import coeur2 from '../assets/svg/coeur2.svg';
 import bolara from '../assets/svg/bolara.svg';
+import '../assets/styles/nous.css'
 
 function Nous() {
     return (
         <section className="nous-section mt-12  2xl:ml-[10%]" style={{ padding: '3rem' }}>
             <div className="nous-container flex flex-col lg:flex-row gap-8" style={{ padding: '0.5rem 1rem' }}>
                 {/* Section des photos */}
-                <div className="w-full lg:w-1/3 2xl:w-[40%] flex flex-col gap-4 items-center">
+                <div className="images w-full lg:w-1/3 2xl:w-[40%] flex flex-col gap-4 items-center">
                     <img
                         src="/organisme-badr-web/images/photo10.png"
                         className="relative w-2/3 sm:w-1/2 rounded-lg"
