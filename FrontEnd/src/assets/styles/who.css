@@ -1,6 +1,10 @@
 .who-prDiv{
     padding: 6rem;
 }
+ .slider-track{
+        /* background-color: aqua;  */
+        margin-top: 1rem;
+    }
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -60,7 +64,6 @@
         /* display: none; */
     }
     .slider-track{
-        /* background-color: aqua; */
         margin-top: 2rem;
     }
     .slider-container{

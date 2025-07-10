@@ -32,7 +32,7 @@ function Who() {
 
                     </div>
                     <div className="slider-container  top-12  " >
-                        <div className="slider-track " style={{ marginTop:'1rem'}}>
+                        <div className="slider-track " >
                             <img src={social} alt="social"
  />
                             <img src={social} alt="social"
