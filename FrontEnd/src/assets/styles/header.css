@@ -1,109 +1,86 @@
-*, *::before, *::after { box-sizing: border-box; }
-body, h3, p { margin: 0; }
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
+body, h3, p { 
+  margin: 0; 
+
+ 
+}
+
 
 
 
 .header {
+  width: 100%;
  
-  width: 100vw;
-  
   top: 0;
-  z-index: 1000;
+  left: 0;
+  /* z-index: 1000; */
   display: flex;
-  flex-direction: column;
 
-  gap:20px;
-  position:relative;
+  flex-direction: column;
+  gap: 20px;
+}
+.header {
+  /* position: fixed; */
+  width: 100%;
+  top: 0;
+ /* Assure qu’il est toujours au-dessus */
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
- 
+  /* background-color: saddlebrown; */
 }
 
 .info-bar {
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-   background: linear-gradient(90deg, #007200 0%, #38b000 100%);
- 
+  background: linear-gradient(90deg, #007200 0%, #38b000 100%);
   
 }
 
 .info-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 1rem;
   flex-direction: row-reverse;
-  
-}
-
-.info-bar {
-  padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-   background: linear-gradient(90deg, #007200 0%, #38b000 100%);
- 
-  
-}
-
-.info-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: nowrap;
   gap: 1rem;
-  flex-direction: row-reverse;
-  
+  /* background-color: pink; */
 }
 
 .organization {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
   align-items: center;
+  /* background-color: yellow; */
 }
-
-
 
 .info {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-
-    gap: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-
-
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  
 }
+
 
 .local-name,
 .phone-number {
-    color: #FFFFFF;
-    font-family: Neo Sans Arabic;
-    font-weight: 500px;
-    font-size: 18.12px;
-    line-height: 20.71px;
-    letter-spacing: 0%;
-    text-align: center;
-    width: 230px;
-
-    height: 21px;
-
-
-
-
-
-    
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  min-width: 200px;
 }
-
-
-
-
 
 .vector-line {
   width: 100%;
@@ -126,16 +103,28 @@ body, h3, p { margin: 0; }
 
 .org-text {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   white-space: nowrap;
+  font-weight: 500;
+font-style: normal;  
+font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+
+line-height: 20.71px; 
+letter-spacing: 0;
+text-align: center;
+
+
 }
 
 /* Contact Info */
 .contact-info {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /* background-color: #000000; */
 }
 
 .contact-item {
@@ -146,8 +135,8 @@ body, h3, p { margin: 0; }
 }
 
 .contact-icon {
-  width: 35px;
-  height: 35px;
+  width: 34px;
+  height: 34px;
   background: #ffffff;
   border-radius: 50%;
   display: flex;
@@ -157,20 +146,27 @@ body, h3, p { margin: 0; }
 
 .contact-text {
   color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: 500;
+  
   white-space: nowrap;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(1rem, 1rem + 0.5vw, 1.25rem);
+  line-height: 1.3; 
+  letter-spacing: 0;
+  text-align: center;
+  
 }
-
 
 .social-icons {
   display: flex;
   gap: 0.8rem;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   background: #ffffff;
   border-radius: 70%;
   display: flex;
@@ -183,21 +179,21 @@ body, h3, p { margin: 0; }
   transform: scale(1.1);
 }
 
-
 .main-nav {
   padding: 0.75rem 0;
- 
+  /* background-color: saddlebrown; */
 }
 
 .nav-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0rem;
   flex-direction: row-reverse;
-  
-}
+  flex-wrap: nowrap;
+  /* background-color: darkblue; */
 
+}
 
 .mobile-menu-btn {
   display: none;
@@ -216,8 +212,7 @@ body, h3, p { margin: 0; }
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: #ffffff;
-  background:black;
+  background: #000000;
   transition: all 0.3s ease;
 }
 
@@ -237,16 +232,33 @@ body, h3, p { margin: 0; }
   position: relative;
   background: #ededed;
   border-radius: 125px;
-  padding: 1.0rem 2rem;
+  padding: 0.5rem 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
-  
- 
-  
+}
+.nav-content {
+  gap: 2rem;
+}
 
-  justify-content: space-between;
+.language-selector {
+  padding: 1rem 2rem;
+  display:flex;
+  justify-content: center;
+ 
+}
+
+.contact-icon {
+  width: 45px;
+  height: 45px;
+}
+
+
+
+.local-name, .phone-number {
+  font-size: 1.6rem; 
+   font-weight: 500;
 }
 
 .language-selector img {
@@ -260,13 +272,15 @@ body, h3, p { margin: 0; }
 .lang-name {
   color: #004b23;
   font-weight: 500;
-  font-size: 1.2rem;
-  color: #004B23;}
-
-.lang-name {
-  color: #004b23;
+  
+   color: #004B23;
+  
   font-weight: 500;
-  font-size: 0.9rem;
+  font-style: normal; 
+  font-size: clamp(0.875rem, 0.85rem + 0.3vw, 1rem);
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-align: right;
 }
 
 .lang-options {
@@ -274,7 +288,6 @@ body, h3, p { margin: 0; }
   top: 100%;
   left: 0;
   right: 0;
-  
   background: #ededed;
   border-radius: 10px;
   padding: 0.5rem;
@@ -303,47 +316,66 @@ body, h3, p { margin: 0; }
   height: 30px;
 }
 
-
 .nav-left,
 .nav-right {
   display: flex;
   align-items: center;
+  gap: 0.8rem;
   flex-direction: row-reverse;
-  gap: 1rem;
   background: #ededed;
   border-radius: 125px;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
+  flex-wrap: nowrap;
+  /* background-color: #ffaa00; */
+  color: #004B23;
+    font-weight: 500;
+  font-style: normal; /* Medium = normal */
+  font-size: clamp(0.875rem, 0.85rem + 0.3vw, 1rem);
+  line-height: 1.2; /* Plus propre qu'un px fixe */
+  letter-spacing: 0;
+  text-align: center;
+
 }
 
 .nav-link {
   color: #004b23;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding: 0.5rem 1.1rem;
+  font-weight:normal;
+
+  padding: 0.5rem 1rem;
   border-radius: 25px;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   gap: 0.25rem;
   white-space: nowrap;
+  
+  
+   /* background-color:darkgoldenrod; */
+   
 }
-*, *::before, *::after { box-sizing: border-box; }
-body, h3, p { margin: 0; }
 
 
-.nav-link:hover,
 .nav-link.active {
   background: #38b000;
   color: white;
+  
+  font-weight: 500;
+
+
+
+
+text-align: center;
+
+
 }
 
 
 .logo {
-  width: 70px;
-  height: 70px;
- 
+  width: 80px;
+  height: 80px;
   flex-shrink: 0;
+  /* background-color: darkgoldenrod; */
 }
 
 .logo img {
@@ -352,16 +384,21 @@ body, h3, p { margin: 0; }
   object-fit: contain;
 }
 
-
 .donate-btn {
   background: #ffaa00;
   border-radius: 125px;
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
   transition: transform 0.3s ease;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(1.125rem, 1.15rem + 0.5vw, 1.4rem);
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .donate-btn:hover {
@@ -371,7 +408,7 @@ body, h3, p { margin: 0; }
 .donate-btn span {
   color: #ffffff;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   white-space: nowrap;
 }
 
@@ -380,8 +417,13 @@ body, h3, p { margin: 0; }
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  margin-top: 1rem;
+ /* display:flex; */
   padding: 1rem;
+  /* flex-direction: column; */
+  width: 100%;
+ 
+  text-align: right;
+ 
 }
 
 .mobile-menu.active {
@@ -396,7 +438,7 @@ body, h3, p { margin: 0; }
 }
 
 .mobile-nav-link {
-  color:black;
+  color: black;
   text-decoration: none;
   font-weight: 500;
   padding: 0.75rem;
@@ -413,55 +455,110 @@ body, h3, p { margin: 0; }
   justify-content: center;
 }
 
-@media (max-width: 1024px) {
-  .info-content {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
+.nav-link{
+  /* font-size: 1.6rem;
+  font-weight: 500; */
+  /* background-color: pink; */
+}
 
-  .contact-info {
-    gap: 1rem;
-  }
 
-  .nav-left,
-  .nav-right {
-    gap: 0.5rem;
-    padding: 0.5rem;
-  }
+.language-selector.test {
+  display: none;
+}
+.liste{
+  display:none;
+}
+.mobile-menu {
+  display: none;
+}
 
+.mobile-menu.active {
+  display: block;
+}
+
+
+
+/* Responsive Styles */
+@media (min-width: 1260px) {
+  .container {
+    max-width: 1600px;
+  }
+  
+  .local-name,
+  .phone-number,
   .nav-link {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.8rem;
+    font-size: 1.6rem;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+ 
+    
+}
+
+/* Adaptations pour 1024px à 1440px */
+@media (max-width: 1440px) {
+  .info-content {
+    gap: 1.5rem;
+  }
+  
+  .organization {
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.3rem;
+    padding: 0.7rem 1.2rem;
   }
 }
 
-@media (max-width: 768px) {
-  .info-bar {
-    padding: 0.5rem 0;
+/* Version tablette (768px à 1024px) */
+@media (min-width: 1025px) {
+  .nav-content {
+  
+   
+    display:flex;
+    flex-direction: row-reverse;
+   justify-content:  center;
+   align-items: center;
+   flex-wrap: wrap;
+ 
   }
-
+  
+ 
+  
+  /* ... (garder vos styles existants pour tablette) ... */
+}
+@media (max-width: 1024px) and (min-width: 769px) {
   .info-content {
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 2rem;
   }
 
   .organization {
     order: 1;
+    gap: 0.8rem;
   }
 
   .contact-info {
     order: 2;
-    flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.5rem;
   }
 
   .social-icons {
     order: 3;
+    gap: 1rem;
   }
 
-  .mobile-menu-btn {
-    display: block;
+  .nav-content {
+    justify-content: space-between;
+    gap: 2rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
   }
 
   .nav-left,
@@ -469,76 +566,635 @@ body, h3, p { margin: 0; }
     display: none;
   }
 
-  .nav-content {
-    justify-content: space-between;
-  }
-
-  .language-selector {
-    min-width: 120px;
-    padding: 0.4rem 0.8rem;
+  .mobile-menu-btn {
+    display: block;
+    order: 1;
   }
 
   .logo {
-    width: 50px;
-    height: 50px;
-  }
-
-  .donate-btn {
-    padding: 0.5rem 1rem;
-  }
-
-  .donate-btn span {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-    .header{
-        width: 100%;
-    }
-  .container {
-    padding: 0 0.5rem;
-  }
-
-  .contact-text {
-    font-size: 0.8rem;
-  }
-  .nav-content{
-   
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .org-text {
-    font-size: 0.8rem;
-  }
-
-  .social-icon {
-    width: 30px;
-    height: 30px;
+    width: 12%;
+    height: 12%;
+    order: 2;
   }
 
   .language-selector {
-    min-width: 100px;
- padding: 0.6rem 0.8rem;
+    order: 3;
+    padding: 1rem 1.5rem;
+   
+    width:40%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .lang-name{
+    font-size: 2rem;
+    font-family: 500;
   }
 
-  .lang-name {
-    font-size: 0.8rem;
+  .donate-btn {
+    order: 4;
+    padding: 1.5rem 1.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    /* display: none; */
+
+    justify-content: center;
+  }
+  .language-selector img{
+    width:20%;
+    height: 20%;
+  }
+
+  .org-text,
+  .contact-text {
+    font-size: 1.2rem;
+  }
+
+  .donate-btn span {
+    font-size: 1.6rem;
+  }
+  .hamburger {
+    gap:10px;
+  }
+  .hamburger span{
+    width:60px
+  }
+  
+}
+
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .info-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .organization {
+    gap: 0.5rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-item {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .social-icons {
+    gap: 0.8rem;
+  }
+
+  .nav-content {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    background-color: sandybrown;
+    order: 1;
   }
 
   .logo {
     width: 60px;
     height: 60px;
+    order: 3;
+  }
+
+  .language-selector {
+    padding: 0.8rem 1.2rem;
+    order: 2;
   }
 
   .donate-btn {
-    padding: 0.6rem 0.8rem;
+    padding: 0.8rem 1.2rem;
+    order: 4;
+    width: 40%;
+    justify-content: center;
+    margin-top: 0.5rem;
   }
 
+  .org-text,
+  .contact-text {
+    font-size: 1.1rem;
+  }
+
+  .lang-name,
+  .donate-btn span {
+    font-size: 1.1rem;
+  }
+  .mobile-menu{
+    background-color: seagreen;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+  .body {
+    overflow-y: clip;
+  }
+
+  .info-bar {
+    padding: 0.8rem 0;
+    height:60%;
+   
+}
+
+  .info-content {
+    flex-direction: column;
+    gap: 0.8rem;
+    
+  }
+ 
+  
+
+  .organization {
+    gap: 0.3rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    display:none;
+  }
+   .nav-content .language-selector{
+    display:none;
+  }
+
+  .contact-item {
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .social-icons {
+    gap: 0.5rem;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    display:none
+  }
+
+  .nav-content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    /* width:100%;
+    background-color: red; */
+ 
+ 
+  }
+
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    order: 1;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    order: 2;
+  }
+  
+
+  .language-selector {
+    padding: 0.6rem 1rem;
+    order: 3;
+  }
+
+  .donate-btn {
+    padding: 0.6rem 1rem;
+    order: 4;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+   
+  }
+.mobile-menu{
+  overflow: hidden;
+  width:100%;
+  height: 100%;
+  touch-action: none;
+  overscroll-behavior: contain;
+}
+  .org-text {
+    font-size: 1rem;
+  }
+
+  .lang-name,
+  .donate-btn span {
+    font-size: 1rem;
+  }
+
+  .mobile-menu {
+    padding: 0.8rem;
+  
+  }
+  .mobile-menu-btn{
+    /* background-color: sienna; */
+   
+    display:flex;
+    flex-direction: column;
+    gap:6rem;
+
+    
+
+
+  }
+
+  .mobile-menu.active{
+
+ display:flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: flex-end;
+
+
+
+  }    .mobile-menu-btn span{
+    width:5vh;
+  }
+  .mobile-menu-btn span {
+width: 46px;
+
+margin-top: 5%;
+background-color: #004B23;
+border-radius: 5px;
+height:5px;
+
+
+
+
+
+  }
+  .mobile-menu-btn .second{
+  background-color:  #38B000;
+  border-radius: 5px;
+  background-color:  #38B000
+  }
+
+  .mobile-nav-link {
+  width:100%;
+  
+   
+  
+   
+  }
+  .donate-btn{
+    display:none
+  }
+  .nav-content{
+    /* background-color: salmon; */
+    gap:0.5rem;
+    display: flex;
+    justify-content: center;
+    height:auto;
+    width:100%;
+  }
+
+  .info-content{
+    
+  }
+  .info-content.language-selector{
+    display:block;
+  }
+  .language-selector {
+    display: none;
+    padding: 0.6rem 1rem;
+    order: 3;
+  }
+  .cancel{
+    width:70%;
+  }
+
+  /* .info-content .language-selector {
+    display: block; 
+  } */
+   .mobile-menu{
+
+
+  
+    right: 0;
+    top:0;
+    
+  
+    bottom: 0;
+    /* background-color: blue; */
+    background-color: white;
+    height:100vh;
+   position: fixed;
+  z-index: 2000;
+ width:90%;
+
+ 
+
+
+
+ 
+  position: fixed;
+
+ 
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  margin-left: auto;
+  margin-right: 0;
+ 
+  
+  backdrop-filter: blur(12px);
+  transition: background-color .25s;
+  z-index: 100000;
+  border-radius: 0;
+  padding-right:0rem;
+  padding-left:0rem;
+
+
+
+   }
+  .mobile-menu .donate-btn{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .liste {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+  background:#004B23;
+   margin-top: 0rem;
+
+    color:white;
+    font-weight: bold;
+    /* padding-right:1.5rem; */
+    
+  text-decoration: none;
+  font-weight:bolder;
+  text-align: left;
+  top: 0rem;
+  padding-right: 1.2rem;
+
+
+  
+
+ 
+  display: flex;
+  align-items: center;
+  
+  white-space: nowrap;
+   font-size: clamp(0.8rem, 1rem + 78vw, 1.2rem);
+   text-align: center;
+   }
+   .mobile-menu .mobile-donate{
+    background:white;
+    /* background-color: #000000; */
+    width:100%;
+
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  margin-top: 0%;
+    /* background-color: aqua; */
+  
+   }
+   .mobile-menu .donate-btn{
+    /* background-color:blueviolet; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:1rem;
+    width:100%;
+    
+   
+   
+
+    
+   }
+    .liste img{
+   
+    color:white
+    }
+    .mobile-nav-link{
+      /* background-color: saddlebrown; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    /* background-color: salmon; */
+gap:11rem;
+    width:100%;
+      font-size: 1.5rem;
+      font-weight:500;
+
+
+    }
+    .mobile-nav-link .graph36{
+      /* background-color:white; */
+      width:2%;
+      color:pink;
+    }
+    .mobile-nav-links{
+      /* background-color: salmon; */
+      padding-top:1rem;
+    
+      gap:0.5rem;
+      width:100%;
+      /* background-color: saddlebrown; */
+    }
+    .mobile-nav-link{
+
+display:flex;
+justify-content: right;
+width:100%;
+font-size: 1.2rem;
+font-weight: lighter;
+
+    }
+    .mobile-menu .mobile-donate{
+      /* background-color: sienna; */
+  
+      display:flex;
+      align-items: end;
+      /* background-color: saddlebrown; */
+      height:30vh;
+      /* background-color: darkblue; */
+ 
+    } 
+    
+   .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    /* Gardez pour le débogage */
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  
+    /* Supprimez order: 1 */
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    /* Supprimez order: 2 */
+   /* Centre le logo si nécessaire */
+  }
+
+  .donate-btn {
+    /* Supprimez order: 4 */
+    display: none; /* Toujours caché sur mobile comme dans votre code */
+  }
+
+  /* Cachez les éléments inutiles */
+  .nav-left, .nav-right, .language-selector {
+    display: none;
+  }
+ 
+.cadre-btn{
+  width:100%;
+background: #FCFAF8;
+
+ height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right:1rem;
+  padding-left:1rem;
+}
+.mobile-nav-link .active
+{
+  background: #38b000;
+  color: white;
+  padding:0.8rem;
+  padding-right:2rem;
+  padding-left:2rem;
+  
+}
+.mobile-nav-link.active
+ {
+  background: #38B000;
+  color: white !important;
+  border-radius: 0;
+
+}
+.info-content{
+  /* background-color: aqua; */
+  width:100%;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  height:4vh;
+  padding:1rem;
+ 
+}
+.language-selector.test{
+
+
+  display:flex;
+}
+.info-bar{
+margin-top: 10%;
+height:10vh;
+display:flex;
+justify-items: center;
+align-items: center;
+
+}}
+
+/* @media (max-width: 319px) {
+  .container {
+    padding: 0 0.25rem;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
+  }
+
+  .org-text,
+  .lang-name,
   .donate-btn span {
     font-size: 0.9rem;
   }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+  }
 }
+@media (max-width: 319px) {
+  .container {
+    padding: 0 0.25rem;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
+  }
+
+  .org-text,
+  .lang-name,
+  .donate-btn span {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+  }
+} */
