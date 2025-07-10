@@ -201,7 +201,7 @@ flex-direction: row-reverse;
 }
 .name-ligne hr{
     background: linear-gradient(180deg, #38B000 0%, #FFC400 107.1%);
-     height: 4px; 
+     height: 3.54px; 
   border-radius: 99.07px;
   border:none;
   width:100%;
@@ -225,6 +225,7 @@ flex-direction: row-reverse;
   text-align: right;
 
   color: black; 
+  z-index: 10;
 
 
   
@@ -237,6 +238,7 @@ flex-direction: row-reverse;
   line-height: 165%;
   letter-spacing: 0.03em;
   text-align: justify;
+  z-index: 10;
 
   direction: rtl;
   color: #2E302F;

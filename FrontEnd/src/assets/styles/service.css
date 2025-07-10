@@ -41,7 +41,8 @@ height: auto;
  gap: 1rem;
  margin-top:1rem;
 
- position:relative
+ position:relative;
+ z-index: 1000;
 }
 .services{
   display:flex;
@@ -50,6 +51,7 @@ height: auto;
   flex-direction: column;
   /* background-color: bisque; */
  gap:0.5rem; 
+ z-index: 1000;
 
 }
 .serv{
@@ -58,6 +60,7 @@ height: auto;
   justify-content: start;
   align-items: center;
 background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+z-index:1000;
 
 /* padding-left:0.5rem;
 padding-right:0.5rem; */
@@ -67,6 +70,7 @@ width:100%;
 border-radius:15px;
 z-index: 62;
 position:relative;
+  z-index:1000
 
 }
 .content-serv{
@@ -74,6 +78,7 @@ position:relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+    z-index:100;
 }
 .icon-serv{
   width:50px;
@@ -85,6 +90,7 @@ position:relative;
  
 padding:0.5rem;
 border-radius: 6.66px;
+  z-index:1000;
 background: linear-gradient(0deg, #007200 0%, #38B000 100%);
 
 
@@ -118,6 +124,7 @@ position:relative;
 font-size: clamp(1rem, 2vw, 1.4rem);
   line-height: 1.5;
   text-align: right;
+  z-index:1000;
  
 }
 .content-serv p{
@@ -128,10 +135,12 @@ font-size: clamp(1rem, 2vw, 1.4rem);
 font-size: clamp(1rem, 2vw, 1.2rem);
   line-height: 1.5;
   text-align: right;
+  z-index: 1000;
+
 
 }
 hr{
- width: 60%;
+ width: 100%;
 height:0px;
 
 border-width: 1px;
@@ -196,6 +205,7 @@ border-radius: 21px;
   top:17%;
   height: 42%;
   left:2%;
+  z-index: 1;
  
  
   
@@ -367,6 +377,7 @@ border-radius: 21px;
     
     
   }
+  
   .title{
     gap:1.5rem;
   }
@@ -448,6 +459,8 @@ left:0;
  }
  .services{
   display:flex;
+ 
+  
   
  }
  .serv{
@@ -550,24 +563,43 @@ left:0;
   
     position: relative;
     display:flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   height: auto;
-  /* background-color: darkblue; */
+  /* background-color: darkblue;
+  background-color: #38B000; */
   }
 
   .back {
     margin:1rem;
     width: 60%;
-    height:42vh
+    height:42vh;
+    /* background-color: darkcyan; */
+    position:relative;
+    margin-right: 8%;
+    /* display: none; */
+    
+    
+   
+  
+  
+    
     
   }
   .images .unspalsh{
     /* display:none; */
+    position:absolute;
     width:60%;
-    left:15%;
-    top:16%;
-    height:auto
+    margin-left: 8%;
+    margin-top: -4%;
+  
+  
+    
+    /* background-color: red; */
+
+  
+    height:auto;
+
     /* display: none; */
   }
   .images .graph19{
@@ -607,14 +639,17 @@ left:0;
  z-index: 200;
  width:13%
 }
+
 .title hr{
   width:80%;
 }
+
 @media( min-height:702px){
   .back{
     height:32vh;
     width:70%;
   }
+  
   .images .unspalsh{
     /* display:none; */
     width:70%;

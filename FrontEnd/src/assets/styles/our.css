@@ -218,6 +218,8 @@ font-weight: 500;
   text-align: right;
   border-radius: 
 3.63px;
+background-color:white;
+
 
 
 }
@@ -487,7 +489,7 @@ gap:1rem;
   top:-3%;
   width:90%;
  
-  /* background-color: #FFC300; */
+  
   right:-20%;
   
   }

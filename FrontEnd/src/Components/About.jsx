@@ -16,7 +16,7 @@ function About() {
            <We/>
 <Nous/>
             <Story/>
-            <We/>
+         
             <Donate/>
         </div>
     )

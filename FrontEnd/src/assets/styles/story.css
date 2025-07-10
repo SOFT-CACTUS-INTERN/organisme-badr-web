@@ -28,6 +28,8 @@ p {
    padding:2rem;
    gap:4rem;
    background: #FCFAF8;
+   background: #FCFAF8;
+
 
     /* background-color: #FFC400; */
 }
@@ -117,7 +119,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: white;  */
+   
     
 }.graph8{
     max-width:70%;
@@ -411,20 +413,21 @@ padding:1rem;
    
 }
 }
-/*  */
-@media( max-width:540px){
-    .story-section{
+
+@media(max-width:540px){
+
+  .story-section{
         gap:2.5rem;
     }
     .story-content{
         display:flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         gap: 1rem;
     }
     .stats-button{
-        padding:1rem;
+        padding-right:20rem;
     }
 
     .content {
@@ -434,49 +437,56 @@ padding:1rem;
 
     }
 
-    @media(min-height:800px) {
-        .boys {
-            /* display:none; */
-            max-width: 90%;
-            margin-top: 11%;
-            right: 5%;
-
-        }
-
-        .graph8 {}
-    }
 
     .story-image {
         width: 100%;
         display: flex;
+        padding:0rem;
         justify-content: center;
-        align-items: center;
+        align-items:center;
+min-height:28rem;
+  background-color: saddlebrown;
+        
     }
-
-    .graph8 {
-        max-width: 70%;
+     .graph8 {
+        max-width: 60%;
+     
+     
 
 
     }
 
     .boys {
-        max-width: 70%;
-        top: 18%;
-        left: 15%;
+        max-width: 60%;
+     
+        /* background-color: saddlebrown; */
+      top:26%;
+      left:21%;
+      
+        /* display: none; */
     }
 
     .graph9 {
         /* display:none; */
         max-width: 25%;
+        /* background-color:#38B000; */
+        top:70%;
+        /* display:none */
     }
 
     .graph11 {
         /* display:none; */
         max-width: 30%;
+       
+        top:2% ;
+      
     }
 
     .graph10 {
-        max-width: 20%;
+        max-width: 22%;
+      
+        top:70%;
+        /* display:none */
     }
 
     .title-sv img {
@@ -485,8 +495,71 @@ padding:1rem;
 
     .graph12 {
         width: 25%;
-        /* background-color: pink; */
+        
         left: 10%;
+       
+      
 
     }
+   
+}
+
+@media( max-width:480px){
+  
+
+    .graph8 {
+        max-width: 60%;
+     
+     
+
+
+    }
+
+    .boys {
+        max-width: 60%;
+     
+        /* background-color: saddlebrown; */
+      top:32%;
+      left:21%;
+      
+        /* display: none; */
+    }
+
+    .graph9 {
+        /* display:none; */
+        max-width: 25%;
+        /* background-color:#38B000; */
+        top:70%;
+        /* display:none */
+    }
+
+    .graph11 {
+        /* display:none; */
+        max-width: 30%;
+       
+        top:2% ;
+      
+    }
+
+    .graph10 {
+        max-width: 22%;
+      
+        top:70%;
+        /* display:none */
+    }
+
+    .title-sv img {
+        max-width: 10%;
+    }
+
+    .graph12 {
+        width: 25%;
+        
+        left: 10%;
+       
+      
+
+    }
+   
+   
 }

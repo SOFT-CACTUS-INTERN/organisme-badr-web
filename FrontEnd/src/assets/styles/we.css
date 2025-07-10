@@ -8,8 +8,7 @@
 html, body {
   min-height: 100vw;
   margin: 0;
-  /* padding: 0;
-  background-color: #FFB700; */
+
 }
 
 body {
@@ -29,6 +28,10 @@ body {
   display: flex;
   flex-direction: column;
   background: #FCFAF8;
+  background-color: saddlebrown;
+  /* background-color: darkblue; */
+ 
+ 
 
   
 }
@@ -82,25 +85,38 @@ border-radius: 158.74px;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+ 
+    /* background-color: aquamarine; */
     /* flex-wrap: wrap; */
+    background-color:aqua;
 }
 .we-image{
   /* background-color: pink; */
   position:relative;
   width:50%;
   display:flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: auto;
+ 
+  
+  background-color: red;
+
 }
 .we-description{
   /* background:red; */
   width:50%;
   display:flex;
-  justify-content: center;
-  align-items: center;
-  padding:1rem;
+  justify-content: right;
+  align-items: right;
+  padding-top:1rem;
+
+  padding-bottom:1rem;
+
   
+  /* background-color: red; */
+  
+  height:auto
 }
 .description{
 
@@ -122,29 +138,45 @@ background: #FFFFFF;
 }
 .graph3{
   position:relative;
-  width:40%;
+  width:46.5%;
   height: auto;
   margin:3rem;
+  margin-left: 10%;
+  
+
+/* background-color: darkblue; */
+
+  /* display: none; */
 }
 .play-boy{
   position:absolute;
-  max-width:42%;
-  top:6%;
-  right:27%;
+  max-width:46.5%;
+  top:9%;
+  right:41%;
   z-index:10;
+  /* display:none */
+  
 }
 .graph1{
   position:absolute;
-  max-width:40%;
-  right:0;
-  top:0;
+  max-width:55%;
+  height:60vh;
+  right:0%;
+  
+  top:-13%;
+  height:auto;
+
+
+  /* background-color: aqua; */
 }
 .graph4{
   position:absolute;
   max-width:18%;
-  right:30%;
-  top:0;
+  right:40%;
+  top:-1%;
+/* background-color: aquamarine; */
 }
+
 .name-svg{
   display:flex;
   flex-direction: row;
@@ -191,6 +223,7 @@ font-size: clamp(1rem, 2vw, 1.4rem);
   justify-content: right;
   align-items: start;
   /* background: darkorchid; */
+ 
 
 }
 .butt button{
@@ -211,19 +244,22 @@ color:white;
 font-weight: 500;
 
 
+
+
 }
 .graph2{
   position:absolute;
   left:-1%;
-  width:20%;
+  max-width:25%;
   top:-8%;
+  /* background-color: salmon; */
 }
 .heart{
   position:absolute;
   width:15%;
   z-index: 10;
   left:10%;
-  top:35%;
+  top:36%;
  transform: rotate(-8.5deg);
  
   
@@ -273,6 +309,9 @@ transform:rotate(-40deg)
 
 
 }
+
+
+
 @media(max-width:1024px){
 
 .we-section{
@@ -293,8 +332,11 @@ transform:rotate(-40deg)
 }
 .graph1{
   /* display:none; */
-  max-width:50%;
+  max-width:60%;
+  /* background-color: salmon; */
+  top:1%;
 }
+
 .heart{
   /* display:none; */
 }
@@ -313,7 +355,7 @@ transform:rotate(-40deg)
 .graph4{
   max-width:25%;
   /* background: darkgoldenrod; */
-  right:15%;top:0;
+  right:30%;top:0;
 }
 .heart{
   width:25%;
@@ -370,6 +412,8 @@ transform:rotate(-40deg)
 }
 .play-boy{
   max-width:55%;
+ right:33%;
+ top:12%
   
 }
 
@@ -386,10 +430,13 @@ transform:rotate(-40deg)
   }
   .we-description{
     /* background-color: saddlebrown; */
-    padding:1rem;
+   padding-top:2rem;
+   padding-bottom: 2rem;
+   background-color: red;
   }
   .description{
     width:90%;
+  
   }
   .butt{
     width:100%;
@@ -400,20 +447,35 @@ transform:rotate(-40deg)
   }
   .heart{
     /* background-color: blue; */
-    width:28%;
+    width:27%;
     top:25%;
-    left:8%;
+    left:10%;
 
   }
   .we-graph21{
 
     width:4%;
     left:17%
+
+  }
+  .we-graph24{
+    /* background-color: salmon; */
+  }
+  .we-graph23{
+
   }
   .we-graph23{
     /* display:none */
-    width:7%;
-    transform:rotate(-50deg)
+    width:6%;
+    left:10%;
+    top:55%;
+    transform:rotate(-60deg)
+
+  }
+  .we-graph21{
+    /* background-color: #4A4A4A; */
+    width:3%;
+    left:20%;
   }
   .we-graph24{
     /* display:none */
@@ -440,19 +502,29 @@ transform:rotate(-40deg)
   .play-boy{
     /* display:none */
     max-width:55%;
-    left:25%;
-    top:15%
+    
+    /* display:none; */
+    
+  left:2.2rem; 
+  top:2.5rem;
        
   }
-  .graph1{
-    /* display:none */
-    width:50%;
-  }
+
   .graph3{
-    /* display:none; */
-    width:55%;
-    /* background-color:slateblue; */
+
+    max-width:60%;
   }
+  .graph1,.graph2{
+    max-width:65%;
+  }
+  
+ 
+  .description{
+ 
+    
+  }
+ 
+  
 
   
 }
@@ -461,20 +533,24 @@ transform:rotate(-40deg)
 
 
   .we-section{
-    /* background-color: bisque; */
+  
+    /* background-color: blue; */
   }
   .we-content{
     display:flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
    justify-content: center;
    align-items: center;
   }
   .we-image{
     width:100%;
     padding:0;
+    /* background-color: saddlebrown; */
   }
   .we-description{
     width:100%;
+    /* background-color:black; */
+    padding: 2rem;
   }
   .graph2{
     /* display:none; */
@@ -485,8 +561,8 @@ transform:rotate(-40deg)
   .description{
     width:100%;
     margin:0;
-  padding:3rem;
-  padding-bottom: 4rem;
+  padding:2rem;
+  /* padding-bottom: 3rem; */
     /* background-color: saddlebrown; */
   }
  .title-svg img{
@@ -499,8 +575,29 @@ justify-content: center;
 align-items: center;
 /* padding-left:1.5rem;
 padding-right:1.5rem; */
-width:40%;
+width:50%;
 
+ }
+ .butt{
+  width:100%;
+  /* background-color: saddlebrown; */
+  padding:0.5rem;
+  display:flex;
+  justify-content: right;
+  align-items: right;
+ }
+ .butt button{
+  width:60%;
+ }
+ .play-boy{
+ top:12%;
+ left:auto;
+ }
+ .graph2{
+  /* background-color: sandybrown; */
+  top:0;
+  left:0;
+  max-width:100%;
  }
  /* .heart{
   background-color: #4A4A4A;
@@ -513,8 +610,9 @@ width:40%;
     width:100%; */
   }
   .heart{
- width:35%;
- top:65%;
+ width:40%;
+ top:18%;
+
 
   }
 
@@ -523,15 +621,23 @@ width:40%;
     /* background:darkcyan; */
     /* display:none; */
     width:5%;
-    top:92%;
-    left:20%;
+
+    /* display:none; */
+    /* background-color: red; */
+    top:42%;
+    left:28%
+  
   }
   .we-graph24{
     /* background-color:red;
     display:none */
-    width:13%;
-    left:40%;
-    top:80%;
+    width:15%;
+    top:25%;
+    left:48%;
+
+    
+    /* display:none; */
+ 
     /* background-color: darkblue; */
   }
 
@@ -539,18 +645,28 @@ width:40%;
     /* width:20%; */
     /* background-color: yellow; */
     /* display:none */
-    width:5%;
-    top:72%;
-    left:48%;
+    width:6%;
+    
+  
+    /* display:none */
+    /* background-color:aquamarine; */
+    top:19%;
+    left:55%;
   }
   .we-graph23{
 
     /* background-color: blueviolet; */
     /* display:none */
-    width:8%;
-    top:78%;
-    left:8%;
+    width:10%;
+    top:31%;
+    left:3rem;
+    
+ 
+
+   
     /* background-color: #FFB700; */
     transform: rotate(-60deg);
+    /* display:none; */
+    /* background-color: saddlebrown; */
   }
 }

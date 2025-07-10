@@ -6,13 +6,14 @@ import icon3 from '../assets/svg/icon3.svg';
 import icon5 from '../assets/svg/icon5.svg';
 import icon6 from '../assets/svg/icon6.svg';
 import icon7 from '../assets/svg/icon7.svg';
+import footer from '../assets/svg/footer.svg';
 
 function Footer() {
   return (
-    <footer className="relative w-full    ">
+    <footer className="footer-section relative w-full    " >
       <div className='relative  min-h-screen  '>
         {/* Background Images */}
-        <div className="relative w-full pt-2 sm:pt-4 md:pt-6 lg:pt-8 xl:pt-12">
+        <div className="background relative w-full pt-2 sm:pt-4 md:pt-6 lg:pt-8 xl:pt-12">
           <div className="relative">
             <img
               src="/organisme-badr-web/images/photo3.png"
@@ -28,7 +29,7 @@ function Footer() {
         </div>
 
         {/* Second image section */}
-        <div className="absolute top-4 sm:top-8 md:top-12 lg:top-16 xl:top-20 left-0 w-full">
+        <div className="background2 absolute top-4 sm:top-8 md:top-12 lg:top-16 xl:top-20 left-0 w-full ">
           <div className="relative mt-2 sm:mt-4 md:mt-6 lg:mt-8 xl:mt-12">
             <img
               src="/organisme-badr-web/images/photo1.png"
@@ -37,14 +38,14 @@ function Footer() {
             />
             <img
               src="/organisme-badr-web/images/photo2.png"
-              className="absolute -top-2 sm:-top-4 sm:block lg:block md:hidden hidden 2xl:block  md:h-screen  min-h-screen md:-top-6 lg:-top-8 xl:-top-12 left-0 w-full sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%] h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[60vh] lg:max-h-none"
+              className="absolute -top-2 sm:-top-4 sm:block lg:block md:hidden  2xl:block  md:h-screen  min-h-screen md:-top-6 lg:-top-8 xl:-top-12 left-0 w-full sm:w-[85%] md:w-[80%] lg:w-[75%] xl:w-[70%] h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[60vh] lg:max-h-none"
               alt="Secondary Overlay"
             />
           </div>
         </div>
 
         {/* Main Content */}
-        <div className='flex justify-center  absolute w-full top-8 sm:top-12 lg:top-12 left-0 px-4 sm:px-6 lg:px-0'>
+        <div className='footer-container flex justify-center  absolute w-full top-8 sm:top-12 lg:top-12 left-0 px-4 sm:px-6 lg:px-0'>
           {/* Desktop Layout */}
           <div className='hidden lg:flex lg:w-[90%] lg:left-[10%] lg:relative lg:min-h-screen'>
             {/* Contact Info Section */}
@@ -161,46 +162,24 @@ function Footer() {
           </div>
 
           {/* Mobile and Tablet Layout */}
-          <div className='lg:hidden flex items-center justify-center min-h-screen px-4'>
-            <div className='flex flex-col space-y-8 w-full'>            {/* Mobile Contact Header */}
-              <div className="text-center px-4">
-                <h2 className='font-bold text-2xl sm:text-3xl mb-2 text-white'>للتواصل مع منظمتنا</h2>
-                <p className='text-base sm:text-lg text-white'>هذا النص هو مثال لنص يمكن أن يستبدل</p>
-              </div>
-
-              {/* Mobile Contact Information */}
-              <div className='flex flex-col space-y-4 px-4' style={{ padding: '1rem', marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
-                  <img src={icon5} alt="phone" className="w-8 h-8 ml-4" />
-                  <span className="text-black font-semibold text-lg sm:text-xl">05 366 - 122 51</span>
-                </div>
-
-                <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
-                  <img src={icon6} alt="email" className="w-8 h-8 ml-4" />
-                  <span className="text-black font-semibold text-lg sm:text-xl">contact@organismebadr.ma</span>
-                </div>
-
-                <div className='flex items-center justify-center bg-white bg-opacity-80 rounded-lg p-4'>
-                  <img src={icon7} alt="address" className="w-8 h-8 ml-4" />
-                  <span className="text-black font-semibold text-lg sm:text-xl">الحي الاداري ص ب 116 بركان</span>
-                </div>
-              </div>
-
-              {/* Mobile Contact Form */}
-              <div className='mx-4' style={{ padding: '1rem' }}>
-                <form className='bg-white rounded-2xl p-6 sm:p-8'>
+          <div className='lg:hidden flex items-center justify-center min-h-screen px-4 ' style={{padding:'2rem'}}>
+            
+            <div className='flex flex-col space-y-8 w-full'>        
+                  {/* Mobile Contact Form */}
+              <div className='form mx-4' style={{ padding: '1rem' }}>
+                <form className='bg-white rounded-2xl p-6 sm:p-8 '>
                   <div className="flex items-center justify-center w-full mb-6">
                     <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
-                    <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap">تواصل معنا</h2>
+                    <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap" style={{padding:'2rem'}}>تواصل معنا</h2>
                     <div className="flex-1 h-1 bg-gradient-to-r from-[#FFD000] to-white mx-4"></div>
                   </div>
 
-                  <div className='space-y-4' style={{ padding: '1rem' }}>
+                  <div className='space-y-4' style={{ padding: '2rem 1rem',display:'flex',flexDirection:'column',gap:'2rem' }}>
                     <div>
                       <input
                         type="text"
                         placeholder="الاسم الأول و الأخير"
-                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
+                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg" 
                       />
                       <div className='w-full h-px bg-[#ADADAD]'></div>
                     </div>
@@ -245,16 +224,18 @@ function Footer() {
               </div>
 
               {/* Mobile Social Icons */}
-              <div className='flex justify-center space-x-6 px-4' style={{ padding: '1rem' }}>
+              <div className='flex justify-center gap-4 space-x-6 px-4' style={{ padding: '1rem' }}>
                 <img src={icon1} alt="social1" className="w-12 h-12 sm:w-16 sm:h-16" />
                 <img src={icon2} alt="social2" className="w-12 h-12 sm:w-16 sm:h-16" />
                 <img src={icon3} alt="social3" className="w-12 h-12 sm:w-16 sm:h-16" />
-              </div>
+              </div>   
+          
+          <img src={footer}/>
             </div>
           </div>
         </div>
         {/* Copyright */}
-        <div className='relative w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' style={{}}>
+        <div className='phrase   absolute w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' >
           <h2 className='text-sm sm:text-xl flex justify-center text-black lg:text-black'>
             "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
           </h2>

@@ -14,7 +14,9 @@ const Donate = () => {
               fillOpacity="0.38"
             />
           </svg>
+          <div className='ahram ' style={{backgroundColor:'red'}}>
           <img src="/organisme-badr-web/flags/boy.png" alt="طفل يرفع يده الملوّنة" />
+          </div>
         </div>
 
         <div className="content-box">

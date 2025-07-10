@@ -1,4 +1,56 @@
-/* @media (max-width: 768px) {
+@media (max-width: 480px) {
+    /* * {
+  outline: 1px solid red;
+} */
+    .organisme-container {
+        margin: 2rem;
+        border: #E3DBD8 1px solid;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 70vh;
+        
+    }
+
+    .container {
+        height: 80%;
+        display: flex;
+        align-items: end;
+      
+    }
+
+ 
+    .button1{
+        border-radius: 0.3rem;
+    }
+     .button2{
+        border-radius: 0.3rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+    .organisme-container {
+        margin: 2rem;
+        padding: 2rem;
+        border: #E3DBD8 1px solid;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+
+    .container {
+       
+        display: flex;
+        align-items: end;
+    }
+
+   
+    .button1{
+        border-radius: 0.3rem;
+    }
+     .button2{
+        border-radius: 0.3rem;
+    }
+}/* @media (max-width: 768px) {
     .organisme {
        background-color: blueviolet;
     }
