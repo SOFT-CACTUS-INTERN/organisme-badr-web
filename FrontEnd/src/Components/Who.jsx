@@ -17,18 +17,30 @@ function Who() {
             <img src={background} alt="" className=' absolute -left-[20%] ' />
             <div className='z-10'>
 
-                <div className=' '>
+                <div className='partenaire '>
                     <div className='flex '>
 
-                        <div className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '70%' }} ></div>
-                        <h1 className='w-1/4 lg:flex text-[#38B000] justify-center hidden sm:block md:hidden lg:block 2xl:block' >شركائنا</h1>
-                        <div className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '20%' }} ></div>
+                        <div className="flex items-center justify-center w-full gap-4">
+                            <div className="ligne1 border-[#E5E5E5] border-t-2 flex-grow" style={{width:'70%'}}></div>
+
+                            <h1 className="isam text-[#38B000] whitespace-nowrap text-center flex justify-end  sm:block  lg:block 2xl:block" >
+                                شركائنا
+                            </h1>
+
+                            <div className="ligne2 border-[#E5E5E5] border-t-2 flex-grow"></div>
+                        </div>
+
                     </div>
-                    <div className=' '>
-                        <img src={social} alt="" style={{ width: '100%', height: 'auto' }} />
+                    <div className="slider-container  top-12  " >
+                        <div className="slider-track " style={{ marginTop:'1rem'}}>
+                            <img src={social} alt="social"
+ />
+                            <img src={social} alt="social"
+ />
+                        </div>
                     </div>
 
-                    <hr className="border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%' }} />
+                    <hr className="ligne3 border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%',marginTop:'2rem' }} />
 
                 </div>
 
