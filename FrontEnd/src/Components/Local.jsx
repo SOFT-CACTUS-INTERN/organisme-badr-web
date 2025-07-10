@@ -33,7 +33,7 @@ const Local = () => {
                     </div>
 
                     {/* Paragraphe */}
-                    <div className="absolute lg:top-[20%] top-[30%] text-right z-10 w-full px-6">
+                    <div className="phrase absolute lg:top-[20%] top-[30%] text-right z-10 w-full px-6">
                         <p className="flex justify-end text-2xl sm:text-3xl md:text-4xl">
                             هذا النص هو مثال لنص يمكن أن يستبدل
                         </p>
@@ -53,7 +53,7 @@ const Local = () => {
                     </div>
 
                     {/* Réseaux sociaux */}
-                    <div className="flex gap-4 absolute top-[80%] left-1/2 -translate-x-1/2 lg:left-[65%] lg:translate-x-0">
+                    <div className="icons2 flex gap-4 absolute top-[80%] left-1/2 -translate-x-1/2 lg:left-[65%] lg:translate-x-0">
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                             <img src={icon11} alt="LinkedIn" />
                         </a>

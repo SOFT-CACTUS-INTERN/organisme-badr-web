@@ -13,6 +13,7 @@
 @media (max-width:468px){
    .information {
       width: 100%;
+      
     }
     .map {
       width: 100%;
@@ -29,11 +30,30 @@
         justify-content: end;
         width: 100%;
         /* background-color: red; */
-        margin-left: 20%;
+        /* margin-left: 20%; */
+        margin-top: -10vh;
     }
     .titre{
         display: flex;
         justify-content: end;
         margin-left: 50px;
+    }
+    .icons2{
+      margin-top: 2vh;
+      margin-left: 40%;
+      /* background-color: red; */
+      width: 100%;
+      scale: 0.75;
+    }
+    .titre{
+      font-size: x-small;
+      margin-top: 5vh  ;
+      width: 100%;
+      margin-right: 6px;
+    }
+    .phrase{
+      width: 100%;
+            right: 6px;
+
     }
 }
