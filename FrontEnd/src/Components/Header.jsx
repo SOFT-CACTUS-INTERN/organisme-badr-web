@@ -280,7 +280,7 @@ const Header = () => {
           <div className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
             <div className="liste">
 
-              <button onClick={cancelMenu}>
+              <button onClick={cancelMenu} className="z">
                 <img className="cancel" src={cancel} alt="" />
               </button>
 

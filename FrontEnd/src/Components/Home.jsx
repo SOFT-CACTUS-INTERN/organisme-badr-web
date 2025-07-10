@@ -1,18 +1,18 @@
 
 import React, { useState } from 'react';
-import Organisme from './Organisme';
+// import Organisme from './Organisme';
 // import Activites from './Activites';
-import Who from './Who';
+// import Who from './Who';
 // import Donate from './Donate';
 
 
-import Services from './Services';
-import Our from './Our';
+// import Services from './Services';
+// import Our from './Our';
 
 
 // import Activites from './Activites';
-import Donate from './Donate';
-import Activities from './Activities'
+// import Donate from './Donate';
+// import Activities from './Activities'
 
 
 
@@ -24,16 +24,16 @@ const Home = () => {
     <>
    <div className="flex flex-col gap-0 overflow-x-hidden">
 
-       <Organisme/>
+       {/* <Organisme/>
        <Who/>
        <Services/>
-     <Our />
+     <Our /> */}
      <div className='  '>
 
-     <Activities/>
+     {/* <Activities/>
      
     
-   <Donate/>
+   <Donate/> */}
      </div>
     </div>
 
