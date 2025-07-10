@@ -1,12 +1,15 @@
 
 import { useState } from "react"
 import { NavLink } from "react-router-dom";
+import cancel from '../assets/svgs/graph35.svg'
+import graph36 from '../assets/svgs/graph36.svg'
 
 import '../assets/styles/header.css'
 // import { NavLink } from "react-router-dom";
 const Header = () => {
   const [isLangOpen, setIsLangOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [activeLink, setActiveLink] = useState("");
   const [selectedLang, setSelectedLang] = useState({
     name: "العربية",
     flag: "/organisme-badr-web/flags/Morocco.png",
@@ -27,13 +30,27 @@ const Header = () => {
     setIsLangOpen(false)
   }
 
+
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen)
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+    if (!isMobileMenuOpen) {
+      document.body.classList.add('menu-open');
+    } else {
+      document.body.classList.remove('menu-open');
+    }
   }
+
+  const cancelMenu = () => {
+    setIsMobileMenuOpen(false);
+    document.body.classList.remove('menu-open');
+  }
+
+
+
 
   return (
     <header className="header">
-    
+
       <div className="info-bar">
         <div className="container">
           <div className="info-content">
@@ -47,10 +64,42 @@ const Header = () => {
               </div>
               <div className="vector-line"></div>
             </div>
+            <div className="language-selector test" onClick={toggleLangList}>
+              <span className="arrow">
+                <svg width="15" height="11" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.66602 1.71074L5.60518 5.6499L9.54434 1.71074"
+                    stroke="#004B23"
+                    strokeWidth="1.81808"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+              <span className="lang-name">{selectedLang.name}</span>
+              <img className="img-flag" src={selectedLang.flag || "/placeholder.svg"} alt="Flag" />
+
+              {isLangOpen && (
+                <ul className="lang-options">
+                  {languages.map((lang, index) => (
+                    <li
+                      key={index}
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        selectLang(lang)
+                      }}
+                    >
+                      {lang.name}
+                      <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
 
             {/* Contact Info */}
             <div className="contact-info">
-             
+
 
               <div className="contact-item">
                 <div className="contact-icon">
@@ -71,7 +120,7 @@ const Header = () => {
                 </div>
                 <div className="contact-text">05 366 - 122 51</div>
               </div>
-               <div className="contact-item">
+              <div className="contact-item">
                 <div className="contact-icon">
                   <svg width="18" height="27" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -125,20 +174,20 @@ const Header = () => {
         </div>
       </div>
 
-    
+
       <div className="main-nav">
         <div className="container">
           <div className="nav-content">
-           
+
             <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
               <div className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}>
                 <span></span>
-                <span></span>
+                <span className="second"></span>
                 <span></span>
               </div>
             </button>
 
-           
+
             <div className="language-selector" onClick={toggleLangList}>
               <span className="arrow">
                 <svg width="15" height="11" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,7 +213,7 @@ const Header = () => {
                         selectLang(lang)
                       }}
                     >
-                      {lang.name} 
+                      {lang.name}
                       <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
                     </li>
                   ))}
@@ -227,42 +276,83 @@ const Header = () => {
             </div>
           </div>
 
-         
+
           <div className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
+            <div className="liste">
+
+              <button onClick={cancelMenu}>
+                <img className="cancel" src={cancel} alt="" />
+              </button>
+
+
+              <h2>القائمة</h2>
+
+
+            </div>
             <div className="mobile-nav-links">
-  <NavLink to="/" className="mobile-nav-link">
-    الرئيسية
-  </NavLink>
-  <NavLink to="/About" className="mobile-nav-link">
-    المنضمة
-  </NavLink>
-  <NavLink to="/Achevement" className="mobile-nav-link">
-    إنجازاتنا
-  </NavLink>
-  <NavLink to="/" className="mobile-nav-link">
-    الشركاء
-  </NavLink>
-  <NavLink to="/Support" className="mobile-nav-link">
-    رعايتنا تضم
-  </NavLink>
-  <NavLink to="/Contact" className="mobile-nav-link">
-    تواصل معنا
-  </NavLink>
-</div>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "mobile-nav-link active" : "mobile-nav-link"
+                }
+                onClick={cancelMenu}
+              >
+                الرئيسية
+              </NavLink>
+              <NavLink to="/About" className={({ isActive }) =>
+                isActive ? "mobile-nav-link active" : "mobile-nav-link"
+              }
+                onClick={cancelMenu} >
+                المنضمة
+              </NavLink>
+              <NavLink to="/Achevement" className={({ isActive }) =>
+                isActive ? "mobile-nav-link active" : "mobile-nav-link"
+              }
+                onClick={cancelMenu}
+              >
+                إنجازاتنا
+              </NavLink>
+              <NavLink to="/Partenrs" className={({ isActive }) =>
+                isActive ? "mobile-nav-link active" : "mobile-nav-link"
+              }
+                onClick={cancelMenu}
+
+
+              >
+                الشركاء
+              </NavLink>
+              <NavLink to="/Support" className={({ isActive }) =>
+                isActive ? "mobile-nav-link active" : "mobile-nav-link"
+              }
+                onClick={cancelMenu}
+
+              >
+                رعايتنا تضم
+              </NavLink>
+              <NavLink to="/Contact" className={({ isActive }) =>
+                isActive ? "mobile-nav-link active" : "mobile-nav-link"
+              }
+                onClick={cancelMenu}
+
+              >
+                تواصل معنا
+              </NavLink>
+            </div>
 
             <div className="mobile-donate">
-              <div className="donate-btn">
-                <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.2297 17.6435C10.9206 17.7526 10.4115 17.7526 10.1025 17.6435C7.46625 16.7435 1.57568 12.9892 1.57568 6.62595C1.57568 3.81703 3.83919 1.54443 6.62993 1.54443C8.28438 1.54443 9.74793 2.34439 10.6661 3.58068C11.5842 2.34439 13.0568 1.54443 14.7022 1.54443C17.4929 1.54443 19.7564 3.81703 19.7564 6.62595C19.7564 12.9892 13.8659 16.7435 11.2297 17.6435Z"
-                    stroke="white"
-                    strokeWidth="1.81808"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                <span>تبرع الآن</span>
-              </div>
+              <div className="cadre-btn">
+                <div className="donate-btn">
+                  <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11.2297 17.6435C10.9206 17.7526 10.4115 17.7526 10.1025 17.6435C7.46625 16.7435 1.57568 12.9892 1.57568 6.62595C1.57568 3.81703 3.83919 1.54443 6.62993 1.54443C8.28438 1.54443 9.74793 2.34439 10.6661 3.58068C11.5842 2.34439 13.0568 1.54443 14.7022 1.54443C17.4929 1.54443 19.7564 3.81703 19.7564 6.62595C19.7564 12.9892 13.8659 16.7435 11.2297 17.6435Z"
+                      stroke="white"
+                      strokeWidth="1.81808"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span>تبرع الآن</span>
+                </div></div>
             </div>
           </div>
         </div>
