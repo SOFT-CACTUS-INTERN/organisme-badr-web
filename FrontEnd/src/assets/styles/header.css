@@ -33,12 +33,14 @@ body, h3, p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  /* background-color: saddlebrown; */
 }
 
 .info-bar {
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(90deg, #007200 0%, #38b000 100%);
+  
 }
 
 .info-content {
@@ -48,13 +50,15 @@ body, h3, p {
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   gap: 1rem;
+  /* background-color: pink; */
 }
 
 .organization {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
   align-items: center;
+  /* background-color: yellow; */
 }
 
 .info {
@@ -64,7 +68,9 @@ body, h3, p {
   gap: 10px;
   padding: 10px 0;
   flex-wrap: wrap;
+  
 }
+
 
 .local-name,
 .phone-number {
@@ -100,6 +106,15 @@ body, h3, p {
   font-size: 1.6rem;
   font-weight: 500;
   white-space: nowrap;
+  font-weight: 500;
+font-style: normal;  
+font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+
+line-height: 20.71px; 
+letter-spacing: 0;
+text-align: center;
+
+
 }
 
 /* Contact Info */
@@ -109,6 +124,7 @@ body, h3, p {
   align-items: center;
   flex-wrap: nowrap;
   justify-content: center;
+  /* background-color: #000000; */
 }
 
 .contact-item {
@@ -119,8 +135,8 @@ body, h3, p {
 }
 
 .contact-icon {
-  width: 35px;
-  height: 35px;
+  width: 34px;
+  height: 34px;
   background: #ffffff;
   border-radius: 50%;
   display: flex;
@@ -130,9 +146,15 @@ body, h3, p {
 
 .contact-text {
   color: #ffffff;
-  font-size: 1.6rem;
-  font-weight: 500;
+  
   white-space: nowrap;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(1rem, 1rem + 0.5vw, 1.25rem);
+  line-height: 1.3; 
+  letter-spacing: 0;
+  text-align: center;
+  
 }
 
 .social-icons {
@@ -143,8 +165,8 @@ body, h3, p {
 }
 
 .social-icon {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   background: #ffffff;
   border-radius: 70%;
   display: flex;
@@ -159,6 +181,7 @@ body, h3, p {
 
 .main-nav {
   padding: 0.75rem 0;
+  /* background-color: saddlebrown; */
 }
 
 .nav-content {
@@ -168,6 +191,7 @@ body, h3, p {
   gap: 0rem;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
+  /* background-color: darkblue; */
 
 }
 
@@ -229,10 +253,7 @@ body, h3, p {
   width: 45px;
   height: 45px;
 }
-.org-text {
-  font-size: 1.6rem; 
-   font-weight: 500;
-}
+
 
 
 .local-name, .phone-number {
@@ -251,7 +272,15 @@ body, h3, p {
 .lang-name {
   color: #004b23;
   font-weight: 500;
-  font-size: 1.2rem;
+  
+   color: #004B23;
+  
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(0.875rem, 0.85rem + 0.3vw, 1rem);
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-align: right;
 }
 
 .lang-options {
@@ -291,19 +320,28 @@ body, h3, p {
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.8rem;
   flex-direction: row-reverse;
   background: #ededed;
   border-radius: 125px;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   flex-wrap: nowrap;
+  /* background-color: #ffaa00; */
+  color: #004B23;
+    font-weight: 500;
+  font-style: normal; /* Medium = normal */
+  font-size: clamp(0.875rem, 0.85rem + 0.3vw, 1rem);
+  line-height: 1.2; /* Plus propre qu'un px fixe */
+  letter-spacing: 0;
+  text-align: center;
+
 }
 
 .nav-link {
   color: #004b23;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.2rem;
+  font-weight:normal;
+
   padding: 0.5rem 1rem;
   border-radius: 25px;
   transition: all 0.3s ease;
@@ -311,18 +349,33 @@ body, h3, p {
   align-items: center;
   gap: 0.25rem;
   white-space: nowrap;
+  
+  
+   /* background-color:darkgoldenrod; */
+   
 }
 
-.nav-link:hover,
+
 .nav-link.active {
   background: #38b000;
   color: white;
+  
+  font-weight: 500;
+
+
+
+
+text-align: center;
+
+
 }
+
 
 .logo {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
+  /* background-color: darkgoldenrod; */
 }
 
 .logo img {
@@ -340,6 +393,12 @@ body, h3, p {
   gap: 0.5rem;
   cursor: pointer;
   transition: transform 0.3s ease;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(1.125rem, 1.15rem + 0.5vw, 1.4rem);
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .donate-btn:hover {
@@ -358,9 +417,13 @@ body, h3, p {
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  margin-top: 1rem;
+ /* display:flex; */
   padding: 1rem;
+  /* flex-direction: column; */
   width: 100%;
+ 
+  text-align: right;
+ 
 }
 
 .mobile-menu.active {
@@ -393,10 +456,28 @@ body, h3, p {
 }
 
 .nav-link{
-  font-size: 1.6rem;
-  font-weight: 500;
+  /* font-size: 1.6rem;
+  font-weight: 500; */
   /* background-color: pink; */
 }
+
+
+.language-selector.test {
+  display: none;
+}
+.liste{
+  display:none;
+}
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+
+
 /* Responsive Styles */
 @media (min-width: 1260px) {
   .container {
@@ -410,9 +491,10 @@ body, h3, p {
   }
   
   .logo {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
   }
+  
  
     
 }
@@ -580,6 +662,7 @@ body, h3, p {
 
   .mobile-menu-btn {
     display: block;
+    background-color: sandybrown;
     order: 1;
   }
 
@@ -611,21 +694,32 @@ body, h3, p {
   .donate-btn span {
     font-size: 1.1rem;
   }
+  .mobile-menu{
+    background-color: seagreen;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
     padding: 0 0.5rem;
   }
+  .body {
+    overflow-y: clip;
+  }
 
   .info-bar {
     padding: 0.8rem 0;
-  }
+    height:60%;
+   
+}
 
   .info-content {
     flex-direction: column;
     gap: 0.8rem;
+    
   }
+ 
+  
 
   .organization {
     gap: 0.3rem;
@@ -635,6 +729,10 @@ body, h3, p {
     flex-direction: column;
     gap: 0.8rem;
     width: 100%;
+    display:none;
+  }
+   .nav-content .language-selector{
+    display:none;
   }
 
   .contact-item {
@@ -647,6 +745,9 @@ body, h3, p {
     font-size: 1rem;
     text-align: center;
   }
+  .liste button{
+    background-color: none;
+  }
 
   .social-icons {
     gap: 0.5rem;
@@ -655,14 +756,18 @@ body, h3, p {
   .social-icon {
     width: 40px;
     height: 40px;
+    display:none
   }
 
   .nav-content {
-    justify-content: center;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 3rem;
-    flex-wrap: wrap;
-    padding: 0 0.5rem;
+ 
+    /* width:100%;
+    background-color: red; */
+ 
+ 
   }
 
   .nav-left,
@@ -676,10 +781,11 @@ body, h3, p {
   }
 
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     order: 2;
   }
+  
 
   .language-selector {
     padding: 0.6rem 1rem;
@@ -692,8 +798,15 @@ body, h3, p {
     width: 100%;
     justify-content: center;
     margin-top: 0.5rem;
+   
   }
-
+.mobile-menu{
+  overflow: hidden;
+  width:100%;
+  height: 100%;
+  touch-action: none;
+  overscroll-behavior: contain;
+}
   .org-text {
     font-size: 1rem;
   }
@@ -705,14 +818,330 @@ body, h3, p {
 
   .mobile-menu {
     padding: 0.8rem;
+  
+  }
+  .mobile-menu-btn{
+    /* background-color: sienna; */
+   
+    display:flex;
+    flex-direction: column;
+    gap:6rem;
+
+    
+
+
+  }
+
+  .mobile-menu.active{
+
+ display:flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: flex-end;
+
+
+
+  }    .mobile-menu-btn span{
+    width:5vh;
+  }
+  .mobile-menu-btn span {
+width: 46px;
+
+margin-top: 5%;
+background-color: #004B23;
+border-radius: 5px;
+height:5px;
+
+
+
+
+
+  }
+  .mobile-menu-btn .second{
+  background-color:  #38B000;
+  border-radius: 5px;
+  background-color:  #38B000
   }
 
   .mobile-nav-link {
-    padding: 0.8rem;
-    font-size: 1rem;
+  width:100%;
+  
+   
+  
+   
   }
+  .donate-btn{
+    display:none
+  }
+  .nav-content{
+    /* background-color: salmon; */
+    gap:0.5rem;
+    display: flex;
+    justify-content: center;
+    height:auto;
+    width:100%;
+  }
+
+  .info-content{
+    
+  }
+  .info-content.language-selector{
+    display:block;
+  }
+  .language-selector {
+    display: none;
+    padding: 0.6rem 1rem;
+    order: 3;
+  }
+  .cancel{
+    width:70%;
+  }
+
+  /* .info-content .language-selector {
+    display: block; 
+  } */
+   .mobile-menu{
+
+
+  
+    right: 0;
+    top:0;
+    
+  
+    bottom: 0;
+    /* background-color: blue; */
+    background-color: white;
+    height:100vh;
+   position: fixed;
+  z-index: 2000;
+ width:90%;
+
+ 
+
+
+
+ 
+  position: fixed;
+
+ 
+  left: 0;
+  right: 0;
+  bottom: 0;
+ 
+  margin-left: auto;
+  margin-right: 0;
+ 
+  
+  backdrop-filter: blur(12px);
+  transition: background-color .25s;
+  z-index: 100000;
+  border-radius: 0;
+  padding-right:0rem;
+  padding-left:0rem;
+
+
+
+   }
+  .mobile-menu .donate-btn{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .liste {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+  background:#004B23;
+   margin-top: 0rem;
+
+    color:white;
+    font-weight: bold;
+    /* padding-right:1.5rem; */
+    
+  text-decoration: none;
+  font-weight:bolder;
+  text-align: left;
+  top: 0rem;
+  padding-right: 1.2rem;
+
+
+  
+
+ 
+  display: flex;
+  align-items: center;
+  
+  white-space: nowrap;
+   font-size: clamp(0.8rem, 1rem + 78vw, 1.2rem);
+   text-align: center;
+   }
+   .mobile-menu .mobile-donate{
+    background:white;
+    /* background-color: #000000; */
+    width:100%;
+
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  margin-top: 0%;
+    /* background-color: aqua; */
+  
+   }
+   .mobile-menu .donate-btn{
+    /* background-color:blueviolet; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:1rem;
+    width:100%;
+    
+   
+   
+
+    
+   }
+    .liste img{
+   
+    color:white
+    }
+    .mobile-nav-link{
+      /* background-color: saddlebrown; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    /* background-color: salmon; */
+gap:11rem;
+    width:100%;
+      font-size: 1.5rem;
+      font-weight:500;
+
+
+    }
+    .mobile-nav-link .graph36{
+      /* background-color:white; */
+      width:2%;
+      color:pink;
+    }
+    .mobile-nav-links{
+      /* background-color: salmon; */
+      padding-top:1rem;
+    
+      gap:0.5rem;
+      width:100%;
+      /* background-color: saddlebrown; */
+    }
+    .mobile-nav-link{
+
+display:flex;
+justify-content: right;
+width:100%;
+font-size: 1.2rem;
+font-weight: lighter;
+
+    }
+    .mobile-menu .mobile-donate{
+      /* background-color: sienna; */
+  
+      display:flex;
+      align-items: end;
+      /* background-color: saddlebrown; */
+      height:30vh;
+      /* background-color: darkblue; */
+ 
+    } 
+    
+   .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+    /* Gardez pour le débogage */
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  
+    /* Supprimez order: 1 */
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+    /* Supprimez order: 2 */
+   /* Centre le logo si nécessaire */
+  }
+
+  .donate-btn {
+    /* Supprimez order: 4 */
+    display: none; /* Toujours caché sur mobile comme dans votre code */
+  }
+
+  /* Cachez les éléments inutiles */
+  .nav-left, .nav-right, .language-selector {
+    display: none;
+  }
+ 
+.cadre-btn{
+  width:100%;
+background: #FCFAF8;
+
+ height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right:1rem;
+  padding-left:1rem;
 }
-@media (max-width: 319px) {
+.mobile-nav-link .active
+{
+  background: #38b000;
+  color: white;
+  padding:0.8rem;
+  padding-right:2rem;
+  padding-left:2rem;
+  
+}
+.mobile-nav-link.active
+ {
+  background: #38B000;
+  color: white !important;
+  border-radius: 0;
+
+}
+.info-content{
+  /* background-color: aqua; */
+  width:100%;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  height:4vh;
+  padding:1rem;
+ 
+}
+.language-selector.test{
+
+
+  display:flex;
+}
+.info-bar{
+margin-top: 10%;
+height:10vh;
+display:flex;
+justify-items: center;
+align-items: center;
+
+}}
+
+/* @media (max-width: 319px) {
   .container {
     padding: 0 0.25rem;
   }
@@ -771,4 +1200,4 @@ body, h3, p {
     width: 35px;
     height: 35px;
   }
-}
+} */

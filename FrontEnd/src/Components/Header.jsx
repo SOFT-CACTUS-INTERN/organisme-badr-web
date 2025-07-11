@@ -1,12 +1,14 @@
-
 import { useState } from "react"
 import { NavLink } from "react-router-dom";
+import cancel from '../assets/svgs/graph35.svg'
+import graph36 from '../assets/svgs/graph36.svg'
 
 import '../assets/styles/header.css'
 // import { NavLink } from "react-router-dom";
 const Header = () => {
   const [isLangOpen, setIsLangOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [activeLink, setActiveLink] = useState("");
   const [selectedLang, setSelectedLang] = useState({
     name: "العربية",
     flag: "/organisme-badr-web/flags/Morocco.png",
@@ -27,9 +29,23 @@ const Header = () => {
     setIsLangOpen(false)
   }
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen)
+ 
+const toggleMobileMenu = () => {
+  setIsMobileMenuOpen(!isMobileMenuOpen);
+  if (!isMobileMenuOpen) {
+    document.body.classList.add('menu-open');
+  } else {
+    document.body.classList.remove('menu-open');
   }
+}
+
+const cancelMenu = () => {
+  setIsMobileMenuOpen(false);
+  document.body.classList.remove('menu-open');
+}
+
+
+
 
   return (
     <header className="header">
@@ -46,6 +62,38 @@ const Header = () => {
                 <div className="ellipse"></div>
               </div>
               <div className="vector-line"></div>
+            </div>
+ <div className="language-selector test"    onClick={toggleLangList}>
+              <span className="arrow">
+                <svg width="15" height="11" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.66602 1.71074L5.60518 5.6499L9.54434 1.71074"
+                    stroke="#004B23"
+                    strokeWidth="1.81808"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+              <span className="lang-name">{selectedLang.name}</span>
+              <img className="img-flag" src={selectedLang.flag || "/placeholder.svg"} alt="Flag" />
+
+              {isLangOpen && (
+                <ul className="lang-options">
+                  {languages.map((lang, index) => (
+                    <li
+                      key={index}
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        selectLang(lang)
+                      }}
+                    >
+                      {lang.name} 
+                      <img src={lang.flag || "/placeholder.svg"} alt="Flag" />
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             {/* Contact Info */}
@@ -133,7 +181,7 @@ const Header = () => {
             <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
               <div className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}>
                 <span></span>
-                <span></span>
+                <span className="second"></span>
                 <span></span>
               </div>
             </button>
@@ -229,28 +277,69 @@ const Header = () => {
 
          
           <div className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
+            <div className="liste">
+
+<button onClick={cancelMenu}>
+  <img className="cancel" src={cancel} alt="" />
+</button>
+
+
+             <h2>القائمة</h2>
+
+ 
+            </div>
             <div className="mobile-nav-links">
-  <NavLink to="/" className="mobile-nav-link">
-    الرئيسية
+  <NavLink 
+  to="/" 
+  className={({ isActive }) => 
+    isActive ? "mobile-nav-link active" : "mobile-nav-link"
+  }
+  onClick={cancelMenu}
+>
+  الرئيسية
+</NavLink>
+  <NavLink to="/About"  className={({ isActive }) => 
+    isActive ? "mobile-nav-link active" : "mobile-nav-link"
+  }
+  onClick={cancelMenu} >
+   المنضمة
   </NavLink>
-  <NavLink to="/About" className="mobile-nav-link">
-    المنضمة
+  <NavLink to="/Achevement"  className={({ isActive }) => 
+    isActive ? "mobile-nav-link active" : "mobile-nav-link"
+  }
+  onClick={cancelMenu}
+  >
+   إنجازاتنا
   </NavLink>
-  <NavLink to="/Achevement" className="mobile-nav-link">
-    إنجازاتنا
+  <NavLink to="/Partenrs"  className={({ isActive }) => 
+    isActive ? "mobile-nav-link active" : "mobile-nav-link"
+  }
+  onClick={cancelMenu}
+  
+  
+  >
+     الشركاء
   </NavLink>
-  <NavLink to="/" className="mobile-nav-link">
-    الشركاء
+  <NavLink to="/Support"  className={({ isActive }) => 
+    isActive ? "mobile-nav-link active" : "mobile-nav-link"
+  }
+  onClick={cancelMenu}
+  
+  >
+     رعايتنا تضم
   </NavLink>
-  <NavLink to="/Support" className="mobile-nav-link">
-    رعايتنا تضم
-  </NavLink>
-  <NavLink to="/Contact" className="mobile-nav-link">
-    تواصل معنا
+  <NavLink to="/Contact"  className={({ isActive }) => 
+    isActive ? "mobile-nav-link active" : "mobile-nav-link"
+  }
+  onClick={cancelMenu}
+  
+  >
+      تواصل معنا
   </NavLink>
 </div>
 
             <div className="mobile-donate">
+              <div className="cadre-btn">
               <div className="donate-btn">
                 <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -262,7 +351,7 @@ const Header = () => {
                   />
                 </svg>
                 <span>تبرع الآن</span>
-              </div>
+              </div></div>
             </div>
           </div>
         </div>

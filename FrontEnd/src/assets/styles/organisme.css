@@ -1,9 +1,9 @@
-/* @media (max-width: 768px) {
-    .organisme {
-       background-color: blueviolet;
-    }
-} */
+
+
 @media (max-width: 480px) {
+    /* * {
+  outline: 1px solid red;
+} */
     .organisme-container {
         margin: 2rem;
         border: #E3DBD8 1px solid;
@@ -14,32 +14,13 @@
     }
 
     .container {
-        /* background-color: tomato; */
         height: 80%;
         display: flex;
         align-items: end;
       
     }
 
-    /* .icon1 {
-        top: 13%;
-        right: 28%;
-    }
-
-    .coeur1 {
-        top: 9%;
-        width: 10%;
-        height: 10%;
-    }
-
-    .icon2 {
-        top: 14%;
-        right: 16%;
-    }
-      .icon3 {
-        top: 14%;
-        right: 8%;
-    } */
+ 
     .button1{
         border-radius: 0.3rem;
     }
@@ -51,6 +32,7 @@
 @media (min-width: 320px) and (max-width: 390px) {
     .organisme-container {
         margin: 2rem;
+
         padding: 2rem;
         border: #E3DBD8 1px solid;
         display: flex;
@@ -59,34 +41,12 @@
     }
 
     .container {
-        /* background-color: tomato; */
-        /* height: 90%; */
         display: flex;
-        /* top: -9vh; */
+        /* background-color: aqua; */
         align-items: end;
     }
-
-    /* .icon1 {
-        top: 9%;
-        right: 20%;
-        width: 10%;
-        height: 10%;
-    }
-
-    .coeur1 {
-        top: 9%;
-        right: 50%;
-        width: 10%;
-        height: 10%;
-    }
-     .icon2 {
-        top: 14%;
-        left:95%;
-    }
-      .icon3 {
-        top: 14%;
-        left:110%;
-    } */
+ 
+   
     .button1{
         border-radius: 0.3rem;
     }

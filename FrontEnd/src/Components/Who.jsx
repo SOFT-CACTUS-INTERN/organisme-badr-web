@@ -6,6 +6,7 @@ import ligne from '../assets/svg/ligne.svg';
 import dal from '../assets/svg/dal.svg';
 import { useNavigate } from 'react-router-dom';
 import '../assets/styles/who.css'
+import whoGraph7 from '../assets/svgs/graph7.svg';
 
 
 
@@ -33,10 +34,9 @@ function Who() {
                     </div>
                     <div className="slider-container  top-12  " >
                         <div className="slider-track " >
-                            <img src={social} alt="social"
- />
-                            <img src={social} alt="social"
- />
+                            <img src={social} alt="social"/>
+                           
+                            <img src={social} alt="social"/>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@ function Who() {
                         </div>
                     </div>
                     <div className=' relative lg:w-1/2 sm:w-1/2 2xl:w-1/2 w-full '>
-                        <div className='flex  sm:justify-end md:justify-center lg:justify-end gap-2 sm:gap-4 px-4 sm:px-0'>
+                        {/* <div className='flex  sm:justify-end md:justify-center lg:justify-end gap-2 sm:gap-4 px-4 sm:px-0'>
                             <div className='flex flex-col gap-2 items-end sm:items-end'>
                                 <h1 className='text-[#FFD000] text-md sm:text-xl md:text-2xl  bottom-4 lg:text-3xl font-medium text-center sm:text-right'>
                                     من <span className='text-[#38B000]'>نحن</span>
@@ -70,7 +70,16 @@ function Who() {
                                     className=' sm:block  lg:block 2xl:block  sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 '
                                 />
                             </div>
-                        </div>
+                        </div> */}
+                        <div className="activite-title">
+                                <img className="activite-graph7" src={whoGraph7} alt="Decoration" />
+                                <div className="activite-name">
+                                  <h1>
+                                    من <span> نحن </span>
+                                  </h1>
+                                  <hr />
+                                </div>
+                              </div>
                         <div className='flex flex-col w-full z-10 '>
                             <div className='flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
                                 <h2 className='text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>

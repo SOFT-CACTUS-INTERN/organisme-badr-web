@@ -54,6 +54,7 @@ transform: translateY(-100.5%);
   position: absolute;
   z-index: 1;
   margin-left: 10%;
+  margin-top: 0.6%;
   /* margin-top: -372px;
   margin-left: 10px; */
  
@@ -74,44 +75,94 @@ transform: translateY(-100.5%);
   flex-direction: column;
   gap: 2rem;
   flex: 1;
+  padding-right: 1.5rem;
   color: #fff;
   text-align: right;
+  justify-content: right;
   direction: rtl;
+  /* background-color: saddlebrown; */
 }
 
 .title-line {
   display: flex;
- 
-  
-  justify-content: space-between;
-  align-items: center;
-
+  justify-content: flex-end; /* Alignement à droite */
+  align-items: center;     /* Alignement en bas */
   flex-direction: row-reverse;
- 
   height: 50%;
+  width: 100%;
   
-  
-  
+
 }
 
 .title-line h3 {
   font-size: clamp(1.1rem, 2vw, 3rem);
   font-weight: 500;
   display:flex;
+
+  
   flex-direction: row;
+   
+  font-style: normal; 
+  
+  line-height: 33.81px;
+  letter-spacing: 0;
+
+ 
+
+  font-size: clamp(1.75rem, 3.5vw + 0.5rem, 2.275rem);
+   
+  font-weight: 700;
+  font-size: clamp(24px, 6vw, 45px);
+  line-height: 1.5; 
+  letter-spacing: 0;
+  text-align: right; 
+  font-family: 'Neo Sans Arabic', sans-serif;
+  font-weight: 500;
+  font-style: normal; /* "Medium" n'existe pas ici */
+  font-size: clamp(2rem, 1.5rem + 1.5vw, 2.275rem); /* ~36.4px max */
+  line-height: 1.1; /* au lieu de pixels fixes */
+  letter-spacing: 0;
+  text-align: right;
+
+  
 
 
 }
 
 .title-line svg {
-  width: 3rem;
+  width: 5rem;
   height: auto;
 }
 
 .content-box p {
-  font-size: 1rem;
+ 
   line-height: 1.6;
   max-width: 32rem;
+
+ 
+  line-height: 1.42; 
+  letter-spacing: 0;
+ 
+ 
+ 
+
+  font-size: clamp(1.125rem, 1.5vw + 0.75rem, 1.5rem); /* 18px à 24px */
+  line-height: 1.42; /* 142% */
+  letter-spacing: 0;
+ 
+  text-align: justify;
+  text-align: right;
+   
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  line-height: 165%;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  z-index: 10;
+
+  direction: rtl;
+  
+  /* background-color: #FFAA00; */
 }
 
 .btn-group {
@@ -135,7 +186,17 @@ button {
   transition: filter .25s;
   font-size: 1.8rem;
   font-weight: 500;
+  
+  font-family: "Neo Sans Arabic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: clamp(1.2rem, 0.971rem, 1.22rem); /* 14px ← 15.54px → 16px */
+  line-height: 1.143; 
+  letter-spacing: 0em;
+  text-align: right;
 }
+
+
 
 .btn-solid {
   background: #FFAA00;
@@ -149,22 +210,17 @@ button {
 
 .btn-outline {
   background-color: #FFFFFF;
-  color: #FFAA00;
+  color: #515151;
+
   border: 2px solid #fff;
   display:flex;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
 }
-.title-line h3 {
-  font-size: clamp(1.4rem, 2vw, 3rem);
-  font-weight: 500;
-}
 
-.content-box p {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
-  font-weight:500;
-}
+
+
 
 
  /* @media (min-width: 1440px) {
@@ -256,8 +312,7 @@ button {
     font-weight: 500;
   }
   button{
-    font-size: 1.4rem;
-    font-weight: 500;
+   
   }
   .content-box p {
     font-size: 1.4rem;
@@ -314,26 +369,70 @@ button {
     align-items: center;
   
     width:100%;
+    padding:2rem;
   }
   
    .donate-card {
-    flex-direction: column;
+    flex-direction: column-reverse;
    
     text-align: center;
     justify-content: center;
     width:100%;
     gap:2rem;
-    padding: 2rem;
+    padding: 1.5rem;
+    
     max-width: 60vh;
    
   }
   .btn-group{
-     display: flex;
-  justify-content: center;
+     display: flex; 
+     flex-direction: row;
+ 
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
   gap:10px;
+  /* background-color: saddlebrown; */
+  padding-top:1rem;
+  padding-bottom: 1rem;
+  width:100%;
+  /* background-color: darkblue; */
   }
+  .btn-outline{
+  width:50%;
+  padding:1rem;
+  }
+  .btn-solid{
+    width:50%;
+    padding: 1.2rem;
+  
+  }
+ .graphic-box img{
+top:auto
+ }
+ 
+ .graphic-box{
+ 
+  width:100%;
+  top: 1.5rem;
+ 
+
+  
+ }
+ .content-box {
+ /* background-color: seagreen; */
+ width:100%;
+ padding:0.5rem;
+ 
+ }
+ .graphic-box img{
+ 
+  left:-1.2rem;
+  
+ }
+ 
+
  
 
 }
