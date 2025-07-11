@@ -1,42 +1,83 @@
  body {
-            font-family: 'Arial', sans-serif;
+   font-family: 'Arial', sans-serif;
 
-        }
-        .gradient-bg {
-            background: linear-gradient(135deg, #FFD000 0%, #FFA500 50%, #FF8C00 100%);
-        }
-        .contact-form {
-            backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.95);
-          
-        }
-        .contact-info-bg {
-            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 58.555%, rgba(255, 255, 255, 0) 100%);
-        }
-      /* styles.css */
-@media (max-width:468px) {
-  .footer-container{
-    display: flex;
-    flex-direction: column;
-  }
-  /* .footer-section{
-    overflow: hidden;
-  } */
-  .background2{
-    height: 100%;
-  }
-.background{
-    height: 100%;
-    
-  }
-  .form{
-    margin-top: -30vh;
+ }
 
-  }
-  .phrase{
-    /* margin-top: -2vh; */
-    display: flex;
-    align-items: end;
+ .gradient-bg {
+   background: linear-gradient(135deg, #FFD000 0%, #FFA500 50%, #FF8C00 100%);
+ }
 
-  }
-}
+ .contact-form {
+   backdrop-filter: blur(10px);
+   background: rgba(255, 255, 255, 0.95);
+
+ }
+
+ .contact-info-bg {
+   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 58.555%, rgba(255, 255, 255, 0) 100%);
+ }
+
+ /* styles.css */
+ @media (max-width:468px) {
+   .footer-container {
+     display: flex;
+     flex-direction: column;
+     /* background-color: aqua; */
+     height: 120vh;
+   }
+
+   .footer-section {
+     /* overflow: hidden; */
+     top: 30vh;
+   }
+
+   .background2 {
+     height: 100%;
+     /* background-color: aqua; */
+     display: none;
+   }
+
+   .background {
+     height: 100%;
+     /* background-color: aqua; */
+     display: none;
+
+
+   }
+
+   .form {
+     margin-top: -30vh;
+     z-index: 1000;
+
+   }
+
+   .phrase {
+     /* margin-top: -2vh; */
+     /* display: flex; */
+     bottom: -20vh;
+     /* align-items: start; */
+     /* display: none; */
+
+   }
+
+   .mobile {
+     background-image: url('/organisme-badr-web/images/image1.jpg');
+     background-repeat: no-repeat;
+     height: 130vh;
+     width: 100%;
+     background-size: cover;
+     position: relative;
+     /* top: -10%; */
+     bottom: 0;
+   }
+   .heart1{
+    /* background-color: aqua; */
+    position: absolute;
+    /* scale: 0.75; */
+    /* width: 30%; */
+    /* z-index: 8000; */
+   }
+
+  
+
+ }
