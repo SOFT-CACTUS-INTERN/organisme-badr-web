@@ -3,6 +3,7 @@ import '../assets/styles/activite.css';
 import activiteGraph7 from '../assets/svgs/graph7.svg';
 import activiteGraph14 from '../assets/svgs/graph14.svg';
 import activiteGraph30 from '../assets/svgs/graph30.svg';
+import test from '../assets/svgs/test1.svg'
 const ActiviteCard = ({ imageSrc, title, location, description, categorie }) => {
   return (
     <div className="activite">
@@ -106,12 +107,21 @@ const Activities = () => {
         </p>
       </div>
 
-      <div className="activite-groupe">
-        <button className='prev' onClick={handlePrev}> <div className='lgn'>❮</div> </button>
+      <div className="activite-groupe ">
+        
+ <div className='prev' onClick={handlePrev }>
+<img src={test} alt="" />
+
+ </div>
+        {/* <button className='prev ' onClick={handlePrev}> <div className='lgn '>❮</div> </button> */}
 
         <ActiviteCard {...activiteData[currentIndex]} />
 
-        <button className='next' onClick={handleNext}> <div className='lgn'>❯</div> </button>
+        {/* <button className='next' onClick={handleNext}> <div className='lgn'>❯</div> </button> */}
+        <div className='next' onClick={handleNext}>
+<img src={test} alt="" />
+
+        </div>
       </div>
     </section>
   );

@@ -82,7 +82,7 @@ position:relative;
 }
 .icon-serv{
   width:50px;
-  height: 50px;
+  height: 40px;
   /* background:#525560; */
   display:flex;
   justify-content: center;
@@ -193,17 +193,19 @@ border-radius: 21px;
   position:absolute;
 
 
-  width:80%;
-  height: 80%;
-  z-index:1;
+  
+  /* background-color: darkcyan; */
+ 
+  z-index:800;
   transform: rotate(-8.5deg);
   /* display:none */
   z-index: 30000;
   /* background-color: #525560; */
+width:42%;
+/* height:auto; */
 
-  width:42%;
-  top:17%;
-  height: 42%;
+  top:auto;
+
   left:2%;
   z-index: 1;
  
@@ -211,15 +213,19 @@ border-radius: 21px;
   
 }
 .graph21{
-  position:absolute;
+  position: absolute;
  top:41%;
  left:4%;
+
   /* background-color:black; */
   width:4%;
+  /* background-color: darkcyan; */
+  
   /* background-color: salmon; */
   /* display: none; */
   /* background-color: #525560; */
 }
+
 @media (max-width: 1024px) and (min-width: 769px) {
   .service-section{
     justify-content: space-around;
@@ -229,6 +235,7 @@ border-radius: 21px;
     /* display:none; */
     width:50%;
     top:20%;
+    /* background-color: darkblue; */
    
 
   }
@@ -309,6 +316,144 @@ border-radius: 21px;
 
 
 }
+
+.icon{
+  display:none;
+}
+@media(min-width:2500px){
+.service-section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ height:auto;
+  gap:3rem;
+  padding:3rem;
+  min-height:100vh;
+
+ 
+ 
+  
+}
+.icon{
+  display:none
+}
+
+
+.service{
+  /* background-color: pink; */
+
+  width:60%;
+  
+ height: auto;
+ gap:3rem;
+ /* background-color:chartreuse ; */
+
+}
+
+
+.services{
+
+  width:100%;
+  /* background-color: darkcyan; */
+
+  gap:1.5rem;
+ 
+  
+}
+.serv{
+  width:80%;
+  padding-right: 1rem;
+   display:flex;
+   justify-content: right;
+   align-items:center;
+  min-height:8vh;
+  gap:1rem;
+  padding:1rem;
+  padding-right: 1.5rem;
+  z-index: 80000;
+  padding:1rem;
+  
+ 
+  
+
+   
+
+}
+.icon-serv{
+  z-index: 80000;
+}
+
+
+.serv h2{
+
+z-index: 1000;
+text-align: right;
+width:100%;
+/* background-color: salmon; */
+/* background-color: darkblue; */
+
+}
+
+.serv p{
+  font-size: 1.8rem;
+  width:100%;
+  text-align: right;
+  z-index: 8000;
+
+ 
+  /* background-color: saddlebrown; */
+  z-index: 1000;
+}
+
+
+.graph20{
+  display:none
+}
+.title h1{
+  /* background-color: darkcyan; */
+ font-size: 4rem;
+}
+.title{
+  /* background-color: darkgoldenrod; */
+  gap:1.5rem;
+}
+.title hr{
+  width:80%;
+}
+.images{
+  /* background-color: aquamarine; */
+  width:40%;
+
+  margin-top:-10%;
+  min-height: 30vh;
+
+}
+.back{
+  width:80%;
+  height:48vh;
+  
+}
+.pecture{
+
+  width:100%;
+height:auto;
+
+}
+.graph20{
+  /* background-color: darkcyan; */
+  display:block;
+  z-index: 8000;
+  width:55%;
+}
+.icon-serv{
+  width:50px;
+  height:48px;
+}
+
+  
+}
+
+
 @media (max-width: 1024px) and (min-width: 769px) and (min-height: 1024px) {
   body {
     background-color: blueviolet;
@@ -572,7 +717,7 @@ left:0;
 
   .back {
     margin:1rem;
-    width: 60%;
+    width: 100%;
     height:42vh;
     /* background-color: darkcyan; */
     position:relative;
@@ -589,9 +734,11 @@ left:0;
   .images .unspalsh{
     /* display:none; */
     position:absolute;
-    width:60%;
+    width:100%;
+
     margin-left: 8%;
     margin-top: -4%;
+    /* background-color:red; */
   
   
     
@@ -603,7 +750,7 @@ left:0;
     /* display: none; */
   }
   .images .graph19{
-    left:35%;
+    left:40%;
     /* background-color: pink; */
     /* display:none */
   }
@@ -629,7 +776,7 @@ left:0;
 .graph20{
   
   /* background-color: #525560; */
-  top:41%;
+  top:50%;
   width:70%;
   /* height:60%; */
 }
@@ -667,8 +814,11 @@ left:0;
   
   }
   .graph20{
-    top:42%;
+    top:50%;
   }
+}
+.title{
+  
 }
 
 

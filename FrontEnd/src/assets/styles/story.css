@@ -49,6 +49,7 @@
     flex-direction: row-reverse;
     gap: 1rem;
     color: #FFC300;
+    /* background: darkorchid; */
     font-weight: 500;
     font-size: clamp(1.5rem, 3vw, 3.5rem);
 
@@ -501,6 +502,7 @@ min-height:28rem;
 
 
     }
+    
 
     .boys {
         max-width: 60%;
@@ -543,8 +545,7 @@ min-height:28rem;
         width: 25%;
         
         left: 10%;
-       
-      
+    
 
     }
    

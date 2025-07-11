@@ -700,16 +700,15 @@ text-align: center;
   }
  
 
-  .info-bar {
-    padding: 0.8rem 0;
-    height:60%;
-   
-}
+ 
 
   .info-content {
     flex-direction: column;
     gap: 0.8rem;
     
+  }
+  .info-bar{
+      padding: 1rem 0;
   }
  
   
@@ -756,6 +755,7 @@ text-align: center;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: darkblue; */
  
     /* width:100%;
     background-color: red; */
@@ -1119,7 +1119,9 @@ background: #FCFAF8;
   height:4vh;
   padding:1rem;
  
+ 
 }
+
 .z{
   background-color:aquamarine;
   background:none;
@@ -1136,7 +1138,17 @@ display:flex;
 justify-items: center;
 align-items: center;
 
-}}
+}
+.organization{
+
+ 
+padding:1rem;
+gap:0.6rem;
+}
+.org-content{
+ 
+}
+}
 
 /* @media (max-width: 319px) {
   .container {

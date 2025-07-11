@@ -8,7 +8,7 @@
   align-items: center;
   padding: 4rem 1rem;
   width:100%;
-  background-color: salmon;
+  /* background-color: salmon; */
   left:0;
  margin-top: 10%;
   position: relative;
@@ -285,6 +285,46 @@ button {
  
 } */
 
+@media(min-width:2500px){
+
+
+  .graphic-box{
+    /* background-color: darkblue; */
+    
+    align-items: end;
+top:0.6rem;
+  }
+  
+  .title-line{
+    /* background-color: darkblue; */
+    display:flex;
+    width:100%;
+    padding:0rem; display: flex;
+  justify-content: flex-end; 
+  align-items: right;     /* Alignement en bas */
+  flex-direction: row-reverse;
+  height: 50%;
+  width: 60%;
+  margin-right: 0rem;
+  margin-right: -1rem;
+gap:5000rem;
+   
+  }
+  .service-section{
+
+
+  min-height: 90vh;
+  }
+  .title-line svg{
+    /* background-color: darkcyan; */
+  }
+  .content-box{
+    /* background-color: darkcyan; */
+
+    
+  }
+  
+}
 @media(max-width:1024px){
 
  .donate-wrapper{

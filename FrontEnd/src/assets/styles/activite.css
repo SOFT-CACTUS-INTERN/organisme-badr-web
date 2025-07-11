@@ -363,14 +363,14 @@ body {
 
 .next,
 .prev {
-
-  border: 0.55px solid #000000;
+/* 
+  border: 0.55px solid #000000; */
   background: #FFFFFF;
   width: 53px;
   height: 53px;
 
 
-  border-width: 0.55px;
+  /* border-width: 0.55px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -796,7 +796,9 @@ gap:1rem;
   .activite-groupe {
     padding: 0;
     /* background-color: pink; */
-    gap: 0;
+  
+    /* background-color: brown; */
+   
   }
 
   .activite {
@@ -935,7 +937,7 @@ border-radius: 25.2px;
   .next,
   .prev {
    
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 
 
 
@@ -944,6 +946,15 @@ border-radius: 25.2px;
     justify-content: center;
     align-items: center;
 
+
+  }
+  .next{
+    /* background-color: darkcyan; */
+    margin-right:1.5%;
+  }
+  .prev{
+     margin-left:1.5%;
+     /* background-color: darkgoldenrod; */
 
   }
   .activite-graph30{
@@ -978,6 +989,7 @@ border-radius: 25.2px;
     .activite-groupe {
       /* background-color: red; */
       padding: 0;
+      gap:1rem;
     }
 
     .image-div {
@@ -1013,18 +1025,12 @@ border-radius: 25.2px;
   align-items: center; */
   }
   
- .next,
-  .prev {
-    border: 1px solid #000;  
-    background: #fff;
-    width: 30px;            
-    height: 30px;            
-    border-radius: 50%;       
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ 
+.next ,.prev{
+ width:28px;
 
+
+}
 
 
 
