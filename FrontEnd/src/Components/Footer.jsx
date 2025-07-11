@@ -162,8 +162,13 @@ function Footer() {
           </div>
 
           {/* Mobile and Tablet Layout */}
-          <div className='lg:hidden flex items-center justify-center min-h-screen px-4 ' style={{padding:'2rem'}}>
-            
+
+          <div className='mobile lg:hidden flex items-center justify-center min-h-screen px-4 ' style={{padding:'2rem'}}>
+              <img
+              src="/organisme-badr-web/images/photo2.png"
+              className="heart1 absolute top-4 sm:top-8 left-0 w-full min-h-screen sm:w-[85%] md:h-screen md:w-[80%] lg:w-[75%] xl:w-[70%] h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[60vh] lg:max-h-none"
+              alt="Overlay Footer"
+            />
             <div className='flex flex-col space-y-8 w-full'>        
                   {/* Mobile Contact Form */}
               <div className='form mx-4' style={{ padding: '1rem' }}>
