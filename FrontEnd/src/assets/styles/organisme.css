@@ -32,18 +32,27 @@
 @media (min-width: 320px) and (max-width: 390px) {
     .organisme-container {
         margin: 2rem;
-
+        margin-top:-10%;
+        /* background-color: aqua; */
         padding: 2rem;
         border: #E3DBD8 1px solid;
         display: flex;
         flex-direction: column-reverse;
-        height: 100vh;
+        height: 85vh;
     }
-
-    .container {
+.organisme-section{
+    /* background-color: blue; */
+    /* margin-top: -10%; */
+}
+.titre1{
+    /* background-color: blueviolet; */
+    font-size: x-large;
+}
+    .containers {
         display: flex;
-        /* background-color: aqua; */
         align-items: end;
+        top: -5%;
+      
     }
  
    

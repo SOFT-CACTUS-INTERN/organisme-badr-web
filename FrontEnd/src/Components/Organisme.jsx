@@ -14,12 +14,12 @@ function Organisme() {
     const navigate = useNavigate();
 
     return (
-        <section className=" w-full  min-h-screen flex justify-center items-center "  >
+        <section className="organisme-section w-full  min-h-screen flex justify-center items-center "  >
 
           
             <div className="organisme-container  bg-white rounded-2xl lg:h-[70vh]   shadow-md lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-100 flex flex-col md:flex-row justify-center md" >
               
-                <div className="container relative w-full md:w-1/2 flex items-end justify-center md:mb-0 z-10 min-h-[250px] sm:min-h-0 lg:w-1/2">
+                <div className="containers relative w-full md:w-1/2 flex items-end justify-center md:mb-0 z-10 min-h-[250px] sm:min-h-0 lg:w-1/2">
                     <img src={photo1} alt="Vite logo"
                         className="image1 max-w-full absolute w-10/12 sm:w-9/12 md:w-full  md:max-w-none   bottom-0"     style={{ clipPath: 'inset(1mm 0 0 0)' }}
 
@@ -29,7 +29,7 @@ function Organisme() {
                 </div>
                 <div className='w-full md:w-1/2 px-4 md:px-0 lg:w-1/2'>
                     <div className="flex justify-end items-center gap-2 md:gap-4 lg:justify-end " style={{ padding: '1rem' }}>
-                        <h1 className="text-[#38B000] sm:text-lg md:text-xl text-center font-bold lg:text-right">
+                        <h1 className="titre1 text-[#38B000] sm:text-lg md:text-xl text-center font-bold lg:text-right">
                             منظمة <span className="text-[#FFB700]">البدر</span>
                         </h1>
                         <img
