@@ -32,15 +32,15 @@ function Who() {
                         </div>
 
                     </div>
-                    <div className="slider-container  top-12  " >
+                    <div className="slider-container    " >
                         <div className="slider-track " >
                             <img src={social} alt="social"/>
-                           
+                            <img src={social} alt="social"/>
                             <img src={social} alt="social"/>
                         </div>
                     </div>
 
-                    <hr className="ligne3 border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%',marginTop:'2rem' }} />
+                    <hr className="ligne3 border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%' }} />
 
                 </div>
 
@@ -81,20 +81,20 @@ function Who() {
                                 </div>
                               </div>
                         <div className='flex flex-col w-full z-10 '>
-                            <div className='flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
+                            <div className='test flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
                                 <h2 className='text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>
                             </div>
                             <div className='' >
 
                                 <img src={dal} alt="" className='absolute lg:top-[30%]  lg:left-[10%]' />
                             </div>
-                            <div className='text-right  top-[60%] z-10' style={{ padding: '0% 20%' }}>
+                            <div className='para text-right  top-[60%] z-10' >
 
-                                <p >هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
+                                <p className='parag'>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى </p>
                             </div>
-                            <div className='text-right  top-[72%] z-10' style={{ padding: '0% 20%' }}>
+                            <div className='para text-right  top-[72%] z-10' >
 
-                                <p > إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات </p>
+                                <p className='parag'> إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات </p>
                             </div>
                             <div className="z-10 w-full flex flex-col items-center " style={{ padding: '1rem', '@media': { 'screen and (max-width: 640px)': { padding: '1rem' } } }}>
                                 <button onClick={() => navigate('/Contact')} className="!bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">

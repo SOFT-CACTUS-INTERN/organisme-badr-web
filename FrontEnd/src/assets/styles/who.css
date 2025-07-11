@@ -4,18 +4,40 @@
 
 .partenaire {
     /* background-color: aqua; */
-    height: 20vh;
 }
 
 .slider-container {
     /* background-color: red; */
-    height: 20%;
+    /* height: 20%; */
+    
 }
+
+
+   .test{
+    /* background-color: blue; */
+    /* margin-right: 5%; */
+    margin-left: -4%;
+   }
+    .para{
+        /* background-color: red; */
+    }
+    .parag{
+        /* background-color: blue; */
+        width: 90%;
+        /* margin-left: 5%; */
+        margin-top: 2%;
+
+    }
 
 .slider-track {
     /* background-color: aqua;  */
-    margin-top: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    scale: 0.5;
+    height: 10vh;
 }
+ 
 
 @keyframes slide {
     0% {
@@ -82,11 +104,17 @@
         /* background-color: yellow; */
         width: 100%;
         /* display: none; */
+        /* margin-top:2rem; */
     }
 
     .slider-track {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        /* margin-top: 2rem; */
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
+        display: flex;
+        align-items: center;
+            height: 5vh;
+
     }
 
     .slider-container {
@@ -101,4 +129,52 @@
         display: flex;
         flex-direction: row;
     }
+    .para{
+        /* background-color: red; */
+    }
+    .parag{
+        /* background-color: blue; */
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+
+    }
 }
+ @media (min-width: 414px) and (max-width:896px)  {
+  
+   .who-prDiv {
+        display: flex;
+        padding: 0.25rem;
+
+        flex-direction: column-reverse;
+        /* background-color: aqua; */
+    }
+    .partenaire {
+        /* background-color: aqua; */
+        height: 10vh;
+    }
+
+   
+    .slider-track {
+        margin-top: 2rem;
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
+        display: flex;
+        align-items: center;
+    }
+
+    .slider-container {
+        height: 12vh;
+    }
+
+    .isam {
+        font-size: medium;
+    }
+
+    .titleDiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+ }
