@@ -3,7 +3,6 @@
 }
 body, h3, p { 
   margin: 0; 
-
  
 }
 
@@ -12,7 +11,7 @@ body, h3, p {
 
 .header {
   width: 100%;
- 
+
   top: 0;
   left: 0;
   /* z-index: 1000; */
