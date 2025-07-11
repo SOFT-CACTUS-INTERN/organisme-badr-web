@@ -38,7 +38,7 @@ const Header = () => {
       document.body.classList.remove('menu-open');
     }
   }
-}
+
 
 const cancelMenu = () => {
   setIsMobileMenuOpen(false);
