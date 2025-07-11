@@ -1,17 +1,4 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
-body,
-h3,
-p {
-    margin: 0;
-
-
-
-}
 
 .story-section {
 
