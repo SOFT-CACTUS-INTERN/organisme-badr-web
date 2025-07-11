@@ -1,4 +1,3 @@
-
 import { useState } from "react"
 import { NavLink } from "react-router-dom";
 import cancel from '../assets/svgs/graph35.svg'
@@ -39,11 +38,17 @@ const Header = () => {
       document.body.classList.remove('menu-open');
     }
   }
+}
 
-  const cancelMenu = () => {
-    setIsMobileMenuOpen(false);
-    document.body.classList.remove('menu-open');
-  }
+const cancelMenu = () => {
+  setIsMobileMenuOpen(false);
+  document.body.classList.remove('menu-open');
+}
+
+
+
+
+ 
 
 
 

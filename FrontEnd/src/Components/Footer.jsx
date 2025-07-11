@@ -10,7 +10,7 @@ import footer from '../assets/svg/footer.svg';
 
 function Footer() {
   return (
-    <footer className="footer-section relative w-full    " >
+    <footer className="footer-section relative w-full     " >
       <div className='relative  min-h-screen  '>
         {/* Background Images */}
         <div className="background relative w-full pt-2 sm:pt-4 md:pt-6 lg:pt-8 xl:pt-12">

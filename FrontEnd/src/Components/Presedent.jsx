@@ -5,12 +5,13 @@ import fleche1 from '../assets/svg/fleche1.svg';
 import fleche2 from '../assets/svg/fleche2.svg';
 import ligne from '../assets/svg/ligne.svg';
 import col from '../assets/svg/col.svg';
+import presedant from '../assets/svg/presedant.svg';
 
 
 function Presedent() {
   return (
-    <section className='w-full min-h-screen 2xl:h-screen mb-12 '>
-      <div className="flex items-center justify-between w-full px-4 mt-8">
+    <section className='w-full min-h-screen 2xl:h-screen mb-12 ' style={{padding:'4rem'}}>
+      <div className="flex items-center justify-between w-full px-4 mt-8 gap-4">
         {/* Ligne à gauche */}
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />
 
@@ -23,35 +24,23 @@ function Presedent() {
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" />
       </div>
 
-      <div className='flex justify-center mt-4 sm:mt-6 px-4'>
+      <div className='phrase0 flex justify-center mt-4 sm:mt-6 px-4'>
         <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center'>
           وراء كل إنجاز... فريق يحمل رسالة
         </h2>
       </div>
 
-      <div className='relative min-h-screen mt-8 sm:mt-12 flex flex-col lg:flex-row'>
+      <div className='presedant relative min-h-screen mt-8 sm:mt-12 flex flex-col lg:flex-row'>
         {/* Left Section */}
-        <div className='w-full min-h-[40vh] sm:min-h-[50vh] lg:min-h-screen relative lg:w-full'>
+        <div className=' w-full min-h-[40vh] sm:min-h-[50vh] lg:h-screen relative lg:w-full lg:justify-center lg:flex'>
           {/* Fleche1 - Arrow - Hidden on mobile, visible on tablet+ */}
           <img
-            src={fleche1}
-            alt="fleche1"
-            className="hidden sm:block absolute top-4 left-1/2 transform -translate-x-1/2 w-20 sm:w-24 md:w-32 lg:top-12 lg:left-[70%] lg:transform-none lg:ml-[55%] lg:mt-24 lg:w-1/3 2xl:ml-[55%] 2xl:w-1/3"
+            src={presedant}
+            alt="presedant"
+            className="image   " style={{width:'100%'}} 
           />
 
-          {/* Green decoration */}
-          <img
-            src={green}
-            alt="green"
-            className="absolute top-2  w-12 sm:-top-12 sm:left-32   sm:w-20 md:w-24  lg:-mb-6 lg:w-auto"
-          />
-
-          {/* Main photo */}
-          <img
-            src="/organisme-badr-web/images/photo8.png"
-            alt="Superposition"
-            className="w-[85%] sm:w-[75%] md:w-[70%] mx-auto mt-4 sm:mt-8 lg:w-[70%] lg:ml-20 lg:mt-0 lg:ml-32 lg:-mt-16 2xl:h-140 2xl:w-140"
-          />
+          
         </div>
 
         {/* Right Section */}
@@ -59,10 +48,10 @@ function Presedent() {
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
 
-            <div className=' flex items-center justify-center sm:justify-end pt-4 sm:pt-8 lg:pt-12 xl:pt-16 sm:gap-2'>
+            <div className='presedantTitle flex items-center justify-center sm:justify-end pt-4 sm:pt-8 lg:pt-12 xl:pt-16 sm:gap-2'>
               {/* Bloc Titre + ligne */}
-              <div className='flex flex-col items-end space-y-2 '>
-                <h1 className='text-[#FFD000] text-xl sm:text-2xl lg:text-3xl'>
+              <div className='titre flex flex-col items-end space-y-2 ' >
+                <h1 className='text-[#FFD000] text-sm sm:text-2xl lg:text-3xl'>
                   رئيسة <span className='text-[#38B000]'>المنظمة</span>
                 </h1>
 
@@ -87,20 +76,20 @@ function Presedent() {
 
 
 
-            <h1 className='text-center sm:text-right font-bold text-base sm:text-lg mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
+            <h1 className='secondTitre text-center sm:text-right font-bold text-base sm:text-lg mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
               رؤية إنسانية تقود المسيرة
             </h1>
 
             <div className='text-sm sm:text-base lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 space-y-2 sm:space-y-3'>
-              <p className='leading-relaxed sm:leading-loose'>
+              <p className='paragraphe1 leading-relaxed sm:leading-loose'>
                 نادية عطية هي قائدة منظمة البدر وواحدة من الأصوات الفاعلة في الدفاع عن حقوق الأشخاص ذوي الإعاقة، والنساء، والأطفال
               </p>
-              <p className='leading-relaxed sm:leading-loose'>
+              <p className='paragraphe1 leading-relaxed sm:leading-loose'>
                 بخبرتها في العمل الإنساني وشغفها بالتغيير، تقود المنظمة برؤية واضحة وإصرار على تحقيق الأثر. بفضل التزامها، أصبحت منظمة البدر رمزًا للأمل والعمل الحقيقي
               </p>
             </div>
 
-            <h2 className='font-bold text-base sm:text-lg lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 mt-4 sm:mt-6'>
+            <h2 className='titre3 font-bold text-base sm:text-lg lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 mt-4 sm:mt-6'>
               كلمة من نادية عطية
             </h2>
 

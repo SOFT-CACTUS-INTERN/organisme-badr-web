@@ -1,3 +1,5 @@
+
+
 @media (max-width: 480px) {
     /* * {
   outline: 1px solid red;
@@ -30,6 +32,7 @@
 @media (min-width: 320px) and (max-width: 390px) {
     .organisme-container {
         margin: 2rem;
+
         padding: 2rem;
         border: #E3DBD8 1px solid;
         display: flex;
@@ -38,11 +41,11 @@
     }
 
     .container {
-       
         display: flex;
+        /* background-color: aqua; */
         align-items: end;
     }
-
+ 
    
     .button1{
         border-radius: 0.3rem;
@@ -50,22 +53,4 @@
      .button2{
         border-radius: 0.3rem;
     }
-}/* @media (max-width: 768px) {
-    .organisme {
-       background-color: blueviolet;
-    }
-} */
-/* @media (max-width: 480px) {
-    .image1 {
-        width: 10%;
-        height: 10%;
-        top: auto;
-        left: 2%;
-        position: relative;
-    }
 }
-@media (max-width: 480px) {
-   .container{
-    background-color: aqua;
-   }
-} */

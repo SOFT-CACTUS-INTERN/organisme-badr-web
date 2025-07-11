@@ -1,29 +1,31 @@
- import Local from './Local'
- import Formule  from './Formule';
- import Donate from './Donate'
+import Local from './Local'
+import Formule from './Formule';
+import Donate from './Donate';
+
 
 
 
 const Contact = () => {
-    return ( 
+    return (
 
 
         <>
-        
-         <Formule/>
-         <Donate/>
+<div className=' min-h-screen flex flex-col ' >
+
+            {/* <Formule /> */}
+
+
+            <Donate />
+
+
+            <Local />
+</div>
 
 
 
 
-
-         <Local/>
-        
-        
-        
-        
         </>
-     );
+    );
 }
- 
+
 export default Contact;

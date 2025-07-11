@@ -738,6 +738,9 @@ text-align: center;
     font-size: 1rem;
     text-align: center;
   }
+  .liste button{
+    background-color: none;
+  }
 
   .social-icons {
     gap: 0.5rem;

@@ -1,79 +1,103 @@
-.who-prDiv{
+.who-prDiv {
     padding: 6rem;
 }
- .slider-track{
-        /* background-color: aqua;  */
-        margin-top: 1rem;
-    }
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+
+.partenaire {
+    /* background-color: aqua; */
+    height: 20vh;
 }
 
 .slider-container {
-  overflow: hidden;
-  width: 100%;
-  height: 20vh;
-  position: relative;
-  margin-top: -8vh;
+    /* background-color: red; */
+    height: 20%;
 }
 
 .slider-track {
-  display: flex;
-  width: 200%; /* car on va mettre 2 images */
-  animation: slide 10s linear infinite;
+    /* background-color: aqua;  */
+    margin-top: 1rem;
 }
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    margin-top: -8vh;
+}
+
+.slider-track {
+    display: flex;
+    width: 200%;
+    /* car on va mettre 2 images */
+    animation: slide 10s linear infinite;
+}
+
 .slider-track img {
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
 }
 
 
-@media (max-width:480px){
-    .who-section{
+@media (max-width:480px) {
+    .who-section {
         padding: 0.5rem;
 
     }
-    .who-prDiv{
+
+    .who-prDiv {
         display: flex;
-            padding: 0.25rem;
+        padding: 0.25rem;
 
         flex-direction: column-reverse;
         /* background-color: aqua; */
     }
-    .partenaire{
+
+    .partenaire {
         /* background-color: aqua; */
         height: 10vh;
     }
-    .ligne1{
+
+    .ligne1 {
         /* background-color: red; */
         width: 100%;
     }
-      .ligne2{
+
+    .ligne2 {
         /* background-color: green; */
         width: 20%;
     }
-    .ligne3{
+
+    .ligne3 {
         /* background-color: yellow; */
         width: 100%;
         /* display: none; */
     }
-    .slider-track{
+
+    .slider-track {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .slider-container{
+
+    .slider-container {
         height: 12vh;
     }
-    .isam{
+
+    .isam {
         font-size: medium;
     }
-    .titleDiv{
+
+    .titleDiv {
         display: flex;
         flex-direction: row;
     }
