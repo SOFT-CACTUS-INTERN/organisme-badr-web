@@ -1,6 +1,10 @@
+ .organisme-container {
+        height: 53vh;
+        /* background-color: aqua; */
 
-
+    }
 @media (max-width: 480px) {
+
     /* * {
   outline: 1px solid red;
 } */
@@ -9,22 +13,29 @@
         border: #E3DBD8 1px solid;
         display: flex;
         flex-direction: column-reverse;
-        height: 70vh;
-        
+        height: 72vh;
+
     }
 
-    .container {
+    .containers {
         height: 80%;
         display: flex;
         align-items: end;
-      
+        /* background-color: blueviolet; */
+
+
     }
 
- 
-    .button1{
+    .organisme-section {
+        /* background-color: blue; */
+        margin-top: -20%;
+    }
+
+    .button1 {
         border-radius: 0.3rem;
     }
-     .button2{
+
+    .button2 {
         border-radius: 0.3rem;
     }
 }
@@ -32,7 +43,7 @@
 @media (min-width: 320px) and (max-width: 390px) {
     .organisme-container {
         margin: 2rem;
-        margin-top:-10%;
+        /* margin-top:-10%; */
         /* background-color: aqua; */
         padding: 2rem;
         border: #E3DBD8 1px solid;
@@ -40,26 +51,61 @@
         flex-direction: column-reverse;
         height: 85vh;
     }
-.organisme-section{
-    /* background-color: blue; */
-    /* margin-top: -10%; */
-}
-.titre1{
-    /* background-color: blueviolet; */
-    font-size: x-large;
+
+    .organisme-section {
+        /* background-color: blue; */
+        margin-top: -12%;
+    }
+
+    .titre1 {
+        /* background-color: blueviolet; */
+        font-size: x-large;
+    }
+.bare1{
+    /* background-color: aqua; */
+    margin-top: 1rem;
 }
     .containers {
         display: flex;
         align-items: end;
         top: -5%;
-      
+        /* background-color: blueviolet;     */
+
     }
- 
-   
-    .button1{
+
+
+    .button1 {
         border-radius: 0.3rem;
     }
-     .button2{
+
+    .button2 {
         border-radius: 0.3rem;
     }
 }
+@media (min-width:2560px){
+      .organisme-container {
+        margin: 2rem;
+        /* margin-top:-10%; */
+        /* background-color: aqua; */
+        padding: 2rem;
+        border: #E3DBD8 1px solid;
+        display: flex;
+        height: 45vh;
+    }
+      .containers {
+        display: flex;
+        align-items: end;
+        /* top: -5%; */
+        /* background-color: blueviolet;     */
+
+    }
+    .infos{
+        /* background-color: red; */
+        height: 25vh;
+        margin-top: 5%;
+  
+    }
+
+   
+}
+
