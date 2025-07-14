@@ -35,6 +35,7 @@ transform:rotate(-10deg)
   padding:1rem;
  
   width:100%;
+  /* background-color: saddlebrown; */
   /* background-color: blue; */
   flex-direction: row-reverse;
   gap:1.5rem;
@@ -57,7 +58,7 @@ transform:rotate(-10deg)
   color:#FFC300;
   
   font-weight: 500;
-font-size: clamp(1.5rem, 3vw, 3.5rem);
+font-size: clamp(2.5rem, 3vw, 3.5rem);
 z-index: 10;
 }
 .our-name span{
@@ -83,7 +84,7 @@ font-weight: 400;
 
 letter-spacing: 0%;
 text-align: right;
-font-size: clamp(1rem, 3vw, 1.5rem);
+font-size: clamp(1.3rem, 3vw, 1.5rem);
   line-height: 1.6;
   /* background-color: pink; */
 /* display:flex;
@@ -160,9 +161,11 @@ width:60%;
 .titre h2{
     font-family: 'Cairo', sans-serif;
   font-weight: 700;
-  font-size: clamp(24px, 6vw, 45px);
+ font-size: clamp(2rem, 6vw, 2.8125rem);
+
   line-height: 1.5; /* 150% = 1.5 */
   letter-spacing: 0;
+  font-style: bold;
   text-align: right;
 }
 .titre hr{
@@ -184,9 +187,10 @@ font-size: 19.07px;
 line-height: 131%;
 letter-spacing: 0%;
 text-align: right;
-font-size: clamp(0.875rem, 3vw, 1.5rem);
+font-size: clamp(1.1rem, 3vw, 1.5rem);
+text-align: right;
 
-width:80%;
+width:90%;
 
 
 
@@ -212,7 +216,7 @@ justify-content: center;
 
 align-items: center;
 font-weight: 500;
-  font-size: clamp(0.75rem, 3vw, 1.2rem);
+  font-size: clamp(1rem, 3vw, 1.2rem);
   line-height: 1; 
   letter-spacing: 0;
   text-align: right;

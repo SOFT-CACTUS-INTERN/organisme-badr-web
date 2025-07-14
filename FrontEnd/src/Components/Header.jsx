@@ -5,9 +5,9 @@ import graph36 from '../assets/svgs/graph36.svg'
 
 import '../assets/styles/header.css'
 // import { NavLink } from "react-router-dom";
-const Header = () => {
+const Header = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
   const [isLangOpen, setIsLangOpen] = useState(false)
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeLink, setActiveLink] = useState("");
   const [selectedLang, setSelectedLang] = useState({
     name: "العربية",

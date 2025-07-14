@@ -4,6 +4,7 @@ import activiteGraph7 from '../assets/svgs/graph7.svg';
 import activiteGraph14 from '../assets/svgs/graph14.svg';
 import activiteGraph30 from '../assets/svgs/graph30.svg';
 import test from '../assets/svgs/test1.svg'
+import graph41 from'../assets/svgs/graph41.svg'
 const ActiviteCard = ({ imageSrc, title, location, description, categorie }) => {
   return (
     <div className="activite">
@@ -119,7 +120,7 @@ const Activities = () => {
 
         {/* <button className='next' onClick={handleNext}> <div className='lgn'>❯</div> </button> */}
         <div className='next' onClick={handleNext}>
-<img src={test} alt="" />
+<img src={graph41} alt="" />
 
         </div>
       </div>

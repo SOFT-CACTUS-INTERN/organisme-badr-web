@@ -1082,7 +1082,7 @@ font-weight: lighter;
  
 .cadre-btn{
   width:100%;
-background: #FCFAF8;
+/* background: black; */
 
  height: 10vh;
   display: flex;
@@ -1146,6 +1146,26 @@ gap:0.6rem;
 }
 .org-content{
  
+}
+.mobile-menu{
+  /* background-color: saddlebrown; */
+  min-height:100%;
+}
+.mobile-menu .mobile-donate{
+  /* background-color: darkblue; */
+  padding:1rem;
+    display:flex;
+    justify-content: end;
+    align-items: end;
+  margin-top: 60%;
+}
+.cadre-btn{
+  /* background-color: red; */
+  height:20vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
 }
 }
 

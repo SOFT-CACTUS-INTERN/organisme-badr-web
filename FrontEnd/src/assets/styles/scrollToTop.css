@@ -22,7 +22,8 @@
 }
 
 .scroll-to-top:hover {
-  box-shadow: 0 0 15px rgba(0, 114, 0, 0.5);
+  /* box-shadow: 0 0 15px rgba(0, 114, 0, 0.5); */
+  border-radius:none;
 }
 
 .scroll-to-top img.arrow {
@@ -30,5 +31,16 @@
   height: auto;
   transform: rotate(-45deg);
 }
+.scroll-to-top {
+  border: none !important;
+}
+.scroll-to-top:focus {
+  border: none !important;
+}
+.scroll-to-top:focus {
+  outline: none;
+  border: none;
+}
+
 
 
