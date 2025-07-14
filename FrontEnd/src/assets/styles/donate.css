@@ -287,7 +287,9 @@ button {
 
 @media(min-width:2500px){
 
-
+ .donate-card{
+  width:80%;
+ }
   .graphic-box{
     /* background-color: darkblue; */
     

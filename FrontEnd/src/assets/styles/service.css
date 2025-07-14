@@ -16,6 +16,7 @@ padding:2.3rem;
 /* padding-top:5rem; */
 min-height: 80vh;
 height: auto;
+z-index: 10;
 
 
 }
@@ -42,7 +43,7 @@ height: auto;
  margin-top:1rem;
 
  position:relative;
- z-index: 1000;
+ z-index: 10;
 }
 .services{
   display:flex;
@@ -51,7 +52,7 @@ height: auto;
   flex-direction: column;
   /* background-color: bisque; */
  gap:0.5rem; 
- z-index: 1000;
+z-index: 10;
  width:100%;
  
 
@@ -62,7 +63,7 @@ height: auto;
   justify-content: start;
   align-items: center;
 background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
-z-index:1000;
+z-index: 10;
 width:100%;
 
 /* padding-left:0.5rem;
@@ -71,9 +72,9 @@ padding: 0.6rem;
 gap:1rem;
 width:100%;
 border-radius:15px;
-z-index: 62;
+
 position:relative;
-  z-index:1000
+
 
 }
 .content-serv{
@@ -81,7 +82,7 @@ position:relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-    z-index:100;
+    z-index:10;
 }
 .icon-serv{
   width:55px;
@@ -93,7 +94,7 @@ position:relative;
  
 padding:0.5rem;
 border-radius: 6.66px;
-  z-index:1000;
+  z-index:10;
 background: linear-gradient(0deg, #007200 0%, #38B000 100%);
 
 
@@ -110,7 +111,6 @@ background: linear-gradient(0deg, #007200 0%, #38B000 100%);
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 100;
   
 }
 .title  h1{
@@ -120,6 +120,7 @@ background: linear-gradient(0deg, #007200 0%, #38B000 100%);
 font-size: clamp(1.6rem, 3vw, 3.5rem);
 z-index: 62;
 position:relative;
+z-index: 10;
 
 }
 .content-serv h2{
@@ -129,7 +130,7 @@ position:relative;
 font-size: clamp(1.3em, 2vw, 1.4rem);
   line-height: 1.5;
   text-align: right;
-  z-index:1000;
+  z-index:10;
  
 }
 .content-serv p{
@@ -140,7 +141,7 @@ font-size: clamp(1.3em, 2vw, 1.4rem);
 font-size: clamp(1.15rem, 2vw, 1.2rem);
   line-height: 1.5;
   text-align: right;
-  z-index: 1000;
+  z-index: 10;
 
 
 }
@@ -201,10 +202,10 @@ border-radius: 21px;
   
   /* background-color: darkcyan; */
  
-  z-index:800;
+
   transform: rotate(-8.5deg);
   /* display:none */
-  z-index: 30000;
+ 
   /* background-color: #525560; */
 width:42%;
 /* height:auto; */
@@ -224,6 +225,7 @@ width:42%;
 
   /* background-color:black; */
   width:4%;
+  z-index: 1;
   /* background-color: darkcyan; */
   
   /* background-color: salmon; */
@@ -325,7 +327,7 @@ width:42%;
 .icon{
   display:none;
 }
-@media(min-width:2560px){
+@media(min-width:2500px){
 .service-section{
   display:flex;
   justify-content: center;
@@ -334,15 +336,13 @@ width:42%;
   gap:3rem;
   padding:3rem;
   min-height:100vh;
+  z-index: 12;
 
  
  
   
 }
 
-.icon{
-  display:none
-}
 
 
 .service{
@@ -363,8 +363,6 @@ width:42%;
   /* background-color: darkcyan; */
 
   gap:1.5rem;
-  /* background-color: darkcyan; */
-  z-index: 3000;
  
   
 }
@@ -381,7 +379,6 @@ width:42%;
  
   padding:1rem;
   
-  
  
   
 
@@ -389,7 +386,7 @@ width:42%;
 
 }
 .icon-serv{
-  z-index: 80000;
+
 }
 
 
@@ -458,23 +455,50 @@ height:auto;
   width:50px;
   height:48px;
 }
-.title{
-  background-color: pink;
-  width:90%;
+.service{
+  /* background-color: darkgoldenrod; */
+}
+.service .title {
+  /* background-color: darkcyan; */
   display:flex;
   justify-content: end;
   align-items: end;
-  z-index: 1000;
+  width:90%;
 }
-.titre hr{
-  width:60%;
+.title hr{
+  width:80%
 }
-.titre h1{
-  background-color:aqua;
- z-index: 3000;
-}
+.service h1{
+  /* background-color: darkblue; */
+  text-align: right;
 
 
+}
+.content-serv{
+
+  /* background-color:red; */
+  z-index: 120;
+}
+.content-serv p{
+
+z-index: 120;
+}
+.content-serv h2{
+ 
+  z-index: 120
+  ;
+}
+.icon-serv{
+  z-index: 120;
+  
+}
+.icon-serv img{
+  z-index: 120;
+}
+.graph20{
+  
+  z-index: 1;
+}
 
   
 }
@@ -618,7 +642,7 @@ gap:1.5rem;
  width:65%;
  top:18%;
  left:0;
- z-index:300 ;
+ z-index:400 ;
  left:5%;
 
  }
@@ -627,6 +651,7 @@ left:0;
  width:6%;
  top:41%;
  z-index: 10;
+ 
  }
  .services{
   display:flex;
@@ -866,7 +891,7 @@ left:0;
   }
 
   .service-section{
-gap:1.7rem;
+gap:1.5rem;
   
   }
   .graph20{
@@ -883,10 +908,6 @@ gap:1.7rem;
 
 
   .service-section{
-    gap:4rem;
-  }
-  .content-serv{
-    /* background-color:red; */
-
+    gap:3rem;
   }
 }
