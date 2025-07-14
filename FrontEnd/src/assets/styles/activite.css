@@ -253,7 +253,7 @@ body {
     
   font-weight: 400;
   font-style: normal; 
-  font-size: clamp(1.3rem, 2vw, 1.6rem); 
+  font-size: clamp(1.4rem, 2vw, 1.6rem); 
   line-height: 1.5; /* 30px sur 20px => 1.5 */
   letter-spacing: 0;
   text-align: right;
@@ -265,6 +265,7 @@ body {
   color: black;
   display: flex;
   justify-content: right;
+    font-family: 'Poppins', sans-serif;
   width: 100%;
 
 }
@@ -272,6 +273,14 @@ body {
 .activite-content h4 span {
   text-transform: capitalize;
   color: #575757;
+ 
+font-weight: 400;
+
+
+line-height: 27.3px;
+letter-spacing: 0%;
+text-transform: capitalize;
+
 
 }
 
@@ -285,8 +294,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
   flex-direction: column;
+  /* background-color: salmon; */
+  padding-bottom: 4rem;
 
 
 }
@@ -399,6 +410,48 @@ body {
 
 }
 
+
+@media(min-width:2560px){
+   .activite-content{
+    padding-bottom: 0rem;
+   } 
+}
+@media(min-width:1440px) and ( max-width:2550px){
+
+  .activities-section{
+    /* background-color:pink; */
+  }
+  .activite-groupe{
+    /* background-color: salmon; */
+    width:100%;
+  }
+  .activite{
+    width:100%;
+    /* background-color: darkcyan; */
+    height:auto;
+
+  }
+  .activite-content{
+    /* background-color: darkgoldenrod; */
+  
+  }
+  .image-div{
+    /* background-color: darkgreen; */
+    height:auto;
+    min-height: 60vh;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:3rem;
+  }
+  .activite-pecture{
+    /* background-color: red; */
+    width:100%;
+    object-fit: contain;
+   height:60vh;
+  }
+}
 @media (max-width: 1024px) and (min-width: 769px) {
 
   /* tes styles */
@@ -409,6 +462,7 @@ background-color: white;
     width: 100%;
     flex-wrap: wrap;
     box-shadow: 0px 0px 168px 0px #12121214;
+  height:auto;
 
 
   }
@@ -416,12 +470,20 @@ background-color: white;
   .image-div {
     /* background: #575757; */
     width: 50%;
-    padding: 2rem;
+  
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:50vh;
   }
 
   .activite-pecture {
 
     width: 100%;
+  object-fit:cover;
+  height:80vh;
+
 
   }
 
@@ -445,16 +507,18 @@ background-color: white;
     align-items: center;
     /* background-color: black; */
     padding: 2rem;
+    width:100%;
+    /* background-color: darkcyan; */
   }
 
   .right-btn {
-    width: 50%;
-    padding: 1rem
+    width: 60%;
+    padding: 2rem;
   }
 
   .left-btn {
-    width: 50%;
-    padding: 1rem;
+    width: 60%;
+    padding: 2rem;
   }
 
   .activite-p p {
@@ -492,6 +556,13 @@ background-color: white;
   position: relative;
   z-index: 120;
 
+}
+.btn-activite{
+  display:none
+}
+.btn-groupe{
+  width:100%;
+  background-color: darkgoldenrod;
 }
 
  

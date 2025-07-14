@@ -844,7 +844,7 @@ left:0;
   }
 
   .service-section{
-gap:1.5rem;
+gap:1.7rem;
   
   }
   .graph20{
@@ -861,6 +861,10 @@ gap:1.5rem;
 
 
   .service-section{
-    gap:3rem;
+    gap:4rem;
+  }
+  .content-serv{
+    /* background-color:red; */
+    
   }
 }

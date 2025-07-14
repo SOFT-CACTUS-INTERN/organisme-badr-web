@@ -161,7 +161,8 @@ width:60%;
 .titre h2{
     font-family: 'Cairo', sans-serif;
   font-weight: 700;
- font-size: clamp(2rem, 6vw, 2.8125rem);
+ font-size: clamp(2rem, 6vw, 2.5rem);
+ /* background-color: darkblue; */
 
   line-height: 1.5; /* 150% = 1.5 */
   letter-spacing: 0;
@@ -240,7 +241,30 @@ background-color:white;
 
 }
 
+@media(min-width:1440px) and ( max-width:1555px) {
 
+
+
+  .our-section{
+    background-color:aquamarine;
+    width:100%;
+
+  }
+  .groupes{
+
+    background-color: pink;
+    width:100%;
+  }
+  .our-care{
+    width:50%;
+   
+ height:40vh;
+  gap:1.5rem;
+ 
+  
+  }
+ 
+}
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .care-section{
