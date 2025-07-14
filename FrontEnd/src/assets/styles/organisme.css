@@ -39,6 +39,7 @@
   .containers {
     display: flex;
     align-items: end;
+    top: -3%;
   }
 
   .button1,
@@ -60,7 +61,7 @@
   }
 
   .image1 {
-    top: 2%;
+    /* top: 2%; */
     width: 100%;
   }
 
@@ -78,6 +79,8 @@
 
   .containers {
     display: flex;
+    top: 6%;
+    /* background-color: red; */
     align-items: end;
   }
 
