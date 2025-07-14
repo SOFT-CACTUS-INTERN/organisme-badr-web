@@ -54,7 +54,7 @@
     width: 100%;
     height: 20vh;
     position: relative;
-    margin-top: -8vh;
+    margin-top: -8vh ;
 }
 
 .slider-track {
@@ -113,7 +113,7 @@
         /* margin-bottom: 2rem; */
         display: flex;
         align-items: center;
-            height: 5vh;
+            height: 10vh;
 
     }
 
@@ -140,41 +140,40 @@
 
     }
 }
- @media (min-width: 414px) and (max-width:896px)  {
-  
-   .who-prDiv {
-        display: flex;
-        padding: 0.25rem;
-
-        flex-direction: column-reverse;
-        /* background-color: aqua; */
-    }
-    .partenaire {
-        /* background-color: aqua; */
-        height: 10vh;
-    }
-
-   
-    .slider-track {
-        margin-top: 2rem;
+@media (min-width:375px) and (max-width:380px){
+     .slider-track {
+        /* margin-top: 2rem; */
         /* background-color: antiquewhite; */
         /* margin-bottom: 2rem; */
         display: flex;
         align-items: center;
+            height: 5vh;
+
     }
 
-    .slider-container {
-        height: 12vh;
-    }
-
-    .isam {
-        font-size: medium;
-    }
-
-    .titleDiv {
+}
+@media (min-width:360px) and (max-width:375px){
+     .slider-track {
+        /* margin-top: 2rem; */
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
         display: flex;
-        flex-direction: row;
+        align-items: center;
+            height: 5vh;
+
     }
 
+}
+ @media (min-width:320px) and (max-width:360px){
+     .slider-track {
+        /* margin-top: 2rem; */
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
+        display: flex;
+        align-items: center;
+            height: 5vh;
 
- }
+    }
+
+}
+ 
