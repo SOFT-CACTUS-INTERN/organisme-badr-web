@@ -110,6 +110,7 @@ background: linear-gradient(0deg, #007200 0%, #38B000 100%);
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 100;
   
 }
 .title  h1{
@@ -324,7 +325,7 @@ width:42%;
 .icon{
   display:none;
 }
-@media(min-width:2500px){
+@media(min-width:2560px){
 .service-section{
   display:flex;
   justify-content: center;
@@ -338,6 +339,7 @@ width:42%;
  
   
 }
+
 .icon{
   display:none
 }
@@ -361,6 +363,8 @@ width:42%;
   /* background-color: darkcyan; */
 
   gap:1.5rem;
+  /* background-color: darkcyan; */
+  z-index: 3000;
  
   
 }
@@ -374,8 +378,9 @@ width:42%;
   gap:1rem;
   padding:1rem;
   padding-right: 1.5rem;
-  z-index: 80000;
+ 
   padding:1rem;
+  
   
  
   
@@ -453,6 +458,23 @@ height:auto;
   width:50px;
   height:48px;
 }
+.title{
+  background-color: pink;
+  width:90%;
+  display:flex;
+  justify-content: end;
+  align-items: end;
+  z-index: 1000;
+}
+.titre hr{
+  width:60%;
+}
+.titre h1{
+  background-color:aqua;
+ z-index: 3000;
+}
+
+
 
   
 }
@@ -865,6 +887,6 @@ gap:1.7rem;
   }
   .content-serv{
     /* background-color:red; */
-    
+
   }
 }
