@@ -140,7 +140,7 @@
 }
 
 /* Grands écrans : 430px et plus */
-@media (min-width: 430px) {
+@media (min-width: 430px) and (max-width:540px) {
   .organisme-container {
     margin: 2rem;
     padding: 2rem;
