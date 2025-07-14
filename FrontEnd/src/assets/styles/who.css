@@ -11,6 +11,12 @@
     /* height: 20%; */
     
 }
+.buttonWho{
+    /* background-color: red; */
+    width: 100%;
+    margin-left: 30%;
+  
+}
 
 
    .test{
@@ -76,7 +82,12 @@
         padding: 0.5rem;
 
     }
-
+.buttonWho{
+    /* background-color: red; */
+    width: 100%;
+    margin-left: 30%;
+  
+}
     .who-prDiv {
         display: flex;
         padding: 0.25rem;

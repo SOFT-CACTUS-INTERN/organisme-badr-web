@@ -22,7 +22,7 @@ function Who() {
                     <div className='flex '>
 
                         <div className="flex items-center justify-center w-full gap-4">
-                            <div className="ligne1 border-[#E5E5E5] border-t-2 flex-grow" style={{width:'70%'}}></div>
+                            <div className="ligne1 border-[#E5E5E5] border-t-2 flex-grow" style={{ width: '70%' }}></div>
 
                             <h1 className="isam text-[#38B000] whitespace-nowrap text-center flex justify-end  sm:block  lg:block 2xl:block" >
                                 شركائنا
@@ -34,9 +34,9 @@ function Who() {
                     </div>
                     <div className="slider-container    " >
                         <div className="slider-track " >
-                            <img src={social} alt="social"/>
-                            <img src={social} alt="social"/>
-                            <img src={social} alt="social"/>
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
                         </div>
                     </div>
 
@@ -72,14 +72,14 @@ function Who() {
                             </div>
                         </div> */}
                         <div className="activite-title">
-                                <img className="activite-graph7" src={whoGraph7} alt="Decoration" />
-                                <div className="activite-name">
-                                  <h1>
+                            <img className="activite-graph7" src={whoGraph7} alt="Decoration" />
+                            <div className="activite-name">
+                                <h1>
                                     من <span> نحن </span>
-                                  </h1>
-                                  <hr />
-                                </div>
-                              </div>
+                                </h1>
+                                <hr />
+                            </div>
+                        </div>
                         <div className='flex flex-col w-full z-10 '>
                             <div className='test flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
                                 <h2 className='text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>
@@ -96,7 +96,7 @@ function Who() {
 
                                 <p className='parag'> إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات </p>
                             </div>
-                            <div className="z-10 w-full flex flex-col items-center " style={{ padding: '1rem', '@media': { 'screen and (max-width: 640px)': { padding: '1rem' } } }}>
+                            <div className="buttonWho z-10 w-full flex flex-col items-center " style={{ padding: '1rem', '@media': { 'screen and (max-width: 640px)': { padding: '1rem' } } }}>
                                 <button onClick={() => navigate('/Contact')} className="!bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">
                                     تواصل معنا
                                 </button>

@@ -139,7 +139,7 @@ function Footer() {
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <div className='flex justify-center items-center' style={{ padding: '1rem' }}>
-                <button type="submit" className="w-3/4 !bg-[#38B000] text-white rounded-b-lg flex justify-center" style={{ padding: '0.5rem' }}>
+                <button type="submit" className="buttonFooter w-3/4 !bg-[#38B000] text-white  flex justify-center" style={{ padding: '0.5rem' }}>
                   إرسال
                 </button>
               </div>
@@ -217,10 +217,10 @@ function Footer() {
                     </div>
                   </div>
 
-                  <div className='flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
+                  <div className=' flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
                     <button
                       type="submit"
-                      className="w-3/4 !bg-[#38B000] text-white rounded-lg py-3 px-6 font-semibold text-lg  flex justify-center " style={{ padding: '0.25rem' }}
+                      className="buttonFooter w-3/4 !bg-[#38B000] text-white  py-3 px-6  text-lg  flex justify-center " style={{ padding: '0.25rem' }}
                     >
                       إرسال
                     </button>

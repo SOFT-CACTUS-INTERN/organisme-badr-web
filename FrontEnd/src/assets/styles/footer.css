@@ -12,6 +12,11 @@
    background: rgba(255, 255, 255, 0.95);
 
  }
+ .buttonFooter{
+  border-radius: 1vh;
+  background-color: red;
+
+ }
 
  .contact-info-bg {
    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 58.555%, rgba(255, 255, 255, 0) 100%);
