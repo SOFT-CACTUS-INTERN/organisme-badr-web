@@ -411,47 +411,41 @@ text-transform: capitalize;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:2560px){
    .activite-content{
     padding-bottom: 0rem;
    } 
+   
+   .activite-p{
+    /* background-color: pink; */
+    width:100%;
+   }
+   .activite-p p{
+    /* background-color: darkblue; */
+    width:80%;
+     font-size: 1.8rem;
+   }
 }
-@media(min-width:1440px) and ( max-width:2550px){
 
-  .activities-section{
-    /* background-color:pink; */
-  }
-  .activite-groupe{
-    /* background-color: salmon; */
-    width:100%;
-  }
-  .activite{
-    width:100%;
-    /* background-color: darkcyan; */
-    height:auto;
-
-  }
-  .activite-content{
-    /* background-color: darkgoldenrod; */
-  
-  }
-  .image-div{
-    /* background-color: darkgreen; */
-    height:auto;
-    min-height: 60vh;
-    width:50%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding:3rem;
-  }
-  .activite-pecture{
-    /* background-color: red; */
-    width:100%;
-    object-fit: contain;
-   height:60vh;
-  }
-}
 @media (max-width: 1024px) and (min-width: 769px) {
 
   /* tes styles */
@@ -1064,6 +1058,10 @@ border-radius: 25.2px;
   padding-top:0rem;
   padding-bottom:0rem;
   
+}
+.activite-p{
+  /* background-color: darkgreen; */
+  width:90%;
 }
   @media(min-height:700px) {
     .activite-groupe {
