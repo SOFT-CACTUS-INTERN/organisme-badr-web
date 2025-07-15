@@ -71,7 +71,7 @@ body {
 
   display: flex;
   flex-direction: row-reverse;
-  gap: 1rem;
+  gap: 0.5rem;
   color: #FFC300;
 
   font-weight: 500;

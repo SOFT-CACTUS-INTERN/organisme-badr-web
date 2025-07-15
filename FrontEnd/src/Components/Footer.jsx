@@ -10,8 +10,8 @@ import footer from '../assets/svg/footer.svg';
 
 function Footer() {
   return (
-    <footer className="footer-section relative w-full     " >
-      <div className='relative  min-h-screen  '>
+    <footer className="footer-section relative w-full     bg-[#FCFAF8] " >
+      <div className='fotter relative  min-h-screen '>
         {/* Background Images */}
         <div className="background relative w-full pt-2 sm:pt-4 md:pt-6 lg:pt-8 xl:pt-12">
           <div className="relative">
@@ -50,12 +50,12 @@ function Footer() {
           <div className='hidden lg:flex lg:w-[90%] lg:left-[10%] lg:relative lg:min-h-screen'>
             {/* Contact Info Section */}
             <div className='w-[50%] z-10' style={{ marginTop: '4rem', padding: '2rem' }}>
-              <div className=" text-right !text-black" style={{ marginRight: '7.5rem', marginBottom: '-4rem' }}>
+              <div className="title01 text-right !text-black" style={{ marginRight: '7.5rem', marginBottom: '-4rem' }}>
                 <h2 className='font-bold text-3xl mb-2 !text-black'>للتواصل مع منظمتنا</h2>
                 <p className='text-lg !text-black'>هذا النص هو مثال لنص يمكن أن يستبدل</p>
               </div>
 
-              <div className='flex '>
+              <div className='iconsForm02 flex '>
                 {/* Left Icons */}
                 <div className='lg:w-[20%] lg:translate-x-90 ' style={{ marginTop: '0rem' }}>
                   <img src={icon5} alt="icon5" className="" style={{ marginTop: '80px', padding: '1rem' }} />
@@ -117,7 +117,7 @@ function Footer() {
             </div>
 
             {/* Contact Form */}
-            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10">
+            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10 2xl:h-[50vh] 2xl:w-[25%]">
               <div className="flex items-center justify-center w-full" style={{ padding: '1rem' }}>
                 <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                 <h2 className="font-bold text-2xl text-[#38B000] whitespace-nowrap">تواصل معنا</h2>
@@ -125,8 +125,9 @@ function Footer() {
               </div>
 
               <div className='w-full h-px bg-[#ADADAD] mt-4'></div>
+<div className='tvForm'>
 
-              <input type="text" placeholder="الاسم الأول و الأخير" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              <input type="text" placeholder="الاسم الأول و الأخير" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <input type="email" placeholder="البريد الإلكتروني" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
@@ -139,14 +140,15 @@ function Footer() {
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <div className='flex justify-center items-center' style={{ padding: '1rem' }}>
-                <button type="submit" className="buttonFooter w-3/4 !bg-[#38B000] text-white  flex justify-center" style={{ padding: '0.5rem' }}>
+                <button type="submit" className="buttonFooter w-3/4 !bg-[#38B000] text-white  flex justify-center " style={{ padding: '0.5rem' }}>
                   إرسال
                 </button>
               </div>
+</div>
             </form>
 
             {/* Right Icons */}
-            <div className='w-[20%] ' style={{ marginTop: '4rem' }}>
+            <div className='iconsFooter w-[20%]  2xl:translate-y-32' style={{ marginTop: '4rem' }}>
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="">
 
                 <img src={icon1} alt="icon1" className="" style={{ marginTop: '80px', padding: '1rem' }} />
@@ -184,7 +186,7 @@ function Footer() {
                       <input
                         type="text"
                         placeholder="الاسم الأول و الأخير"
-                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg" 
+                        className="w-full text-right dark:text-black  p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg" 
                       />
                       <div className='w-full h-px bg-[#ADADAD]'></div>
                     </div>
@@ -193,7 +195,7 @@ function Footer() {
                       <input
                         type="email"
                         placeholder="البريد الإلكتروني"
-                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
+                        className="w-full text-right dark:text-black  p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
                       />
                       <div className='w-full h-px bg-[#ADADAD]'></div>
                     </div>
@@ -202,7 +204,7 @@ function Footer() {
                       <input
                         type="tel"
                         placeholder="رقم الهاتف"
-                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
+                        className="w-full text-right dark:text-black  p-4 border-none outline-none focus:border-none focus:outline-none text-base sm:text-lg"
                       />
                       <div className='w-full h-px bg-[#ADADAD]'></div>
                     </div>
@@ -211,7 +213,7 @@ function Footer() {
                       <textarea
                         placeholder="رسالتك"
                         rows="4"
-                        className="w-full text-right p-4 border-none outline-none focus:border-none focus:outline-none resize-none text-base sm:text-lg"
+                        className="w-full text-right dark:text-black  p-4 border-none outline-none focus:border-none focus:outline-none resize-none text-base sm:text-lg"
                       ></textarea>
                       <div className='w-full h-px bg-[#ADADAD]'></div>
                     </div>
@@ -241,7 +243,7 @@ function Footer() {
         </div>
         {/* Copyright */}
         <div className='phrase   absolute w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' >
-          <h2 className='text-sm sm:text-xl flex justify-center text-black lg:text-black'>
+          <h2 className='text-sm sm:text-xl flex justify-center text-black lg:text-black 2xl:text-5xl'>
             "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
           </h2>
         </div>
