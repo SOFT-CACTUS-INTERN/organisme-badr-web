@@ -24,6 +24,8 @@ p {
 
   flex-direction: column;
   gap: 20px;
+  background: #FCFAF8;
+
 }
 
 
@@ -482,6 +484,15 @@ p {
 }
 
 
+@media (min-width:2560px) {
+  .logo {
+    /* background-color:red ; */
+    width:130px;
+    height:130px;
+    /* display:none; */
+  }
+  
+}
 
 /* Responsive Styles */
 @media (min-width: 1260px) {
@@ -498,6 +509,9 @@ p {
   .logo {
     width: 80px;
     height: 80px;
+  }
+  .nav-content{
+    gap:2rem;
   }
 
 
@@ -1229,7 +1243,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:2rem;
+    /* padding:2rem; */ 
    /* background: pink; */
 gap:3rem;
 

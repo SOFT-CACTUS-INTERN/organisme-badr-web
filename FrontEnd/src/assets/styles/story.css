@@ -266,6 +266,55 @@
     color: #000000;
 
 }
+@media(min-width:2560px){
+.story-section
+
+
+{
+    /* background-color:pink; */
+    gap:0rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.boys{
+    top:18%;
+    right:12rem;
+}
+
+}
+@media(min-width:1440px) and (max-width:2559px){
+.story-section{
+
+    /* background-color: pink; */
+    max-height:50vh
+}
+.boys{
+    /* background-color: darkcyan; */
+    top:29%;
+}
+.graph8{
+    /* background-color: darkcyan; */
+}
+.graph9{
+    /* background-color: firebrick; */
+    top:67%;
+    right:1%;
+}
+.graph11{
+    /* background-color: fuchsia; */
+    top:15%;
+    right:6rem;
+}
+
+.graph10{
+    /* background-color: #FFC300; */
+    top:70%;
+    left:1%;
+}
+
+
+}
 @media (max-width: 1024px) and (min-height: 800px) and (orientation: portrait){
 
     .story-section{
