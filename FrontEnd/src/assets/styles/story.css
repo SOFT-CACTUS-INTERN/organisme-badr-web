@@ -16,6 +16,8 @@
    gap:4rem;
    background: #FCFAF8;
    background: #FCFAF8;
+   /* background-color: black; */
+   
 
 
     /* background-color: #FFC400; */
@@ -51,7 +53,7 @@
     color: #FFC300;
     /* background: darkorchid; */
     font-weight: 500;
-    font-size: clamp(1.5rem, 3vw, 3.5rem);
+    font-size: clamp(2.5rem, 3vw, 3.5rem);
 
 
 
@@ -164,8 +166,9 @@
 .content h2 {
     /* background-color: pink; */
     font-weight: 700;
-    font-size: clamp(1.5rem, 5vw, 2.15rem);
+    font-size: clamp(2rem, 5vw, 2.15rem);
     text-align: right;
+    /* background-color: darkcyan; */
 }
 
 .content p {
@@ -173,7 +176,7 @@
     color: #4A4A4A;
 
     font-weight: 400;
-    font-size: clamp(1rem, 2vw, 1.4rem);
+    font-size: clamp(1.3rem, 2vw, 1.4rem);
     line-height: 1.6;
     text-align: right;
 
@@ -201,14 +204,14 @@
 }
 
 .number {
-    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
     font-weight: 800;
     margin-bottom: 0.2rem;
     color: white;
 }
 
 .label {
-    font-size: clamp(0.875rem, 2vw, 1.2rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
     font-weight: 700;
     color: white;
 }
@@ -261,7 +264,7 @@
 }
 
 .text {
-    font-size: clamp(0.8rem, 2vw, 1.4rem);
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
     font-weight: bold;
     color: #000000;
 
@@ -281,40 +284,75 @@
     top:18%;
     right:12rem;
 }
+.story-title{
+  
+  font-size: 4rem;
+}
+.story-content{
 
 }
-@media(min-width:1440px) and (max-width:2559px){
-.story-section{
+.content{
+   
+   
+}
+.content h2{
+    
+    font-size: 3rem;
+}
+.content p{
+   
+    font-size: 2rem;
+    line-height: 1.9;
+}
+.number{
+    font-size: 1.7rem;
+   
+}
+.label{
+    font-size: 1.5rem;
+}
+.text{
+  
+    font-size:1.8rem;
+    direction: rtl;
+}
+.icon{
 
-    /* background-color: pink; */
-    max-height:50vh
-}
-.boys{
-    /* background-color: darkcyan; */
-    top:29%;
-}
-.graph8{
-    /* background-color: darkcyan; */
-}
-.graph9{
-    /* background-color: firebrick; */
-    top:67%;
-    right:1%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+   
+} .icon img{
+    width:30px;
+    height:30px
 }
 .graph11{
-    /* background-color: fuchsia; */
-    top:15%;
-    right:6rem;
+    max-width:none;
+    /* background-color: darkblue; */
+    width:18vh
 }
-
+.graph9{
+    /* background-color: darkcyan; */
+    max-width:none;
+    width:10vw;
+}
 .graph10{
-    /* background-color: #FFC300; */
-    top:70%;
-    left:1%;
+    max-width:none;
+   
+    width:8vw;
+}
+.story-pc{
+   
+    width:80%;
+}
 }
 
 
-}
 @media (max-width: 1024px) and (min-height: 800px) and (orientation: portrait){
 
     .story-section{
@@ -445,10 +483,10 @@ padding:1rem;
     justify-content: space-around;
 }
 
-.stats-button{
+/* .stats-button{
     padding-right:22rem;
    
-}
+} */
 }
 
 @media(max-width:540px){
@@ -463,9 +501,9 @@ padding:1rem;
         align-items: center;
         gap: 1rem;
     }
-    .stats-button{
+    /* .stats-button{
         padding-right:20rem;
-    }
+    } */
 
     .content {
         width: 100%;
@@ -482,7 +520,7 @@ padding:1rem;
         justify-content: center;
         align-items:center;
 min-height:28rem;
-  background-color: saddlebrown;
+  /* background-color: saddlebrown; */
         
     }
      .graph8 {
@@ -596,6 +634,26 @@ min-height:28rem;
         left: 10%;
     
 
+    }
+    .graph9{
+        /* background-color: #38B000; */
+        top:auto;
+        /* background-color: darkblue; */
+    }
+    .graph8{
+        /* background-color: darkcyan; */
+    }
+    .boys{
+        /* background-color: red; */
+        top:28%;
+    }
+    .graph10{
+        /* background-color: pink; */
+        top:auto;
+    }
+    .graph11{
+        /* background-color: #007200; */
+        top:10%
     }
    
    

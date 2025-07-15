@@ -1107,7 +1107,7 @@ p {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     /* Gardez pour le débogage */
   }
 
@@ -1241,11 +1241,13 @@ p {
     padding-top: 0rem;
     padding-bottom: 0rem;
     display: flex;
-    justify-content: center;
+    padding-right:0rem;
+    padding-left:0rem;
+    justify-content: space-between;
     align-items: center;
     /* padding:2rem; */ 
    /* background: pink; */
-gap:3rem;
+
 
   }
 
@@ -1257,7 +1259,7 @@ gap:3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* left:-1rem; */
+    left:-1.5rem;
 
     width: 130px;
 

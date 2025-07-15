@@ -8,6 +8,7 @@
  import graph12 from '../assets/svgs/graph12.svg'
  import graph13 from '../assets/svgs/graph13.svg'
 //  import graph23 from '/../assets/svgs/graph23.svg'
+import story from '../assets/svgs/story.svg'
 
 
 
@@ -32,11 +33,12 @@ const Story = () => {
 <div className='story-image'>
      
   
-   <img className='graph8' src={graph8} alt="" />
+   {/* <img className='graph8' src={graph8} alt="" />
     <img  className="boys"src="/organisme-badr-web/flags/bys.png" alt="" />
   <img  className="graph11"src={graph11} alt="" />
    <img  className="graph10"src={graph10} alt="" /> 
-    <img  className="graph9"src={graph9} alt="" />
+    <img  className="graph9"src={graph9} alt="" /> */}
+    <img className='story-pc' src={story} alt="" />
 
 </div>
 <div className='content'>
