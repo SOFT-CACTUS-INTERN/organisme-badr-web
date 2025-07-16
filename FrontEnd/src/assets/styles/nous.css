@@ -17,4 +17,28 @@
     }
     
 }
+@media (max-width:2560px){
+    .nous-section{
+        /* background-color: red; */
+        height: 70vh;
+        /* padding: 4rem; */
+    }
+    .nous-container {
+        /* background-color: aqua; */
+        height: 70vh;
+
+       
+    }
+    .images{
+        /* background-color: red;    */
+        /* width: 90%; */
+        top: 5vh;
+   
+    }
+    .numero{
+        /* background-color: blue; */
+        left: 118vh;
+    }
+    
+}
 
