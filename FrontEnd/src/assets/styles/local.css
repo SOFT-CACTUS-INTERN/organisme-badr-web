@@ -11,6 +11,11 @@
 
 
 @media (max-width:468px) {
+  .localSection {
+    /* background-color: red; */
+    height: 130vh;
+  }
+
   .information {
     width: 100%;
 
@@ -18,11 +23,15 @@
 
   .map {
     width: 100%;
+    background-color: aqua;
+   margin-top: 20%;
   }
 
   .local {
     display: flex;
     flex-direction: column;
+    /* background-color: aqua; */
+
   }
 
   .icon8 {
@@ -35,18 +44,19 @@
     width: 100%;
     /* background-color: red; */
     /* margin-left: 20%; */
-    margin-top: -10vh;
+    margin-top: -8vh;
   }
 
   .titre {
     display: flex;
     justify-content: end;
-    margin-left: 50px;
+    left: -10vh;
+    /* background-color: blue; */
   }
 
   .icons2 {
-    margin-top: 2vh;
-    margin-left: 40%;
+    margin-top: 12vh;
+    margin-left: 50%;
     /* background-color: red; */
     width: 100%;
     scale: 0.75;
@@ -61,7 +71,9 @@
 
   .phrase {
     width: 100%;
-    right: 6px;
+    /* right: 6px; */
+    left: -10vh;
+
 
   }
 }

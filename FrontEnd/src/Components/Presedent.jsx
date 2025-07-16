@@ -10,7 +10,7 @@ import presedant from '../assets/svg/presedant.svg';
 
 function Presedent() {
   return (
-    <section className='w-full min-h-screen 2xl:h-screen mb-12 ' style={{padding:'4rem'}}>
+    <section className='w-full min-h-screen 2xl:h-screen mb-12 bg-[#FCFAF8]' style={{padding:'2rem'}}>
       <div className="flex items-center justify-between w-full px-4 mt-8 gap-4">
         {/* Ligne à gauche */}
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />
@@ -25,7 +25,7 @@ function Presedent() {
       </div>
 
       <div className='phrase0 flex justify-center mt-4 sm:mt-6 px-4'>
-        <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center'>
+        <h2 className='text-xl sm:text-2xl md:text-3xl dark:text-black lg:text-4xl font-bold text-center'>
           وراء كل إنجاز... فريق يحمل رسالة
         </h2>
       </div>
@@ -48,48 +48,42 @@ function Presedent() {
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
 
-            <div className='presedantTitle flex items-center justify-center sm:justify-end pt-4 sm:pt-8 lg:pt-12 xl:pt-16 sm:gap-2'>
+            <div className='activite-title '>
               {/* Bloc Titre + ligne */}
-              <div className='titre flex flex-col items-end space-y-2 ' >
-                <h1 className='text-[#FFD000] text-sm sm:text-2xl lg:text-3xl'>
-                  رئيسة <span className='text-[#38B000]'>المنظمة</span>
-                </h1>
-
-                {/* Ligne */}
-                <div className='sm:block hidden'>
-                  <img
-                    src={ligne}
-                    alt='ligne'
-                    className='w-40 sm:w-48 md:w-56 lg:w-64 xl:w-72'
-                  />
-                </div>
-              </div>
-
-              {/* Flèche */}
               <img
                 src={fleche2}
                 alt='fleche2'
-                className='ml-4 sm:ml-6 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12'
+                className=''
               />
+              <div className='activite-name  ' >
+                <h1 className=''>
+                  رئيسة <span className=''>المنظمة</span>
+                </h1>
+
+                {/* Ligne */}
+               <hr/>
+              </div>
+
+              {/* Flèche */}
             </div>
 
 
 
 
-            <h1 className='secondTitre text-center sm:text-right font-bold text-base sm:text-lg mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
+            <h1 className='secondTitre dark:text-black text-center sm:text-right font-bold text-base sm:text-lg mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
               رؤية إنسانية تقود المسيرة
             </h1>
 
             <div className='text-sm sm:text-base lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 space-y-2 sm:space-y-3'>
-              <p className='paragraphe1 leading-relaxed sm:leading-loose'>
+              <p className='paragraphe1 dark:text-black leading-relaxed sm:leading-loose'>
                 نادية عطية هي قائدة منظمة البدر وواحدة من الأصوات الفاعلة في الدفاع عن حقوق الأشخاص ذوي الإعاقة، والنساء، والأطفال
               </p>
-              <p className='paragraphe1 leading-relaxed sm:leading-loose'>
+              <p className='paragraphe1 dark:text-black leading-relaxed sm:leading-loose'>
                 بخبرتها في العمل الإنساني وشغفها بالتغيير، تقود المنظمة برؤية واضحة وإصرار على تحقيق الأثر. بفضل التزامها، أصبحت منظمة البدر رمزًا للأمل والعمل الحقيقي
               </p>
             </div>
 
-            <h2 className='titre3 font-bold text-base sm:text-lg lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 mt-4 sm:mt-6'>
+            <h2 className='titre3 dark:text-black font-bold text-base sm:text-lg lg:text-xl text-center sm:text-right mr-0 sm:mr-8 lg:mr-16 mt-4 sm:mt-6'>
               كلمة من نادية عطية
             </h2>
 
@@ -99,7 +93,7 @@ function Presedent() {
                   <img src={col} alt='col' className='w-6 sm:w-8 lg:w-12' />
                 </div>
                 <div className='text-center sm:text-right p-3 sm:p-4 lg:p-2'>
-                  <p className='leading-relaxed sm:leading-loose text-sm sm:text-base lg:text-base'>
+                  <p className='leading-relaxed dark:text-black sm:leading-loose text-sm sm:text-base lg:text-base'>
                     نؤمن في منظمة البدر بقيم العدالة، والكرامة، والمساواة، والشمول. نلتزم بالعمل بروح التعاون والمسؤولية، ونضع الإنسانية في صميم كل ما نقوم به، إيمانًا منا بأن التغيير يبدأ من القيم التي نتمسك بها ونُجسّدها في واقعنا
                   </p>
                 </div>

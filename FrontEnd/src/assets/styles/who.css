@@ -9,31 +9,34 @@
 .slider-container {
     /* background-color: red; */
     /* height: 20%; */
-    
+
 }
-.buttonWho{
+
+.buttonWho {
     /* background-color: red; */
     width: 100%;
     margin-left: 30%;
-  
+
 }
 
 
-   .test{
+.test {
     /* background-color: blue; */
     /* margin-right: 5%; */
     margin-left: -4%;
-   }
-    .para{
-        /* background-color: red; */
-    }
-    .parag{
-        /* background-color: blue; */
-        width: 90%;
-        /* margin-left: 5%; */
-        margin-top: 2%;
+}
 
-    }
+.para {
+    /* background-color: red; */
+}
+
+.parag {
+    /* background-color: blue; */
+    width: 90%;
+    /* margin-left: 5%; */
+    margin-top: 2%;
+
+}
 
 .slider-track {
     /* background-color: aqua;  */
@@ -43,7 +46,7 @@
     scale: 0.5;
     height: 10vh;
 }
- 
+
 
 @keyframes slide {
     0% {
@@ -60,7 +63,7 @@
     width: 100%;
     height: 20vh;
     position: relative;
-    margin-top: -8vh ;
+    margin-top: -8vh;
 }
 
 .slider-track {
@@ -82,12 +85,14 @@
         padding: 0.5rem;
 
     }
-.buttonWho{
-    /* background-color: red; */
-    width: 100%;
-    margin-left: 30%;
-  
-}
+
+    .buttonWho {
+        /* background-color: red; */
+        width: 100%;
+        margin-left: 30%;
+
+    }
+
     .who-prDiv {
         display: flex;
         padding: 0.25rem;
@@ -115,7 +120,7 @@
         /* background-color: yellow; */
         width: 100%;
         /* display: none; */
-        /* margin-top:2rem; */
+        margin-top: 1rem;
     }
 
     .slider-track {
@@ -124,7 +129,8 @@
         /* margin-bottom: 2rem; */
         display: flex;
         align-items: center;
-            height: 10vh;
+        scale: 1.10;
+        height: 10vh;
 
     }
 
@@ -140,10 +146,12 @@
         display: flex;
         flex-direction: row;
     }
-    .para{
+
+    .para {
         /* background-color: red; */
     }
-    .parag{
+
+    .parag {
         /* background-color: blue; */
         width: 90%;
         margin-left: 5%;
@@ -151,40 +159,86 @@
 
     }
 }
-@media (min-width:375px) and (max-width:380px){
-     .slider-track {
+
+@media (min-width:375px) and (max-width:380px) {
+    .slider-track {
+        /* margin-top: 2rem; */
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
+        display: flex;
+        scale: 1.10;
+
+        align-items: center;
+        height: 5vh;
+
+    }
+    .slider-container {
+        height: 12vh;
+        /* background-color:red ; */
+    }
+
+}
+
+@media (min-width:360px) and (max-width:375px) {
+    .slider-track {
+        margin-top: 3rem;
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
+        display: flex;
+        scale: 1.10;
+        align-items: center;
+        height: 5vh;
+
+    }
+
+}
+
+@media (min-width:320px) and (max-width:360px) {
+    .slider-track {
+        /* margin-top: 2rem; */
+        /* background-color: antiquewhite; */
+        /* margin-bottom: 2rem; */
+        display: flex;
+        scale: 1.10;
+
+        align-items: center;
+        height: 5vh;
+
+    }
+
+}
+
+@media (min-width:2560px) {
+    .slider-track {
         /* margin-top: 2rem; */
         /* background-color: antiquewhite; */
         /* margin-bottom: 2rem; */
         display: flex;
         align-items: center;
-            height: 5vh;
+        height: 20vh;
 
     }
 
-}
-@media (min-width:360px) and (max-width:375px){
-     .slider-track {
-        /* margin-top: 2rem; */
-        /* background-color: antiquewhite; */
-        /* margin-bottom: 2rem; */
-        display: flex;
-        align-items: center;
-            height: 5vh;
+    .who-prDiv {
+        /* background-color: red;    */
+        padding: 12rem;
+    }
+
+
+
+    .parag {
+        /* background-color: blue; */
+        width: 90%;
+        font-size: xx-large;
+        margin-left: 5%;
+        margin-top: 2%;
 
     }
 
-}
- @media (min-width:320px) and (max-width:360px){
-     .slider-track {
-        /* margin-top: 2rem; */
-        /* background-color: antiquewhite; */
-        /* margin-bottom: 2rem; */
-        display: flex;
-        align-items: center;
-            height: 5vh;
+    .buttonWho {
+        /* background-color: red; */
+        width: 100%;
+        margin-left: 39%;
 
     }
-
 }
- 

@@ -12,7 +12,7 @@ import '../assets/styles/local.css';
 
 const Local = () => {
     return (
-        <section className="localSection relative bg-white text-black py-8 px-4 sm:px-6 lg:px-8 shadow-xl rounded-2xl border-t-2 border-[#E3DBD8] mx-4 my-8">
+        <section className="localSection relative bg-white text-black py-8 px-4 sm:px-6 lg:px-8 shadow-xl rounded-2xl border-t-2 border-[#E3DBD8] mx-4 my-8" style={{margin:'2rem'}}> 
             <div className="centenu   w-full local flex flex-col lg:flex-row">
                 {/* Partie gauche - Informations */}
                 <div className="information relative w-full lg:w-1/2 lg:right-6 lg:top-6 mb-8 lg:mb-0" >

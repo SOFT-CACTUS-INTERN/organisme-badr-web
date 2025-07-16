@@ -14,10 +14,10 @@ function Organisme() {
     const navigate = useNavigate();
 
     return (
-        <section className="organisme-section w-full  min-h-screen flex justify-center items-center "  >
+        <section className="organisme-section w-full  min-h-screen flex justify-center items-center bg-[#FCFAF8] "  >
 
           
-            <div className="organisme-container  bg-white rounded-2xl lg:h-[70vh]  2xl:w-[90%]    shadow-md lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-100 flex flex-col md:flex-row justify-center md" >
+            <div className="organisme-container dark:text-black bg-white rounded-2xl lg:h-[70vh]  2xl:w-[90%]    shadow-md lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-100 flex flex-col md:flex-row justify-center md" >
               
                 <div className="containers relative w-full md:w-1/2 flex items-end justify-center md:mb-0 z-10 min-h-[250px] sm:min-h-0 lg:w-1/2">
                     <img src={photo1} alt="Vite logo"
@@ -40,13 +40,13 @@ function Organisme() {
                     </div>
 
                     <div>
-                        <h2 className='font-bold text-xl   sm:text-2xl md:text-3xl lg:text-3xl text-right md:text-right' style={{ padding: '1.5rem' }}>
+                        <h2 className='titre0 font-bold text-xl   sm:text-2xl md:text-3xl lg:text-3xl text-right md:text-right' style={{ padding: '1.5rem' }}>
                             منظمة البدر للأشخاص ذوي الإعاقة
                             و المرأة و الطفل
                         </h2>
                         <div className='flex flex-col md:flex-row'>
 
-                            <p className='text-right text-sm md:text-base text-[#797979]' style={{ padding: '0 1rem' }}>منظمة البدر للأشخاص ذوي الإعاقة والمرأة والطفل هي منظمة تهدف إلى تقديم الدعم والرعاية للأفراد الذين يعانون من الإعاقة، بالإضافة إلى الاهتمام بقضايا المرأة والطفل</p>
+                            <p className='parag0 text-right text-sm md:text-base text-[#797979]' style={{ padding: '0 1rem' }}>منظمة البدر للأشخاص ذوي الإعاقة والمرأة والطفل هي منظمة تهدف إلى تقديم الدعم والرعاية للأفراد الذين يعانون من الإعاقة، بالإضافة إلى الاهتمام بقضايا المرأة والطفل</p>
                             <img
                                 src={ligne1}
                                 alt="ligne1"

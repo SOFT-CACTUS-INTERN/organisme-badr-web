@@ -14,8 +14,8 @@ function Who() {
     const navigate = useNavigate();
 
     return (
-        <section className='who-section relative  w-full min-h-screen z-20 '  >
-            <img src={background} alt="" className=' absolute -left-[20%] ' />
+        <section className='who-section relative  w-full min-h-screen z-20 bg-[#FCFAF8] '  >
+            <img src={background} alt="" className=' absolute -left-[20%] 2xl:w-[100%] 2xl:-left-[40%]' />
             <div className='z-10'>
 
                 <div className='partenaire '>
@@ -82,11 +82,11 @@ function Who() {
                         </div>
                         <div className='flex flex-col w-full z-10 '>
                             <div className='test flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
-                                <h2 className='text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>
+                                <h2 className='text-black dark:text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>
                             </div>
                             <div className='' >
 
-                                <img src={dal} alt="" className='absolute lg:top-[30%]  lg:left-[10%]' />
+                                <img src={dal} alt="" className='absolute lg:top-[30%]  lg:left-[10%] 2xl:w-[100%]' />
                             </div>
                             <div className='para text-right  top-[60%] z-10' >
 
