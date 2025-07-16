@@ -23,5 +23,15 @@
 .pecture{
   width:50%;
   background-color: darkblue;
+  height:auto;
 }
-.formule
+.formule{
+  background-color: aqua;
+  width:50%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+}
+.graph33{
+  display:none;
+}

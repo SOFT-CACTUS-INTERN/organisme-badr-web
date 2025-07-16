@@ -400,10 +400,11 @@ p {
   transition: transform 0.3s ease;
   font-weight: 500;
   font-style: normal;
-  font-size: clamp(1.125rem, 1.15rem + 0.5vw, 1.4rem);
+  font-size: clamp(3rem, 1.15rem + 0.5vw, 1.4rem);
   line-height: 1.3;
   letter-spacing: 0;
   text-align: center;
+ 
 }
 
 .donate-btn:hover {
@@ -618,6 +619,7 @@ p {
     padding: 1.5rem 1.5rem;
     margin-top: 0.5rem;
     width: 100%;
+  
     /* display: none; */
 
     justify-content: center;
@@ -824,6 +826,7 @@ p {
     width: 100%;
     justify-content: center;
     margin-top: 0.5rem;
+    
 
   }
 
@@ -983,6 +986,8 @@ p {
     display: block;
     justify-content: center;
     align-items: center;
+   font-size: 2rem;
+   
 
   }
 
@@ -1039,6 +1044,7 @@ p {
     gap: 2rem;
     padding: 1rem;
     width: 100%;
+    
 
 
 
@@ -1157,6 +1163,11 @@ p {
     padding-left: 2rem;
 
   }
+   .mobile-nav-link{
+
+   padding-right:1.5rem;
+  font-weight: 500;
+   }
 
   .mobile-nav-link.active {
     background: #38B000;
@@ -1246,6 +1257,7 @@ p {
     justify-content: space-between;
     align-items: center;
     /* padding:2rem; */ 
+    width:100%;
    /* background: pink; */
 
 
@@ -1350,6 +1362,10 @@ p {
   .organization {
     /* background-color: darkcyan; */
     gap: 1.2rem
+  }
+  .mobile-donate .donate-btn{
+    background-color: darkblue;
+   
   }
 
 }

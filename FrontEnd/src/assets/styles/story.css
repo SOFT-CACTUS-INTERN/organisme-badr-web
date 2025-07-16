@@ -655,6 +655,11 @@ min-height:28rem;
         /* background-color: #007200; */
         top:10%
     }
+    .graph12{
+        /* display:none */
+        top:8%;
+        left:0rem;
+    }
    
    
 }
