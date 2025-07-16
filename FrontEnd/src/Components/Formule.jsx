@@ -13,17 +13,7 @@ const Formule = () => {
 
 
 
- <div className='care-title'>
- <div className='ligne-quote'>
-<div className='left'></div>
-<h2>تواصل معنا</h2>
 
-<div className='right'></div>
-
- </div>
-<h1>   يسعدنا استقبالكم، تعالوا لزيارتنا  <br />وتعرفوا علينا عن قرب.</h1>
-
- </div>
 
  <div className='form-pect'>
 

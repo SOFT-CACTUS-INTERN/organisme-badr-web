@@ -23,7 +23,7 @@ const Care = () => {
             <section className='care-section'>
 
 
-                <div className='care-title'>
+                {/* <div className='care-title'>
                     <div className='ligne-quote'>
                         <div className='left'></div>
                         <h2>أمل لكل فئة</h2>
@@ -33,7 +33,7 @@ const Care = () => {
                     </div>
                     <h1>تمكين، رعاية، أمل، حياة</h1>
 
-                </div>
+                </div> */}
                 <img className='graph23-top ' src={graph23} alt="" />
                 <img className="graph22-top " src={graph22} alt="" />
                 <img className='  graph24-top ' src={graph24} alt="" />

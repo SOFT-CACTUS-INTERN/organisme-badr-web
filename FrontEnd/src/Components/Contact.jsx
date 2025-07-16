@@ -1,4 +1,4 @@
-import Local from './Local'
+
 import Formule from './Formule';
 import Donate from './Donate';
 
@@ -15,10 +15,10 @@ const Contact = () => {
             <Formule />
 
 
-            {/* <Donate /> */}
+            <Donate />
 
 
-            {/* <Local /> */}
+           
 </div>
 
 

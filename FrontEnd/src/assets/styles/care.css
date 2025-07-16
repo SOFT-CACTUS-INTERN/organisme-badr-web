@@ -1,23 +1,11 @@
-
-
-
 html, body {
- 
+  
   margin: 0;
-  position:relative;
-  /* background: #FCFAF8; */
-
- 
-  
-  /* background-color: red; */
-  
-  
+  padding: 0;
 }
 
-body {
 
-   
-}
+
 .care-section{
    
 width: 100%;
@@ -35,7 +23,8 @@ width: 100%;
     flex-direction: column;
     gap:2rem;
     padding:1rem;
-    position:relative; background: red;
+   
+     /* background: red; */
 
     /* padding-bottom: 10rem; */
    
@@ -618,6 +607,7 @@ top:32%
     .care-section{
         gap:0.8rem;
         /* padding:2rem; */
+        width:100%;
       
         
          
@@ -746,4 +736,13 @@ top:32%
       
     }
     
+    
 }
+@media(max-width:440px) and (min-width:300px){
+  .care-section{
+    width:100%;
+    max-width:98vh;
+    /* background-color: #38B000; */
+  }
+}
+

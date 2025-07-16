@@ -334,8 +334,9 @@ width:42%;
   align-items: center;
  height:auto;
   gap:3rem;
-  padding:3rem;
-  min-height:100vh;
+  padding:2rem;
+  min-height: none;
+height:130vh;
   z-index: 12;
 
  
@@ -352,6 +353,9 @@ width:42%;
   
  height: auto;
  gap:3rem;
+ display:flex;
+ 
+
  /* background-color:chartreuse ; */
 
 }
@@ -360,7 +364,13 @@ width:42%;
 .services{
 
   width:100%;
-  /* background-color: darkcyan; */
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right:3rem;
+  
+ 
 
   gap:1.5rem;
  
