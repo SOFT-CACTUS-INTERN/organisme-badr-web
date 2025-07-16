@@ -12,6 +12,8 @@
      .organisme-container {
          margin: 2rem;
          /* background-color: aqua; */
+         margin-top: 10vh;
+
          padding: 2rem;
          border: #E3DBD8 1px solid;
          display: flex;
@@ -67,6 +69,8 @@
      .organisme-container {
          margin: 2rem;
          /* background-color: aqua; */
+         margin-top: 10vh;
+
          padding: 2rem;
          border: #E3DBD8 1px solid;
          display: flex;
@@ -122,6 +126,8 @@
  @media (min-width: 390px) and (max-width: 409px) {
      .organisme-container {
          margin: 2rem;
+         margin-top: 10vh;
+
          /* background-color: aqua; */
          padding: 2rem;
          border: #E3DBD8 1px solid;
@@ -152,6 +158,9 @@
      .organisme-container {
          margin: 2rem;
          padding: 2rem;
+         margin-top: 10vh;
+
+         /* background-color: aqua; */
          border: #E3DBD8 1px solid;
          display: flex;
          flex-direction: column-reverse;
@@ -202,6 +211,8 @@
  @media (min-width: 430px) and (max-width:540px) {
      .organisme-container {
          margin: 2rem;
+         /* background-color: aqua; */
+         margin-top: 10vh;
          padding: 2rem;
          border: #E3DBD8 1px solid;
          display: flex;
@@ -235,7 +246,7 @@
  @media (min-width:2560px) {
      .organisme-container {
          margin: 2rem;
-         margin-top:-10%;
+         margin-top: -10%;
          /* background-color: aqua; */
          padding: 2rem;
          border: #E3DBD8 1px solid;
@@ -278,14 +289,16 @@
      .button1,
      .button2 {
          border-radius: 0.3rem;
-         
+
      }
-     .button1{
-        background-color: red;
-        width: 30%;
+
+     .button1 {
+         background-color: red;
+         width: 30%;
      }
-     .button2{
-        background-color: red;
-        width: 30%;
+
+     .button2 {
+         background-color: red;
+         width: 30%;
      }
  }

@@ -58,6 +58,10 @@
 
    .phrase {
      bottom: -15vh;
+     display: flex;
+     /* background-color: aqua; */
+     justify-content: center;
+  
    }
 
    .mobile {
