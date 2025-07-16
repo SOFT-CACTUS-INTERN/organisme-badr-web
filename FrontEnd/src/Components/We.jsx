@@ -44,7 +44,7 @@ const We = () => {
 
     <img className='graph2' src={graph2} alt="" />
  <div className="description">
-  <div className='name-svg'> <h2>منظمة<span>البدر</span>  </h2>
+  <div className='name-svg'> <h2>البدر<span>منظمة</span>  </h2>
   <img  className="graph6"src={ligne} alt="" />
   
   </div>
