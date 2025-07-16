@@ -397,14 +397,15 @@ height:130vh;
 }
 .icon-serv{
 
+  width:600px;
 }
-
 
 .serv h2{
 
 z-index: 1000;
 text-align: right;
 width:100%;
+font-size: 2.2rem;
 /* background-color: salmon; */
 /* background-color: darkblue; */
 
@@ -509,6 +510,15 @@ z-index: 120;
   
   z-index: 1;
 }
+.icon-serv{
+  width:100px;
+  height:100px;
+  padding: 1rem;
+}
+.icon-serv img{
+
+}
+
 
   
 }

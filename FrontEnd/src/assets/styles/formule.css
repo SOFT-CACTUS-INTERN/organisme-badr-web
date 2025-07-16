@@ -239,7 +239,87 @@ border-radius:118.77px;
     left:0;
     /* background-color: #2e8a00; */
   }
+  @media(min-width:2560px){
+
+
+   .btn-form{
+    /* background-color: #515151; */
+    
+
+   }
+   .btn-form button{
+    min-height:6vh;
+    font-size: 1.7rem;
+   }
+    .formule-section{
+
+      /* background-color: #007200; */
+      width:100%;
+
+    }
+    .form-pect{
+
+/* background-color: #38B000; */
+width:80%;
+
+    }
+    .send{
+      /* background-color: aqua; */
+      min-height:6vh;
+      font-size: 1.7rem;
+     
+    }
+    .formule{
+
+
+      /* background-color: pink; */
+      width:50%;
+      min-height:60vh;
+      gap:2rem;
+    }
+    .formule form{
+
+      /* background-color: darkgoldenrod; */
+      background-color: white;
+      width:90%;
+    }
+    .formule input{
+     min-height:6vh;
+      /* background-color: darkcyan; */
+    }
+    .formule textarea{
+    min-height: none;
+    height: 300px;
+     min-height: 300px;
+  resize: vertical;
+    }
+    .formule input , .formule textarea{
+      font-size: 1.6rem;
+    }
+    .formule h2{
+      /* background-color: greenyellow; */
+      font-size: 3.2rem;
+    }
+    .graph33{
+      /* background-color: red; */
+      max-width:90%;
+      width:20%;
+    }
+    .graph34{
+      /* background-color: #515151; */
+      max-width:100%;
+      width:60%;
+      top:55%;
+    }
+    
+
+
+
+  }
  
+
+ 
+
 @media (max-width: 1024px) {
     .formule-section{
         padding:2rem;
