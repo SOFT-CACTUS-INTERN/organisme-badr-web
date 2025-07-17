@@ -4,8 +4,10 @@ import graph32 from '../assets/svgs/graph32.svg';
 import form_graph28 from '../assets/svgs/graph28.svg';
 import graph33 from '../assets/svgs/graph33.svg';
 import graph34 from '../assets/svgs/graph34.svg';
+import axios from 'axios';
 
 const Formule = () => {
+  const [reponse,setreponse]=useState(false);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -13,10 +15,25 @@ const Formule = () => {
     message: ''
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // ✅ Empêche le rechargement de page
-    console.log('Form data:', form);
-    // 👉 Ici tu peux ajouter ton appel API pour envoyer le formulaire
+   const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    axios.post('http://127.0.0.1:8000/api/contacts', form)
+      .then(response => {
+      
+        setForm({ name: '', email: '', phone: '', message: '' });
+setreponse(true);
+
+
+
+      })
+      .catch(err => {
+        if (err.response?.data?.errors) {
+          alert('Erreur: ' + Object.values(err.response.data.errors).join(', '));
+        } else {
+          alert('Erreur réseau');
+        }
+      });
   };
 
   return (
