@@ -1,8 +1,11 @@
 import '../assets/styles/donate.css'
 // import ScrollToTopButton from './ScrollToTopButton';
+import { useNavigate } from 'react-router-dom';
 
 
 const Donate = () => {
+      const navigate = useNavigate();
+
   return (
     <section className="donate-wrapper">
       <div className="donate-card">
@@ -42,7 +45,8 @@ const Donate = () => {
 
           <div className="btn-group">
             
-            <button className="btn-solid">
+            <button className="btn-solid"  onClick={() => navigate('/Donation')}
+>
               تبرع الآن
               <svg
                 width="20"

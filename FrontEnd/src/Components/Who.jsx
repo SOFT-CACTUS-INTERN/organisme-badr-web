@@ -47,7 +47,7 @@ function Who() {
                 <div className='who-prDiv flex lg:flex-row sm:flex-row 2xl:flex-row flex-col z-10'>
                     <div className='lg:w-1/2 sm:w-1/2 2xl:w-1/2 w-full z-10'>
                         <div className=" " >
-                            <img src="/organisme-badr-web/images/photo6.png" alt="Superposition" className="" style={{ padding: '0.5rem' }} />
+                            <img src="/organisme-badr-web/images/photo6.png" alt="Superposition" className="photoWho" style={{ padding: '0.5rem' }} />
                         </div>
                     </div>
                     <div className=' relative lg:w-1/2 sm:w-1/2 2xl:w-1/2 w-full '>

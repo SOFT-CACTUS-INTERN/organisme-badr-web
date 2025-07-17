@@ -16,6 +16,8 @@ import About from "./Components/About";
 import Support from './Components/Support'
 import Nous from './Components/Nous';
 import Contact from './Components/Contact'
+import Donation from './Components/Donation'
+
 
 
 
@@ -37,6 +39,14 @@ function App() {
           element={
             <MainLayout>
               <About />
+            </MainLayout>
+          }
+        />
+          <Route
+          path="/Donation"
+          element={
+            <MainLayout>
+              <Donation />
             </MainLayout>
           }
         />
