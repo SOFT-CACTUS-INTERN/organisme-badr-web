@@ -13,11 +13,12 @@ function About() {
         <div className="flex flex-col gap-0 overflow-x-hidden bg-[#FCFAF8]  dark:bg-white dark:text-black ">
             {/* 2xl:-space-y-[25%] */}
             <Presedent />
-           <We/>
-<Nous/>
-            <Story/>
-         
-            <Donate/>
+            <We />
+
+            <Nous />
+            <Story />
+
+            <Donate />
         </div>
     )
 }
