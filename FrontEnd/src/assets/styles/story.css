@@ -350,6 +350,12 @@
    
     width:80%;
 }
+.graph12{
+    /* background-color: #007200; */
+    max-width:none;
+    width:25vh;
+    top:2rem;
+}
 }
 
 
@@ -659,6 +665,10 @@ min-height:28rem;
         /* display:none */
         top:8%;
         left:0rem;
+    }
+    .story-section{
+         max-width:100vh;
+  width:100%;
     }
    
    

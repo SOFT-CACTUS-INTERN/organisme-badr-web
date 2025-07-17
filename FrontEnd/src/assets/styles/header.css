@@ -488,8 +488,8 @@ p {
 @media (min-width:2560px) {
   .logo {
     /* background-color:red ; */
-    width:130px;
-    height:130px;
+    width:200px;
+    height:200px;
     /* display:none; */
   }
   
@@ -1363,10 +1363,20 @@ p {
     /* background-color: darkcyan; */
     gap: 1.2rem
   }
-  .mobile-donate .donate-btn{
-    background-color: darkblue;
-   
-  }
+  
+ 
+ .nav-content{
+    width:100%;
+    max-width:100vh;
+    display:flex;
+ }
+ .header{
+
+
+
+
+
+ }
 
 }
 

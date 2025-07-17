@@ -334,8 +334,9 @@ width:42%;
   align-items: center;
  height:auto;
   gap:3rem;
-  padding:3rem;
-  min-height:100vh;
+  padding:2rem;
+  min-height: none;
+height:130vh;
   z-index: 12;
 
  
@@ -352,6 +353,9 @@ width:42%;
   
  height: auto;
  gap:3rem;
+ display:flex;
+ 
+
  /* background-color:chartreuse ; */
 
 }
@@ -360,7 +364,13 @@ width:42%;
 .services{
 
   width:100%;
-  /* background-color: darkcyan; */
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right:3rem;
+  
+ 
 
   gap:1.5rem;
  
@@ -387,14 +397,15 @@ width:42%;
 }
 .icon-serv{
 
+  width:600px;
 }
-
 
 .serv h2{
 
 z-index: 1000;
 text-align: right;
 width:100%;
+font-size: 2.2rem;
 /* background-color: salmon; */
 /* background-color: darkblue; */
 
@@ -499,6 +510,15 @@ z-index: 120;
   
   z-index: 1;
 }
+.icon-serv{
+  width:100px;
+  height:100px;
+  padding: 1rem;
+}
+.icon-serv img{
+
+}
+
 
   
 }
