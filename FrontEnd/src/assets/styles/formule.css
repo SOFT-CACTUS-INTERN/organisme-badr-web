@@ -239,6 +239,41 @@ border-radius:118.77px;
     left:0;
     /* background-color: #2e8a00; */
   }
+  .success-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-image: url('../svgs/graph32.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  animation: fadeInOut 4s ease-in-out forwards;
+}
+
+.success-message .content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.success-message .check-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
   @media(min-width:2560px){
 
 

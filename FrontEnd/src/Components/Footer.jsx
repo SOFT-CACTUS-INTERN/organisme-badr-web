@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import '../assets/styles/footer.css'
 import icon1 from '../assets/svg/icon1.svg';
 import icon2 from '../assets/svg/icon2.svg';
@@ -9,6 +10,34 @@ import icon7 from '../assets/svg/icon7.svg';
 import footer from '../assets/svg/footer.svg';
 
 function Footer() {
+   
+  const [form, setForm] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    axios.post('http://127.0.0.1:8000/api/contacts', form)
+      .then(response => {
+        setForm({ name: '', email: '', phone: '', message: '' });
+        setReponse(true);
+
+        setTimeout(() => {
+          setReponse(false);
+        }, 4000);
+      })
+      .catch(err => {
+        if (err.response?.data?.errors) {
+          alert('Erreur: ' + Object.values(err.response.data.errors).join(', '));
+        } else {
+          alert('Erreur réseau');
+        }
+      });
+  };
   return (
     <footer className="footer-section relative w-full     bg-[#FCFAF8] " >
       <div className='fotter relative  min-h-screen '>
@@ -127,16 +156,20 @@ function Footer() {
               <div className='w-full h-px bg-[#ADADAD] mt-4'></div>
 <div className='tvForm'>
 
-              <input type="text" placeholder="الاسم الأول و الأخير" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
+              <input type="text" placeholder="الاسم الأول و الأخير" value={form.name}
+              onChange={e => setForm({ ...form, name: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
-              <input type="email" placeholder="البريد الإلكتروني" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              <input type="email" placeholder="البريد الإلكتروني"  value={form.email}
+              onChange={e => setForm({ ...form, email: e.target.value })}className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
-              <input type="tel" placeholder="رقم الهاتف" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              <input type="tel" placeholder="رقم الهاتف" value={form.phone}
+              onChange={e => setForm({ ...form, phone: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
-              <textarea placeholder="رسالتك" className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }}></textarea>
+              <textarea placeholder="رسالتك" value={form.message}
+              onChange={e => setForm({ ...form, message: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }}></textarea>
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <div className='flex justify-center items-center' style={{ padding: '1rem' }}>

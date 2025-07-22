@@ -7,7 +7,7 @@ import graph34 from '../assets/svgs/graph34.svg';
 import axios from 'axios';
 
 const Formule = () => {
-  const [reponse,setreponse]=useState(false);
+  const [reponse, setReponse] = useState(false);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -15,17 +15,17 @@ const Formule = () => {
     message: ''
   });
 
-   const handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     axios.post('http://127.0.0.1:8000/api/contacts', form)
       .then(response => {
-      
         setForm({ name: '', email: '', phone: '', message: '' });
-setreponse(true);
+        setReponse(true);
 
-
-
+        setTimeout(() => {
+          setReponse(false);
+        }, 4000);
       })
       .catch(err => {
         if (err.response?.data?.errors) {
@@ -38,6 +38,7 @@ setreponse(true);
 
   return (
     <section className="formule-section">
+      
       <img className="graph34" src={graph34} alt="" />
 
       <div className="form-pect">
@@ -97,6 +98,21 @@ setreponse(true);
           </form>
         </div>
       </div>
+
+      {/* ✅ Message de succès */}
+      {reponse && (
+        <div className="success-message">
+          <div className="content">
+            <svg viewBox="0 0 24 24" className="check-icon">
+              <path
+                fill="green"
+                d="M9 16.2l-3.5-3.5L4 14.2l5 5 12-12-1.5-1.4z"
+              />
+            </svg>
+            <p>تم إرسال رسالتك بنجاح !</p>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
