@@ -2,6 +2,7 @@
     .nous-section{
         /* background-color: red; */
         margin-bottom: -35vh;
+        margin-top: 80vh;
     }
     .nous-container {
         display: flex;
@@ -14,6 +15,35 @@
         /* width: 90%; */
         top: 5vh;
    
+    }
+    
+}
+@media (max-width:2560px){
+    .nous-section{
+        /* background-color: red; */
+        height: 70vh;
+        /* padding: 4rem; */
+    }
+    .nous-container {
+        /* background-color: aqua; */
+        height: 70vh;
+
+       
+    }
+    .images{
+        /* background-color: red;    */
+        /* width: 90%; */
+        top: 5vh;
+   
+    }
+    .numero{
+        /* background-color: blue; */
+        /* left: 118vh; */
+    }
+    .nous-card{
+        /* background-color: blue; */
+        width: 70%;
+        left: 10vh;
     }
     
 }

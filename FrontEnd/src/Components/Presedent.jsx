@@ -44,11 +44,11 @@ function Presedent() {
         </div>
 
         {/* Right Section */}
-        <div className='w-full min-h-[50vh] lg:min-h-screen lg:w-full px-4 lg:px-0'>
+        <div className='contenu1 w-full min-h-[50vh] lg:min-h-screen lg:w-full px-4 lg:px-0'>
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
 
-            <div className='activite-title '>
+            <div className='activite-title titlePresedant'>
               {/* Bloc Titre + ligne */}
               <img
                 src={fleche2}
@@ -88,12 +88,12 @@ function Presedent() {
             </h2>
 
             <div className="flex justify-center px-2 sm:px-4 lg:px-0">
-              <div className='bg-[#F5F5F5CC] w-full sm:w-5/6 lg:w-3/4 rounded-lg'>
+              <div className='motDeNadia bg-[#F5F5F5CC] w-full sm:w-5/6 lg:w-3/4 rounded-lg'>
                 <div className='flex justify-end'>
                   <img src={col} alt='col' className='w-6 sm:w-8 lg:w-12' />
                 </div>
                 <div className='text-center sm:text-right p-3 sm:p-4 lg:p-2'>
-                  <p className='leading-relaxed dark:text-black sm:leading-loose text-sm sm:text-base lg:text-base'>
+                  <p className='paragraphe3 leading-relaxed dark:text-black sm:leading-loose text-sm sm:text-base lg:text-base'>
                     نؤمن في منظمة البدر بقيم العدالة، والكرامة، والمساواة، والشمول. نلتزم بالعمل بروح التعاون والمسؤولية، ونضع الإنسانية في صميم كل ما نقوم به، إيمانًا منا بأن التغيير يبدأ من القيم التي نتمسك بها ونُجسّدها في واقعنا
                   </p>
                 </div>

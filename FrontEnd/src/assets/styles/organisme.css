@@ -244,15 +244,30 @@
 
 
  @media (min-width:2560px) {
+    .organisme-section{
+        /* background-color: red; */
+        min-height: 80vh;
+        /* padding: -2rem; */
+        margin-bottom: -10vh;
+    }
+    .fleche3{
+        scale: 2;
+        margin-top: 2vh;
+    }
+    .ligne1{
+        height: 10vh;
+    }
      .organisme-container {
          margin: 2rem;
-         margin-top: -10%;
+         margin-top: -50%;
          /* background-color: aqua; */
          padding: 2rem;
          border: #E3DBD8 1px solid;
          display: flex;
          width: 70%;
          height: 50vh;
+         margin-bottom: -80vh;
+
      }
 
      .containers {

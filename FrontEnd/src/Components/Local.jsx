@@ -12,7 +12,9 @@ import '../assets/styles/local.css';
 
 const Local = () => {
     return (
-        <section className="localSection relative bg-white text-black py-8 px-4 sm:px-6 lg:px-8 shadow-xl rounded-2xl border-t-2 border-[#E3DBD8] mx-4 my-8" style={{margin:'2rem'}}> 
+        <section className='grandeSection'>
+
+        <div className="localSection relative bg-white text-black py-8 px-4 sm:px-6 lg:px-8 shadow-xl rounded-2xl border-t-2 border-[#E3DBD8] mx-4 my-8" style={{margin:'2rem'}}> 
             <div className="centenu   w-full local flex flex-col lg:flex-row">
                 {/* Partie gauche - Informations */}
                 <div className="information relative w-full lg:w-1/2 lg:right-6 lg:top-6 mb-8 lg:mb-0" >
@@ -34,7 +36,7 @@ const Local = () => {
 
                     {/* Paragraphe */}
                     <div className="phrase absolute lg:top-[20%] top-[30%] text-right z-10 w-full px-6">
-                        <p className="flex justify-end text-2xl sm:text-3xl md:text-4xl">
+                        <p className="paragraphe01 flex justify-end text-2xl sm:text-3xl md:text-4xl">
                             هذا النص هو مثال لنص يمكن أن يستبدل
                         </p>
                     </div>
@@ -80,6 +82,7 @@ const Local = () => {
                     ></iframe>
                 </div>
             </div>
+        </div>
         </section>
     );
 };

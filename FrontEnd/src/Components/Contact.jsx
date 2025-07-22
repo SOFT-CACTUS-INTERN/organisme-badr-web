@@ -16,7 +16,6 @@ const Contact = () => {
 
 
             <Donate />
-            hello 
 
 
            

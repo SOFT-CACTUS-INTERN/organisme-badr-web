@@ -57,3 +57,82 @@
     margin-bottom: 10px;
   }
 }
+@media (min-width:2560px){
+  .presedant{
+    width: 90%;
+    display: flex;
+    /* background-color: red; */
+    /* flex-direction: column-reverse; */
+    gap: 10vh ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+  }
+  .contenu1{
+    /* background-color: red; */
+    text-align: right;
+    margin-top: 20vh;
+   
+  }
+
+   .secondTitre{
+    font-size: large;
+    display: flex;
+    width: 100%;
+    font-size: xx-large;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+      /* background-color: #FFB700; */
+
+  }
+  .paragraphe1{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    font-size: x-large;
+      /* background-color: #FFB700; */
+
+  }
+   .paragraphe2{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+      background-color: #FFB700;
+
+  }
+   .paragraphe3{
+  font-size: x-large;
+
+  }
+  .titre3{
+    display: flex;
+    justify-content: end;
+    font-size: xx-large;
+
+      /* background-color: #FFB700; */
+
+  }
+  .phrase0{
+    margin-top: 10px;
+    margin-bottom: 10px;
+      /* background-color: #FFB700; */
+
+  }
+  .motDeNadia{
+    /* background-color: aqua; */
+    padding: 4rem;
+    margin-left: 16rem;
+  }
+  .titlePresedant{
+    /* background-color: blueviolet; */
+    width: 100%;
+    margin-left: 25vh;
+    /* position: absolute; */
+    
+  }
+}

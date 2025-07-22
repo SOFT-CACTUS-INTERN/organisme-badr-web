@@ -17,7 +17,7 @@ function Organisme() {
         <section className="organisme-section w-full  min-h-screen flex justify-center items-center bg-[#FCFAF8] "  >
 
           
-            <div className="organisme-container dark:text-black bg-white rounded-2xl lg:h-[70vh]  2xl:w-[90%]    shadow-md lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-100 flex flex-col md:flex-row justify-center md" >
+            <div className="organisme-container dark:text-black bg-white rounded-4xl lg:h-[70vh]  2xl:w-[90%]    shadow-md lg:w-3/4 md:w-full h-screen sm:w-3/4 w-full sm:h-100 flex flex-col md:flex-row justify-center md" >
               
                 <div className="containers relative w-full md:w-1/2 flex items-end justify-center md:mb-0 z-10 min-h-[250px] sm:min-h-0 lg:w-1/2">
                     <img src={photo1} alt="Vite logo"
@@ -35,7 +35,7 @@ function Organisme() {
                         <img
                             src={fleche3}
                             alt="fleche3"
-                            className="sm:block lg:block md:hidden w-1/6 2xl:block  h-6 md:w-8 md:h-8"
+                            className="fleche3 sm:block lg:block md:hidden w-1/6 2xl:block  h-6 md:w-8 md:h-8"
                         />
                     </div>
 
@@ -50,7 +50,7 @@ function Organisme() {
                             <img
                                 src={ligne1}
                                 alt="ligne1"
-                                className="w-8 h-auto md:w-auto md:h-auto"
+                                className="ligne1 w-8 h-auto md:w-auto md:h-auto"
                                 style={{ padding: '0 1rem' }}
                             />
                         </div>
