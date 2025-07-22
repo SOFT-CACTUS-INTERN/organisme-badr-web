@@ -128,4 +128,11 @@
     padding: 4rem;
     margin-left: 16rem;
   }
+  .titlePresedant{
+    /* background-color: blueviolet; */
+    width: 100%;
+    margin-left: 25vh;
+    /* position: absolute; */
+    
+  }
 }
