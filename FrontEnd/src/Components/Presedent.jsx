@@ -48,7 +48,7 @@ function Presedent() {
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
 
-            <div className='activite-title '>
+            <div className='activite-title titlePresedant'>
               {/* Bloc Titre + ligne */}
               <img
                 src={fleche2}

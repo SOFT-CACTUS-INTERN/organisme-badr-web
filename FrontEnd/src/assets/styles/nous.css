@@ -38,7 +38,12 @@
     }
     .numero{
         /* background-color: blue; */
-        left: 118vh;
+        /* left: 118vh; */
+    }
+    .nous-card{
+        /* background-color: blue; */
+        width: 70%;
+        left: 10vh;
     }
     
 }
