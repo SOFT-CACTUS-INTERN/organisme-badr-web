@@ -8,22 +8,38 @@
   justify-content: center;
   left: 10%;
 }
-
+.grandeSection{
+/* background-color: red; */
+}
 
 @media (max-width:468px) {
   .localSection {
-    /* background-color: red; */
+    /* background-color: aqua; */
+    width: 80%;
     height: 130vh;
+    display: flex;
+    justify-content: center;
+    left: 0vh;
   }
+  .grandeSection{
+/* background-color: red; */
+width: 100%;
+}
+
 
   .information {
     width: 100%;
 
   }
-
+.paragraphe01{
+  /* background-color: aqua; */
+  height: 10vh;
+  margin-left: 10vh;
+  width: 100%;
+}
   .map {
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
    margin-top: 20%;
   }
 
@@ -36,6 +52,7 @@
 
   .icon8 {
     margin-right: 8px;
+    /* background-color: aqua; */
   }
 
   .icons {
@@ -50,21 +67,23 @@
   .titre {
     display: flex;
     justify-content: end;
-    left: -10vh;
+    left: -4vh;
     /* background-color: blue; */
   }
 
   .icons2 {
-    margin-top: 12vh;
-    margin-left: 50%;
+    margin-top: 8vh;
+    margin-left: 40%;
     /* background-color: red; */
     width: 100%;
     scale: 0.75;
+    /* margin-bottom: 10%; */
   }
 
   .titre {
     font-size: x-small;
     margin-top: 5vh;
+    /* background-color: aqua; */
     width: 100%;
     margin-right: 6px;
   }
@@ -72,7 +91,7 @@
   .phrase {
     width: 100%;
     /* right: 6px; */
-    left: -10vh;
+    left: -4vh;
 
 
   }
