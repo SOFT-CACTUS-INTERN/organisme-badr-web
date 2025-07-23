@@ -47,12 +47,12 @@ function Organisme() {
                         <div className='flex flex-col md:flex-row'>
 
                             <p className='parag0 text-right text-sm md:text-base text-[#797979]' style={{ padding: '0 1rem' }}>منظمة البدر للأشخاص ذوي الإعاقة والمرأة والطفل هي منظمة تهدف إلى تقديم الدعم والرعاية للأفراد الذين يعانون من الإعاقة، بالإضافة إلى الاهتمام بقضايا المرأة والطفل</p>
-                            <img
+                            {/* <img
                                 src={ligne1}
                                 alt="ligne1"
                                 className="ligne01 w-8 h-auto md:w-auto md:h-auto"
                                 style={{ padding: '0 1rem' }}
-                            />
+                            /> */}
                         </div>
 
                     </div>

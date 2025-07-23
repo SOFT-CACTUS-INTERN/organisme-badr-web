@@ -1,10 +1,13 @@
+
 import '../assets/styles/donate.css'
 // import ScrollToTopButton from './ScrollToTopButton';
 import { useNavigate } from 'react-router-dom';
+ import { moreNavigate, donateNavigate } from './utils';
 
 
 const Donate = () => {
       const navigate = useNavigate();
+      
 
   return (
     <section className="donate-wrapper">
@@ -45,7 +48,7 @@ const Donate = () => {
 
           <div className="btn-group">
             
-            <button className="btn-solid"  onClick={() => navigate('/Donation')}
+            <button className="btn-solid"  onClick={() => donateNavigate(navigate)}
 >
               تبرع الآن
               <svg
@@ -64,7 +67,7 @@ const Donate = () => {
                 />
               </svg>
             </button>
-             <button className="btn-outline">
+             <button className="btn-outline" onClick={() => moreNavigate(navigate)}>
              <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.57672 9.54133V17.8986C9.57672 18.2102 9.47116 18.4715 9.26003 18.6826C9.04889 18.8938 8.78791 18.999 8.47708 18.9982C8.16625 18.9975 7.90527 18.8919 7.69414 18.6815C7.48301 18.4711 7.37744 18.2102 7.37744 17.8986V6.90219C7.37744 6.59063 7.48301 6.32965 7.69414 6.11925C7.90527 5.90885 8.16625 5.80328 8.47708 5.80255H19.4735C19.785 5.80255 20.0464 5.90812 20.2575 6.11925C20.4687 6.33038 20.5739 6.59136 20.5731 6.90219C20.5724 7.21302 20.4668 7.47437 20.2564 7.68623C20.046 7.8981 19.785 8.0033 19.4735 8.00183H11.1162L20.903 17.7886C21.1046 17.9902 21.2054 18.2468 21.2054 18.5584C21.2054 18.8699 21.1046 19.1265 20.903 19.3281C20.7014 19.5297 20.4448 19.6305 20.1333 19.6305C19.8217 19.6305 19.5651 19.5297 19.3635 19.3281L9.57672 9.54133Z" fill="#FFAA00"/>
 </svg>

@@ -5,9 +5,14 @@ import activiteGraph14 from '../assets/svgs/graph14.svg';
 import activiteGraph30 from '../assets/svgs/graph30.svg';
 import test from '../assets/svgs/test1.svg'
 import graph41 from'../assets/svgs/graph41.svg'
-const ActiviteCard = ({ imageSrc, title, location, description, categorie }) => {
+import { useNavigate } from 'react-router-dom';
+import { moreNavigate, donateNavigate, contactNavigate } from './utils';
+const ActiviteCard = ({ imageSrc, title, location, description, categorie,onClickCard }) => {
+
+const navigate= useNavigate()
+ ;
   return (
-    <div className="activite">
+    <div className="activite"onClick={onClickCard}>
       <div className="image-div">
         <button className="btn-activite">
           {categorie}
@@ -29,11 +34,13 @@ const ActiviteCard = ({ imageSrc, title, location, description, categorie }) => 
         <h4>{location}</h4>
         <p>{description}</p>
         <div className="btn-groupe">
-          <button className="left-btn">
+        <button className="left-btn" onClick={(e) => { e.stopPropagation(); contactNavigate(navigate); }}>
+
             <img className="activite-graph24" src={activiteGraph14} alt="Icon" />
             تواصل معنا
           </button>
-          <button className="right-btn">
+         <button className="right-btn" onClick={(e) => { e.stopPropagation(); moreNavigate(navigate); }}>
+
           
             للتعرف على المزيد
           </button>
@@ -72,7 +79,7 @@ const Activities = () => {
       description:
         "من ضمن الأنشطة التي تقوم بها منظمتنا غير الحكومية، تنظيم ورش عمل تعليمية في المجتمعات النائية بهدف تعزيز الوعي بأهمية التعليم في تحسين فرص الحياة. تهدف هذه الورش إلى تقديم معلومات قيمة للأطفال والشباب حول كيف يمكن للتعليم أن يساعدهم في تحقيق طموحاتهم وتطوير مهاراتهم.",
      
-      categorie:"mosika "
+      categorie:" الرياضة "
     },
   ];
 
@@ -87,6 +94,10 @@ const Activities = () => {
       prevIndex === 0 ? activiteData.length - 1 : prevIndex - 1
     );
   };
+  
+  
+
+
 
   return (
     <section className="activities-section">
@@ -116,7 +127,8 @@ const Activities = () => {
  </div>
         {/* <button className='prev ' onClick={handlePrev}> <div className='lgn '>❮</div> </button> */}
 
-        <ActiviteCard {...activiteData[currentIndex]} />
+       <ActiviteCard {...activiteData[currentIndex]} onClickCard={handleNext} />
+
 
         {/* <button className='next' onClick={handleNext}> <div className='lgn'>❯</div> </button> */}
         <div className='next' onClick={handleNext}>

@@ -42,6 +42,10 @@ height: 60vh;
   flex: 0 1 45%;
   max-width: 70vh;
  
+
+
+
+ 
 }
 
 .graphic-box img {
@@ -52,8 +56,8 @@ height: 60vh;
 transform: translateY(-100.5%);
   position: absolute;
   z-index: 1;
-  margin-left: 10%;
-  margin-top: 0.6%;
+  /* margin-left: 10%;
+  margin-top: 0.6%; */
   /* margin-top: -372px;
   margin-left: 10px; */
  
@@ -264,10 +268,7 @@ gap:5000rem;
 
     
   }
-  .graphic-box{
-    /* background-color: darkgoldenrod; */
-   top:2%
-  }
+  
   .content-box{
     /* background-color: darkcyan; */
     display:flex;
@@ -317,7 +318,8 @@ gap:5000rem;
   .graphic-box{
 
     /* background-color: fuchsia; */
-    top:2rem;
+    top:2.24rem;
+    background-color: none;
 
 
   }
@@ -348,6 +350,12 @@ gap:5000rem;
   .donate-card {
     max-width: 60vw;
     padding: 2rem 3rem;
+    
+  }
+  .graphic-box{
+    /* background-color: darkcyan; */
+    width:100%;
+    top:2.15rem
   }
 }
 
@@ -386,6 +394,7 @@ gap:5000rem;
     line-height: 1.6;
   }
  
+
 
 }
 @media (max-width: 768px) and (min-width:541px ){
@@ -482,7 +491,8 @@ top:auto
  .graphic-box{
  
   width:100%;
-  top: 1.5rem;
+  top:1.65rem;
+ 
  
 
   

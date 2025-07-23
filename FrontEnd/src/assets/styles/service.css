@@ -327,17 +327,18 @@ width:42%;
 .icon{
   display:none;
 }
-@media(min-width:2500px){
+@media(min-width:2559px){
 .service-section{
   display:flex;
   justify-content: center;
   align-items: center;
  height:auto;
   gap:3rem;
-  padding:2rem;
+  /* padding:2rem; */
   min-height: none;
-height:130vh;
+height:120vh;
   z-index: 12;
+ 
 
  
  
@@ -829,7 +830,9 @@ left:0;
 .service{
   width:100%;
   padding:0.5rem;
+  padding-top:2rem;
   gap:1.5rem;
+  /* background: pink; */
 }
 
 .serv{
@@ -896,6 +899,7 @@ left:0;
 
   }
   
+  
   .images .unspalsh{
     /* display:none; */
     width:90%;
@@ -906,12 +910,12 @@ left:0;
   }
 
   .service{
-    
-    top:-5%;
+    /* background-color: red; */
+    padding:2.5rem;
   }
 
   .service-section{
-gap:1.5rem;
+gap:2rem;
   
   }
   .graph20{

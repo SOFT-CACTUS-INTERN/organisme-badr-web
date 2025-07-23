@@ -15,9 +15,13 @@
       import we_graph23 from '../assets/svgs/graph23.svg'
       import we_graph21 from '../assets/svgs/cerclegraph.svg'
       import we_graph24 from '../assets/svgs/graph24.svg'
+      import { contactNavigate } from './utils'
+import { useNavigate } from 'react-router-dom'
+      
   
 
 const We = () => {
+  const navigate= useNavigate();
     return (  
         <>
       
@@ -51,7 +55,7 @@ const We = () => {
   <p>تسعى إلى إحداث تغيير إيجابي ومستدام في المجتمعات الأكثر حاجة، من خلال برامج في التعليم، والصحة، 
     وتنمية المجتمع. نعمل على تمكين الأفراد ودعم العائلات، ملتزمين بالشفافية والتأثير الحقيقي خطوة بخطوة.
      نعمل بقلب نابض بالمسؤولية لنصنع فرقًا يلامس الحياة حقًا.</p>
-      <div className='butt'><button>تواصل معنا <img  className="graph14"src={graph14} alt="" /></button></div>
+      <div className='butt'><button onClick={()=>contactNavigate(navigate)}>تواصل معنا <img  className="graph14"src={graph14} alt="" /></button></div>
 
  </div>
  <img className='heart' src={heart} alt="" />

@@ -257,7 +257,7 @@ body {
   align-items: right;
   text-align: right;
   direction: rtl;
-   font-family: 'Merriweather', serif;
+ 
     
   font-weight: 400;
   font-style: normal; 
@@ -273,6 +273,7 @@ body {
   color: black;
   display: flex;
   justify-content: right;
+ 
     font-family: 'Poppins', sans-serif;
   width: 100%;
 
@@ -393,7 +394,7 @@ text-transform: capitalize;
 .prev {
 /* 
   border: 0.55px solid #000000; */
-  background: #FFFFFF;
+
   width: 53px;
   height: 53px;
 
@@ -1070,6 +1071,7 @@ border-radius: 25.2px;
 .activite-p{
   /* background-color: darkgreen; */
   width:90%;
+ 
 }
   @media(min-height:700px) {
     .activite-groupe {

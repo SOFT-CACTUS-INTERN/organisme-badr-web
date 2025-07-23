@@ -552,7 +552,13 @@ gap:1rem;
   .our-p{
     /* background-color: #38B000; */
     width:90%;z-index: 800;
+  
     /* background-color: darkblue; */
+    padding-right:1rem;
+  }
+  .our-p p{
+   
+    width:100%;
   }
   .div-p{
     /* background-color: #4A4A4A; */

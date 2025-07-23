@@ -6,9 +6,10 @@ import Story from './Story'
 import Nous from './Nous'
 import Donate from './Donate';
 // import Nous from './Nous';
+import ScrollToTopButton from './ScrollToTopButton';
 
 
-function About() {
+function About({ isMobileMenuOpen }) {
     return (
         <div className="flex flex-col gap-0 overflow-x-hidden bg-[#FCFAF8]  dark:bg-white dark:text-black ">
             {/* 2xl:-space-y-[25%] */}
@@ -19,6 +20,7 @@ function About() {
             <Story />
 
             <Donate />
+             {!isMobileMenuOpen && <ScrollToTopButton />}
         </div>
     )
 }

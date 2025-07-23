@@ -2,16 +2,19 @@
 import Formule from './Formule';
 import Donate from './Donate';
 import Local from './Local';
+import Local from './Local'
+import ScrollToTopButton from './ScrollToTopButton';
 
 
 
 
-const Contact = () => {
+const Contact = ({ isMobileMenuOpen }) => {
     return (
 
 
         <>
-<div className=' min-h-screen flex flex-col overflow-hidden'  >
+<div className="min-h-screen flex flex-col overflow-hidden">
+
 
             <Formule />
 
@@ -19,6 +22,9 @@ const Contact = () => {
             <Donate />
 
 <Local/>
+            <Local/>
+ {!isMobileMenuOpen && <ScrollToTopButton />}
+
            
 
 </div>
