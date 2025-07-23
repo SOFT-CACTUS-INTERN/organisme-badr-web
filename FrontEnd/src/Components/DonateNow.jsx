@@ -5,7 +5,7 @@ import fleche4 from '../assets/svg/fleche4.svg';
 
 const DonateNow = () => {
   return (
- <section className=''>
+ <section className='bg-[#FCFAF8]'>
         <div className="flex items-center justify-between w-full px-4 mt-8 gap-4">
         {/* Ligne à gauche */}
         <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />
@@ -30,9 +30,9 @@ const DonateNow = () => {
   <div className='parag00 w-[40%] text-right'>
     <p>كن جزءًا من رحلتنا لتمكين المجتمعات من خلال التعليم، والرعاية الصحية، والمساعدات الإنسانية. كل تبرع هو رسالة أمل، وخطوة نحو غدٍ أكثر عدلاً وكرامة</p>
   </div>
-  {/* <div>
+  <div className='absolute left-[45%]'>
     <img src={fleche4} alt="" />
-  </div> */}
+  </div>
 </div>
 <div>
     <div className='bg-white w-1/4 absolute rounded-sm' style={{padding:'0.75rem',top:'24rem',left:'16rem'}}>

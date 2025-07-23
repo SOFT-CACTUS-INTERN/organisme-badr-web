@@ -231,17 +231,32 @@
         width: 90%;
         font-size: xx-large;
         margin-left: 5%;
-        margin-top: 10%;
+        margin-top: 5%;
 
     }
 
     .buttonWho {
         /* background-color: red; */
         width: 100%;
-        margin-left: 39%;
-        margin-top: 10%;
+      height: 10vh;
+        /* margin-left: 39%; */
+        margin-top: 5%;
+   
 
     }
+    /* .button5{
+        padding: 20vh;
+        width: 60%;
+        background-color: aqua;
+
+    } */
+     .buttonWho button {
+        /* background-color: red; */
+        width: 100%;
+      height: 5vh;
+        margin-left: 20%;
+        /* margin-top: 5%; */
+     }
     .photoWho{
         /* background-color: aqua; */
         width: 70%;

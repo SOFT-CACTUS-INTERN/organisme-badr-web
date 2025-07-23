@@ -50,7 +50,7 @@ function Organisme() {
                             {/* <img
                                 src={ligne1}
                                 alt="ligne1"
-                                className="ligne1 w-8 h-auto md:w-auto md:h-auto"
+                                className="ligne01 w-8 h-auto md:w-auto md:h-auto"
                                 style={{ padding: '0 1rem' }}
                             /> */}
                         </div>

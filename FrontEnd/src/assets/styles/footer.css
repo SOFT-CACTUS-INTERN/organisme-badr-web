@@ -61,6 +61,8 @@
      display: flex;
      /* background-color: aqua; */
      justify-content: center;
+     left: 0vh;
+     right: 0vh;
   
    }
 
@@ -109,13 +111,27 @@
     }
     .title01{
       margin-top: 15vh;
+      /* background-color: bisque; */
     }
     .iconsForm02{
-      margin-left: 37vh;
+      margin-left: 43vh;
+      /* background-color: aqua; */
     }
     .phrase{
-      margin-top: -20vh;
-      font-size: x-large;
+      /* background-color: red; */
+      margin-top: -30vh;
+      font-size: medium;
+      font-weight:normal ;
     }
   
+  .fotter {
+  /* background-color: aqua; */
+  clip-path: inset(0 0 10rem 0);
+  overflow: hidden;
+  
+   
+}
+
+
+
   }
