@@ -97,7 +97,7 @@ function Who() {
                                 <p className='parag'> إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات </p>
                             </div>
                             <div className="buttonWho z-10 w-full flex flex-col items-center " style={{ padding: '1rem', '@media': { 'screen and (max-width: 640px)': { padding: '1rem' } } }}>
-                                <button onClick={() => navigate('/Contact')} className="!bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">
+                                <button onClick={() => navigate('/Contact')} className="button5 !bg-[#38B000] !text-white !px-6 !py-3 !rounded-lg !text-lg !font-semibold mt-4 mb-8 max-w-fit">
                                     تواصل معنا
                                 </button>
                             </div>

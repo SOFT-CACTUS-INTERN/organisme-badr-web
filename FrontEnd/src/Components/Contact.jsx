@@ -1,6 +1,7 @@
 
 import Formule from './Formule';
 import Donate from './Donate';
+import Local from './Local';
 
 
 
@@ -10,14 +11,14 @@ const Contact = () => {
 
 
         <>
-<div className=' min-h-screen flex flex-col ' >
+<div className=' min-h-screen flex flex-col overflow-hidden'  >
 
             <Formule />
 
 
             <Donate />
 
-
+<Local/>
            
 
 </div>

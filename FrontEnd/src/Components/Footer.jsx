@@ -40,9 +40,10 @@ function Footer() {
   };
   return (
     <footer className="footer-section relative w-full     bg-[#FCFAF8] " >
+
       <div className='fotter relative  min-h-screen '>
         {/* Background Images */}
-        <div className="background relative w-full pt-2 sm:pt-4 md:pt-6 lg:pt-8 xl:pt-12">
+        <div className="background relative w-full ">
           <div className="relative">
             <img
               src="/organisme-badr-web/images/photo3.png"
@@ -276,9 +277,15 @@ function Footer() {
         </div>
         {/* Copyright */}
         <div className='phrase   absolute w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' >
-          <h2 className='text-sm sm:text-xl flex justify-center text-black lg:text-black 2xl:text-5xl'>
-            "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
-          </h2>
+          <a
+  href="https://softcactus.ma/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-sm sm:text-xl flex justify-center !text-black !lg:text-black 2xl:text-5xl" style={{marginTop:'-4rem'}}
+>
+  "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
+</a>
+
         </div>
       </div>
     </footer>

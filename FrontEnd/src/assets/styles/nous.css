@@ -2,7 +2,7 @@
     .nous-section{
         /* background-color: red; */
         margin-bottom: -35vh;
-        margin-top: 80vh;
+        /* margin-top: 80vh; */
     }
     .nous-container {
         display: flex;
@@ -18,7 +18,7 @@
     }
     
 }
-@media (max-width:2560px){
+@media (min-width:2560px){
     .nous-section{
         /* background-color: red; */
         height: 70vh;
@@ -45,6 +45,8 @@
         width: 70%;
         left: 10vh;
     }
-    
+    .par01{
+        font-size:x-large ;
+    }
 }
 
