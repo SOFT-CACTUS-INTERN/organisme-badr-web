@@ -21,6 +21,7 @@ const Contact = ({ isMobileMenuOpen }) => {
 
             <Donate />
 
+            <Local/>
 <Local/>
           
  {!isMobileMenuOpen && <ScrollToTopButton />}
