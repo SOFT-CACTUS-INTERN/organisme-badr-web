@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../assets/styles/formule.css';
 import graph32 from '../assets/svgs/graph32.svg';
 import form_graph28 from '../assets/svgs/graph28.svg';
 import graph33 from '../assets/svgs/graph33.svg';
 import graph34 from '../assets/svgs/graph34.svg';
 import axios from 'axios';
+import { moreNavigate, donateNavigate } from './utils';
 
 const Formule = () => {
   const [reponse, setReponse] = useState(false);
@@ -14,6 +16,8 @@ const Formule = () => {
     phone: '',
     message: ''
   });
+
+  const navigate = useNavigate(); // un seul hook useNavigate
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -38,7 +42,6 @@ const Formule = () => {
 
   return (
     <section className="formule-section">
-      
       <img className="graph34" src={graph34} alt="" />
 
       <div className="form-pect">
@@ -87,11 +90,11 @@ const Formule = () => {
             </button>
 
             <div className="btn-form">
-              <button type="button" className="first">
+              <button type="button" className="first" onClick={() => moreNavigate(navigate)}>
                 <img src={form_graph28} alt="" /> اقرأ المزيد عنا
               </button>
 
-              <button type="button" className="second">
+              <button type="button" className="second" onClick={() => donateNavigate(navigate)}>
                 تبرع الآن <img src={graph32} alt="" />
               </button>
             </div>
@@ -99,7 +102,6 @@ const Formule = () => {
         </div>
       </div>
 
-      {/* ✅ Message de succès */}
       {reponse && (
         <div className="success-message">
           <div className="content">

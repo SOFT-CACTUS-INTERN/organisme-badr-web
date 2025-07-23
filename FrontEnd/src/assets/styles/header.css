@@ -483,6 +483,10 @@ p {
 .mobile-menu.active {
   display: block;
 }
+.nav-content{
+  /* background-color: firebrick; */
+flex-wrap: nowrap;
+}
 
 
 @media (min-width:2560px) {

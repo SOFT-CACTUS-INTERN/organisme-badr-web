@@ -268,10 +268,7 @@ gap:5000rem;
 
     
   }
-  .graphic-box{
-    /* background-color: darkgoldenrod; */
-   top:2%
-  }
+  
   .content-box{
     /* background-color: darkcyan; */
     display:flex;
@@ -321,7 +318,8 @@ gap:5000rem;
   .graphic-box{
 
     /* background-color: fuchsia; */
-    top:2rem;
+    top:2.24rem;
+    background-color: none;
 
 
   }
@@ -352,6 +350,12 @@ gap:5000rem;
   .donate-card {
     max-width: 60vw;
     padding: 2rem 3rem;
+    
+  }
+  .graphic-box{
+    /* background-color: darkcyan; */
+    width:100%;
+    top:2.15rem
   }
 }
 
@@ -487,7 +491,8 @@ top:auto
  .graphic-box{
  
   width:100%;
-  top: 1.5rem;
+  top:1.65rem;
+ 
  
 
   
