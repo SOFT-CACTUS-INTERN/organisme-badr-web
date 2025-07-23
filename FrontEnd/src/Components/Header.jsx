@@ -250,15 +250,7 @@ const cancelMenu = () => {
                 الشركاء
               </NavLink>
               <NavLink to="/Support" className="nav-link">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M7.98755 9.93926L11.9267 13.8784L15.8659 9.93926"
-                    stroke="#004B23"
-                    strokeWidth="1.81808"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+               
                 رعايتنا تضم
               </NavLink>
               <NavLink to="/Contact" className="nav-link">

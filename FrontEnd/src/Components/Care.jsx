@@ -11,6 +11,7 @@ import graph25 from '../assets/svgs/graph25.svg'
 import graph26 from '../assets/svgs/graph26.svg'
 import graph27 from '../assets/svgs/graph27.svg'
 import graphb from '../assets/svgs/graph24.svg'
+import Title from './Title'
 
 
 
@@ -22,6 +23,7 @@ const Care = () => {
 
             <section className='care-section'>
 
+{/* <Title title="خطوتك اليوم تُنقذ غدًا" mini_title="كل تبرع هو بذرة أمل نزرعها في أرض العطاء"/> */}
 
                 {/* <div className='care-title'>
                     <div className='ligne-quote'>
