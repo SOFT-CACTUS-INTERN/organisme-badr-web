@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
    width:80%; 
-   gap:0.5rem
+   gap:1.5rem
 }
 .titre-lg{
   
@@ -14,12 +14,13 @@
     justify-content: center;
     align-items: center;
     width:80%;
+    gap:0rem;
  
-    gap:rem;
+  
 }
 .titre-lg h3{
   
-    width:30%;
+    width:20%;
     color: #38B000;
       font-family: 'Neo Sans Arabic', sans-serif;
   font-weight: 500;
@@ -29,6 +30,7 @@
   letter-spacing: 0;
   text-align: center;
   text-transform: capitalize;
+   margin: 0
 
   
 
@@ -68,6 +70,21 @@ opacity: 1;
 width: 282.8875732421886px;
 height: 5.6804485321045135px;
 background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
+}
+.titre-lg{
+    background-color: darkcyan;
+}
+.titre-lg h3{
+padding:0rem;
+width:18%;
+}
+@media(min-width:2559px){
+
+     .titre-lg h3{
+        /* background-color: #38B000; */
+        font-size: 2rem;
+
+     }
 }
 @media(max-width :480px){
     .titre-lg{
