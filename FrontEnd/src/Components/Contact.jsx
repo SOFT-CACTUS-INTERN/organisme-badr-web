@@ -2,7 +2,7 @@
 import Formule from './Formule';
 import Donate from './Donate';
 import Local from './Local';
-import Local from './Local'
+
 import ScrollToTopButton from './ScrollToTopButton';
 
 
@@ -22,7 +22,7 @@ const Contact = ({ isMobileMenuOpen }) => {
             <Donate />
 
 <Local/>
-            <Local/>
+          
  {!isMobileMenuOpen && <ScrollToTopButton />}
 
            
