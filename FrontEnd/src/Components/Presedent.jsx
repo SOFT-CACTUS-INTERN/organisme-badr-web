@@ -6,29 +6,33 @@ import fleche2 from '../assets/svg/fleche2.svg';
 import ligne from '../assets/svg/ligne.svg';
 import col from '../assets/svg/col.svg';
 import presedant from '../assets/svg/presedant.svg';
+import Title from './Title'
 
 
 function Presedent() {
   return (
     <section className='w-full min-h-screen 2xl:h-screen mb-12 bg-[#FCFAF8]' style={{padding:'2rem'}}>
-      <div className="flex items-center justify-between w-full px-4 mt-8 gap-4">
         {/* Ligne à gauche */}
-        <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />
+        {/* <div className="ligneJaune flex-1 h-[4px] sm:h-[6px]  bg-gradient-to-r  from-white to-[#FFD000]" /> */}
 
         {/* Titre centré */}
-        <h2 className="mx-2 text-nowrap font-bold text-base sm:text-2xl text-[#38B000] text-center whitespace-nowrap">
+        <div className='titrePresedant '  >
+
+        <Title title="تعرف على منظمتنا" mini_title="وراء كل إنجاز... فريق يحمل رسالة " />
+        </div>
+
+        {/* <h2 className="mx-2 text-nowrap font-bold text-base sm:text-2xl 2xl:text-5xl text-[#38B000] text-center whitespace-nowrap">
           تعرف على منظمتنا
-        </h2>
+        </h2> */}
 
         {/* Ligne à droite */}
-        <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" />
-      </div>
-
+        {/* <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" /> */}
+{/* 
       <div className='phrase0 flex justify-center mt-4 sm:mt-6 px-4'>
         <h2 className='text-xl sm:text-2xl md:text-3xl dark:text-black lg:text-4xl font-bold text-center'>
           وراء كل إنجاز... فريق يحمل رسالة
         </h2>
-      </div>
+      </div> */}
 
       <div className='presedant relative min-h-screen mt-8 sm:mt-12 flex flex-col lg:flex-row'>
         {/* Left Section */}

@@ -35,8 +35,8 @@ function Nous() {
                             01
                         </div>
                         <div className="flex justify-end items-start gap-2 mb-3" style={{ padding: '0.5rem' }}>
-                            <h3 className="text-xl font-bold text-gray-800 dark:text-black">رؤيتنا و رسالتنا</h3>
-                            <img src={fleche3} alt="" className="mt-1 w-4 sm:w-5 md:hidden hidden lg:block 2xl:block" />
+                            <h3 className="titre03 text-xl font-bold text-gray-800 dark:text-black">رؤيتنا و رسالتنا</h3>
+                            <img src={fleche3} alt="" className="fleche03 w-4 sm:w-5 md:hidden hidden lg:block 2xl:block" />
                         </div>
                         <p className="par01 text-gray-600 leading-relaxed text-sm sm:text-base dark:text-black">
                             نسعى في منظمة البدر إلى بناء مجتمع شامل وعادل، يُمنح فيه الأشخاص ذوو الإعاقة والمرأة والطفل فرصًا متكافئة للعيش بكرامة والمشاركة الفاعلة في الحياة. رؤيتنا هي عالم يُحترم فيه التنوع وتُصان فيه الحقوق.
@@ -49,8 +49,8 @@ function Nous() {
                             02
                         </div>
                         <div className="flex justify-end items-start gap-2 mb-3" style={{ padding: '0.5rem' }}>
-                            <h3 className="text-xl font-bold text-gray-800 dark:text-black">مهمتنا جوهر عملنا</h3>
-                            <img src={fleche3} alt="" className="mt-1 w-4 sm:w-5 md:hidden hidden lg:block 2xl:block" />
+                            <h3 className="titre03 text-xl font-bold text-gray-800 dark:text-black">مهمتنا جوهر عملنا</h3>
+                            <img src={fleche3} alt="" className="fleche03 w-4 sm:w-5 md:hidden hidden lg:block 2xl:block" />
                         </div>
                         <p className="par01 text-gray-600 leading-relaxed text-sm sm:text-base dark:text-black">
                             نتمحور في منظمة البدر حول تقديم الدعم والتمكين للأشخاص ذوي الإعاقة، والدفاع عن حقوق المرأة والطفل. نعمل على تنفيذ برامج تنموية وتوعوية تُعزز الدمج المجتمعي، وتُوفر بيئة آمنة وعادلة تُلبي احتياجات الفئات الأكثر ضعفًا.
@@ -63,8 +63,8 @@ function Nous() {
                             03
                         </div>
                         <div className="flex justify-end items-start gap-2 mb-3" style={{ padding: '0.5rem' }}>
-                            <h3 className="text-xl font-bold text-gray-800 dark:text-black">القيم التي نؤمن بها</h3>
-                            <img src={fleche3} alt="" className="mt-1 w-4 sm:w-5 md:hidden hidden lg:block 2xl:block" />
+                            <h3 className="titre03 text-xl font-bold text-gray-800 dark:text-black">القيم التي نؤمن بها</h3>
+                            <img src={fleche3} alt="" className="fleche03 w-4 sm:w-5 md:hidden hidden lg:block 2xl:block" />
                         </div>
                         <p className="par01 text-gray-600 leading-relaxed text-sm sm:text-base dark:text-black">
                             نؤمن في منظمة البدر بقيم العدالة، والكرامة، والمساواة، والشمول. نلتزم بالعمل بروح التعاون والمسؤولية، ونضع الإنسانية في صميم كل ما نقوم به، إيمانًا منا بأن التغيير يبدأ من القيم التي نتمسك بها ونُجسّدها في واقعنا.
