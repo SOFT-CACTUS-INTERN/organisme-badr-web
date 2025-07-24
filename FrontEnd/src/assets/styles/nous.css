@@ -1,4 +1,8 @@
-@media (max-width:468px){
+ .fleche03{
+        /* background-color: red; */
+        margin-top: 1.5vh;
+    } 
+    @media (max-width:468px){
     .nous-section{
         /* background-color: red; */
         margin-bottom: -35vh;
@@ -30,6 +34,11 @@
 
        
     }
+    .fleche03{
+        /* background-color: red; */
+        margin-top: 0.75vh;
+        scale: 1.25;
+    }
     .images{
         /* background-color: red;    */
         /* width: 90%; */
@@ -39,14 +48,22 @@
     .numero{
         /* background-color: blue; */
         /* left: 118vh; */
+        top: 6vh;
+        /* left: 80vh; */
     }
     .nous-card{
         /* background-color: blue; */
         width: 70%;
+        /* padding: 10vh; */
         left: 10vh;
     }
     .par01{
         font-size:x-large ;
+        padding: 2rem;
+    }
+    .titre03{
+        font-weight: bold;
+        font-size: xx-large;
     }
 }
 

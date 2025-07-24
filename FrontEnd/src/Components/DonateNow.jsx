@@ -40,6 +40,8 @@ const DonateNow = () => {
 اختر مبلغ مساهمتك
       </div>
     </div>
+    <div className='flex flex-col'>
+
     <form className='absolute w-1/4' style={{marginTop:'-7rem',marginLeft:'16rem'}} >
       <div className="max-w-md mx-auto bg-white p-6 rounded-2xl shadow" style={{padding:'2rem'}}>
   <div className="flex items-center border border-gray-300 rounded-xl overflow-hidden mb-4" style={{padding:'0.5rem'}}>
@@ -92,6 +94,10 @@ const DonateNow = () => {
 </div>
 
     </form>
+    <div>
+      hi
+    </div>
+    </div>
    <div>
   
    </div>

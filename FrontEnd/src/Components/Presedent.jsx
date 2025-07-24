@@ -1,34 +1,41 @@
 import React from 'react'
 import '../assets/styles/presedent.css';
+import '../assets/styles/who.css';
 import green from '../assets/svg/green.svg';
 import fleche1 from '../assets/svg/fleche1.svg';
 import fleche2 from '../assets/svg/fleche2.svg';
 import ligne from '../assets/svg/ligne.svg';
 import col from '../assets/svg/col.svg';
 import presedant from '../assets/svg/presedant.svg';
+import Title from './Title'
+import social from '../assets/svg/social.svg';
+
 
 
 function Presedent() {
   return (
     <section className='w-full min-h-screen 2xl:h-screen mb-12 bg-[#FCFAF8]' style={{padding:'2rem'}}>
-      <div className="flex items-center justify-between w-full px-4 mt-8 gap-4">
         {/* Ligne à gauche */}
-        <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-white to-[#FFD000]" />
+        {/* <div className="ligneJaune flex-1 h-[4px] sm:h-[6px]  bg-gradient-to-r  from-white to-[#FFD000]" /> */}
 
         {/* Titre centré */}
-        <h2 className="mx-2 text-nowrap font-bold text-base sm:text-2xl text-[#38B000] text-center whitespace-nowrap">
+        <div className='titrePresedant '  >
+
+        <Title title="تعرف على منظمتنا" mini_title="وراء كل إنجاز... فريق يحمل رسالة " />
+        </div>
+
+        {/* <h2 className="mx-2 text-nowrap font-bold text-base sm:text-2xl 2xl:text-5xl text-[#38B000] text-center whitespace-nowrap">
           تعرف على منظمتنا
-        </h2>
+        </h2> */}
 
         {/* Ligne à droite */}
-        <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" />
-      </div>
-
+        {/* <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" /> */}
+{/* 
       <div className='phrase0 flex justify-center mt-4 sm:mt-6 px-4'>
         <h2 className='text-xl sm:text-2xl md:text-3xl dark:text-black lg:text-4xl font-bold text-center'>
           وراء كل إنجاز... فريق يحمل رسالة
         </h2>
-      </div>
+      </div> */}
 
       <div className='presedant relative min-h-screen mt-8 sm:mt-12 flex flex-col lg:flex-row'>
         {/* Left Section */}
@@ -107,6 +114,31 @@ function Presedent() {
         </div>
       </div>
 
+ <div className='partenaire '>
+                    <div className='flex '>
+
+                        <div className="flex items-center justify-center w-full gap-4">
+                            <div className="ligne1 border-[#E5E5E5] border-t-2 flex-grow" style={{ width: '70%' }}></div>
+
+                            <h1 className="isam text-[#38B000] whitespace-nowrap text-center flex justify-end " >
+                                شركائنا
+                            </h1>
+
+                            <div className="ligne2 border-[#E5E5E5] border-t-2 flex-grow"></div>
+                        </div>
+
+                    </div>
+                    <div className="slider-container    " >
+                        <div className="slider-track " >
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                        </div>
+                    </div>
+
+                    <hr className="ligne3 border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%' }} />
+
+                </div>
     </section>
   )
 }
