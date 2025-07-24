@@ -20,10 +20,16 @@
     display: flex;
     justify-content: center;
     left: 0vh;
+    right: 0vh;
+    /* align-items: center; */
   }
   .grandeSection{
 /* background-color: red; */
 width: 100%;
+ display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
 }
 
 
@@ -91,7 +97,7 @@ width: 100%;
   .phrase {
     width: 100%;
     /* right: 6px; */
-    left: -4vh;
+    left: -14vh;
 
 
   }
