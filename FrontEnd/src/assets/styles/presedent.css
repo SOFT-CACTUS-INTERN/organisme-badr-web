@@ -3,6 +3,10 @@
   border-image-source: linear-gradient(180deg, rgba(255, 183, 0, 0) 26.92%, #FFB700 100%);
   border-image-slice: 1;
 }
+ .titrePresedant{
+    display: flex;
+    justify-content: center;
+  }
 @media (max-width:468px){
   .presedant{
     width: 100%;
@@ -57,7 +61,7 @@
     margin-bottom: 10px;
   }
 }
-@media (min-width:2560px){
+@media (min-width:2560px)  {
   .presedant{
     width: 90%;
     display: flex;
@@ -67,10 +71,16 @@
     padding-left: 2rem;
     padding-right: 2rem;
     justify-content: center;
+    margin-top: -10vh;
+  }
+  .ligneJaune{
+    /* background-color: red; */
+    /* width: 10%; */
   }
   .image{
     display: flex;
     justify-content: center;
+    margin-left: 25vh;
   }
   .contenu1{
     /* background-color: red; */
@@ -134,5 +144,9 @@
     margin-left: 25vh;
     /* position: absolute; */
     
+  }
+  .titrePresedant{
+    display: flex;
+    justify-content: center;
   }
 }

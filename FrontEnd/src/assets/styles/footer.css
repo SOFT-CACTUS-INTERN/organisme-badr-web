@@ -56,7 +56,7 @@
 
    }
 
-   .phrase {
+   .phrase01 {
      bottom: -15vh;
      display: flex;
      /* background-color: aqua; */
@@ -89,11 +89,25 @@
 
  }
  /* @media (max-width:375px){
-    .phrase {
+    .phrase01 {
      bottom: -50vh;
    }
  } */
   @media (min-width:2560px) {
+    .iconsFotter{
+      scale: 1.5;
+      /* background-color: aqua; */
+      height: 25vh;
+    
+
+}
+.iconsnFotter{
+/* background-color: red; */
+      scale: 1.15;
+
+margin-left: 25vh;
+margin-top: 10vh;
+}
     .tvForm{
       /* background-color: red; */
       padding-bottom: 5vh;
@@ -117,19 +131,20 @@
       margin-left: 43vh;
       /* background-color: aqua; */
     }
-    .phrase{
+    .phrase01{
       /* background-color: red; */
       margin-top: -30vh;
-      font-size: medium;
-      font-weight:normal ;
+    
+      font-weight: normal;
+     /* scale: 1.75; */
     }
   
-  .fotter {
+.fotter {
+  height: 50vh;
   /* background-color: aqua; */
-  clip-path: inset(0 0 10rem 0);
+  /* clip-path: inset(0 0 10rem 0); */
   overflow: hidden;
-  
-   
+  /* transform: translateY(50vh); */   
 }
 
 
