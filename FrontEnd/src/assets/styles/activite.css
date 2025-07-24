@@ -446,10 +446,7 @@ body {
 .prev {
   z-index: 50;
 }
-.activite-groupe{
-  background-color: darkcyan;
 
-}
 
 
 @media(min-width:2560px) {
