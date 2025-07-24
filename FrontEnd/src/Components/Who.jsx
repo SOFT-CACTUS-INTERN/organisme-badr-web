@@ -71,9 +71,9 @@ function Who() {
                                 />
                             </div>
                         </div> */}
-                        <div className="activite-title">
+                        <div className="activite-title Who-titre">
                             <img className="activite-graph7" src={whoGraph7} alt="Decoration" />
-                            <div className="activite-name">
+                            <div className="activite-name ">
                                 <h1>
                                     من <span> نحن </span>
                                 </h1>

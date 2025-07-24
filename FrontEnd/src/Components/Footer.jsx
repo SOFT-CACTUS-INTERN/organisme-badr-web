@@ -147,7 +147,7 @@ function Footer() {
                   {/* Mobile Contact Form */}
               <div className='form mx-4' style={{ padding: '1rem' }}>
                 <form className='bg-white rounded-2xl p-6 sm:p-8 '>
-                  <div className="flex items-center justify-center w-full mb-6">
+                  <div className="ichatithan flex items-center justify-center w-full mb-6">
                     <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                     <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap" style={{padding:'2rem'}}>تواصل معنا</h2>
                     <div className="flex-1 h-1 bg-gradient-to-r from-[#FFD000] to-white mx-4"></div>
@@ -191,10 +191,10 @@ function Footer() {
                     </div>
                   </div>
 
-                  <div className=' flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
+                  <div className='buttonFooter flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
                     <button
                       type="submit"
-                      className="buttonFooter w-3/4 !bg-[#38B000] text-white  py-3 px-6  text-lg  flex justify-center " style={{ padding: '0.25rem' }}
+                      className=" w-3/4 !bg-[#38B000] text-white  py-3 px-6  text-lg  flex justify-center " style={{ padding: '0.25rem' }}
                     >
                       إرسال
                     </button>
