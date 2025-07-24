@@ -267,6 +267,7 @@
     font-size: clamp(1.2rem, 2vw, 1.4rem);
     font-weight: bold;
     color: #000000;
+    font-weight: 500;
 
 }
 @media(min-width:2560px){
@@ -287,6 +288,7 @@
 .story-title{
   
   font-size: 4rem;
+  
 }
 .story-content{
 
@@ -298,7 +300,11 @@
 .content h2{
     
     font-size: 3rem;
+    
+    text-align: right;
+    width:100%;
 }
+
 .content p{
    
     font-size: 2rem;
@@ -315,6 +321,7 @@
   
     font-size:1.8rem;
     direction: rtl;
+    font-weight: 500;
 }
 .icon{
 
@@ -354,7 +361,9 @@
     /* background-color: #007200; */
     max-width:none;
     width:25vh;
-    top:2rem;
+    top:2.5rem;
+    /* background-color: pink; */
+right:35%
 }
 }
 
@@ -595,6 +604,7 @@ min-height:28rem;
 
 
     }
+  
     
 
     .boys {
@@ -669,6 +679,12 @@ min-height:28rem;
     .story-section{
          max-width:100vh;
   width:100%;
+    }
+    .story-image{
+        /* background-color: #4A4A4A; */
+        display:flex;
+        align-items: start;
+        height:auto
     }
    
    

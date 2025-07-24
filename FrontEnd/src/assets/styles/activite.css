@@ -32,21 +32,23 @@ body {
   width: 100%;
 
   height: auto;
-  position:relative;
+  position: relative;
   z-index: 5;
   background: #FCFAF8;
 
 
 }
-.activite-graph30{
-  position:absolute;
+
+.activite-graph30 {
+  position: absolute;
   z-index: 2;
   /* background-color: #38B000; */
-  width:60%;
-  top:-22%;
- 
-  left:-13rem;
+  width: 60%;
+  top: -22%;
+
+  left: -13rem;
 }
+
 .activite-title {
   display: flex;
   justify-content: right;
@@ -257,12 +259,13 @@ body {
   align-items: right;
   text-align: right;
   direction: rtl;
- 
-    
+
+
   font-weight: 400;
-  font-style: normal; 
-  font-size: clamp(1.4rem, 2vw, 1.6rem); 
-  line-height: 1.5; /* 30px sur 20px => 1.5 */
+  font-style: normal;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  line-height: 1.5;
+  /* 30px sur 20px => 1.5 */
   letter-spacing: 0;
   text-align: right;
 }
@@ -273,8 +276,8 @@ body {
   color: black;
   display: flex;
   justify-content: right;
- 
-    font-family: 'Poppins', sans-serif;
+
+  font-family: 'Poppins', sans-serif;
   width: 100%;
 
 }
@@ -282,13 +285,13 @@ body {
 .activite-content h4 span {
   text-transform: capitalize;
   color: #575757;
- 
-font-weight: 400;
+
+  font-weight: 400;
 
 
-line-height: 27.3px;
-letter-spacing: 0%;
-text-transform: capitalize;
+  line-height: 27.3px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
 
 
 }
@@ -360,7 +363,7 @@ text-transform: capitalize;
   right: 15%;
   width: 24%;
   height: auto;
- 
+
   background: #F7F2ED;
 
   border-radius:
@@ -392,7 +395,7 @@ text-transform: capitalize;
 
 .next,
 .prev {
-/* 
+  /* 
   border: 0.55px solid #000000; */
 
   width: 53px;
@@ -435,37 +438,90 @@ text-transform: capitalize;
 
 
 
+.activite {
+  /* background-color: darkcyan */
+}
+
+.next,
+.prev {
+  z-index: 50;
+}
+.activite-groupe{
+  background-color: darkcyan;
+
+}
 
 
-
-
-@media(min-width:2560px){
-   .activite-content{
+@media(min-width:2560px) {
+  .activite-content {
     padding-bottom: 0rem;
-   } 
-   
-   .activite-p{
+    gap:1.5rem;
+  }
+
+  .activite-p {
     /* background-color: pink; */
-    width:100%;
-   }
-   .activite-p p{
+    width: 100%;
+  }
+
+  .activite-p p {
     /* background-color: darkblue; */
-    width:80%;
-     font-size: 1.8rem;
-   }
+    width: 80%;
+    font-size: 1.8rem;
+  }
+
+  .activite h4 {
+ 
+font-size: 1.8rem;
+  }
+
+  
+
+  .image-div {
+  
+    padding: 0rem;
+ width:50%;
+ height:100%;
+    
+
+  }
+ .btn-groupe button{
+  
+ font-size: 1.8rem;
+ 
+ }
+ .activite h2{
+
+  font-size: 3rem;
+ 
+  width:100%
+ 
+ }
+ .activite p{
+
+  font-size: 2.1rem;
+ }
+ 
+.activite-content{
+ padding-right:0rem
+ 
+  
+}
+ 
+
+
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
 
   /* tes styles */
-  
+
   .activite {
 
-background-color: white;
+    background-color: white;
     width: 100%;
     flex-wrap: wrap;
     box-shadow: 0px 0px 168px 0px #12121214;
-  height:auto;
+    height: auto;
 
 
   }
@@ -473,19 +529,19 @@ background-color: white;
   .image-div {
     /* background: #575757; */
     width: 50%;
-  
-    height:auto;
-    display:flex;
+
+    height: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    min-height:50vh;
+    min-height: 50vh;
   }
 
   .activite-pecture {
 
     width: 100%;
-  object-fit:cover;
-  height:80vh;
+    object-fit: cover;
+    height: 80vh;
 
 
   }
@@ -495,11 +551,10 @@ background-color: white;
     /* background-color: antiquewhite; */
 
     padding-top: 2rem;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap:0.5rem
-
+    gap: 0.5rem
   }
 
   .btn-groupe {
@@ -510,7 +565,7 @@ background-color: white;
     align-items: center;
     /* background-color: black; */
     padding: 2rem;
-    width:100%;
+    width: 100%;
     /* background-color: darkcyan; */
   }
 
@@ -527,49 +582,57 @@ background-color: white;
   .activite-p p {
     width: 80%
   }
-  .activite-groupe{
-   /* background-color: pink; */
+
+  .activite-groupe {
+    /* background-color: pink; */
   }
-  .activities-section{
-   /* background-color: blue; */
-   background: #FCFAF8;
+
+  .activities-section {
+    /* background-color: blue; */
+    background: #FCFAF8;
 
   }
-  .activite-graph30{
+
+  .activite-graph30 {
 
     /* background-color: #575757; */
-    width:70%;
+    width: 70%;
     z-index: 2;
-    position:absolute;
+    position: absolute;
   }
-  .activite-p{
+
+  .activite-p {
     /* background-color: darkcyan; */
     z-index: 20;
   }
+
   .activite-p p {
     /* z-index: 30; */
     position: relative;
   }
+
   .activite-p {
-  position: relative;
- z-index: 120;
-}
+    position: relative;
+    z-index: 120;
+  }
 
-.activite-p p {
-  position: relative;
-  z-index: 120;
+  .activite-p p {
+    position: relative;
+    z-index: 120;
 
-}
-.btn-activite{
-  display:none
-}
-.btn-groupe{
-  width:100%;
-  background-color: darkgoldenrod;
-}
+  }
 
- 
- 
+  .btn-activite {
+    display: none
+  }
+
+  .btn-groupe {
+    width: 100%;
+    background-color: darkgoldenrod;
+  }
+
+
+
 
 }
 
@@ -614,14 +677,15 @@ background-color: white;
 
     width: 100%;
     height: 50vh;
-    
+
 
   }
-  .activite-graph30{
+
+  .activite-graph30 {
     /* background-color: darkcyan; */
-    width:70%;
-    height:70%;
-     }
+    width: 70%;
+    height: 70%;
+  }
 
   .btn-groupe {
     display: flex;
@@ -655,120 +719,136 @@ background-color: white;
 }
 
 
-@media(max-width:993px) and (min-width:852px){
+@media(max-width:993px) and (min-width:852px) {
 
 
-  .activite-section{
+  .activite-section {
     /* background-color: #38B000; */
-    height:auto;
-    padding:0rem;
+    height: auto;
+    padding: 0rem;
   }
-  .activite{
+
+  .activite {
     /* background-color: salmon; */
-    height:auto
+    height: auto
   }
-  .activite-groupe{
+
+  .activite-groupe {
     /* padding:0rem; */
-    gap:0rem
+    gap: 0rem
   }
-  .btn-groupe{
-    display:flex;
+
+  .btn-groupe {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-color: aqua; */
-    padding:1rem;
-    gap:0.5rem;
-    height:auto;
+    padding: 1rem;
+    gap: 0.5rem;
+    height: auto;
   }
-  .activite-content{
-padding:1rem;
 
-gap:1rem;
+  .activite-content {
+    padding: 1rem;
+
+    gap: 1rem;
   }
-  .right-btn{
-    width:80%;
+
+  .right-btn {
+    width: 80%;
   }
-  .left-btn{
-    width:80%
+
+  .left-btn {
+    width: 80%
   }
-  .image-div{
+
+  .image-div {
     /* background-color: darkcyan; */
-    width:50%;
-  
+    width: 50%;
+
   }
-  .activite-pecture{
-    width:100%;
-    
+
+  .activite-pecture {
+    width: 100%;
+
   }
 }
 
 
 
- @media(max-width:851px){
+@media(max-width:851px) {
 
 
-  .activite-section{
+  .activite-section {
     /* background-color: #575757; */
-    height:auto;
-    gap:0rem;
+    height: auto;
+    gap: 0rem;
   }
-  .activite-groupe{
+
+  .activite-groupe {
     /* background-color: darkblue; */
-    width:100%;
-    
+    width: 100%;
+
   }
-  .activite{
-    display:block;
+
+  .activite {
+    display: block;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* background-color: pink; */
-    height:auto
+    height: auto
   }
-  .activite-content{
-    width:100%;
-    padding:2rem;
-    gap:1.2rem;
+
+  .activite-content {
+    width: 100%;
+    padding: 2rem;
+    gap: 1.2rem;
   }
-  .image-div{
-    width:100%;
-    min-height:50vh
+
+  .image-div {
+    width: 100%;
+    min-height: 50vh
   }
-  .activite-pecture{
-    height:60vh;
-    width:100%;
+
+  .activite-pecture {
+    height: 60vh;
+    width: 100%;
     background-size: cover;
     /* background-color: darkblue; */
   }
-  .activite-graph30{
+
+  .activite-graph30 {
     /* background:darkcyan; */
-    width:100%;
+    width: 100%;
   }
-} 
+}
 
 @media(max-width:768px) and (min-width:481px) {
 
-  .activite-section{
-    gap:0rem;
+  .activite-section {
+    gap: 0rem;
   }
+
   .activite-groupe {
     /* background-color: antiquewhite; */
     width: 100%;
     padding: 0;
     padding-top: 0rem;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
     height: auto;
 
   }
-  .activite-graph30{
+
+  .activite-graph30 {
     /* background-color: #38B000; */
-    width:100%;
+    width: 100%;
     /* height:60%; */
-    top:-10%;
+    top: -10%;
     /* background-color: #12121214; */
   }
-  
+
 
   .image-div {
     width: 100%;
@@ -788,7 +868,7 @@ gap:1rem;
     width: 100%;
     height: auto;
     flex-direction: column;
-    
+
   }
 
   .activite-content {
@@ -878,22 +958,19 @@ gap:1rem;
 
   .activite-groupe {
     padding: 0;
-    /* background-color: pink; */
-  
-    /* background-color: brown; */
-   
+
+
   }
 
   .activite {
 
 
     flex-direction: column;
-    /* background-color: aquamarine; */
+   
     height: auto;
-    /* border-radius: 
-25.2px; */
-gap:0rem;
-border-radius:0;
+   
+    gap: 0rem;
+    border-radius: 0;
 
   }
 
@@ -904,8 +981,8 @@ border-radius:0;
 
     justify-content: center;
     align-items: center;
-    padding-top:0;
-    /* background-color: #38B000; */
+    padding-top: 0;
+   
   }
 
   .activite-content {
@@ -913,10 +990,10 @@ border-radius:0;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-justify-content: center;
-align-items: center;
-padding-top:0.5rem;
-padding-bottom:1rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
 
     border-radius: 0;
   }
@@ -929,8 +1006,7 @@ padding-bottom:1rem;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    /* border-top-left-radius: 25.2px;
-    border-top-right-radius: 25.2px; */
+ 
     border-radius: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -942,7 +1018,7 @@ padding-bottom:1rem;
     width: 100%;
 
 
-    /* background-color: #38B000; */
+   
     background-size: cover;
 
   }
@@ -975,12 +1051,14 @@ padding-bottom:1rem;
     align-items: center;
     padding: 0.5rem;
     width: 100%;
-    
+
 
   }
-.activite{
-border-radius: 25.2px;
-}
+
+  .activite {
+    border-radius: 25.2px;
+  }
+
   .activite-title {
     /* background-color: darkcyan; */
     padding-right: 1rem;
@@ -1008,18 +1086,18 @@ border-radius: 25.2px;
   }
 
 
-.btn-activite{
+  .btn-activite {
     /* Hauteur égale pour avoir un cercle */
     /* Couleur du cercle */
-    
-   display: none;
+
+    display: none;
 
   }
 
 
   .next,
   .prev {
-   
+
     /* background: #FFFFFF; */
 
 
@@ -1031,94 +1109,102 @@ border-radius: 25.2px;
 
 
   }
-  .next{
+
+  .next {
     /* background-color: darkcyan; */
-    margin-right:1.5%;
+    margin-right: 1.5%;
   }
-  .prev{
-     margin-left:1.5%;
-     /* background-color: darkgoldenrod; */
+
+  .prev {
+    margin-left: 1.5%;
+    /* background-color: darkgoldenrod; */
 
   }
-  .activite-graph30{
+
+  .activite-graph30 {
     /* background-color: #575757; */
-    top:-10%;
-    width:100%;
-    
-   
+    top: -10%;
+    width: 100%;
+
+
   }
-.out{
-  display:none
-}
-.btn-groupe{
-  /* background-color: salmon; */
-  width:100%;
-  gap:1rem;
-}
-.left-btn{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-left:2rem;
-  padding-right:2rem;
-  gap:0.2rem;
-  width:55%;
-  padding-top:0rem;
-  padding-bottom:0rem;
-  
-}
-.activite-p{
-  /* background-color: darkgreen; */
-  width:90%;
+
+  .out {
+    display: none
+  }
+
+  .btn-groupe {
+    /* background-color: salmon; */
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .left-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 0.2rem;
+    width: 55%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+
+  }
+
+  .activite-p {
+    /* background-color: darkgreen; */
+    width: 90%;
+
+  }
+
+  .activite-groupe {
+   
+    gap: 0.2rem;
+  }
+
  
-}
+
   @media(min-height:700px) {
     .activite-groupe {
-      /* background-color: red; */
+    
       padding: 0;
-      gap:1rem;
+      gap: 1rem;
     }
 
     .image-div {
-      /* background-color: fuchsia; */
+     
       min-height: 35vh
     }
 
     .activite-pecture {
 
       height: 35vh;
-      /* background-color: darkblue; */
+     
     }
 
-    .activite-content {}
+   
 
-    /* .btn-groupe{
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding:0rem;
-
-
-  } */
+   
   }
 
-  .btn-groupe {
-
-    /* display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  }
-  
  
-.next ,.prev{
- width:28px;
 
 
-}
+  .next,
+  .prev {
+    width: 50px;
+    position:relative
+
+
+  }
+  .activite-groupe{
+   
+    gap:0.5rem;
+  }
+ 
+  
 
 
 

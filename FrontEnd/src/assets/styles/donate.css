@@ -225,7 +225,7 @@ button {
 
 
 
-@media(min-width:2500px){
+@media(min-width:2559px){
 
   .donate-wrapper{
     /* background-color: antiquewhite; */
@@ -492,6 +492,8 @@ top:auto
  
   width:100%;
   top:1.65rem;
+  left:auto;
+ 
  
  
 
@@ -503,11 +505,7 @@ top:auto
  padding:0.5rem;
  
  }
- .graphic-box img{
  
-  left:-1.2rem;
-  
- }
  
 
  

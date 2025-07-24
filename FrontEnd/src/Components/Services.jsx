@@ -27,7 +27,8 @@ function Services() {
 <div className='service'>
     
  <div className='title'>
-    <h1>.الخدمات التي نقدمها لأطفالنا </h1>
+    <h1>الخدمات التي نقدمها لأطفالنا. 
+          </h1>
     <hr />
  </div>
  <div className='services'>
