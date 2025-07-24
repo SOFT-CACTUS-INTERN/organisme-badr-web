@@ -94,7 +94,7 @@
     display: flex;
     width: 100%;
     font-size: xx-large;
-    justify-content: end;
+    justify-content: start;
     margin-top: 10px;
     margin-bottom: 10px;
       /* background-color: #FFB700; */
@@ -121,7 +121,7 @@
   }
   .titre3{
     display: flex;
-    justify-content: end;
+    justify-content: start;
     font-size: xx-large;
 
       /* background-color: #FFB700; */
