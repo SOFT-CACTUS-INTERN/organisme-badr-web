@@ -5,10 +5,10 @@ import DonateNow from './DonateNow';
 
 function Donation() {
   return (
-    <>
+    <div className='donationSection'>
     <DonateNow/>
    <Donate/>
-    </>
+    </div>
   
   )
 }
