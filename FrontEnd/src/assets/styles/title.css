@@ -1,4 +1,5 @@
 .top-titre{
+    margin-top:3rem;
    
     display:flex;
     flex-direction: column;
@@ -8,24 +9,14 @@
    gap:1.5rem;
    /* background-color: red; */
    width:100%;
-}
-.titre-lg{
-  
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
  
-    gap:0rem;
-    /* background-color: yellow; */
-    width:100%;
-    gap:0rem;
-    background-color: darkblue;
-    
+}
 
- 
-  
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
 }
+
 .titre-lg h3{
   
 
@@ -38,10 +29,9 @@
   letter-spacing: 0;
   text-align: center;
   text-transform: capitalize;
-   margin: 0;
+
+
  
-   width:auto;
-   padding:0rem;
 
   
 
@@ -57,38 +47,41 @@
   text-align: center;
   text-transform: capitalize;
 }
-.lg-right{
-    
-
- width:80%;
-opacity: 1;
-width: 282.8875732421886px;
-height: 5.6804485321045135px;
 
 
 
-opacity: 1;
-background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
 
-
-background: linear-gradient(-90deg, #FFFFFF 0%, #FFD000 100%);
-
+.titre-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 0;
 }
-.lg-left{
-    
-     width:80%;
-opacity: 1;
-width: 282.8875732421886px;
-height: 5.6804485321045135px;
-background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
+
+.lg-left, .lg-right {
+  flex: 1;
+  height: 5px;
+  max-width: 300px;
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
 }
-.titre-lg{
-    
+
+.lg-right {
+  background: linear-gradient(-90deg, #FFFFFF 0%, #FFD000 100%);
 }
-.titre-lg h3{
-padding:0rem;
-width:18%;
+
+.titre-lg h3 {
+  flex-shrink: 0;
+  padding: 0 1rem;
+  color: #38B000;
+  font-family: 'Neo Sans Arabic', sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.5rem, 2.5vw, 1.7rem);
+  text-align: center;
+  line-height: 1.1;
 }
+
+
 @media(min-width:2559px){
 
      .titre-lg h3{
@@ -97,15 +90,14 @@ width:18%;
         
 
      }
+   
+   
+     
   
 }
 @media(max-width :480px){
-    .titre-lg{
-      
-        width:100%;
-    }
-    .titre-lg h3{
-    
-        width:100%;
-    }
+  
+
+
+   
 }

@@ -131,6 +131,7 @@ const Care = () => {
 
 
             </section>
+            
             );
 }
 

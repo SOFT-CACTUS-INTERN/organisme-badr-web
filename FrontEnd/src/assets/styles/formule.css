@@ -262,22 +262,22 @@ border-radius:118.77px;
    }
    .btn-form button{
     min-height:6vh;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
    }
     .formule-section{
 
-      /* background-color: #007200; */
+      
       width:100%;
 
     }
     .form-pect{
 
-/* background-color: #38B000; */
+
 width:80%;
 
     }
     .send{
-      /* background-color: aqua; */
+     
       min-height:6vh;
       font-size: 1.7rem;
      
@@ -285,14 +285,14 @@ width:80%;
     .formule{
 
 
-      /* background-color: pink; */
+     
       width:50%;
       min-height:60vh;
       gap:2rem;
     }
     .formule form{
 
-      /* background-color: darkgoldenrod; */
+    
       background-color: white;
       width:90%;
     }
@@ -324,24 +324,32 @@ width:80%;
       width:60%;
       top:55%;
     }
-    .btn-form {
-      background-color: green;
-   font-size: 2.5rem;
-    }
+   
     .send{
-      background-color: red;
+   
+      font-size: 1.8rem;
      
     }
     .btn-form .second{
-      background-color: darkblue;
-      font-size: 1.6rem;
+   
+     font-size: 1.8rem;
+     gap:0.5rem
     }
-    .btn-from .first{
-      background-color: salmon;
-      font-size: 2rem;
+    .btn-form .second img{
+      width:10%;
+
+     
+    }
+    .btn-form .first {
+      
+      font-size: 1.8rem;
+    }
+    .btn-form .first img{
+      width:12%;
+      
     }
    
-    
+     
 
 
 
