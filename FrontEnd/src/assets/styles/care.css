@@ -351,15 +351,22 @@ z-index: 100;
   /* background-color: darkgoldenrod; */
   
  display:flex;
- justify-content: center;
- align-items: center;
- padding-right:3rem;
+justify-content: center;
+align-items: center;
+ padding-right: 5rem;
  padding-top:0rem;
  gap:1.2rem;
- padding-left: 3rem;
+
  
- padding-right:5rem;
+ width:50%;
+ 
 }
+.care{
+
+  gap:0rem;
+}
+.image{width:50%;}
+
 
 }
 
