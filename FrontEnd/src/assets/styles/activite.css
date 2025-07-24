@@ -439,7 +439,7 @@ body {
 
 
 .activite {
-  background-color: darkcyan
+  /* background-color: darkcyan */
 }
 
 .next,
@@ -452,6 +452,7 @@ body {
 @media(min-width:2560px) {
   .activite-content {
     padding-bottom: 0rem;
+    gap:1.5rem;
   }
 
   .activite-p {
@@ -465,9 +466,9 @@ body {
     font-size: 1.8rem;
   }
 
-  .activite {
+  .activite h4 {
  
-
+font-size: 1.8rem;
   }
 
   
@@ -482,21 +483,25 @@ body {
   }
  .btn-groupe button{
   
- font-size: 1.6rem;
+ font-size: 1.8rem;
  
  }
  .activite h2{
 
-  font-size: 2.5rem;
+  font-size: 3rem;
+ 
+  width:100%
  
  }
  .activite p{
 
-  font-size: 2rem;
+  font-size: 2.1rem;
  }
-.activite-content{
  
-  padding:0rem;
+.activite-content{
+ padding-right:0rem
+ 
+  
 }
  
 
@@ -950,9 +955,7 @@ body {
 
   .activite-groupe {
     padding: 0;
-    /* background-color: pink; */
 
-    /* background-color: brown; */
 
   }
 
@@ -960,10 +963,9 @@ body {
 
 
     flex-direction: column;
-    /* background-color: aquamarine; */
+   
     height: auto;
-    /* border-radius: 
-25.2px; */
+   
     gap: 0rem;
     border-radius: 0;
 
@@ -977,7 +979,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 0;
-    /* background-color: #38B000; */
+   
   }
 
   .activite-content {
@@ -1001,8 +1003,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    /* border-top-left-radius: 25.2px;
-    border-top-right-radius: 25.2px; */
+ 
     border-radius: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -1014,7 +1015,7 @@ body {
     width: 100%;
 
 
-    /* background-color: #38B000; */
+   
     background-size: cover;
 
   }
@@ -1156,60 +1157,51 @@ body {
   }
 
   .activite-groupe {
-    background-color: pink;
+   
     gap: 0.2rem;
   }
 
-  .next,
-  .prev {}
+ 
 
   @media(min-height:700px) {
     .activite-groupe {
-      /* background-color: red; */
+    
       padding: 0;
       gap: 1rem;
     }
 
     .image-div {
-      /* background-color: fuchsia; */
+     
       min-height: 35vh
     }
 
     .activite-pecture {
 
       height: 35vh;
-      /* background-color: darkblue; */
+     
     }
 
-    .activite-content {}
+   
 
-    /* .btn-groupe{
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding:0rem;
-
-
-  } */
+   
   }
 
-  .btn-groupe {
-
-    /* display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  }
+ 
 
 
   .next,
   .prev {
-    width: 40px;
+    width: 50px;
+    position:relative
 
 
   }
+  .activite-groupe{
+   
+    gap:0.5rem;
+  }
+ 
+  
 
 
 

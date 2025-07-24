@@ -165,6 +165,7 @@ flex-direction: row-reverse;
 }
 .care-name .graph{
     width:10%;
+    
 }
 .care-name h2{
     color: #FFB700;
@@ -173,6 +174,8 @@ flex-direction: row-reverse;
     line-height: 2.12rem; 
   letter-spacing: 0;
   text-align: right;
+  
+
 
 }
 .care-name h2 span{
@@ -192,6 +195,7 @@ flex-direction: row-reverse;
   border-radius: 99.07px;
   border:none;
   width:100%;
+
   background: linear-gradient(180deg, #38B000 0%, #FFC400 107.1%);
 
 
@@ -213,6 +217,9 @@ flex-direction: row-reverse;
 
   color: black; 
   z-index: 10;
+ 
+  direction:ltr
+ 
 
 
   
@@ -326,12 +333,13 @@ z-index: 100;
   width:80%;
   display:flex;
   line-height:1.9 ;
+ 
   
 
 }
 .care-name .graph{
   /* background-color: darkcyan; */
-  width:9%
+  width:7%
 }
 .care-p{
   /* background-color: yellow; */
@@ -347,7 +355,10 @@ z-index: 100;
  align-items: center;
  padding-right:3rem;
  padding-top:0rem;
+ gap:1.2rem;
  padding-left: 3rem;
+ 
+ padding-right:5rem;
 }
 
 }

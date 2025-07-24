@@ -14,30 +14,7 @@
   width:100%;
 }
 
-/* .care-title {
-  text-align: center;
-  margin-bottom: 2rem;
-}
 
-.ligne-quote {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-} */
-
-
-
-/* .care-title h2 {
-  font-size: 1.2rem;
-  color: #38B000;
-}
-
-.care-title h1 {
-  font-size: 1.8rem;
-  line-height: 1.5;
-  
-} */
 
 .form-pect {
   display: flex;
@@ -96,8 +73,7 @@
   opacity: 1;
  direction: rtl;
  width:80%;
-/* 
- background-color: darkblue; */
+
  
 
 }
@@ -322,7 +298,7 @@ width:80%;
     }
     .formule input{
      min-height:6vh;
-      /* background-color: darkcyan; */
+      
     }
     .formule textarea{
     min-height: none;
@@ -334,20 +310,37 @@ width:80%;
       font-size: 1.6rem;
     }
     .formule h2{
-      /* background-color: greenyellow; */
+     
       font-size: 3.2rem;
     }
     .graph33{
-      /* background-color: red; */
+    
       max-width:90%;
       width:20%;
     }
     .graph34{
-      /* background-color: #515151; */
+    
       max-width:100%;
       width:60%;
       top:55%;
     }
+    .btn-form {
+      background-color: green;
+   font-size: 2.5rem;
+    }
+    .send{
+      background-color: red;
+     
+    }
+    .btn-form .second{
+      background-color: darkblue;
+      font-size: 1.6rem;
+    }
+    .btn-from .first{
+      background-color: salmon;
+      font-size: 2rem;
+    }
+   
     
 
 
@@ -514,7 +507,7 @@ width:80%;
 
 @media (max-width: 480px) {
   .formule-section{
-    /* background-color: pink; */
+   
     margin-top:2rem;
     width:100%;
     max-width:100vh;
@@ -527,15 +520,9 @@ width:80%;
         width:100%;
         gap:0rem;
         padding:0rem;
-        /* background-color: green; */
+        
     }
-  /* .care-title h1 {
-    font-size: 1rem;
-  }
-
-  .care-title h2 {
-    font-size: 0.8rem;
-  } */
+ 
 
   .formule h2 {
     font-size: clamp(1.2rem, 4vw, 1.5rem);
@@ -556,7 +543,7 @@ width:80%;
   .formule{
     width:100%;
    padding:0rem;
-   /* background-color: red; */
+
  
    
    
@@ -568,7 +555,7 @@ width:80%;
     padding:1rem;
 height:auto;
 
-    /* background-color: saddlebrown; */
+  
   }
   .pecture img{
     height:auto;
@@ -580,7 +567,7 @@ height:auto;
   }
   .formule form{
     width:100%;
-    /* background-color: firebrick; */
+ 
     padding:0.5rem;
 
   }
@@ -591,12 +578,28 @@ height:auto;
 
  .graph34{
   display: flex;
-  /* background-color: red; */
+  
   width:100vh;
-  /* z-index: 80; */
+ 
   height: 60vh;
   top:80%
-  /* background-color: darkblue; */
+
+ 
+ }
+ .formule{
+
+
+ }
+ .formule h2{
+  
+  font-size: 1.9rem;
+ }
+ .send{
+
+  font-size: 1.1rem;
+ }
+ .btn-form{
+ 
  
  }
  

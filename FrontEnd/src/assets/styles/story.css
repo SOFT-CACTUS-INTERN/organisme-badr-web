@@ -267,6 +267,7 @@
     font-size: clamp(1.2rem, 2vw, 1.4rem);
     font-weight: bold;
     color: #000000;
+    font-weight: 500;
 
 }
 @media(min-width:2560px){
@@ -603,6 +604,7 @@ min-height:28rem;
 
 
     }
+  
     
 
     .boys {

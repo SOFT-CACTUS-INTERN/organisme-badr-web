@@ -9,11 +9,9 @@
   justify-content: space-evenly;
   align-items: start;
  background: linear-gradient(-74.24deg, #FFC909 -0.01%, #FFFFFF 108.29%);
-/* height: auto; */
-/* padding:3rem; */
-/* gap:2rem; */
+
 padding:2.3rem;
-/* padding-top:5rem; */
+
 min-height: 80vh;
 height: auto;
 z-index: 10;
@@ -24,10 +22,10 @@ z-index: 10;
   display:flex;
   justify-content: center;
   align-items: center;
-  /* background:pink; */
+
   width:20%;
   min-height:50vh;
-  /* background-color: darkblue; */
+
 }
 .service{
   display:flex;
@@ -122,6 +120,8 @@ z-index: 62;
 position:relative;
 z-index: 10;
 
+
+
 }
 .content-serv h2{
   
@@ -131,6 +131,8 @@ font-size: clamp(1.3em, 2vw, 1.4rem);
   line-height: 1.5;
   text-align: right;
   z-index:10;
+
+
  
 }
 .content-serv p{
@@ -327,17 +329,19 @@ width:42%;
 .icon{
   display:none;
 }
-@media(min-width:2559px){
+@media(min-width:2560px){
 .service-section{
   display:flex;
   justify-content: center;
   align-items: center;
  height:auto;
   gap:3rem;
-  /* padding:2rem; */
+ 
   min-height: none;
-height:120vh;
+height:100vh;
   z-index: 12;
+  /* padding:0rem; */
+  
  
 
  
@@ -348,16 +352,16 @@ height:120vh;
 
 
 .service{
-  /* background-color: pink; */
+ 
 
   width:60%;
   
  height: auto;
  gap:3rem;
- display:flex;
+
  
 
- /* background-color:chartreuse ; */
+
 
 }
 
@@ -370,6 +374,7 @@ height:120vh;
   justify-content: end;
   align-items: end;
   padding-right:3rem;
+ 
   
  
 
@@ -444,11 +449,14 @@ font-size: 2.2rem;
 
   margin-top:-10%;
   min-height: 30vh;
+  margin-top: -20%;
+ 
 
 }
 .back{
   width:80%;
   height:48vh;
+  
   
 }
 .pecture{
@@ -456,9 +464,10 @@ font-size: 2.2rem;
   width:100%;
 height:auto;
 
+
 }
 .graph20{
-  /* background-color: darkcyan; */
+ 
   display:block;
   z-index: 8000;
   width:55%;
@@ -467,11 +476,9 @@ height:auto;
   width:50px;
   height:48px;
 }
-.service{
-  /* background-color: darkgoldenrod; */
-}
+
 .service .title {
-  /* background-color: darkcyan; */
+  
   display:flex;
   justify-content: end;
   align-items: end;
@@ -481,14 +488,14 @@ height:auto;
   width:80%
 }
 .service h1{
-  /* background-color: darkblue; */
+ 
   text-align: right;
 
 
 }
 .content-serv{
 
-  /* background-color:red; */
+ 
   z-index: 120;
 }
 .content-serv p{
@@ -516,9 +523,12 @@ z-index: 120;
   height:100px;
   padding: 1rem;
 }
-.icon-serv img{
-
+.graph19{
+ 
+  top:65%;
+  left:30%;
 }
+
 
 
   
@@ -773,7 +783,7 @@ left:0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:1.8rem;
+  gap:2.5rem;
 }
  .images {
     width: 80%;
@@ -781,10 +791,11 @@ left:0;
     position: relative;
     display:flex;
   justify-content: right;
-  align-items: center;
+  align-items: start;
   height: auto;
-  /* background-color: darkblue;
-  background-color: #38B000; */
+  
+
+ 
   }
 
   .back {
@@ -804,37 +815,36 @@ left:0;
     
   }
   .images .unspalsh{
-    /* display:none; */
+   
     position:absolute;
     width:60%;
 
-    margin-left: 8%;
-    margin-top: -4%;
-    /* background-color:red; */
+    margin-left: 4%;
+    margin-top: -12%;
+   
   
   
     
-    /* background-color: red; */
+  
 
   
     height:auto;
 
-    /* display: none; */
+   
   }
-  .images .graph19{
-    left:40%;
-    /* background-color: pink; */
-    /* display:none */
-  }
+  
   
 .service{
   width:100%;
-  padding:0.5rem;
+ 
   padding-top:2rem;
   gap:1.5rem;
-  /* background: pink; */
+ 
 }
-
+.services{
+  width:100%;
+  
+}
 .serv{
   width:100%;
 
@@ -849,14 +859,14 @@ left:0;
 
 .graph20{
   
-  /* background-color: #525560; */
+ 
   top:50%;
   width:70%;
-  /* height:60%; */
+ 
 }
 .graph21{
  top:80%;
- /* background-color: #38B000; */
+ 
  z-index: 200;
  width:13%
 }
@@ -870,29 +880,40 @@ left:0;
   }
   
   .images .unspalsh{
-    /* display:none; */
+  
     width:70%;
     left:8%;
     top:20%;
    
   }
+ 
 
-  .service{
-    
-    top:-5%;
-  }
+ 
 
-  .service-section{
+ 
   
-  }
   .graph20{
     top:50%;
   }
+   .images .unspalsh{
+    background-color: darkblue;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .graph19{
+  
+  top:60%;
+  left:45%
+   }
+ 
 
 @media( min-height:702px){
   .back{
     height:32vh;
-    width:90%;
+    width:95%;
     height:38vh;
     left:15%;
     top:1rem;
@@ -901,37 +922,46 @@ left:0;
   
   
   .images .unspalsh{
-    /* display:none; */
+   
     width:90%;
     left:auto;
     top:24%;
-    /* display:none; */
+   
    
   }
 
   .service{
-    /* background-color: red; */
-    padding:2.5rem;
+
+    padding-top:2.5rem;
   }
 
   .service-section{
-gap:2rem;
+gap:3.5rem;
+padding-top:0rem;
   
   }
+  
   .graph20{
     top:50%;
   }
 }
+
 .title{
   
 }
 
 
+
 }
+
+
+
 @media(max-width:360px) and (min-height:702px){
 
 
   .service-section{
-    gap:3rem;
+    gap:5rem;
   }
+
+ 
 }
