@@ -1,5 +1,5 @@
 .top-titre{
-    background-color: pink;
+   
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -8,18 +8,18 @@
    gap:0.5rem
 }
 .titre-lg{
-    background-color: red;
+  
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width:80%;
  
-    gap:2rem;
+    gap:rem;
 }
 .titre-lg h3{
-    background-color: darkcyan;
-    width:100%;
+  
+    width:30%;
     color: #38B000;
       font-family: 'Neo Sans Arabic', sans-serif;
   font-weight: 500;
@@ -37,19 +37,45 @@
       color: #121212;
   font-family: 'Neo Sans Arabic', sans-serif;
   font-weight: 500;
-  font-style: normal; /* 'Medium' n’est pas une valeur CSS, c’est un poids (déjà 500) */
-  font-size: clamp(2rem, 5vw, 2.4rem); /* entre 32px et 45px */
-  line-height: clamp(2.5rem, 6vw, 3.375rem); /* entre 40px et 54px */
+  font-style: normal;
+  font-size: clamp(2rem, 5vw, 2.4rem); 
+  line-height: clamp(2.5rem, 6vw, 3.375rem); 
   letter-spacing: 0;
   text-align: center;
   text-transform: capitalize;
 }
-.titre-lg hr{
+.lg-right{
     
+
+ width:80%;
+opacity: 1;
+width: 282.8875732421886px;
+height: 5.6804485321045135px;
+
 
 
 opacity: 1;
-height:2rem;
 background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
 
+
+background: linear-gradient(-90deg, #FFFFFF 0%, #FFD000 100%);
+
+}
+.lg-left{
+    
+     width:80%;
+opacity: 1;
+width: 282.8875732421886px;
+height: 5.6804485321045135px;
+background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
+}
+@media(max-width :480px){
+    .titre-lg{
+      
+        width:100%;
+    }
+    .titre-lg h3{
+    
+        width:100%;
+    }
 }

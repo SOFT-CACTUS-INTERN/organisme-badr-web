@@ -79,83 +79,21 @@ function Footer() {
           {/* Desktop Layout */}
           <div className='hidden lg:flex lg:w-[90%] lg:left-[10%] lg:relative lg:min-h-screen'>
             {/* Contact Info Section */}
-            <div className='w-[50%] z-10' style={{ marginTop: '4rem', padding: '2rem' }}>
-              <div className="title01 text-right !text-black" style={{ marginRight: '7.5rem', marginBottom: '-4rem' }}>
-                <h2 className='font-bold text-3xl mb-2 !text-black'>للتواصل مع منظمتنا</h2>
-                <p className='text-lg !text-black'>هذا النص هو مثال لنص يمكن أن يستبدل</p>
-              </div>
+            <div className='iconsFotter w-[50%] z-10' style={{ marginTop: '4rem', padding: '2rem' }}>
+                      <img src={footer} className='iconsnFotter'/>
 
-              <div className='iconsForm02 flex '>
-                {/* Left Icons */}
-                <div className='lg:w-[20%] lg:translate-x-90 ' style={{ marginTop: '0rem' }}>
-                  <img src={icon5} alt="icon5" className="" style={{ marginTop: '80px', padding: '1rem' }} />
-                  <img src={icon6} alt="icon6" className="" style={{ marginTop: '-20px', padding: '1rem' }} />
-                  <img src={icon7} alt="icon7" className="" style={{ marginTop: '-20px', padding: '1rem' }} />
-                </div>
-
-                {/* Contact Details */}
-                <div className='absolute flex flex-col bg-amber-900'>
-                  <div className='absolute top-64'>
-                    <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
-                      <defs>
-                        <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
-                          <stop stopColor="white" />
-                          <stop offset="0.58555" stopColor="white" stopOpacity="0.598321" />
-                          <stop offset="1" stopColor="white" stopOpacity="0" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                    <span className="absolute inset-0 flex items-center ml-12 text-black font-semibold text-2xl">
-                      الحي الاداري ص ب 116 بركان
-                    </span>
-                  </div>
-
-                  <div className='absolute z-0 w-1/4 h-[50.04px] top-44 -ml-44'>
-                    <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
-                      <defs>
-                        <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
-                          <stop stopColor="white" />
-                          <stop offset="0.58555" stopColor="white" stopOpacity="0.598321" />
-                          <stop offset="1" stopColor="white" stopOpacity="0" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                    <span className="absolute inset-0 flex items-center ml-7 text-black font-semibold text-2xl">
-                      contact@organismebadr.ma
-                    </span>
-                  </div>
-
-                  <div className='absolute z-0 h-[50.04px] top-24 -ml-44'>
-                    <svg width="360" height="67" viewBox="0 0 360 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="359.011" y="66.0898" width="358.286" height="66" rx="11.1615" transform="rotate(-180 359.011 66.0898)" fill="url(#paint0_linear_341_639)" />
-                      <defs>
-                        <linearGradient id="paint0_linear_341_639" x1="359.011" y1="99.0898" x2="717.297" y2="99.0898" gradientUnits="userSpaceOnUse">
-                          <stop stopColor="white" />
-                          <stop offset="0.58555" stopColor="white" stopOpacity="0.598321" />
-                          <stop offset="1" stopColor="white" stopOpacity="0" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
-                    <span className="absolute inset-0 flex items-center justify-end mr-6 text-black font-semibold text-2xl">
-                      05 366 - 122 51
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* Contact Form */}
             <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10 2xl:h-[50vh] 2xl:w-[25%]">
-              <div className="flex items-center justify-center w-full" style={{ padding: '1rem' }}>
+              <div className="flex items-center justify-center w-full gap-8" style={{ padding: '1rem' }}>
                 <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
-                <h2 className="font-bold text-2xl text-[#38B000] whitespace-nowrap">تواصل معنا</h2>
+                <h2 className="font-bold text-2xl text-[#38B000] whitespace-nowrap 2xl:font-bold 2xl:text-3xl">تواصل معنا</h2>
                 <div className="flex-1 h-1 bg-gradient-to-r from-[#FFD000] to-white mx-4"></div>
               </div>
 
               <div className='w-full h-px bg-[#ADADAD] mt-4'></div>
-<div className='tvForm'>
+             <div className='tvForm'>
 
               <input type="text" placeholder="الاسم الأول و الأخير" value={form.name}
               onChange={e => setForm({ ...form, name: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
@@ -174,7 +112,7 @@ function Footer() {
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <div className='flex justify-center items-center' style={{ padding: '1rem' }}>
-                <button type="submit" className="buttonFooter w-3/4 !bg-[#38B000] text-white  flex justify-center " style={{ padding: '0.5rem' }}>
+                <button type="submit" className="buttonFooter w-3/4 !bg-[#38B000] text-white  flex justify-center " style={{ padding: '1rem' }}>
                   إرسال
                 </button>
               </div>
@@ -276,17 +214,18 @@ function Footer() {
           </div>
         </div>
         {/* Copyright */}
-        <div className='phrase   absolute w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' >
+        <div className='phrase01   absolute w-full mt-8 lg:absolute lg:mt-0 flex items-end justify-center' >
           <a
   href="https://softcactus.ma/"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-sm sm:text-xl flex justify-center !text-black !lg:text-black 2xl:text-5xl" style={{marginTop:'-4rem'}}
+  className="text-sm sm:text-xl flex justify-center !text-black !lg:text-black 2xl:text-3xl 2xl:font-light" style={{marginTop:'-4rem'}}
 >
   "© SOFTCACTUS، جميع الحقوق محفوظة، 2025"
 </a>
 
         </div>
+        
       </div>
     </footer>
   )

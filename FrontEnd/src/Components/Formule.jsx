@@ -7,6 +7,7 @@ import graph33 from '../assets/svgs/graph33.svg';
 import graph34 from '../assets/svgs/graph34.svg';
 import axios from 'axios';
 import { moreNavigate, donateNavigate } from './utils';
+import Title from './Title';
 
 const Formule = () => {
   const [reponse, setReponse] = useState(false);
@@ -42,6 +43,7 @@ const Formule = () => {
 
   return (
     <section className="formule-section">
+      <Title title="تواصل معنا" mini_title="يسعدنا استقبالكم، تعالوا لزيارتنا وتعرفوا علينا عن قرب."/>
       <img className="graph34" src={graph34} alt="" />
 
       <div className="form-pect">

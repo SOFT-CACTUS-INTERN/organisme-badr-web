@@ -23,7 +23,7 @@ const Care = () => {
 
             <section className='care-section'>
 
-{/* <Title title="خطوتك اليوم تُنقذ غدًا" mini_title="كل تبرع هو بذرة أمل نزرعها في أرض العطاء"/> */}
+<Title title="خطوتك اليوم تُنقذ غدًا" mini_title="كل تبرع هو بذرة أمل نزرعها في أرض العطاء"/>
 
                 {/* <div className='care-title'>
                     <div className='ligne-quote'>
