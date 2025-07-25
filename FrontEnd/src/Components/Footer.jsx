@@ -85,7 +85,7 @@ function Footer() {
             </div>
 
             {/* Contact Form */}
-            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10 2xl:h-[50vh] 2xl:w-[25%]">
+            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-105 rounded-2xl p-6 sm:p-10 2xl:h-[50vh] 2xl:w-[25%]">
               <div className="flex items-center justify-center w-full gap-8" style={{ padding: '1rem' }}>
                 <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                 <h2 className="font-bold text-2xl text-[#38B000] whitespace-nowrap 2xl:font-bold 2xl:text-3xl">تواصل معنا</h2>
@@ -96,19 +96,19 @@ function Footer() {
              <div className='tvForm'>
 
               <input type="text" placeholder="الاسم الأول و الأخير" value={form.name}
-              onChange={e => setForm({ ...form, name: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
+              onChange={e => setForm({ ...form, name: e.target.value })} className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <input type="email" placeholder="البريد الإلكتروني"  value={form.email}
-              onChange={e => setForm({ ...form, email: e.target.value })}className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              onChange={e => setForm({ ...form, email: e.target.value })}className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <input type="tel" placeholder="رقم الهاتف" value={form.phone}
-              onChange={e => setForm({ ...form, phone: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              onChange={e => setForm({ ...form, phone: e.target.value })} className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <textarea placeholder="رسالتك" value={form.message}
-              onChange={e => setForm({ ...form, message: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }}></textarea>
+              onChange={e => setForm({ ...form, message: e.target.value })} className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }}></textarea>
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <div className='flex justify-center items-center' style={{ padding: '1rem' }}>

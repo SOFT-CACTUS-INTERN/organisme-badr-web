@@ -18,31 +18,7 @@ function Who() {
             <img src={background} alt="" className=' absolute -left-[20%] 2xl:w-[100%] 2xl:-left-[40%]' />
             <div className='z-10'>
 
-                <div className='partenaire '>
-                    <div className='flex '>
-
-                        <div className="flex items-center justify-center w-full gap-4">
-                            <div className="ligne1 border-[#E5E5E5] border-t-2 flex-grow" style={{ width: '70%' }}></div>
-
-                            <h1 className="isam text-[#38B000] whitespace-nowrap text-center flex justify-end  sm:block  lg:block 2xl:block" >
-                                شركائنا
-                            </h1>
-
-                            <div className="ligne2 border-[#E5E5E5] border-t-2 flex-grow"></div>
-                        </div>
-
-                    </div>
-                    <div className="slider-container    " >
-                        <div className="slider-track " >
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                           
-                        </div>
-                    </div>
-
-                    <hr className="ligne3 border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%' }} />
-
-                </div>
+              
 
                 <div className='who-prDiv flex lg:flex-row sm:flex-row 2xl:flex-row flex-col z-10'>
                     <div className='lg:w-1/2 sm:w-1/2 2xl:w-1/2 w-full z-10'>

@@ -7,6 +7,26 @@
     display: flex;
     justify-content: center;
   }
+  .secondTitre{
+    font-size: large;
+  }
+  .semiCol1{
+    scale: 0.7;
+    width: 100%;
+    /* background-color: red; */
+    margin-left: 10vh;
+  }
+  .semiCol2{
+    scale: 0.7;
+    width: 100%;
+    /* background-color: red; */
+    margin-left: -10vh;
+  }
+   .motDeNadia{
+    /* background-color: aqua; */
+    padding: 2rem;
+    /* margin-left: 16rem; */
+  }
 @media (max-width:468px){
   .presedant{
     width: 100%;

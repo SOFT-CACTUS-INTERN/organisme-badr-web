@@ -15,27 +15,14 @@ import social from '../assets/svg/social.svg';
 function Presedent() {
   return (
     <section className='w-full min-h-screen 2xl:h-screen mb-12 bg-[#FCFAF8]' style={{padding:'2rem'}}>
-        {/* Ligne à gauche */}
-        {/* <div className="ligneJaune flex-1 h-[4px] sm:h-[6px]  bg-gradient-to-r  from-white to-[#FFD000]" /> */}
-
+     
         {/* Titre centré */}
         <div className='titrePresedant '  >
 
         <Title title="تعرف على منظمتنا" mini_title="وراء كل إنجاز... فريق يحمل رسالة " />
         </div>
 
-        {/* <h2 className="mx-2 text-nowrap font-bold text-base sm:text-2xl 2xl:text-5xl text-[#38B000] text-center whitespace-nowrap">
-          تعرف على منظمتنا
-        </h2> */}
-
-        {/* Ligne à droite */}
-        {/* <div className="flex-1 h-[4px] sm:h-[6px] bg-gradient-to-r from-[#FFD000] to-white" /> */}
-{/* 
-      <div className='phrase0 flex justify-center mt-4 sm:mt-6 px-4'>
-        <h2 className='text-xl sm:text-2xl md:text-3xl dark:text-black lg:text-4xl font-bold text-center'>
-          وراء كل إنجاز... فريق يحمل رسالة
-        </h2>
-      </div> */}
+    
 
       <div className='presedant relative min-h-screen mt-8 sm:mt-12 flex flex-col lg:flex-row'>
         {/* Left Section */}
@@ -77,7 +64,7 @@ function Presedent() {
 
 
 
-            <h1 className='secondTitre dark:text-black text-center sm:text-right font-bold text-base sm:text-lg mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
+            <h1 className='secondTitre dark:text-black text-center sm:text-right font-bold text-base sm:text-md mr-0 sm:mr-8 lg:mr-16 mb-2 sm:mb-4'>
               رؤية إنسانية تقود المسيرة
             </h1>
 
@@ -96,7 +83,7 @@ function Presedent() {
 
             <div className="flex justify-center px-2 sm:px-4 lg:px-0">
               <div className='motDeNadia bg-[#F5F5F5CC] w-full sm:w-5/6 lg:w-3/4 rounded-lg'>
-                <div className='flex justify-end'>
+                <div className='semiCol1 flex justify-end'>
                   <img src={col} alt='col' className='w-6 sm:w-8 lg:w-12' />
                 </div>
                 <div className='text-center sm:text-right p-3 sm:p-4 lg:p-2'>
@@ -104,7 +91,7 @@ function Presedent() {
                     نؤمن في منظمة البدر بقيم العدالة، والكرامة، والمساواة، والشمول. نلتزم بالعمل بروح التعاون والمسؤولية، ونضع الإنسانية في صميم كل ما نقوم به، إيمانًا منا بأن التغيير يبدأ من القيم التي نتمسك بها ونُجسّدها في واقعنا
                   </p>
                 </div>
-                <div className='flex justify-start'>
+                <div className='semiCol2 flex justify-start'>
                   <img src={col} alt='col' className='w-6 sm:w-8 lg:w-12' />
                 </div>
               </div>
@@ -114,31 +101,7 @@ function Presedent() {
         </div>
       </div>
 
- <div className='partenaire '>
-                    <div className='flex '>
-
-                        <div className="flex items-center justify-center w-full gap-4">
-                            <div className="ligne1 border-[#E5E5E5] border-t-2 flex-grow" style={{ width: '70%' }}></div>
-
-                            <h1 className="isam text-[#38B000] whitespace-nowrap text-center flex justify-end " >
-                                شركائنا
-                            </h1>
-
-                            <div className="ligne2 border-[#E5E5E5] border-t-2 flex-grow"></div>
-                        </div>
-
-                    </div>
-                    <div className="slider-container    " >
-                        <div className="slider-track " >
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                           
-                        </div>
-                    </div>
-
-                    <hr className="ligne3 border-[#E5E5E5] flex-grow border-t-2 " style={{ width: '100%' }} />
-
-                </div>
+ 
     </section>
   )
 }
