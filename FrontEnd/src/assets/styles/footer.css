@@ -34,14 +34,21 @@
  }
 
  /* styles.css */
- @media (max-width:468px) {
+ @media (max-width:468px)  {
    .footer-container {
      display: flex;
      flex-direction: column;
      /* background-color: aqua; */
-     height: 120vh;
+     height: 180vh;
    }
-  
+  .footer-section{
+      /* background-color: red; */
+    height: 159vh;
+  }
+  .formMobile{
+    /* background-color: aqua; */
+    height: 75vh;
+  }
    .footer-section {
      /* overflow: hidden; */
      top: 30vh;
@@ -68,7 +75,7 @@
    }
 
    .phrase01 {
-     bottom: -15vh;
+     bottom: -58vh;
      display: flex;
      /* background-color: aqua; */
      justify-content: center;
@@ -101,11 +108,101 @@
   
 
  }
- /* @media (max-width:375px){
-    .phrase01 {
-     bottom: -50vh;
+ @media (min-width:360px) and (max-width:374px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 50vh;
+  }
+   .phrase01 {
+     bottom: -40vh;
+     display: flex;
+     /* background-color: aqua; */
+     justify-content: center;
+   
+  
    }
- } */
+    .footer-section{
+      /* background-color: red; */
+    height: 150vh;
+  }
+ }
+ @media (min-width:375px) and (max-width:389px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 75vh;
+  }
+   .phrase01 {
+     bottom: -58vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+    .footer-section{
+      /* background-color: red; */
+    height: 160vh;
+  }
+ }
+  @media (min-width:390px) and (max-width:409px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 60vh;
+  }
+   .phrase01 {
+     bottom: -42vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+    .footer-section{
+      /* background-color: red; */
+    height: 150vh;
+  }
+ }
+  @media (min-width:410px) and (max-width:467px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 60vh;
+  }
+   .phrase01 {
+     bottom: -42vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+    .footer-section{
+      /* background-color: red; */
+    height: 145vh;
+  }
+ }
+ @media (max-width:360px){
+   .formMobile{
+    /* background-color: aqua; */
+    height: 80vh;
+  }
+   .footer-section{
+      /* background-color: red; */
+    height: 160vh;
+  }
+  
+   .phrase01 {
+     bottom: -59vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+ }
   @media (min-width:2560px) and (min-height:1400px) {
     .iconsFotter{
       scale: 1.5;
@@ -116,7 +213,7 @@
 }
 .footer-section {
   height: 80vh; /* Hauteur réduite */
-  overflow: hidden; /* Cache ce qui dépasse */
+  overflow: hidden; 
   gap: 10px; /* Espace entre les images (optionnel) */
 }
 

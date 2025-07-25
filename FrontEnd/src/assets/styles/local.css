@@ -14,7 +14,7 @@
 
 @media (max-width:468px) {
   .localSection {
-    /* background-color: aqua; */
+    background-color: aqua;
     width: 80%;
     height: 130vh;
     display: flex;

@@ -85,7 +85,7 @@ function Footer() {
             </div>
 
             {/* Contact Form */}
-            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-105 rounded-2xl p-6 sm:p-10 2xl:h-[50vh] 2xl:w-[25%]">
+            <form className="contact-form   w-[70%] sm:w-[30%] lg:w-[30%] bg-white h-120 rounded-2xl p-6 sm:p-10 2xl:h-[50vh] 2xl:w-[25%]">
               <div className="flex items-center justify-center w-full gap-8" style={{ padding: '1rem' }}>
                 <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                 <h2 className="font-bold text-2xl text-[#38B000] whitespace-nowrap 2xl:font-bold 2xl:text-3xl">تواصل معنا</h2>
@@ -146,7 +146,7 @@ function Footer() {
             <div className='flex flex-col space-y-8 w-full'>        
                   {/* Mobile Contact Form */}
               <div className='form mx-4' style={{ padding: '1rem' }}>
-                <form className='bg-white rounded-2xl p-6 sm:p-8 '>
+                <form className='formMobile bg-white rounded-2xl p-6 sm:p-8 '>
                   <div className="ichatithan flex items-center justify-center w-full mb-6">
                     <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                     <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap" style={{padding:'2rem'}}>تواصل معنا</h2>
