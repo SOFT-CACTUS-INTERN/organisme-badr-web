@@ -14,7 +14,7 @@
 
 @media (max-width:468px) {
   .localSection {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 80%;
     height: 130vh;
     display: flex;
@@ -100,6 +100,18 @@ width: 100%;
     left: -14vh;
 
 
+  }
+}
+@media (min-width:414px) and (max-width:467px){
+   .localSection {
+    /* background-color: aqua; */
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    left: 0vh;
+    right: 0vh;
+    /* align-items: center; */
   }
 }
 @media (min-width:2560px) and (min-height:1400px){

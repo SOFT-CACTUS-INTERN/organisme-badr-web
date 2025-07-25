@@ -15,18 +15,31 @@
         /* background-color: red; */
         margin-bottom: -35vh;
         /* margin-top: 80vh; */
+        width: 100%;
     }
     .nous-container {
         display: flex;
         flex-direction: column-reverse;
         /* background-color: aqua; */
-       
+       width: 130%;
+               margin-left: -10vh;
+             
+
     }
     .images{
         /* background-color: red;    */
-        /* width: 90%; */
+        width: 95%;
         top: 5vh;
    
+    }
+      .nous-card{
+        /* background-color: blue; */
+        width: 120%;
+        /* padding: 10vh; */
+        /* left: -10vh; */
+    }
+    .numero{
+        top: 8vh;
     }
     
 }
