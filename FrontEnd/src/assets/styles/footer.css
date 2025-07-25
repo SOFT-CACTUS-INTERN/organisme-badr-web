@@ -84,7 +84,7 @@
   
    }
 .ichatithan{
-  z-index: 200;
+  z-index: 1000;
 }
    .mobile {
      background-image: url('/organisme-badr-web/images/image1.jpg');
@@ -122,6 +122,9 @@
    
   
    }
+   .ichatithan{
+  z-index: 1000;
+}
     .footer-section{
       /* background-color: red; */
     height: 150vh;
@@ -141,6 +144,9 @@
    
   
    }
+   .ichatithan{
+  z-index: 1000;
+}
     .footer-section{
       /* background-color: red; */
     height: 160vh;
@@ -164,6 +170,9 @@
       /* background-color: red; */
     height: 150vh;
   }
+  .ichatithan{
+  z-index: 1000;
+}
  }
   @media (min-width:410px) and (max-width:467px){
   
@@ -179,6 +188,9 @@
    
   
    }
+   .ichatithan{
+  z-index: 1000;
+}
     .footer-section{
       /* background-color: red; */
     height: 145vh;
@@ -193,6 +205,9 @@
       /* background-color: red; */
     height: 160vh;
   }
+  .ichatithan{
+  z-index: 1000;
+}
   
    .phrase01 {
      bottom: -59vh;
