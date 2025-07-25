@@ -215,7 +215,8 @@
         /* margin-bottom: 2rem; */
         display: flex;
         align-items: center;
-        height: 20vh;
+        height: 18vh;
+        scale: 0.3;
 
     }
 

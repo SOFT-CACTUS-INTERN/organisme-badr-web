@@ -118,6 +118,19 @@ function Presedent() {
                             <img src={social} alt="social" />
                             <img src={social} alt="social" />
                             <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
+                            <img src={social} alt="social" />
                         </div>
                     </div>
 
