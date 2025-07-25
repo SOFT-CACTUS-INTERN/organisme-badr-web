@@ -6,49 +6,9 @@ import activiteGraph30 from '../assets/svgs/graph30.svg';
 import test from '../assets/svgs/test1.svg'
 import graph41 from'../assets/svgs/graph41.svg'
 import { useNavigate } from 'react-router-dom';
+import Principal from './Principal';
 import { moreNavigate, donateNavigate, contactNavigate } from './utils';
-const ActiviteCard = ({ imageSrc, title, location, description, categorie,onClickCard }) => {
-
-const navigate= useNavigate()
- ;
-  return (
-    <div className="activite"onClick={onClickCard}>
-      <div className="image-div">
-        <button className="btn-activite">
-          {categorie}
-          <div className="out"></div>
-        </button>
-        {/* <img className="activite-pecture" src={imageSrc} alt="Activité" /> */}
-
-      <div
-  className="activite-pecture"
-  style={{
-    backgroundImage: `url(${imageSrc})`
-   
-  }}
-></div>
-
-      </div>
-      <div className="activite-content">
-        <h2>{title}</h2>
-        <h4>{location}</h4>
-        <p>{description}</p>
-        <div className="btn-groupe">
-        <button className="left-btn" onClick={(e) => { e.stopPropagation(); contactNavigate(navigate); }}>
-
-            <img className="activite-graph24" src={activiteGraph14} alt="Icon" />
-            تواصل معنا
-          </button>
-         <button className="right-btn" onClick={(e) => { e.stopPropagation(); moreNavigate(navigate); }}>
-
-          
-            للتعرف على المزيد
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-};
+import ActiviteCard from './ActiviteCard';
 
 const Activities = () => {
   const [currentIndex, setCurrentIndex] = useState(0); 
@@ -103,7 +63,7 @@ const Activities = () => {
     <section className="activities-section">
 
       <img  className='activite-graph30'src={activiteGraph30 }t="" />
-      <div className="activite-title">
+      {/* <div className="activite-title">
         <img className="activite-graph7" src={activiteGraph7} alt="Decoration" />
         <div className="activite-name">
           <h1>
@@ -111,7 +71,8 @@ const Activities = () => {
           </h1>
           <hr />
         </div>
-      </div>
+      </div> */}
+      <Principal heading="فعاليات" mini_heading="منظمة البدر" />
 
       <div className="activite-p">
         <p>

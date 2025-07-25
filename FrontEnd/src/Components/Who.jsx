@@ -6,7 +6,8 @@ import ligne from '../assets/svg/ligne.svg';
 import dal from '../assets/svg/dal.svg';
 import { useNavigate } from 'react-router-dom';
 import '../assets/styles/who.css'
-import whoGraph7 from '../assets/svgs/graph7.svg';
+
+import Principal from './Principal';
 
 
 
@@ -71,7 +72,7 @@ function Who() {
                                 />
                             </div>
                         </div> */}
-                        <div className="activite-title Who-titre">
+                        {/* <div className="activite-title Who-titre">
                             <img className="activite-graph7" src={whoGraph7} alt="Decoration" />
                             <div className="activite-name ">
                                 <h1>
@@ -79,7 +80,8 @@ function Who() {
                                 </h1>
                                 <hr />
                             </div>
-                        </div>
+                        </div> */}
+                        <Principal heading="من" mini_heading="نحن" />
                         <div className='flex flex-col w-full z-10 '>
                             <div className='test flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
                                 <h2 className='text-black dark:text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>

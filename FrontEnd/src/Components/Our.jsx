@@ -6,6 +6,7 @@ import graph29 from '../assets/svgs/graph29.svg';
 import graph30 from '../assets/svgs/graph30.svg';
 import { useNavigate } from 'react-router-dom';
 import { moreNavigate } from './utils';
+import Principal  from './Principal';
 
 function Our() {
   const navigate = useNavigate();
@@ -24,14 +25,9 @@ function Our() {
     <section className='our-section'>
       <img className="graph29" src={graph29} alt="illustration" />
       <img className="graph30" src={graph30} alt="illustration" />
-
-      <div className='our-title'>
-        <img className="our-graph7" src={graph7} alt="icon" />
-        <div className='our-name'>
-          <h1>رعايتنا <span>تضم</span></h1>
-          <hr className='our-hr' />
-        </div>
-      </div>
+ 
+ <Principal heading="رعايتنا" mini_heading="تضم" />
+     
 
       <div className='div-p'>
         <p className='our-p'>

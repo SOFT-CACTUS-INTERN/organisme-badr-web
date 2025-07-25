@@ -506,9 +506,7 @@ padding:1rem;
 
 @media(max-width:540px){
 
-  .story-section{
-        gap:2.5rem;
-    }
+  
     .story-content{
         display:flex;
         flex-direction: column-reverse;
@@ -596,6 +594,15 @@ min-height:28rem;
 
 @media( max-width:480px){
   
+ .story-section{
+    
+    height:auto;
+    padding-bottom: 0rem;
+  
+    width:100%;
+ }
+
+
 
     .graph8 {
         max-width: 60%;

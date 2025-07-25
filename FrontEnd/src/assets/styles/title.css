@@ -29,6 +29,8 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0;
   text-align: center;
   text-transform: capitalize;
+  position:relative;
+  z-index: 20;
 
 
  
@@ -46,6 +48,9 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0;
   text-align: center;
   text-transform: capitalize;
+  position:relative;
+  z-index: 200;
+ 
 }
 
 
@@ -64,6 +69,9 @@ h1, h2, h3, h4, h5, h6, p {
   height: 5px;
   max-width: 300px;
   background: linear-gradient(90deg, #FFFFFF 0%, #FFD000 100%);
+    position:relative;
+  z-index: 20;
+
 }
 
 .lg-right {
@@ -96,6 +104,19 @@ h1, h2, h3, h4, h5, h6, p {
   
 }
 @media(max-width :480px){
+  .titre-lg h3{
+   
+    position:relative;
+    z-index: 200;
+   
+  }
+  .trop-titre h2{
+    position:relative;
+    z-index: 200;
+   
+   z-index: 200;
+  
+  }
   
 
 

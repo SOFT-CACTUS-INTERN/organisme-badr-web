@@ -108,11 +108,16 @@ box-shadow: 0px 0px 167.11px 0px #12121214;
   border-radius: 4px;
   font-size: 1rem;
   text-align: right;
+  color: #575757;
+
+ 
 }
 
 .formule textarea {
   min-height: 100px;
   resize: vertical;
+  color: #575757;
+
 }
 
 .send {
@@ -519,6 +524,7 @@ width:80%;
     margin-top:2rem;
     width:100%;
     max-width:100vh;
+ 
   }
     .form-pect{
         display:flex;
@@ -526,7 +532,7 @@ width:80%;
         align-items: center;
         flex-direction: column;
         width:100%;
-        gap:0rem;
+        gap:1rem;
         padding:0rem;
         
     }
@@ -551,6 +557,7 @@ width:80%;
   .formule{
     width:100%;
    padding:0rem;
+  
 
  
    
