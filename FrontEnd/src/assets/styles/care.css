@@ -346,6 +346,11 @@ z-index: 100;
   flex-direction: column;
   gap: 1rem;
 }
+.care-section{
+  /* background-color: pink; */
+  overflow-y: hidden;
+  margin-top: 4rem;
+}
 
 @media(min-width:2560px){
 
@@ -353,6 +358,9 @@ z-index: 100;
     /* background-color:pink; */
     height:auto;
     width:100%;
+    margin-top: 3rem;
+  
+  
   }
   .cares{
     /* background-color: darkgoldenrod; */
@@ -385,10 +393,7 @@ z-index: 100;
 
 
 }
-.care-name .graph{
-  /* background-color: darkcyan; */
-  width:9%
-}
+
 .care-content h3{
   width:200%;
 
@@ -417,25 +422,48 @@ z-index: 100;
  /* background-color: saddlebrown; */
 
 }
+.care-content p{
+font-size: 1.6rem;
+}
+.care-content h3{
+  font-size: 2.5rem;
+
+}
+.care-content h2 {
+font-size: 3rem;
+}
 
 .image {
   width: 50%;
   /* background-color: red; */
 }
 .graph{
-  width:-80%;
-  background-color: darkblue;
+  width: 20%;
+  height: auto;
+ 
 }
 
-
-
+.name-ligne{
+  gap:1.5rem
+}
+.name-ligne hr{
+  width: 100%;
+  height: 0.3rem;
 
 
 }
+.care-name{
+  gap:1.5rem
+}
+.care-name .graph{
+  max-width: none;
+  width:6%
+}}
 
 @media(max-width:1024px){
 
   .care-section{
+    overflow-y:5rem;
  
   }
   .cares{
@@ -728,6 +756,8 @@ top:32%
         gap:0.8rem;
         /* padding:2rem; */
         width:100%;
+        margin-top:1rem;
+        overflow-y: hidden;
       
         
          

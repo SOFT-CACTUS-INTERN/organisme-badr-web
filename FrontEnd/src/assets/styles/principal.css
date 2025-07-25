@@ -44,6 +44,7 @@ z-index: 10;
     margin: 5px 0;
 }
 .principal-graph7{
+    
 
 }
 
@@ -72,4 +73,7 @@ border-radius: 158.74px;
     display:flex;
     flex-direction: row;
   }
+ .principal-graph7{
+    width:11%
+ }
 }

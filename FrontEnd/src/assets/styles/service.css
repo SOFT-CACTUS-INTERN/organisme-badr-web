@@ -25,6 +25,8 @@ z-index: 10;
 
   width:20%;
   min-height:50vh;
+  /* background-color: pink; */
+  margin-top: 3rem;
 
 }
 .service{

@@ -1,55 +1,53 @@
-import React, { useRef } from 'react';
-import '../assets/styles/activite-slider.css';
-import graph7 from '../assets/svgs/graph7.svg';
-import graph28 from '../assets/svgs/graph28.svg';
-import graph29 from '../assets/svgs/graph29.svg';
+import React, { useState, useEffect } from 'react';
+import '../assets/styles/activite.css';
 
-const activities = [
+import activiteGraph7 from '../assets/svgs/graph7.svg';
+import activiteGraph14 from '../assets/svgs/graph14.svg';
+import activiteGraph30 from '../assets/svgs/graph30.svg';
+
+const activiteData = [
   {
-    id: 1,
-    title: 'المرأة',
-    text: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.',
-    image: graph28
+    title: 'Activité 1',
+    description: 'Description de l\'activité 1',
+    image: activiteGraph7
   },
   {
-    id: 2,
-    title: 'الطفل',
-    text: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.',
-    image: graph29
+    title: 'Activité 2',
+    description: 'Description de l\'activité 2',
+    image: activiteGraph14
   },
   {
-    id: 3,
-    title: 'ذوي الإعاقة',
-    text: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة.',
-    image: graph7
+    title: 'Activité 3',
+    description: 'Description de l\'activité 3',
+    image: activiteGraph30
   }
 ];
 
-const ActiviteSlider = () => {
-  const containerRef = useRef(null);
+const Test = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const scrollToIndex = (index) => {
-    const container = containerRef.current;
-    const cardWidth = container.offsetWidth;
-    container.scrollTo({
-      left: index * cardWidth,
-      behavior: 'smooth',
-    });
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === activiteData.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 4000); // 4s
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const currentActivite = activiteData[currentIndex];
 
   return (
-    <section className="activite-slider">
-      <div className="slider-container" ref={containerRef}>
-        {activities.map((act, index) => (
-          <div key={act.id} className="card" onClick={() => scrollToIndex(index)}>
-            <img src={act.image} alt="activité" />
-            <h2>{act.title}</h2>
-            <p>{act.text}</p>
-          </div>
-        ))}
+    <div className="activite-container">
+      <h2 className="activite-title">Nos Activités</h2>
+      <div className="activite-card">
+        <img src={currentActivite.image} alt={currentActivite.title} />
+        <h3>{currentActivite.title}</h3>
+        <p>{currentActivite.description}</p>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default ActiviteSlider;
+export default  Test;

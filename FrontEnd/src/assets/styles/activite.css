@@ -39,6 +39,7 @@ body {
 
 }
 
+
 .activite-graph30 {
   position: absolute;
   z-index: 2;
@@ -228,6 +229,11 @@ body {
   width: 100%;
   /* background-color: aqua; */
   direction: rtl
+}
+
+.activite-groupe {
+  cursor: grab;
+  user-select: none;
 }
 
 .left-btn {

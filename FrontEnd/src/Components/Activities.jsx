@@ -1,4 +1,5 @@
-import React, { useState } from 'react'; // ← N’oublie pas d’importer useState !
+import React, { useState, useRef } from 'react';
+// ← N’oublie pas d’importer useState !
 import '../assets/styles/activite.css';
 import activiteGraph7 from '../assets/svgs/graph7.svg';
 import activiteGraph14 from '../assets/svgs/graph14.svg';
@@ -11,6 +12,9 @@ import { moreNavigate, donateNavigate, contactNavigate } from './utils';
 import ActiviteCard from './ActiviteCard';
 
 const Activities = () => {
+  const startXRef = useRef(null);
+const endXRef = useRef(null);
+
   const [currentIndex, setCurrentIndex] = useState(0); 
 
    const activiteData = [

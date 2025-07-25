@@ -5,7 +5,11 @@ import { moreNavigate, contactNavigate } from './utils';
 
 const ActiviteCard = ({ imageSrc, title, location, description, categorie, onClickCard }) => {
   const navigate = useNavigate();
-
+//  const  activite=document.querySelector('.activite');
+//  activite.addEventListener('mousedown', e => {
+//  alert("hello");
+  
+// });
   return (
     <div className="activite" onClick={onClickCard}>
       <div className="image-div">

@@ -9,6 +9,7 @@ import col from '../assets/svg/col.svg';
 import presedant from '../assets/svg/presedant.svg';
 import Title from './Title'
 import social from '../assets/svg/social.svg';
+import Principal from './Principal';
 
 
 
@@ -54,25 +55,10 @@ function Presedent() {
         <div className='contenu1 w-full min-h-[50vh] lg:min-h-screen lg:w-full px-4 lg:px-0'>
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
+            
 
-            <div className='activite-title titlePresedant'>
-              {/* Bloc Titre + ligne */}
-              <img
-                src={fleche2}
-                alt='fleche2'
-                className=''
-              />
-              <div className='activite-name  ' >
-                <h1 className=''>
-                  رئيسة <span className=''>المنظمة</span>
-                </h1>
-
-                {/* Ligne */}
-               <hr/>
-              </div>
-
-              {/* Flèche */}
-            </div>
+           <Principal heading="رئيسة " mini_heading=" المنظمة" />
+            
 
 
 

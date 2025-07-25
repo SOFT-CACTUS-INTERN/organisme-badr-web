@@ -17,7 +17,7 @@ function About({ isMobileMenuOpen }) {
             <We />
 
             <Nous />
-          
+           
             <Story />
 
             <Donate />

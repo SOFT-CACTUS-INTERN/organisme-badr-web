@@ -4,6 +4,7 @@ import Who from './Who';
 import Services from './Services';
 import Our from './Our';
 import Activities from './Activities';
+
 import Donate from './Donate';
 import ScrollToTopButton from './ScrollToTopButton';
 
@@ -16,6 +17,7 @@ const Home = ({ isMobileMenuOpen }) => {
         <Services />
         <Our />
         <Activities />
+      
         <Donate />
         {!isMobileMenuOpen && <ScrollToTopButton />}
       </div>
