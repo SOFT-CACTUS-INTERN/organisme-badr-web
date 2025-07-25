@@ -32,6 +32,7 @@
   flex-direction: row-reverse;
   gap:1rem;
   color:#FFC300;
+   color: #38B000;
   
   font-weight: 500;
 font-size: clamp(2.5rem, 3vw, 3.6rem);
@@ -51,7 +52,8 @@ z-index: 10;
 
 
 .principal-name span{
-  color: #38B000;
+ 
+  color:#FFC300;
 }
 .principal-hr{
    background: linear-gradient(180deg, #38B000 0%, #FFC400 107.1%);

@@ -76,7 +76,7 @@ const endXRef = useRef(null);
           <hr />
         </div>
       </div> */}
-      <Principal heading="فعاليات" mini_heading="منظمة البدر" />
+      <Principal heading=" منظمة البدر" mini_heading=" فعاليات" />
 
       <div className="activite-p">
         <p>

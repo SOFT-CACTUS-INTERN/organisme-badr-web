@@ -29,7 +29,7 @@ const Story = () => {
 
         </div> */}
        
-        <Principal heading="قصتنا" mini_heading="و تاريخنا" />
+        <Principal heading=" و تاريخنا" mini_heading=" قصـتـنـا " />
        
         <div className='story-content'>
 

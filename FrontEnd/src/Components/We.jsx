@@ -38,7 +38,7 @@ const We = () => {
            <img src={graph5} alt="" />
 
 </div> */}
-<Principal heading="من نحن" mini_heading="و ما نؤمن به" />
+<Principal heading="  و ما نؤمن به" mini_heading="من نحن " />
        
 <div className='we-content'>
   <div className='we-image'>

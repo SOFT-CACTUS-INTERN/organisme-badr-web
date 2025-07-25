@@ -223,7 +223,10 @@ button {
 }
 
 
-
+.donate-wrapper{
+ 
+  margin-top: 0rem;
+}
 
 @media(min-width:2560px){
 
@@ -332,6 +335,7 @@ gap:5000rem;
   .donate-wrapper{
     /* background-color: #515151; */
     margin-top: 0rem;
+
   
   }
   

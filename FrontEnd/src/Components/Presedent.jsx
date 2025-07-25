@@ -57,8 +57,7 @@ function Presedent() {
           <div className=' flex flex-col gap-2 sm:gap-3'>
             
 
-           <Principal heading="رئيسة " mini_heading=" المنظمة" />
-            
+           <Principal heading="المنظمة " mini_heading="  رئيسة " />
 
 
 

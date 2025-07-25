@@ -22,6 +22,7 @@ width: 100%;
     flex-direction: column;
     gap:2rem;
     padding:1rem;
+    overflow: hidden;
    
    
    
@@ -72,6 +73,8 @@ line-height: 1.7rem;
   color: #38B000;
   width: 156px;
   height: 28px;
+  direction: ltr;
+
 
 }
 .care-title h1{
@@ -212,6 +215,7 @@ flex-direction: row-reverse;
   text-align: right;
 
   color: black; 
+
   z-index: 10;
 
 
@@ -348,9 +352,13 @@ z-index: 100;
 }
 .care-section{
   /* background-color: pink; */
-  overflow-y: hidden;
+
   margin-top: 4rem;
 }
+.care-content h3{
+   direction: ltr;
+}
+
 
 @media(min-width:2560px){
 
@@ -359,6 +367,7 @@ z-index: 100;
     height:auto;
     width:100%;
     margin-top: 3rem;
+
   
   
   }
@@ -415,6 +424,7 @@ z-index: 100;
  display:flex;
  justify-content: center;
  align-items: center;
+ 
 
 
 
@@ -885,6 +895,9 @@ top:32%
       width:15%;
       
     }
+    .care-content h3{
+   direction: ltr;
+}
     
     
 }

@@ -15,7 +15,7 @@ export default function MainLayout({ children }) {
       <main className="flex-grow">
         {React.cloneElement(children, { isMobileMenuOpen })}
       </main>
-      <Footer />
+     <Footer className=" mt-0" />
     </div>
   );
 }

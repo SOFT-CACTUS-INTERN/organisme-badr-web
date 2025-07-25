@@ -26,7 +26,7 @@ function Our() {
       <img className="graph29" src={graph29} alt="illustration" />
       <img className="graph30" src={graph30} alt="illustration" />
  
- <Principal heading="رعايتنا" mini_heading="تضم" />
+ <Principal heading="تضم" mini_heading="رعايتنا" />
      
 
       <div className='div-p'>
