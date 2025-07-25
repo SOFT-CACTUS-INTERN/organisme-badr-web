@@ -43,6 +43,7 @@
    }
   .footer-section{
       /* background-color: red; */
+      margin-top: -30vh;
     height: 159vh;
   }
   .formMobile{
