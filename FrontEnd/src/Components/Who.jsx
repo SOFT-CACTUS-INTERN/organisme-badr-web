@@ -14,7 +14,7 @@ function Who() {
     const navigate = useNavigate();
 
     return (
-        <section className='who-section relative  w-full min-h-screen z-20 bg-[#FCFAF8] '  >
+        <section className='who-section relative  w-full min-h-screen z-20 bg-[#FCFAF8] overflow-hidden'  >
             <img src={background} alt="" className=' absolute -left-[20%] 2xl:w-[100%] 2xl:-left-[40%]' />
             <div className='z-10'>
 
@@ -36,17 +36,7 @@ function Who() {
                         <div className="slider-track " >
                             <img src={social} alt="social" />
                             <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
+                           
                         </div>
                     </div>
 

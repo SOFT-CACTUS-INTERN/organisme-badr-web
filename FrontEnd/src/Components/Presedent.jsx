@@ -132,20 +132,7 @@ function Presedent() {
                         <div className="slider-track " >
                             <img src={social} alt="social" />
                             <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
-                            <img src={social} alt="social" />
+                           
                         </div>
                     </div>
 
