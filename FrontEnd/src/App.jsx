@@ -67,6 +67,14 @@ function App() {
     </MainLayout>
   }
 />
+  <Route
+          path="/Achievements"
+          element={
+             <MainLayout>
+              <Support />
+            </MainLayout>
+          }
+        />
 
       
       </Routes>
