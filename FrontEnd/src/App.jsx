@@ -17,6 +17,7 @@ import Support from './Components/Support'
 import Nous from './Components/Nous';
 import Contact from './Components/Contact'
 import Donation from './Components/Donation'
+import Achievements from './Components/Achievements';
 
 
 
@@ -71,7 +72,7 @@ function App() {
           path="/Achievements"
           element={
              <MainLayout>
-              <Support />
+              <Achievements />
             </MainLayout>
           }
         />

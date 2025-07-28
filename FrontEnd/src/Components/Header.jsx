@@ -236,7 +236,7 @@ const cancelMenu = () => {
               <NavLink to="/About" className="nav-link">
                 المنضمة
               </NavLink>
-              <NavLink to="/Achevement" className="nav-link">
+              <NavLink to="/Achievements" className="nav-link">
                 إنجازاتنا
               </NavLink>
             </nav>
@@ -304,7 +304,7 @@ const cancelMenu = () => {
                 onClick={cancelMenu} >
                 المنضمة
               </NavLink>
-              <NavLink to="/Achevement" className={({ isActive }) =>
+              <NavLink to="/Achievements" className={({ isActive }) =>
                 isActive ? "mobile-nav-link active" : "mobile-nav-link"
               }
                 onClick={cancelMenu}

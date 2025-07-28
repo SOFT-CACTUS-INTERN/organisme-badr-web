@@ -6,11 +6,11 @@ import IntroAchev from "./IntroAchev";
 
 
 
-const Achievements = () => {
+const Achievements = ({isMobileMenuOpen}) => {
     return ( 
         
 
-          <div className="flex flex-col gap-0 overflow-x-hidden bg-[#FCFAF8]  dark:bg-white dark:text-black ">
+          <div className="flex flex-col gap-0 overflow bg-[#FCFAF8]  dark:bg-white dark:text-black ">
   <IntroAchev/>         
  <Foundation/>
  <History/>
