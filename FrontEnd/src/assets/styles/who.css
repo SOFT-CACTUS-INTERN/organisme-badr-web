@@ -377,5 +377,11 @@
         /* width: 100%; */
         margin-left: 12vh;
     }
+
+    .titreWhoo{
+        margin-left:10rem;
+        /* background-color: red; */
+        width: 100%;
+    }
   
 }

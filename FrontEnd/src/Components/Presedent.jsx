@@ -43,8 +43,10 @@ function Presedent() {
           {/* Title section with arrow */}
           <div className=' flex flex-col gap-2 sm:gap-3'>
             
+<div className='titre'>
 
            <Principal heading="المنظمة " mini_heading="  رئيسة " />
+</div>
 
 
 
