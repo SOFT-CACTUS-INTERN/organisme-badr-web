@@ -57,7 +57,10 @@ function Who() {
                                 <hr />
                             </div>
                         </div> */}
+                        <div className='titreWhoo'>
+
                         <Principal heading=" نحن" mini_heading="من" />
+                        </div>
                         <div className='flex flex-col w-full z-10 '>
                             <div className='test flex lg:justify-end sm:justify-end justify-end md:justify-end w-full'>
                                 <h2 className='text-black dark:text-black font-bold  text-right text-4xl' style={{ padding: '2rem' }}>تعرف علينا - لمحة عنا </h2>

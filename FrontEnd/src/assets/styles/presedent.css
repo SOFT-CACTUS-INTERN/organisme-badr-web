@@ -27,6 +27,18 @@
     padding: 2rem;
     /* margin-left: 16rem; */
   }
+    .titre{
+    width:90%;
+    display: flex;
+    text-align: end;
+    font-size: small;
+    justify-content: end;
+    flex-direction: row;
+    /* background-color: red; */
+    margin-left: 6rem;
+      
+
+  }
 @media (max-width:468px){
   .presedant{
     width: 100%;
@@ -52,7 +64,9 @@
     text-align: end;
     font-size: small;
     justify-content: end;
-      flex-direction: row;
+    flex-direction: row;
+    /* background-color: red; */
+    margin-left: 2rem;
       
 
   }
@@ -62,6 +76,7 @@
     justify-content: start;
     margin-top: 10px;
     margin-bottom: 10px;
+    /* background-color: blue; */
   }
   .paragraphe1{
     display: flex;
@@ -76,6 +91,8 @@
   .titre3{
     display: flex;
     justify-content: start;
+    /* background-color: red; */
+
   }
   .phrase0{
     margin-top: 10px;
@@ -108,6 +125,18 @@
     text-align: right;
     margin-top: 20vh;
    
+  }
+    .titre{
+    width:90%;
+    display: flex;
+    text-align: end;
+    font-size: small;
+    justify-content: end;
+    flex-direction: row;
+    /* background-color: red; */
+    margin-left: 20rem;
+      
+
   }
 
    .secondTitre{
