@@ -149,7 +149,7 @@ transform: translateY(-100.5%);
  
  
 
-  font-size: clamp(1.125rem, 1.5vw + 0.75rem, 1.6rem); /* 18px à 24px */
+  font-size: clamp(1.125rem, 1.5vw + 0.75rem, 1.8rem); /* 18px à 24px */
   line-height: 1.42; /* 142% */
   letter-spacing: 0;
  
@@ -165,7 +165,7 @@ transform: translateY(-100.5%);
 
   direction: rtl;
   
-  /* background-color: #FFAA00; */
+
 }
 
 .btn-group {
@@ -231,25 +231,26 @@ button {
 @media(min-width:2560px){
 
   .donate-wrapper{
-    /* background-color: antiquewhite; */
+  
   }
+  
  .donate-card{
  max-width: 40vw;
  }
   .graphic-box{
-    /* background-color: darkblue; */
+  
     
     align-items: end;
 top:0.6rem;
   }
   
   .title-line{
-    /* background-color: darkblue; */
+ 
     display:flex;
     width:100%;
     padding:0rem; display: flex;
   justify-content: flex-end; 
-  align-items: right;     /* Alignement en bas */
+  align-items: right;     
   flex-direction: row-reverse;
   height: 50%;
   width: 60%;
@@ -263,14 +264,7 @@ gap:5000rem;
 
   min-height: 90vh;
   }
-  .title-line svg{
-    /* background-color: darkcyan; */
-  }
-  .content-box{
-    /* background-color: darkcyan; */
-
-    
-  }
+  
   
   .content-box{
     /* background-color: darkcyan; */
@@ -282,7 +276,7 @@ gap:5000rem;
     gap:2rem;
   }
   .content-box p{
-    /* background-color: fuchsia; */
+   
   width:100%;
 
  
@@ -290,23 +284,25 @@ gap:5000rem;
 
   }
   .title-line{
-    /* background-color: red; */
+  
     width:70%;
    
   }
   .title-line h3{
-    /* background-color: darkgreen; */
+  
     font-size: 2.7rem;
-    /* background-color: red; */
+   
   }
   .content-box p{
-    /* background-color: darkmagenta; */
+   
    
   
     max-width:25vw;
     line-height: 1.6;
-   font-size:1.7rem;
+   font-size:2rem;
+
    /* background-color: darkblue; */
+   
    
     
   }
@@ -315,25 +311,24 @@ gap:5000rem;
     font-size: 1.3rem;
   }
   .btn-outline{
-    /* background-color: #00D800; */
+    
     width:10vw;
   }
   .btn-solid{
 
-    /* background-color: #515151; */
+   
     width:10vw;
    font-size: 1.6rem;
   }
   .graphic-box{
 
-    /* background-color: fuchsia; */
     top:2.24rem;
     background-color: none;
 
 
   }
   .donate-wrapper{
-    /* background-color: #515151; */
+ 
     margin-top: 0rem;
 
   

@@ -280,6 +280,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    /* background-color: pink; */
+    padding-bottom: 0rem;
+  
 }
 .boys{
     top:18%;
@@ -688,11 +691,25 @@ min-height:28rem;
   width:100%;
     }
     .story-image{
-        /* background-color: #4A4A4A; */
+       
         display:flex;
         align-items: start;
         height:auto
     }
+    .story-section{
+       
+        padding-bottom: 1rem;
+        
+    }
+    .story-image{
+     
+       min-height:35vh;
+
+        
+       
+       
+    }
+
    
    
 }
