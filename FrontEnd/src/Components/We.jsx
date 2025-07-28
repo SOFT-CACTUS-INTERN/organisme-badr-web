@@ -16,7 +16,9 @@
       import we_graph21 from '../assets/svgs/cerclegraph.svg'
       import we_graph24 from '../assets/svgs/graph24.svg'
       import { contactNavigate } from './utils'
+      import Principal from './Principal'
 import { useNavigate } from 'react-router-dom'
+
       
   
 
@@ -27,7 +29,7 @@ const We = () => {
       
          <section className=" we-section">  
 
-<div className='title-svg'>
+{/* <div className='title-svg'>
 
  <div className='we-title'>
             <h1 className='we-title'>من نحن  <span>و ما نؤمن به</span></h1>
@@ -35,7 +37,9 @@ const We = () => {
             </div>
            <img src={graph5} alt="" />
 
-</div>
+</div> */}
+<Principal heading="  و ما نؤمن به" mini_heading="من نحن " />
+       
 <div className='we-content'>
   <div className='we-image'>
     <img   className="graph4"src={graph4} alt="" />

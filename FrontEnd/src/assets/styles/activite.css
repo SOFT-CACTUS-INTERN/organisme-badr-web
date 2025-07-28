@@ -39,6 +39,7 @@ body {
 
 }
 
+
 .activite-graph30 {
   position: absolute;
   z-index: 2;
@@ -228,6 +229,11 @@ body {
   width: 100%;
   /* background-color: aqua; */
   direction: rtl
+}
+
+.activite-groupe {
+  cursor: grab;
+  user-select: none;
 }
 
 .left-btn {
@@ -447,6 +453,8 @@ body {
   z-index: 50;
 }
 
+/* Scrollable Activities Style */
+
 
 
 @media(min-width:2560px) {
@@ -504,6 +512,21 @@ font-size: 1.8rem;
  
   
 }
+.activite-pecture{
+  /* background-color: pink; */
+  /* background-color: red; */
+}
+.activite-content{
+  /* background-color: red; */
+  align-items: right;
+  padding:0rem;
+  
+ 
+}
+.activite-section{
+  /* background-color: pink; */
+}
+
  
 
 
@@ -1157,18 +1180,26 @@ font-size: 1.8rem;
 
   }
 
-  .activite-groupe {
+  /* .activite-groupe {
    
     gap: 0.2rem;
-  }
-
+  } */
+   /* .next,.prev{
+    background-color: pink;
+    display:none
+   } */
  
+   .activite{
+    width:80%
+   }
+  
+  
 
   @media(min-height:700px) {
     .activite-groupe {
     
       padding: 0;
-      gap: 1rem;
+     
     }
 
     .image-div {

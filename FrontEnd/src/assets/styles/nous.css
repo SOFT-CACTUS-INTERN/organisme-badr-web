@@ -2,31 +2,53 @@
         /* background-color: red; */
         margin-top: 1.5vh;
     } 
+    @media (min-width:1024px){
+        
+        .numero{
+            scale: 0.70;
+            top: 5vh;
+        }
+    
+    }
     @media (max-width:468px){
     .nous-section{
         /* background-color: red; */
         margin-bottom: -35vh;
         /* margin-top: 80vh; */
+        width: 100%;
     }
     .nous-container {
         display: flex;
         flex-direction: column-reverse;
         /* background-color: aqua; */
-       
+       width: 130%;
+               margin-left: -10vh;
+             
+
     }
     .images{
         /* background-color: red;    */
-        /* width: 90%; */
+        width: 95%;
         top: 5vh;
    
     }
+      .nous-card{
+        /* background-color: blue; */
+        width: 120%;
+        /* padding: 10vh; */
+        /* left: -10vh; */
+    }
+    .numero{
+        top: 8vh;
+    }
     
 }
-@media (min-width:2560px){
+@media (min-width:2560px) and (min-width:1400px){
     .nous-section{
         /* background-color: red; */
         height: 70vh;
         /* padding: 4rem; */
+        margin-left: 20vh;
     }
     .nous-container {
         /* background-color: aqua; */
@@ -41,14 +63,16 @@
     }
     .images{
         /* background-color: red;    */
-        /* width: 90%; */
-        top: 5vh;
+        width: 40%;
+        top: 15vh;
+        height: 90vh;
    
     }
     .numero{
         /* background-color: blue; */
         /* left: 118vh; */
         top: 6vh;
+        scale: 1;
         /* left: 80vh; */
     }
     .nous-card{
@@ -59,7 +83,7 @@
     }
     .par01{
         font-size:x-large ;
-        padding: 2rem;
+        padding: 1rem;
     }
     .titre03{
         font-weight: bold;

@@ -7,6 +7,7 @@
  import graph11 from '../assets/svgs/graph11.svg'
  import graph12 from '../assets/svgs/graph12.svg'
  import graph13 from '../assets/svgs/graph13.svg'
+ import Principal from './Principal';
 //  import graph23 from '/../assets/svgs/graph23.svg'
 import story from '../assets/svgs/story.svg'
 
@@ -18,7 +19,7 @@ const Story = () => {
         <>
       <section className="story-section">
          <img  className="graph12"src={graph12} alt="" />
-        <div className='title-sv'>
+        {/* <div className='title-sv'>
             <img  className="graph7"src={graph7} alt="" />
            <div className='story-title'>
           
@@ -26,7 +27,9 @@ const Story = () => {
             <hr />
            </div>
 
-        </div>
+        </div> */}
+       
+        <Principal heading=" و تاريخنا" mini_heading=" قصـتـنـا " />
        
         <div className='story-content'>
 

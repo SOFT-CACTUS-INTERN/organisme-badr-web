@@ -14,23 +14,42 @@
  }
  .buttonFooter{
   border-radius: 1vh;
-  background-color: red;
+  /* background-color: red; */
 
  }
-
+ .footer-section {
+  height: 100vh; /* Hauteur réduite */
+  overflow: hidden; /* Cache ce qui dépasse */
+  gap: 10px; /* Espace entre les images (optionnel) */
+}
+ .phrase01{
+      /* background-color: red; */
+      margin-top: -10vh;
+    
+      font-weight: normal;
+     /* scale: 1.75; */
+    }
  .contact-info-bg {
    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 58.555%, rgba(255, 255, 255, 0) 100%);
  }
 
  /* styles.css */
- @media (max-width:468px) {
+ @media (max-width:468px)  {
    .footer-container {
      display: flex;
      flex-direction: column;
      /* background-color: aqua; */
-     height: 120vh;
+     height: 180vh;
    }
-  
+  .footer-section{
+      /* background-color: red; */
+      margin-top: -30vh;
+    height: 159vh;
+  }
+  .formMobile{
+    /* background-color: aqua; */
+    height: 75vh;
+  }
    .footer-section {
      /* overflow: hidden; */
      top: 30vh;
@@ -49,7 +68,7 @@
 
 
    }
-
+ 
    .form {
      margin-top: -30vh;
      z-index: 1000;
@@ -57,7 +76,7 @@
    }
 
    .phrase01 {
-     bottom: -15vh;
+     bottom: -58vh;
      display: flex;
      /* background-color: aqua; */
      justify-content: center;
@@ -65,7 +84,9 @@
      right: 0vh;
   
    }
-
+.ichatithan{
+  z-index: 1000;
+}
    .mobile {
      background-image: url('/organisme-badr-web/images/image1.jpg');
      background-repeat: no-repeat;
@@ -88,19 +109,139 @@
   
 
  }
- /* @media (max-width:375px){
-    .phrase01 {
-     bottom: -50vh;
+ @media (min-width:360px) and (max-width:374px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 50vh;
+  }
+   .phrase01 {
+     bottom: -40vh;
+     display: flex;
+     /* background-color: aqua; */
+     justify-content: center;
+   
+  
    }
- } */
+   .ichatithan{
+  z-index: 1000;
+}
+    .footer-section{
+      /* background-color: red; */
+    height: 150vh;
+  }
+ }
+ @media (min-width:375px) and (max-width:389px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 75vh;
+  }
+   .phrase01 {
+     bottom: -58vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+   .ichatithan{
+  z-index: 1000;
+}
+    .footer-section{
+      /* background-color: red; */
+    height: 160vh;
+  }
+ }
+  @media (min-width:390px) and (max-width:409px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 60vh;
+  }
+   .phrase01 {
+     bottom: -42vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+    .footer-section{
+      /* background-color: red; */
+    height: 150vh;
+  }
+  .ichatithan{
+  z-index: 1000;
+}
+ }
+  @media (min-width:410px) and (max-width:467px){
+  
+    .formMobile{
+    /* background-color: aqua; */
+    height: 60vh;
+  }
+   .phrase01 {
+     bottom: -42vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+   .ichatithan{
+  z-index: 1000;
+}
+    .footer-section{
+      /* background-color: red; */
+    height: 145vh;
+  }
+ }
+ @media (max-width:360px){
+   .formMobile{
+    /* background-color: aqua; */
+    height: 80vh;
+  }
+   .footer-section{
+      /* background-color: red; */
+    height: 160vh;
+  }
+  .ichatithan{
+  z-index: 1000;
+}
+  
+   .phrase01 {
+     bottom: -59vh;
+     display: flex;
+     background-color: aqua;
+     justify-content: center;
+   
+  
+   }
+ }
   @media (min-width:2560px) {
     .iconsFotter{
       scale: 1.5;
       /* background-color: aqua; */
       height: 25vh;
-    
+ 
 
 }
+.footer-section {
+  height: 80vh; /* Hauteur réduite */
+  overflow: hidden; 
+  gap: 10px; /* Espace entre les images (optionnel) */
+}
+
+
+/* .footer-section {
+  background-color: aquamarine;
+  height: 2vh;
+} */
+   .textInput{
+      /* background-color: red; */
+      font-size: x-large;
+    }
 .iconsnFotter{
 /* background-color: red; */
       scale: 1.15;

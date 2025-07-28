@@ -1,0 +1,19 @@
+.gallery {
+  padding: 1rem;
+  display: flex; /* flex pour ligne horizontale */
+  gap: 1rem;     /* espace entre les items */
+  overflow-x: auto;
+  flex-direction: row;
+  height: 90vh;
+  scroll-snap-type: x mandatory; /* snap horizontal */
+  scroll-padding: 1rem;
+  -webkit-overflow-scrolling: touch; /* smooth scroll sur mobile */
+}
+
+.activite {
+  scroll-snap-align: center;
+  flex: 0 0 80vw; /* largeur fixe 80% viewport */
+  border-radius: 3px;
+  font-size: 0;
+}
+

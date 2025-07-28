@@ -20,10 +20,16 @@
     display: flex;
     justify-content: center;
     left: 0vh;
+    right: 0vh;
+    /* align-items: center; */
   }
   .grandeSection{
 /* background-color: red; */
 width: 100%;
+ display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
 }
 
 
@@ -91,12 +97,24 @@ width: 100%;
   .phrase {
     width: 100%;
     /* right: 6px; */
-    left: -4vh;
+    left: -14vh;
 
 
   }
 }
-@media (min-width:2560px) and (min-height:1440px){
+@media (min-width:414px) and (max-width:467px){
+   .localSection {
+    /* background-color: aqua; */
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    left: 0vh;
+    right: 0vh;
+    /* align-items: center; */
+  }
+}
+@media (min-width:2560px) {
    .localSection {
     /* background-color: aqua; */
     width: 80%;
@@ -177,7 +195,7 @@ width: 100%;
     width: 100%;
     top: -18vh;
     /* right: 6px; */
-    left: -4vh;
+    left: 28vh;
 
 
   }

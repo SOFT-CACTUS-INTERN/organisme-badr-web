@@ -96,19 +96,19 @@ function Footer() {
              <div className='tvForm'>
 
               <input type="text" placeholder="الاسم الأول و الأخير" value={form.name}
-              onChange={e => setForm({ ...form, name: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
+              onChange={e => setForm({ ...form, name: e.target.value })} className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none " style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <input type="email" placeholder="البريد الإلكتروني"  value={form.email}
-              onChange={e => setForm({ ...form, email: e.target.value })}className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              onChange={e => setForm({ ...form, email: e.target.value })}className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <input type="tel" placeholder="رقم الهاتف" value={form.phone}
-              onChange={e => setForm({ ...form, phone: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
+              onChange={e => setForm({ ...form, phone: e.target.value })} className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }} />
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <textarea placeholder="رسالتك" value={form.message}
-              onChange={e => setForm({ ...form, message: e.target.value })} className="w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }}></textarea>
+              onChange={e => setForm({ ...form, message: e.target.value })} className="textInput w-full mr-16 text-right p-2 mb-1 border-none outline-none focus:border-none focus:outline-none" style={{ padding: '1rem' }}></textarea>
               <div className='w-full h-px bg-[#ADADAD]'></div>
 
               <div className='flex justify-center items-center' style={{ padding: '1rem' }}>
@@ -146,8 +146,8 @@ function Footer() {
             <div className='flex flex-col space-y-8 w-full'>        
                   {/* Mobile Contact Form */}
               <div className='form mx-4' style={{ padding: '1rem' }}>
-                <form className='bg-white rounded-2xl p-6 sm:p-8 '>
-                  <div className="flex items-center justify-center w-full mb-6">
+                <form className='formMobile bg-white rounded-2xl p-6 sm:p-8 '>
+                  <div className="ichatithan flex items-center justify-center w-full mb-6">
                     <div className="flex-1 h-1 bg-gradient-to-r from-white to-[#FFD000] mx-4"></div>
                     <h2 className="font-bold text-xl sm:text-2xl text-[#38B000] whitespace-nowrap" style={{padding:'2rem'}}>تواصل معنا</h2>
                     <div className="flex-1 h-1 bg-gradient-to-r from-[#FFD000] to-white mx-4"></div>
@@ -191,10 +191,10 @@ function Footer() {
                     </div>
                   </div>
 
-                  <div className=' flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
+                  <div className='buttonFooter flex justify-center items-center mt-6' style={{ padding: '1rem' }}>
                     <button
                       type="submit"
-                      className="buttonFooter w-3/4 !bg-[#38B000] text-white  py-3 px-6  text-lg  flex justify-center " style={{ padding: '0.25rem' }}
+                      className=" w-3/4 !bg-[#38B000] text-white  py-3 px-6  text-lg  flex justify-center " style={{ padding: '0.25rem' }}
                     >
                       إرسال
                     </button>
