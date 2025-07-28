@@ -41,11 +41,11 @@
 
 .slider-track {
     /* background-color: aqua;  */
-    margin-top: 3rem;
+    margin-top: 3.3rem;
     display: flex;
     align-items: center;
     width: 100%;
-    scale: 0.65;
+    scale: 0.85;
     gap: 20vh;
     height: 12vh;
 }
