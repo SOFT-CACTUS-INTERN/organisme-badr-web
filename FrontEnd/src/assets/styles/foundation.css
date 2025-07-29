@@ -1,0 +1,132 @@
+.foundation-section{
+    background-color: red;
+    height:auto;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    position:relative
+
+}
+.foundation-div{
+    background-color: blueviolet;
+    width:80%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.foundation-images{
+    background-color: green;
+    width:50%;
+   
+    display:flex;
+    justify-content: right;
+    align-items: start;
+    position:relative;
+    
+    min-height: 55vh;
+    
+}
+.membre{
+   position:relative; 
+   width:40%;
+  
+}
+.mini{
+   
+    position:absolute;
+   bottom: 0rem;
+   left:40%;
+   width:40%;
+}
+
+.foundation-content{
+    background-color: pink;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width:50%;
+    position:relative;
+    gap:1rem
+
+}
+.foundation-button{
+    width:100%;
+    background-color: palevioletred;
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    position:relative;
+
+}
+.foundation-content p{
+    width:100%;
+    background-color: blueviolet;
+    position:relative;
+}
+.foundation-graph6{
+    width:100%;
+    background-color: darkblue;
+    display:flex;
+    justify-content: right;
+    align-items: right;
+}
+.foundation-content h2{
+    text-align: right;
+   
+    width:100%;
+    color: #000000;
+     font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: clamp(1.75rem, 2.5vw + 1rem, 2rem); 
+  line-height: clamp(2rem, 2.5vw + 1rem, 3.125rem); 
+  letter-spacing: -0.017em; 
+  text-align: right;
+  text-transform: capitalize;
+    direction: rtl;
+
+}
+.foundation-content p{
+  color: #4A4A4A;
+  font-family: 'Neo Sans Arabic', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1rem, 0.8rem + 0.5vw, 1.125rem);
+  line-height: clamp(1.75rem, 1.5rem + 1vw, 2rem);
+  letter-spacing: 0;
+  text-align: justify;
+    direction: rtl;
+
+}
+.highlight-year {
+  font-family: 'Neo Sans Arabic', sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(1rem, 0.8rem + 0.5vw, 1.125rem);
+  line-height: clamp(1.75rem, 1.5rem + 1vw, 2rem);
+  letter-spacing: 0;
+  text-align: justify;
+    direction: rtl;
+
+}
+.foundation-button button{
+    background: linear-gradient(90deg, #007200 0%, #00D800 100%);
+  width:34%;
+border-radius: 12px;
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 8vh;
+color: #FFFFFF;
+
+
+
+
+}
+
