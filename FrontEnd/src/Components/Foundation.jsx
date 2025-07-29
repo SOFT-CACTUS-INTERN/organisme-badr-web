@@ -7,6 +7,7 @@ import graph42 from '../assets/svgs/graph42.svg';
 import foundation_graph6 from '../assets/svgs/graph6.svg'
 import graph43 from '../assets/svgs/graph43.svg';
 import { useState } from 'react';
+import graph44 from '../assets/svgs/graph44.svg'
 
 
 const Foundation = () => {
@@ -14,9 +15,10 @@ const Foundation = () => {
        <section className="foundation-section ">
         <div className='foundation-div'>
  <div className="foundation-images">
-    <img src={graph42} alt="graph42" className='graph42' />
+    {/* <img src={graph42} alt="graph42" className='graph42' />
     <img src={membre} alt="membre"  className='membre'/>
-    <img src={mini} alt="mini" className='mini' />
+    <img src={mini} alt="mini" className='mini' /> */}
+    <img src={graph44} alt="graph44" />
 
  </div>
  <div className="foundation-content">
