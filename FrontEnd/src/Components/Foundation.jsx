@@ -5,6 +5,8 @@ import mini from '../assets/svgs/mini.svg';
 import '../assets/styles/foundation.css'; 
 import graph42 from '../assets/svgs/graph42.svg';
 import foundation_graph6 from '../assets/svgs/graph6.svg'
+import graph43 from '../assets/svgs/graph43.svg';
+import { useState } from 'react';
 
 
 const Foundation = () => {
@@ -18,6 +20,7 @@ const Foundation = () => {
 
  </div>
  <div className="foundation-content">
+    <img  className='graph43' src={graph43} alt="graph43" />
     <div className='foundation-graph6'>
     <img  src={foundation_graph6} alt="foundation-graph6" />
    </div>
