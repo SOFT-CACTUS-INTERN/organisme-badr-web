@@ -1,0 +1,56 @@
+.history-section{
+
+
+
+    background-color:green;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:auto;
+    flex-direction: column;
+}
+
+.history-title {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem; 
+}
+.graph45 {
+    width: 40px;
+    height: auto;
+}
+.graph45.left {
+  background: none;
+    transform: rotate(180deg); 
+}
+.history-title h1 {
+  color: #007200;
+   font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size: clamp(1.8rem, 2.5vw + 1rem, 2.2rem); 
+  line-height: 1.4; 
+  letter-spacing: -0.017em; 
+  text-align: right;
+  text-transform: capitalize;
+ 
+}
+.history-title .quote{
+color: #FFB700;
+
+ font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size: clamp(2rem, 2.5vw + 1rem, 2.1875rem); 
+  line-height: 3.125rem;
+  letter-spacing: -0.017em; 
+  text-align: right;
+  text-transform: capitalize;
+}
+
