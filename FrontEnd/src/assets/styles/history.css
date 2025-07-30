@@ -24,6 +24,7 @@
 .graph45 {
     width: 40px;
     height: auto;
+    background: none;
 }
 .graph45.left {
   background: none;
@@ -52,5 +53,8 @@ color: #FFB700;
   letter-spacing: -0.017em; 
   text-align: right;
   text-transform: capitalize;
+}
+.histories{
+  background-color: darkblue;
 }
 
