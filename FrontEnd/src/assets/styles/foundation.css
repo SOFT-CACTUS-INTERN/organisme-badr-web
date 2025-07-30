@@ -1,0 +1,450 @@
+.foundation-section{
+  
+    height:auto;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    position:relative;
+    /* background-color: red; */
+
+}
+.foundation-div{
+    
+    width:80%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    /* background-color: pink; */
+    padding: 1rem;
+}
+.foundation-images{
+   
+    width:50%;
+   
+    display:flex;
+    justify-content: right;
+    align-items: start;
+    position:relative;
+    
+    min-height: 55vh;
+    
+}
+.membre{
+   position:relative; 
+   width:40%;
+  
+}
+.mini{
+   
+    position:absolute;
+   bottom: 0rem;
+   left:40%;
+   width:40%;
+}
+
+.foundation-content{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width:50%;
+    position:relative;
+    gap:0.5rem;z-index: 10;
+    
+
+}
+.foundation-button{
+    width:100%;
+   
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    position:relative;
+  z-index: 10;
+
+}
+.foundation-content p{
+    width:100%;
+  
+    position:relative;
+}
+.foundation-graph6{
+    width:100%;
+   
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 1rem;
+    z-index: 10;
+}
+.foundation-content h2{
+    text-align: right;
+   
+    width:100%;
+    color: #000000;
+     font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: clamp(1.75rem, 2.5vw + 1rem, 2rem); 
+  line-height: clamp(2rem, 2.5vw + 1rem, 3.125rem); 
+  letter-spacing: -0.017em; 
+  text-align: right;
+  text-transform: capitalize;
+    direction: rtl;
+z-index: 10;
+}
+.foundation-content p{
+  color: #4A4A4A;
+  font-family: 'Neo Sans Arabic', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1rem, 0.8rem + 0.5vw, 1.125rem);
+  line-height: clamp(1.75rem, 1.5rem + 1vw, 2rem);
+  letter-spacing: 0;
+  text-align: justify;
+    direction: rtl;z-index: 10;
+
+}
+.highlight-year {
+  font-family: 'Neo Sans Arabic', sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: clamp(1rem, 0.8rem + 0.5vw, 1.125rem);
+  line-height: clamp(1.75rem, 1.5rem + 1vw, 2rem);
+  letter-spacing: 0;
+  text-align: justify;
+    direction: rtl;z-index: 10;
+
+}
+.foundation-button button {
+  background: linear-gradient(90deg, #007200 0%, #00D800 100%);
+  width: 34%;
+  height: 8vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-size: clamp(1.125rem, 1rem + 0.8vw, 1.35625rem);
+  /* Supprime ou ajuste la line-height */
+  line-height: normal;
+  letter-spacing: 0;
+  text-align: center;
+  direction: rtl;
+  z-index: 10;
+  padding: 0 1rem; /* Horizontal uniquement */
+}
+
+.graph43{
+  
+    position:absolute;
+    width:80%;
+    left:1rem;
+    transform: rotate(8deg);
+    z-index:1;
+   
+}
+@media(min-width:2560px){
+    .foundation-section{
+     
+   
+    }
+    .foundation-div{
+        width:60%;
+        gap:1rem;
+    }
+    .foundation-images{
+        
+    }
+    .foundation-content{
+       
+    }
+    .membre{
+        width:60%;
+        height:50vh
+    }
+    .mini{
+        width:55%;
+        top:50%;
+        left:30%;
+    }
+    .graph42{
+      
+        width:100%;
+        margin-top: 5rem;
+        margin-left: 4rem;
+   
+    }
+    .foundation-content{
+      
+        gap:1.6rem;
+        width:60%;
+    }
+    .foundation-content h2{
+        font-size: 3rem;
+        width:100%;
+    }
+    .foundation-content p{
+        font-size: 1.9rem;
+       line-height: 2.5rem;
+       width:100%;
+    }
+    .foundation-content span{
+        font-size: 1.9rem;
+    }
+    .foundation-button{
+        width:100%;
+        min-height: 3vh;
+       
+    }
+ 
+
+
+    .foundation-graph6 img{
+       
+        width:16%
+    }
+  
+    .foundation-images{
+   
+        height:auto;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        min-height:30vh
+    }
+    .graph44{
+width:100%;
+
+
+    }
+     .foundation-button button {
+    height: 5vh;
+    max-height:6vh;
+   
+    font-size: 1.6rem;
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1920px) {
+  .foundation-div {
+    width: 60%;
+  }
+
+  .membre {
+    width: 60%;
+    height: auto;
+  }
+
+  .mini {
+    width: 50%;
+    top: 50%;
+    left: 25%;
+  }
+
+  .foundation-content h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .foundation-content p,
+  .highlight-year {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .foundation-button button {
+    font-size: 1.8rem;
+    width: 50%;
+    height: 9vh;
+  }
+
+  .foundation-graph6 img {
+    width: 14%;
+  }
+}
+
+@media(max-width:1024px){
+
+
+    .foundation-section{
+      
+    }
+    .foundation-div{
+     
+        width:100%;
+        gap:0rem;
+    }
+    .foundation-images{
+      
+        min-height:45vh;
+        height: auto;
+    }
+    .foundation-content{
+       
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:1.5rem;
+     min-height:45vh;
+   
+    }
+    .foundation-button{
+        width:100%;
+      
+
+    }
+    .foundation-button button{
+        width:70%;
+        height:6vh;
+      
+    }
+    .membre{
+        width:65%;
+    }
+    .mini{
+        width:65%;
+        left:15%;
+        top:50%;
+    }
+    .graph42{
+       
+       margin-left:6rem;
+       margin-top:2rem;
+        z-index: 500;
+        width:35%;
+        height: 25vh;
+        
+       
+    }
+    .graph43{
+        width:100%;
+        top:auto;
+    }
+}
+@media(max-width:768px){
+    .foundation-section{
+        /* background-color: darkcyan; */
+    }
+    .foundation-div{
+        /* background-color: aqua; */
+        gap:2rem;
+       
+    }
+    .foundation-content{
+        /* background-color: #007200; */
+    }
+    /* .foundation-images{
+        background-color: #4A4A4A; */
+    
+    .membre{
+        width:75%;
+       
+    }
+    .mini{
+        width:75%;  
+        top:40%
+        
+    }
+    .graph42{
+        width:30%;
+        height: 30vh;
+        margin-left: 10rem;
+        margin-top: 0rem;
+    }
+}
+
+@media(max-width:540px){
+.foundation-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+    padding:0rem
+   }
+   .foundation-div{
+    width:100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    width:100%;
+    padding:1rem;
+    gap:1rem;
+   }
+   .foundation-content{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+  padding:1rem;
+   }
+   .foundation-button{
+    /* display:none */
+    width:100%;
+    /* background-color: pink; */
+    padding:0rem;
+   }
+   .foundation-button button{
+    width:80%;
+    height:8vh
+   }
+   .foundation-images{
+    /* background-color: green; */
+    width:100%;
+    min-height:45vh;
+   
+   }
+   .membre{
+    width:60%;
+   }
+   .mini{
+    width:60%;
+    left:10%;
+    top:45%;
+   }
+   .graph42{
+    
+    width:42%;
+
+ 
+
+  
+   }
+   .graph43{
+    display:none;
+   }
+   .foundation-content h2{
+   font-size: 2rem;
+   line-height: 3rem;
+ 
+   }
+   .foundation-content p{
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    
+   }
+   .highlight-year{
+    font-size: 1.3rem;
+   }
+   .foundation-button button{
+        font-size: 1.25rem;
+   }
+}
+
