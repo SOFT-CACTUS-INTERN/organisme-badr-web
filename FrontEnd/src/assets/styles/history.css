@@ -76,14 +76,21 @@ color: #FFB700;
   /* background-color: green; */
   width:40%;
 
-    justify-content: center;
-  align-items: center;
+    justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
+  
 }
 .timeline-item {
   /* background-color: #f0f0f0; */
   width:80%;
   position: relative;
+  gap:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
 
 }
 .timeline-description{
@@ -121,8 +128,9 @@ color: #FFB700;
  
 }
 .histories-ligne {
-  width:8%;
+  width:10%;
 min-height:80vh;
+
 
   background: linear-gradient(
     180deg,
@@ -146,11 +154,13 @@ min-height:80vh;
 
 }
 .timeline-year{
-    /* background-color: #29b300; */
+   
   color: white;
  
 padding:1rem;
-  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
+margin-top: 1rem;
+margin-left: 1rem;
+
  display:inline-block;
  text-align: center;
  width:35%;
@@ -166,12 +176,12 @@ padding:1rem;
 
 .align-right {
   justify-content: flex-start;
-  /* background-color: green; */
+ 
 }
 
 .align-left {
   justify-content: flex-end;
-  /* background-color: red; */
+  
 }
 .year-left {
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0% 100%);
@@ -187,7 +197,8 @@ padding:1rem;
   position: absolute;
 
 
-  width: 100%;
+  max-width: 80vh;
+  
  
 
   
@@ -195,14 +206,20 @@ padding:1rem;
 
 .svg-right {
  
-top:10.6%;
- left: 25%;
+left:1.5rem;
+top:0rem;
+/* background-color: pink; */
+
   transform: scaleX(-1); 
 }
 
 .svg-left {
- /* retourne le SVG horizontalement */
-  right:10%; top:10%;
+
+right:0rem;
+
+top:0rem;
+/* background-color: pink; */
+
 }
 .desc-right{
   /* background-color: darkmagenta; */
@@ -220,6 +237,9 @@ top:10.6%;
   letter-spacing: -0.017em;
   text-align: center;
   text-transform: capitalize;
+ 
+  position: relative;
+  z-index: 10;
 }
 .line-span{
     font-family: 'Neo Sans Arabic', sans-serif;
@@ -236,14 +256,19 @@ top:10.6%;
 .line{
  
   align-items: center;
+ 
 }
 .green-word {
-  font-family: 'Neo Sans Arabic', sans-serif;
+  
   font-weight: 500;
-  font-style: normal;
- 
-  text-align: justify;
-  color: #007200;
+font-style: normal; 
+text-align: justify;
+color: #007200;
+line-height: 1.48;
+letter-spacing: 0.03em; 
+
+
+
  
 
 }
@@ -251,16 +276,26 @@ top:10.6%;
 .black-word {
  
   color: black;
-  font-family: Neo Sans Arabic;
-font-weight: 700;
-font-style: Bold;
-font-size: 22px;
 
-line-height: 165%;
+
+
+font-weight: 500;
+font-style: Medium;
+
+
+line-height: 148%;
 letter-spacing: 3%;
 text-align: justify;
+color: #4A4A4A;
+
+
 
 }
+.line.reverse{
+ 
+  flex-direction: row-reverse;
+}
+
 
 
 
