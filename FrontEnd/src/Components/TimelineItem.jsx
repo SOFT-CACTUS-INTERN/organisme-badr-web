@@ -42,12 +42,12 @@ const TimelineItem = ({ year, description, side, color, greenWord = [], blackWor
   return (
     <div className='timeline-item'>
       <div className={`time ${side === 'right' ? 'align-right' : 'align-left'}`}>
-        <div className={`timeline-year ${side === 'right' ? 'year-right' : 'year-left'}`} style={{ backgroundColor: color }}>
+        <div className={`timeline-year ${side === 'right' ? 'year-right' : 'year-left'}`} >
           {year}
         </div>
       </div>
 
-<svg width="674" height="267" viewBox="0 0 674 267" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className={`timeline-svg ${side === 'right' ? 'svg-right' : 'svg-left'}`} width="674" height="267" viewBox="0 0 674 267" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M31.6823 259.398L29.8506 257.197L248.967 76.0815H674V78.9396H249.998L31.6823 259.398Z" fill={color}/>
 <path d="M30.7672 263.227C41.0415 263.227 49.3704 261.014 49.3704 258.283C49.3704 255.552 41.0415 253.338 30.7672 253.338C20.493 253.338 12.1641 255.552 12.1641 258.283C12.1641 261.014 20.493 263.227 30.7672 263.227Z" fill={color}/>
 <path d="M30.7668 267C15.8556 267 0 263.942 0 258.283C0 252.624 15.8556 249.566 30.7668 
@@ -58,19 +58,7 @@ const TimelineItem = ({ year, description, side, color, greenWord = [], blackWor
 <path d="M433 77.5106L476.904 0H674V77.5106H433Z" fill={color}/>
 </svg>
 
-      {/* <svg
-        className={`timeline-svg ${side === 'right' ? 'svg-right' : 'svg-left'}`}
-        width="645"
-        height="184"
-        viewBox="0 0 645 184"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2.68228 183.398L0.850586 181.197L219.967 0.081543H645V2.9396H220.998L2.68228 183.398Z"
-          fill={color}
-        />
-      </svg> */}
+     
 
       <ul className={`timeline-description ${side === 'right' ? 'desc-right' : ''}`}>
         {description.map((line, i) => (
