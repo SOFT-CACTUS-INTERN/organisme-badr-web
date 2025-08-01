@@ -19,7 +19,7 @@ const History = () => {
               <TimelineItem key={i} {...item} />
             ))}
         </div>
-        <div className='histories-ligne'>testddddd</div>
+        <div className='histories-ligne'></div>
         <div className="histories-left">
           {timelineData
             .filter(item => item.side === 'left')
