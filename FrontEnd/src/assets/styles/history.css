@@ -414,8 +414,8 @@ color: #4A4A4A;
 
  
 }
-@media(min-width:1280px) and (max-width:1559px){
-  .history-section{background: #007200;}
+/* @media(min-width:1281px) and (max-width:1559px){
+ 
   .timeline-year{
   width:100%;
 
@@ -426,7 +426,7 @@ text-align: right;}
 .timeline-svg{
   width:65vh
 }
-}
+} */
 @media(max-width:1024px){
   .timeline-svg{
     width:80vh;
